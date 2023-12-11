@@ -1,0 +1,1279 @@
+{
+  "hash": "80eedd761d285f198164",
+  "publicPath": "",
+  "outputPath": "/EpicStoreWebsite/services/diesel-site/node/app/public/assets/webpack",
+  "assetsByChunkName": {
+    "main": ["main.egstore-site.2dc7fa9c47700a58a77c.js"],
+    "webAppStyles": [
+      "webAppStyles.egstore-site.76e941f28c6ca274daa0.css",
+      "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js"
+    ],
+    "launcherAppStyles": [
+      "launcherAppStyles.egstore-site.85793b5a3478070773f3.css",
+      "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js"
+    ],
+    "fonts": [
+      "fonts.egstore-site.1b2944c5f90b61e1b175.css",
+      "fonts.egstore-site.88a34852f30c45dda93c.js"
+    ],
+    "ClientIndex": [
+      "ClientIndex.egstore-site.1b2944c5f90b61e1b175.css",
+      "ClientIndex.egstore-site.c1b71c593ecc23b28766.js"
+    ],
+    "ManageProductsPage": [
+      "ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js"
+    ],
+    "ProductAddonsPage": [
+      "ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js"
+    ],
+    "ManageProductModsPage": [
+      "ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js"
+    ],
+    "NewsView": ["NewsView.egstore-site.1c691eebe0f0866ecef2.js"],
+    "CMSMarketingView": [
+      "CMSMarketingView.egstore-site.a0459101bc6eed21211d.js"
+    ],
+    "ArticleView": ["ArticleView.egstore-site.0977996ba1e1b34412bd.js"],
+    "CartView": ["CartView.egstore-site.f368b715e99941dd4b5b.js"],
+    "CartSuccessView": ["CartSuccessView.egstore-site.12630191201b086ef0f5.js"],
+    "WishlistView": ["WishlistView.egstore-site.addd3a5063085a4b05b5.js"],
+    "Vendor": ["Vendor.egstore-site.a322f6b3cf861933cbdc.js"]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "ClientIndex.egstore-site.c1b71c593ecc23b28766.js",
+      "size": 2512287,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "c1b71c593ecc23b28766",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "ClientIndex.egstore-site.c1b71c593ecc23b28766.js.map"
+        }
+      },
+      "chunkNames": ["ClientIndex"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [52],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js",
+      "size": 2272243,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "a322f6b3cf861933cbdc",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "Vendor.egstore-site.a322f6b3cf861933cbdc.js.LICENSE.txt",
+          "sourceMap": "Vendor.egstore-site.a322f6b3cf861933cbdc.js.map"
+        }
+      },
+      "chunkNames": ["Vendor"],
+      "chunkIdHints": ["vendors"],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 2,
+      "chunks": [665],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "0f70ca2871644a7088a012669e07299c.svg",
+      "size": 841287,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "38f5bbd7a44cc4e849a7bd6cffc34863.svg",
+      "size": 197275,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js",
+      "size": 190838,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "0f9c5c0d50404f12b79d",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js.map"
+        }
+      },
+      "chunkNames": ["ManageProductsPage"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [481],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "webAppStyles.egstore-site.76e941f28c6ca274daa0.css",
+      "size": 184182,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "76e941f28c6ca274daa0",
+        "minimized": true
+      },
+      "chunkNames": ["webAppStyles"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [627],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "bf386a55a31f86ef97c23ebc718192b4.png",
+      "size": 182782,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "dabe44acadaefe22357acd28244b1933.svg",
+      "size": 180126,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "launcherAppStyles.egstore-site.85793b5a3478070773f3.css",
+      "size": 168770,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "85793b5a3478070773f3",
+        "minimized": true
+      },
+      "chunkNames": ["launcherAppStyles"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [195],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "bdcfdd6f83b4fd26b9b75e61dd01c109.svg",
+      "size": 142115,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "main.egstore-site.2dc7fa9c47700a58a77c.js",
+      "size": 142000,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "2dc7fa9c47700a58a77c",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.egstore-site.2dc7fa9c47700a58a77c.js.LICENSE.txt",
+          "sourceMap": "main.egstore-site.2dc7fa9c47700a58a77c.js.map"
+        }
+      },
+      "chunkNames": ["main"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 2,
+      "chunks": [179],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "fonts.egstore-site.88a34852f30c45dda93c.js",
+      "size": 133365,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88a34852f30c45dda93c",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "fonts.egstore-site.88a34852f30c45dda93c.js.LICENSE.txt",
+          "sourceMap": "fonts.egstore-site.88a34852f30c45dda93c.js.map"
+        }
+      },
+      "chunkNames": ["fonts"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 2,
+      "chunks": [979],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js",
+      "size": 133348,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "52e315c70dd6c27ca05a",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js.LICENSE.txt",
+          "sourceMap": "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js.map"
+        }
+      },
+      "chunkNames": ["launcherAppStyles"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 2,
+      "chunks": [195],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js",
+      "size": 133340,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "84835c5b7c1c0e1c729e",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js.LICENSE.txt",
+          "sourceMap": "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js.map"
+        }
+      },
+      "chunkNames": ["webAppStyles"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 2,
+      "chunks": [627],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "cc5589238c45cc8f5c27ff5f1434b596.png",
+      "size": 124402,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["CartSuccessView"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [211]
+    },
+    {
+      "type": "asset",
+      "name": "c0498fad714f0f1f049e67a59b11fe57.jpg",
+      "size": 112880,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "b69918774f8e3764be9a41a111fcfd33.webm",
+      "size": 106946,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "a503b79af3e35504c7b322dbc84cac2d.ttf",
+      "size": 99620,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "9402324d7a636082de85243c07329258.svg",
+      "size": 98882,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "23f7b507a6be9b830ab998998fe39cdd.svg",
+      "size": 97113,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "c7571df954bd2b7ffcd78628a24ff2ed.ttf",
+      "size": 95512,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "8b3aca0333a39d6f90494956b599f3fd.png",
+      "size": 87922,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "834e3616d9e57f3f027e96394f43efa0.woff",
+      "size": 87536,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "55b8ce1f9a32bb0f83f14813eac0b7ca.woff",
+      "size": 84928,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "3055c832e06d4423d110734ab7526880.eot",
+      "size": 74649,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "4553982d7272dd810fcae949cd09e912.png",
+      "size": 73439,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "83efe33660ab6a7fe428c8078d47485f.eot",
+      "size": 73016,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "ecc83371a7a66cdb0a552bd9d1c8b78c.png",
+      "size": 69822,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "CMSMarketingView.egstore-site.a0459101bc6eed21211d.js",
+      "size": 64331,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "a0459101bc6eed21211d",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "CMSMarketingView.egstore-site.a0459101bc6eed21211d.js.map"
+        }
+      },
+      "chunkNames": ["CMSMarketingView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [517],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "d71da1c195d3183df5799e7892e9b1a1.png",
+      "size": 56841,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ManageProductsPage"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [481]
+    },
+    {
+      "type": "asset",
+      "name": "9400c1ac4c6a063c24670cc5c73e6ce1.eot",
+      "size": 46336,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "53cde6471efceb998c670795d64748d9.woff",
+      "size": 46220,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "6352ecbafe2a2915defae00c6e0dd9af.ttf",
+      "size": 46144,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "25c285e020572b4f76b770d6cca272ec.png",
+      "size": 42287,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "CartView.egstore-site.f368b715e99941dd4b5b.js",
+      "size": 32945,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "f368b715e99941dd4b5b",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "CartView.egstore-site.f368b715e99941dd4b5b.js.map"
+        }
+      },
+      "chunkNames": ["CartView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [737],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "8a124e07162305cd8c3e29e108a38022.png",
+      "size": 30812,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "WishlistView.egstore-site.addd3a5063085a4b05b5.js",
+      "size": 25892,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "addd3a5063085a4b05b5",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "WishlistView.egstore-site.addd3a5063085a4b05b5.js.map"
+        }
+      },
+      "chunkNames": ["WishlistView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [937],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "548edd23fcf5d157ca443ae24f6b2e1a.svg",
+      "size": 19395,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "NewsView.egstore-site.1c691eebe0f0866ecef2.js",
+      "size": 19102,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "1c691eebe0f0866ecef2",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "NewsView.egstore-site.1c691eebe0f0866ecef2.js.map"
+        }
+      },
+      "chunkNames": ["NewsView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [661],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "c43c1d3403802612b856948b91b9e8f1.svg",
+      "size": 17599,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["launcherAppStyles", "webAppStyles"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [195, 627]
+    },
+    {
+      "type": "asset",
+      "name": "CartSuccessView.egstore-site.12630191201b086ef0f5.js",
+      "size": 12851,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "12630191201b086ef0f5",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "CartSuccessView.egstore-site.12630191201b086ef0f5.js.map"
+        }
+      },
+      "chunkNames": ["CartSuccessView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [211],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "7ccde556bbb16876d199091c7c103157.png",
+      "size": 11527,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "11a89fd458893320d6621e23c415744e.svg",
+      "size": 10306,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": ["ClientIndex"],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [52]
+    },
+    {
+      "type": "asset",
+      "name": "ArticleView.egstore-site.0977996ba1e1b34412bd.js",
+      "size": 8732,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "0977996ba1e1b34412bd",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "ArticleView.egstore-site.0977996ba1e1b34412bd.js.map"
+        }
+      },
+      "chunkNames": ["ArticleView"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [484],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js",
+      "size": 3724,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "f0d9cf3f2d300110a40f",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js.map"
+        }
+      },
+      "chunkNames": ["ManageProductModsPage"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [322],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "ClientIndex.egstore-site.1b2944c5f90b61e1b175.css",
+      "size": 2983,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "1b2944c5f90b61e1b175",
+        "minimized": true
+      },
+      "chunkNames": ["ClientIndex"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [52],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "fonts.egstore-site.1b2944c5f90b61e1b175.css",
+      "size": 2983,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "1b2944c5f90b61e1b175",
+        "minimized": true
+      },
+      "chunkNames": ["fonts"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [979],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js",
+      "size": 2468,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "23237510591b4cf25ca0",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "sourceMap": "ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js.map"
+        }
+      },
+      "chunkNames": ["ProductAddonsPage"],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [230],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [179],
+      "assets": [
+        {
+          "name": "main.egstore-site.2dc7fa9c47700a58a77c.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "webAppStyles": {
+      "name": "webAppStyles",
+      "chunks": [627],
+      "assets": [
+        {
+          "name": "webAppStyles.egstore-site.76e941f28c6ca274daa0.css"
+        },
+        {
+          "name": "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 15,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "launcherAppStyles": {
+      "name": "launcherAppStyles",
+      "chunks": [195],
+      "assets": [
+        {
+          "name": "launcherAppStyles.egstore-site.85793b5a3478070773f3.css"
+        },
+        {
+          "name": "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 15,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "fonts": {
+      "name": "fonts",
+      "chunks": [979],
+      "assets": [
+        {
+          "name": "fonts.egstore-site.1b2944c5f90b61e1b175.css"
+        },
+        {
+          "name": "fonts.egstore-site.88a34852f30c45dda93c.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "ClientIndex": {
+      "name": "ClientIndex",
+      "chunks": [665, 52],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "ClientIndex.egstore-site.1b2944c5f90b61e1b175.css"
+        },
+        {
+          "name": "ClientIndex.egstore-site.c1b71c593ecc23b28766.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 15,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "ManageProductsPage": {
+      "name": "ManageProductsPage",
+      "chunks": [665, 481],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 3,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "ProductAddonsPage": {
+      "name": "ProductAddonsPage",
+      "chunks": [665, 230],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "ManageProductModsPage": {
+      "name": "ManageProductModsPage",
+      "chunks": [665, 322],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "NewsView": {
+      "name": "NewsView",
+      "chunks": [665, 661],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "NewsView.egstore-site.1c691eebe0f0866ecef2.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "CMSMarketingView": {
+      "name": "CMSMarketingView",
+      "chunks": [665, 517],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "CMSMarketingView.egstore-site.a0459101bc6eed21211d.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "ArticleView": {
+      "name": "ArticleView",
+      "chunks": [665, 484],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "ArticleView.egstore-site.0977996ba1e1b34412bd.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "CartView": {
+      "name": "CartView",
+      "chunks": [665, 737],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "CartView.egstore-site.f368b715e99941dd4b5b.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "CartSuccessView": {
+      "name": "CartSuccessView",
+      "chunks": [665, 211],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "CartSuccessView.egstore-site.12630191201b086ef0f5.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 3,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "WishlistView": {
+      "name": "WishlistView",
+      "chunks": [665, 937],
+      "assets": [
+        {
+          "name": "Vendor.egstore-site.a322f6b3cf861933cbdc.js"
+        },
+        {
+          "name": "WishlistView.egstore-site.addd3a5063085a4b05b5.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "epic-social-social-modules-LauncherOverlay": {
+      "name": "epic-social-social-modules-LauncherOverlay",
+      "chunks": [153],
+      "assets": [],
+      "filteredAssets": 0,
+      "assetsSize": 0,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "epic-social-social-modules-LauncherSocialProvider": {
+      "name": "epic-social-social-modules-LauncherSocialProvider",
+      "chunks": [835],
+      "assets": [],
+      "filteredAssets": 0,
+      "assetsSize": 0,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 179,
+      "files": ["main.egstore-site.2dc7fa9c47700a58a77c.js"]
+    },
+    {
+      "id": 627,
+      "files": [
+        "webAppStyles.egstore-site.76e941f28c6ca274daa0.css",
+        "webAppStyles.egstore-site.84835c5b7c1c0e1c729e.js"
+      ]
+    },
+    {
+      "id": 195,
+      "files": [
+        "launcherAppStyles.egstore-site.85793b5a3478070773f3.css",
+        "launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js"
+      ]
+    },
+    {
+      "id": 979,
+      "files": [
+        "fonts.egstore-site.1b2944c5f90b61e1b175.css",
+        "fonts.egstore-site.88a34852f30c45dda93c.js"
+      ]
+    },
+    {
+      "id": 52,
+      "files": [
+        "ClientIndex.egstore-site.1b2944c5f90b61e1b175.css",
+        "ClientIndex.egstore-site.c1b71c593ecc23b28766.js"
+      ]
+    },
+    {
+      "id": 481,
+      "files": ["ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js"]
+    },
+    {
+      "id": 230,
+      "files": ["ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js"]
+    },
+    {
+      "id": 322,
+      "files": ["ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js"]
+    },
+    {
+      "id": 661,
+      "files": ["NewsView.egstore-site.1c691eebe0f0866ecef2.js"]
+    },
+    {
+      "id": 517,
+      "files": ["CMSMarketingView.egstore-site.a0459101bc6eed21211d.js"]
+    },
+    {
+      "id": 484,
+      "files": ["ArticleView.egstore-site.0977996ba1e1b34412bd.js"]
+    },
+    {
+      "id": 737,
+      "files": ["CartView.egstore-site.f368b715e99941dd4b5b.js"]
+    },
+    {
+      "id": 211,
+      "files": ["CartSuccessView.egstore-site.12630191201b086ef0f5.js"]
+    },
+    {
+      "id": 937,
+      "files": ["WishlistView.egstore-site.addd3a5063085a4b05b5.js"]
+    },
+    {
+      "id": 153,
+      "files": []
+    },
+    {
+      "id": 835,
+      "files": []
+    },
+    {
+      "id": 665,
+      "files": ["Vendor.egstore-site.a322f6b3cf861933cbdc.js"]
+    }
+  ]
+}
