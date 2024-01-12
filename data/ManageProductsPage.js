@@ -1,15 +1,15 @@
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
   [481],
   {
-    13674: (e, t, a) => {
+    62645: (e, t, a) => {
       "use strict";
-      a.r(t), a.d(t, { default: () => CO });
+      a.r(t), a.d(t, { default: () => sO });
       var n = a(45418),
         r = a.n(n),
-        l = a(88506),
-        o = a(16682),
-        i = a(16040),
-        c = a(33667);
+        l = a(30423),
+        o = a(71232),
+        i = a(98988),
+        c = a(39977);
       const s = (e) => () => {
         const {
           isOpenById: t,
@@ -28,10 +28,10 @@
           [t, a, r, l],
         );
       };
-      var d = a(92930),
-        u = a(89441),
-        m = a(45381),
-        p = a(38764),
+      var d = a(61629),
+        u = a(77135),
+        m = a(92270),
+        p = a(13405),
         b = a(28901),
         g = a(73625),
         v = a(94203),
@@ -75,8 +75,8 @@
             ),
             {},
           ),
-        P = { 12: x(12), 16: x(16) },
-        S = (0, m.i)((e, { columns: t, spacing: a }) => ({
+        S = { 12: x(12), 16: x(16) },
+        P = (0, m.i)((e, { columns: t, spacing: a }) => ({
           root: (0, b.iv)({
             display: "flex",
             flexWrap: "wrap",
@@ -87,7 +87,7 @@
             marginLeft: a / -2,
             "> .egs-grid-item": C(
               { paddingRight: a / 2, paddingLeft: a / 2, marginTop: a },
-              P[t],
+              S[t],
             ),
           }),
           fillParent: (0, b.iv)({ width: "100%", height: "100%" }),
@@ -108,7 +108,7 @@
           var t = e,
             { children: a, spacing: r = 0, columns: l = 12 } = t,
             o = I(t, ["children", "spacing", "columns"]);
-          const i = S({ columns: l, spacing: r }),
+          const i = P({ columns: l, spacing: r }),
             c = (0, v.Z)(["className"], o);
           return n.createElement(d.x, C({ className: i.root }, c), a);
         },
@@ -129,19 +129,19 @@
             g = (0, v.Z)(["className"], u);
           return n.createElement(d.E, C({ className: p }, g), a);
         };
-      var j = a(80726),
-        M = a(87489),
-        A = a(58547),
-        T = a(85607),
-        _ = a(60069),
-        D = a(1284),
-        R = a(75410),
-        B = a(76069),
-        Z = a(68080),
-        F = a(17751),
-        U = a(26008),
-        W = a(12375),
-        K = a(60693),
+      var j = a(52933),
+        M = a(18310),
+        A = a(80199),
+        T = a(60180),
+        _ = a(21624),
+        D = a(24428),
+        R = a(7464),
+        B = a(2139),
+        Z = a(31265),
+        F = a(85858),
+        U = a(21650),
+        W = a(42925),
+        K = a(89484),
         z = Object.defineProperty,
         V = Object.defineProperties,
         H = Object.getOwnPropertyDescriptors,
@@ -296,12 +296,12 @@
           );
           var E;
         };
-      var te = a(27350),
-        ae = a(51187),
-        ne = a(14794),
-        re = a(17613),
-        le = a(13179),
-        oe = a(27542),
+      var te = a(9177),
+        ae = a(17654),
+        ne = a(75364),
+        re = a(34272),
+        le = a(65817),
+        oe = a(10035),
         ie = Object.defineProperty,
         ce = Object.defineProperties,
         se = Object.getOwnPropertyDescriptors,
@@ -488,7 +488,7 @@
             })
           );
         };
-      var Ee = a(34218);
+      var Ee = a(53288);
       const ye = ({
         animation: e,
         content: t,
@@ -532,14 +532,14 @@
               )
             : void 0,
         });
-      var fe = a(96545),
+      var fe = a(29498),
         he = Object.defineProperty,
         Oe = Object.defineProperties,
         Ce = Object.getOwnPropertyDescriptors,
         Ie = Object.getOwnPropertySymbols,
         we = Object.prototype.hasOwnProperty,
         xe = Object.prototype.propertyIsEnumerable,
-        Pe = (e, t, a) =>
+        Se = (e, t, a) =>
           t in e
             ? he(e, t, {
                 enumerable: !0,
@@ -548,9 +548,9 @@
                 value: a,
               })
             : (e[t] = a),
-        Se = (e, t) => {
-          for (var a in t || (t = {})) we.call(t, a) && Pe(e, a, t[a]);
-          if (Ie) for (var a of Ie(t)) xe.call(t, a) && Pe(e, a, t[a]);
+        Pe = (e, t) => {
+          for (var a in t || (t = {})) we.call(t, a) && Se(e, a, t[a]);
+          if (Ie) for (var a of Ie(t)) xe.call(t, a) && Se(e, a, t[a]);
           return e;
         };
       const ke = (0, m.i)((e) => ({
@@ -569,7 +569,7 @@
           const t = ke();
           return r().createElement(
             ye,
-            ((a = Se({}, e)),
+            ((a = Pe({}, e)),
             (n = {
               hasHeader: !0,
               hasFooter: !0,
@@ -580,7 +580,7 @@
                 { direction: u.jO.Column, centerContent: !0, fillParent: !0 },
                 r().createElement(
                   Ee.Od,
-                  Se(
+                  Pe(
                     {
                       className: t.spacing,
                       variant: Ee.Jy.Text,
@@ -592,18 +592,18 @@
                 ),
                 r().createElement(
                   Ee.Od,
-                  Se({ variant: Ee.Jy.Text, width: 380, height: 30 }, e),
+                  Pe({ variant: Ee.Jy.Text, width: 380, height: 30 }, e),
                 ),
                 r().createElement(
                   d.x,
                   { className: t.fakeInput, alignItems: u.Ks.Center },
                   r().createElement(
                     Ee.Od,
-                    Se({ className: t.icon, width: 24, height: 26 }, e),
+                    Pe({ className: t.icon, width: 24, height: 26 }, e),
                   ),
                   r().createElement(
                     Ee.Od,
-                    Se({ variant: Ee.Jy.Text, width: 100, height: 20 }, e),
+                    Pe({ variant: Ee.Jy.Text, width: 100, height: 20 }, e),
                   ),
                 ),
               ),
@@ -612,9 +612,9 @@
           );
           var a, n;
         };
-      var Le = a(14547),
-        je = a(46900),
-        Me = a(10279),
+      var Le = a(58882),
+        je = a(60193),
+        Me = a(7953),
         Ae = Object.defineProperty,
         Te = Object.defineProperties,
         _e = Object.getOwnPropertyDescriptors,
@@ -690,7 +690,7 @@
         );
       };
       var qe = a(37922);
-      var Ye = a(52389);
+      var Ye = a(85449);
       const Je = s("create-edit-collection-modal"),
         Xe = (e) => {
           var t;
@@ -763,10 +763,10 @@
             ),
           );
         };
-      var tt = a(2939),
-        at = a(17145),
-        nt = a(82565),
-        rt = a(35877),
+      var tt = a(55637),
+        at = a(46603),
+        nt = a(71065),
+        rt = a(72374),
         lt = Object.defineProperty,
         ot = Object.defineProperties,
         it = Object.getOwnPropertyDescriptors,
@@ -873,17 +873,17 @@
             isOnline: e,
           });
         };
-      var Et = a(53725),
-        yt = a(55666),
-        ft = a(25999),
-        ht = a(8448),
-        Ot = a(28893),
+      var Et = a(23265),
+        yt = a(12899),
+        ft = a(22480),
+        ht = a(80898),
+        Ot = a(24779),
         Ct = Object.defineProperty,
         It = Object.defineProperties,
         wt = Object.getOwnPropertyDescriptors,
         xt = Object.getOwnPropertySymbols,
-        Pt = Object.prototype.hasOwnProperty,
-        St = Object.prototype.propertyIsEnumerable,
+        St = Object.prototype.hasOwnProperty,
+        Pt = Object.prototype.propertyIsEnumerable,
         kt = (e, t, a) =>
           t in e
             ? Ct(e, t, {
@@ -894,8 +894,8 @@
               })
             : (e[t] = a),
         Nt = (e, t) => {
-          for (var a in t || (t = {})) Pt.call(t, a) && kt(e, a, t[a]);
-          if (xt) for (var a of xt(t)) St.call(t, a) && kt(e, a, t[a]);
+          for (var a in t || (t = {})) St.call(t, a) && kt(e, a, t[a]);
+          if (xt) for (var a of xt(t)) Pt.call(t, a) && kt(e, a, t[a]);
           return e;
         },
         Lt = (e, t) => It(e, wt(t));
@@ -1015,10 +1015,10 @@
             a && r().createElement(nt.u, { anchorRef: p }, E),
           );
         };
-      var Dt = a(60974),
-        Rt = a(61463),
-        Bt = a(53715),
-        Zt = a(83920),
+      var Dt = a(36306),
+        Rt = a(79253),
+        Bt = a(45216),
+        Zt = a(54729),
         Ft = a(94799),
         Ut = a(44846),
         Wt = a(6977),
@@ -1121,8 +1121,8 @@
           })(a, ["data"]),
         };
       };
-      var la = a(33725),
-        oa = a(80502),
+      var la = a(84342),
+        oa = a(6580),
         ia = a(5983),
         ca = a(57247),
         sa = Object.defineProperty,
@@ -1212,7 +1212,7 @@
           (e.DIGITAL_EXTRAS = "digitalextras"),
           e
         ))(ha || {}),
-        Oa = a(48060);
+        Oa = a(50746);
       const Ca = ({ items: e, selectedFilters: t, type: a }) => {
           const n = [];
           if (t && a) {
@@ -1307,13 +1307,13 @@
             t
           );
         };
-      var Pa = Object.defineProperty,
-        Sa = Object.getOwnPropertySymbols,
+      var Sa = Object.defineProperty,
+        Pa = Object.getOwnPropertySymbols,
         ka = Object.prototype.hasOwnProperty,
         Na = Object.prototype.propertyIsEnumerable,
         La = (e, t, a) =>
           t in e
-            ? Pa(e, t, {
+            ? Sa(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -1323,7 +1323,7 @@
       const ja = ({ type: e, name: t, id: a, selectedFilters: n }) => {
         const r = ((e, t) => {
           for (var a in t || (t = {})) ka.call(t, a) && La(e, a, t[a]);
-          if (Sa) for (var a of Sa(t)) Na.call(t, a) && La(e, a, t[a]);
+          if (Pa) for (var a of Pa(t)) Na.call(t, a) && La(e, a, t[a]);
           return e;
         })({}, n);
         if (e === Ea.CATALOG_ITEM_ID) return (r[e] = []), r;
@@ -1337,11 +1337,11 @@
           r
         );
       };
-      var Ma = a(10225),
-        Aa = a(42402),
-        Ta = a(56635),
-        _a = a(11203),
-        Da = a(1847),
+      var Ma = a(71535),
+        Aa = a(65845),
+        Ta = a(79546),
+        _a = a(83868),
+        Da = a(73172),
         Ra = (e, t, a) =>
           new Promise((n, r) => {
             var l = (e) => {
@@ -1498,9 +1498,9 @@
             );
           return { value: u(i) ? i : t, setValue: m, query: c };
         };
-      var rn = a(92399),
-        ln = a(83865),
-        on = a(31965);
+      var rn = a(19057),
+        ln = a(94655),
+        on = a(5761);
       const cn = (e) =>
           Object.values(e).some((e) => !!Array.isArray(e) && e.length > 0),
         sn = (e) => {
@@ -1603,8 +1603,8 @@
         In = Object.getOwnPropertyDescriptors,
         wn = Object.getOwnPropertySymbols,
         xn = Object.prototype.hasOwnProperty,
-        Pn = Object.prototype.propertyIsEnumerable,
-        Sn = (e, t, a) =>
+        Sn = Object.prototype.propertyIsEnumerable,
+        Pn = (e, t, a) =>
           t in e
             ? On(e, t, {
                 enumerable: !0,
@@ -1626,9 +1626,9 @@
                 t(
                   ((n = ((e, t) => {
                     for (var a in t || (t = {}))
-                      xn.call(t, a) && Sn(e, a, t[a]);
+                      xn.call(t, a) && Pn(e, a, t[a]);
                     if (wn)
-                      for (var a of wn(t)) Pn.call(t, a) && Sn(e, a, t[a]);
+                      for (var a of wn(t)) Sn.call(t, a) && Pn(e, a, t[a]);
                     return e;
                   })({}, e)),
                   (r = { [Ea.COLLECTION]: a }),
@@ -1948,8 +1948,8 @@
             ),
           );
         };
-      var pr = a(30116),
-        br = a(16501);
+      var pr = a(8909),
+        br = a(59637);
       const gr = ({ disabled: e, onClick: t }) =>
           r().createElement(br.c, {
             horizontal: !0,
@@ -1988,8 +1988,8 @@
             }, [e, t, l]);
           return r().createElement(Er, { onClick: o, disabled: !a });
         };
-      var fr = a(94012),
-        hr = a(37139),
+      var fr = a(28267),
+        hr = a(20997),
         Or = a(27491);
       const Cr = () => {};
       var Ir = a(13275);
@@ -2113,14 +2113,14 @@
               )
             : null;
         };
-      var Pr = a(68616),
-        Sr = Object.defineProperty,
+      var Sr = a(83792),
+        Pr = Object.defineProperty,
         kr = Object.getOwnPropertySymbols,
         Nr = Object.prototype.hasOwnProperty,
         Lr = Object.prototype.propertyIsEnumerable,
         jr = (e, t, a) =>
           t in e
-            ? Sr(e, t, {
+            ? Pr(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -2154,7 +2154,7 @@
               "div",
               { className: l.root },
               r().createElement(
-                Pr.v,
+                Sr.v,
                 { dense: !0, noBorder: !0 },
                 r().createElement(yr, { collectionId: a }),
                 r().createElement(vr, { collectionId: a }),
@@ -2413,8 +2413,8 @@
             [f, h] = r().useState(0),
             [O, C] = r().useState(""),
             [I, w] = r().useState(0),
-            [x, P] = r().useState(null),
-            [S, k] = r().useState(!1),
+            [x, S] = r().useState(null),
+            [P, k] = r().useState(!1),
             N = (0, Ln.Dy)(
               (0, Ln.VT)(Ln.we, { activationConstraint: { distance: 20 } }),
               (0, Ln.VT)(Ln.Lg, {
@@ -2437,15 +2437,15 @@
                 (t.classList.remove(...t.classList), t.classList.add(e.title));
             }, []),
             T = r().useCallback(() => {
-              y(null), P(null), w(0), h(0), k(!1), u(null);
+              y(null), S(null), w(0), h(0), k(!1), u(null);
             }, []),
             _ = (e) => {
               if (
                 ((e.code !== hr.et.ArrowLeft && e.code !== hr.et.ArrowRight) ||
-                  P(e.code),
+                  S(e.code),
                 e.code === hr.et.Escape && s.current)
               ) {
-                P(null);
+                S(null);
                 const e = s.current.querySelectorAll(
                   "[data-dropzoneitem=true]",
                 );
@@ -2505,14 +2505,14 @@
                     ev: e,
                     customCollections: t,
                     dragDirection: I,
-                    isOverSame: S,
+                    isOverSame: P,
                     initialDragDirection: d,
                     reorderCollections: i,
                     favCollectionId: c,
                   }),
                   T();
               },
-              [j, I, S, d],
+              [j, I, P, d],
             ),
             R = r().useCallback(
               (e) => {
@@ -2751,9 +2751,9 @@
             ),
           );
         };
-      var al = a(1768),
-        nl = a(54850),
-        rl = a(86216);
+      var al = a(67764),
+        nl = a(6958),
+        rl = a(43146);
       const ll = () => {
         const e = (0, qe.useSelector)(on.vR),
           t = (0, i.c)(),
@@ -2814,7 +2814,7 @@
             : null
         );
       };
-      var ol = a(48673);
+      var ol = a(43651);
       const il = (0, m.i)(() => ({
           root: (0, b.iv)({ marginTop: 40, textAlign: "center" }),
           image: (0, b.iv)({
@@ -2860,10 +2860,10 @@
             ),
           );
         };
-      var sl = a(5844),
-        dl = a(68817),
-        ul = a(90692),
-        ml = a(89772),
+      var sl = a(29992),
+        dl = a(29702),
+        ul = a(24958),
+        ml = a(47411),
         pl = Object.defineProperty,
         bl = Object.defineProperties,
         gl = Object.getOwnPropertyDescriptors,
@@ -2986,17 +2986,17 @@
             l,
           );
         };
-      var wl = a(82919),
-        xl = a(1358),
-        Pl = Object.defineProperty,
-        Sl = Object.defineProperties,
+      var wl = a(18356),
+        xl = a(19166),
+        Sl = Object.defineProperty,
+        Pl = Object.defineProperties,
         kl = Object.getOwnPropertyDescriptors,
         Nl = Object.getOwnPropertySymbols,
         Ll = Object.prototype.hasOwnProperty,
         jl = Object.prototype.propertyIsEnumerable,
         Ml = (e, t, a) =>
           t in e
-            ? Pl(e, t, {
+            ? Sl(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -3008,7 +3008,7 @@
           if (Nl) for (var a of Nl(t)) jl.call(t, a) && Ml(e, a, t[a]);
           return e;
         },
-        Tl = (e, t) => Sl(e, kl(t));
+        Tl = (e, t) => Pl(e, kl(t));
       const _l = le.W.overlay,
         Dl = (0, m.i)((e, { landscape: t }) => ({
           overlay: (0, b.iv)(
@@ -3261,7 +3261,7 @@
               }),
             ),
           );
-      var Jl = a(85010),
+      var Jl = a(29550),
         Xl = Object.defineProperty,
         Ql = Object.defineProperties,
         eo = Object.getOwnPropertyDescriptors,
@@ -3316,7 +3316,7 @@
           );
           var c;
         });
-      var io = a(69175);
+      var io = a(96685);
       const co = (0, io.L)(
         n.createElement(
           n.Fragment,
@@ -3336,7 +3336,7 @@
         ),
         "Trophy",
       );
-      var so = a(57545);
+      var so = a(83206);
       const uo = (0, m.i)((e) => ({
           separator: (0, b.iv)({
             width: "100%",
@@ -3357,8 +3357,8 @@
             role: "none",
           });
         };
-      var po = a(73871),
-        bo = a(38054),
+      var po = a(238),
+        bo = a(69459),
         go = a(56917),
         vo = Object.defineProperty,
         Eo = Object.defineProperties,
@@ -3389,7 +3389,7 @@
             Io({ display: "flex" }, (0, re.oI)(10)),
           ),
         })),
-        Po = (e) => {
+        So = (e) => {
           var t = e,
             { subMenu: a, selected: l, disabled: o } = t,
             i = ((e, t) => {
@@ -3489,7 +3489,7 @@
               ),
           );
         };
-      var So = Object.defineProperty,
+      var Po = Object.defineProperty,
         ko = Object.defineProperties,
         No = Object.getOwnPropertyDescriptors,
         Lo = Object.getOwnPropertySymbols,
@@ -3497,7 +3497,7 @@
         Mo = Object.prototype.propertyIsEnumerable,
         Ao = (e, t, a) =>
           t in e
-            ? So(e, t, {
+            ? Po(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -3622,7 +3622,7 @@
                 "div",
                 { className: n.menu },
                 r().createElement(
-                  Pr.v,
+                  Sr.v,
                   { dense: !0, noBorder: !0 },
                   r().createElement(so.s, {
                     title: r().createElement(te.Z, {
@@ -3635,7 +3635,7 @@
                       code: "diesel.library.settings.add_to_favorites",
                     }),
                   }),
-                  r().createElement(Po, {
+                  r().createElement(So, {
                     title: r().createElement(te.Z, {
                       code: "diesel.library.settings.add_to_collection",
                     }),
@@ -3652,8 +3652,8 @@
             )
           );
         };
-      var Bo = a(31664),
-        Zo = a(41725);
+      var Bo = a(95705),
+        Zo = a(84244);
       const Fo = ({
           libraryItemTitle: e,
           libraryItemImageSrc: t = "",
@@ -3711,8 +3711,8 @@
             onButtonClick: e,
           });
       var zo = a(95771),
-        Vo = a(35514),
-        Ho = a(76311);
+        Vo = a(35658),
+        Ho = a(37559);
       const $o = ({
         title: e,
         activeFilters: t,
@@ -3748,7 +3748,7 @@
           )
         );
       };
-      var Go = a(47852);
+      var Go = a(77960);
       const qo = ({
           title: e,
           storeTags: t,
@@ -3793,11 +3793,11 @@
             activeFilters: a,
             type: Ea.CATEGORY,
           });
-      var Jo = a(44940),
+      var Jo = a(41402),
         Xo = a(22538),
         Qo = a(8280),
-        ei = a(22463),
-        ti = a(13064);
+        ei = a(32396),
+        ti = a(29985);
       const ai = () => {
         const e = (0, Xo.useLocation)(),
           t = (0, qe.useDispatch)(),
@@ -3838,7 +3838,7 @@
           };
         }, [a, r]);
       };
-      var ni = a(84647);
+      var ni = a(58532);
       const ri = (0, m.i)((e) => ({
           icon: (0, b.iv)((0, re.rv)(10), {
             svg: {
@@ -4022,7 +4022,7 @@
         Ii = Object.getOwnPropertySymbols,
         wi = Object.prototype.hasOwnProperty,
         xi = Object.prototype.propertyIsEnumerable,
-        Pi = (e, t, a) =>
+        Si = (e, t, a) =>
           t in e
             ? hi(e, t, {
                 enumerable: !0,
@@ -4031,7 +4031,7 @@
                 value: a,
               })
             : (e[t] = a);
-      const Si = (e, t) => {
+      const Pi = (e, t) => {
           const a = e.reduce(
               (e, t) => (
                 (t.tags || []).forEach((t) => {
@@ -4049,9 +4049,9 @@
                 e.push(
                   ((r = ((e, t) => {
                     for (var a in t || (t = {}))
-                      wi.call(t, a) && Pi(e, a, t[a]);
+                      wi.call(t, a) && Si(e, a, t[a]);
                     if (Ii)
-                      for (var a of Ii(t)) xi.call(t, a) && Pi(e, a, t[a]);
+                      for (var a of Ii(t)) xi.call(t, a) && Si(e, a, t[a]);
                     return e;
                   })({}, t)),
                   (l = { count: a[t.id] }),
@@ -4067,18 +4067,17 @@
           storeTags: a = [],
           selectedCollectionId: n,
         }) => {
-          const r = Si(e, a);
+          const r = Pi(e, a);
           return n !== Et.U.ALL
             ? ((e, t, a) => {
-                const n = Si(t, a);
+                const n = Pi(t, a);
                 return vi(e, n);
               })(r, t, a)
             : r;
         };
-      var Ni = a(53550),
-        Li = a(24438),
-        ji = a.n(Li);
-      const Mi = ji()`
+      var Ni = a(74272),
+        Li = a(24438);
+      const ji = a.n(Li)()`
     query getStoreTags($groupName: String, $locale: String, $sortBy: String, $sortDir: String) {
   Catalog {
     tags(
@@ -4101,9 +4100,9 @@
   }
 }
     `;
-      var Ai = a(22702),
-        Ti = a(19866),
-        _i = (e, t, a) =>
+      var Mi = a(4663),
+        Ai = a(73525),
+        Ti = (e, t, a) =>
           new Promise((n, r) => {
             var l = (e) => {
                 try {
@@ -4123,10 +4122,10 @@
                 e.done ? n(e.value) : Promise.resolve(e.value).then(l, o);
             i((a = a.apply(e, t)).next());
           });
-      const Di = (0, Ta.uB)("storeTagApi"),
-        Ri = (e, t) => `${e}:${t}`,
-        Bi = (e, t) =>
-          _i(
+      const _i = (0, Ta.uB)("storeTagApi"),
+        Di = (e, t) => `${e}:${t}`,
+        Ri = (e, t) =>
+          Ti(
             void 0,
             [e, t],
             function* (
@@ -4134,9 +4133,9 @@
               { groupName: t, isOnline: a, locale: n, sortBy: r, sortDir: l },
             ) {
               const { cached: o, isExpired: i } = yield ((e) =>
-                _i(void 0, [e], function* ({ groupName: e, locale: t }) {
+                Ti(void 0, [e], function* ({ groupName: e, locale: t }) {
                   try {
-                    const a = yield _a.CV.get(Ri(e, t)),
+                    const a = yield _a.CV.get(Di(e, t)),
                       n = (0, Ta.bs)((null == a ? void 0 : a._expiresAt) || 0);
                     return {
                       cached: null == a ? void 0 : a.data,
@@ -4144,7 +4143,7 @@
                     };
                   } catch (e) {
                     return (
-                      Di.warn("getCachedStoreTags", "failed IDB get", {
+                      _i.warn("getCachedStoreTags", "failed IDB get", {
                         error: e.message,
                       }),
                       { cached: void 0, isExpired: !0 }
@@ -4153,14 +4152,14 @@
                 }))({ groupName: t, locale: n });
               if (o && o.length && !i)
                 return (
-                  Di.log("getCachedOrRemote", "using indexedDB", {
+                  _i.log("getCachedOrRemote", "using indexedDB", {
                     records: o,
                   }),
                   o
                 );
               if (!a)
                 return (
-                  Di.log(
+                  _i.log(
                     "getCachedOrRemoteStoreTags",
                     "user is not online, using indexedDB",
                     { records: o },
@@ -4168,7 +4167,7 @@
                   o || []
                 );
               const c = yield ((e, t) =>
-                _i(
+                Ti(
                   void 0,
                   [e, t],
                   function* (
@@ -4177,9 +4176,9 @@
                   ) {
                     var l, o;
                     try {
-                      const i = yield (0, Ti.J)({
+                      const i = yield (0, Ai.J)({
                         httpLink: e,
-                        query: Mi,
+                        query: ji,
                         variables: {
                           groupName: t,
                           locale: a,
@@ -4188,26 +4187,26 @@
                         },
                       });
                       return (
-                        Di.log("getRemoteStoreTags", "success", i),
+                        _i.log("getRemoteStoreTags", "success", i),
                         null == (o = null == (l = i.Catalog) ? void 0 : l.tags)
                           ? void 0
                           : o.elements
                       );
                     } catch (e) {
-                      return void Di.warn("getRemoteStoreTags", "failed", {
+                      return void _i.warn("getRemoteStoreTags", "failed", {
                         error: e.message,
                       });
                     }
                   },
                 ))(e, { groupName: t, locale: n, sortBy: r, sortDir: l });
               return (
-                Di.log("getCachedOrRemoteStoreTags", "using GQL item", {
+                _i.log("getCachedOrRemoteStoreTags", "using GQL item", {
                   groupName: t,
                   locale: n,
                 }),
                 c && c.length
                   ? (c &&
-                      (Di.log(
+                      (_i.log(
                         "getCachedOrRemoteStoreTags",
                         "updating local cache",
                         { groupName: t },
@@ -4217,17 +4216,17 @@
                         const n = {
                           _expiresAt: (0, Ta.g6)(Ni.ed),
                           groupName: e,
-                          id: Ri(e, a),
+                          id: Di(e, a),
                           data: t,
                         };
                         _a.CV.put(n).catch((e) => {
-                          Di.warn("setCachedStoreTags", "failed IDB put", {
+                          _i.warn("setCachedStoreTags", "failed IDB put", {
                             error: e.message,
                           });
                         });
                       })({ groupName: t, tags: c, locale: n })),
                     c)
-                  : (Di.log(
+                  : (_i.log(
                       "getCachedOrRemoteStoreTags",
                       "remote tags failed to load, using indexedDB",
                       { records: o },
@@ -4236,17 +4235,17 @@
               );
             },
           );
-      var Zi = a(37999);
-      const Fi = ({ groupName: e, sortBy: t, sortDir: a }) => {
+      var Bi = a(73323);
+      const Zi = ({ groupName: e, sortBy: t, sortDir: a }) => {
           const n = (0, oe.useLocalizationLocale)(),
             r = (0, i.c)(),
-            l = (0, Zi.xj)(),
-            o = (0, Ai.O)({
-              query: Mi,
+            l = (0, Bi.xj)(),
+            o = (0, Mi.O)({
+              query: ji,
               variables: { groupName: e, locale: n, sortBy: t, sortDir: a },
             }),
             { data: c } = (0, Ma.aM)(o, () =>
-              Bi(l, {
+              Ri(l, {
                 groupName: e,
                 isOnline: r,
                 locale: n,
@@ -4256,7 +4255,7 @@
             );
           return c;
         },
-        Ui = [
+        Fi = [
           {
             id: `${fa.WINDOWS}-filter`,
             name: fa.WINDOWS,
@@ -4276,7 +4275,7 @@
             count: 0,
           },
         ],
-        Wi = (e, t) => {
+        Ui = (e, t) => {
           const a = [];
           return (
             e.forEach((e) => {
@@ -4300,7 +4299,7 @@
                   const n = t(`egstore.library.filter_side_panel.${e}`) || "";
                   gi({
                     tagsForDisplay: a,
-                    currentTags: Ui,
+                    currentTags: Fi,
                     name: e,
                     message: n,
                   });
@@ -4310,22 +4309,22 @@
             a
           );
         },
-        Ki = () => {
+        Wi = () => {
           const { selectedCollectionId: e } = kn(),
             { records: t } = va(),
             { records: a } = va(e),
             r = (0, oe.useLocalization)();
           return (0, n.useMemo)(() => {
-            const n = Wi(t, r);
+            const n = Ui(t, r);
             return e !== Et.U.ALL
               ? ((e, t, a) => {
-                  const n = Wi(e, t);
+                  const n = Ui(e, t);
                   return vi(a, n);
                 })(a, r, n)
               : n;
           }, [t, e, a]);
         },
-        zi = ({ onFilterClick: e, activeFilters: t, numberOfItems: a = 0 }) => {
+        Ki = ({ onFilterClick: e, activeFilters: t, numberOfItems: a = 0 }) => {
           const n = !!t && t.includes(Ea.INSTALLED),
             l = 0 === a;
           let o;
@@ -4346,10 +4345,10 @@
             })
           );
         };
-      var Vi = a(71512);
-      const Hi = r().forwardRef(({ onChange: e, onClear: t, value: a }, n) => {
+      var zi = a(10658);
+      const Vi = r().forwardRef(({ onChange: e, onClear: t, value: a }, n) => {
           const l = (0, oe.useLocalization)();
-          return r().createElement(Vi.Z, {
+          return r().createElement(zi.Z, {
             "data-testid": "library-filter-section-keyword",
             ref: n,
             onChange: e,
@@ -4360,7 +4359,7 @@
             value: a,
           });
         }),
-        $i = ({ onFilterClick: e, activeFilters: t, storeTags: a }) =>
+        Hi = ({ onFilterClick: e, activeFilters: t, storeTags: a }) =>
           r().createElement(qo, {
             title: r().createElement(Zo.v0, {
               code: "diesel.products.about.meta.platform",
@@ -4370,8 +4369,8 @@
             activeFilters: t,
             type: Ea.PLATFORM,
           });
-      var Gi = a(60608);
-      const qi = (0, m.i)((e) => ({
+      var $i = a(73497);
+      const Gi = (0, m.i)((e) => ({
           titleDiv: (0, b.iv)({
             display: "flex",
             alignItems: "center",
@@ -4385,7 +4384,7 @@
             borderBottom: `1px solid ${e.backgroundOverlay}`,
           }),
         })),
-        Yi = ({
+        qi = ({
           sectionTitle: e,
           filterByKeyword: t,
           customResults: a,
@@ -4395,9 +4394,9 @@
           categories: i,
           platforms: c,
         }) => {
-          const s = qi();
+          const s = Gi();
           return r().createElement(
-            Gi.Z,
+            $i.Z,
             null,
             r().createElement("div", { className: s.titleDiv }, e),
             r().createElement("div", { className: s.keywordFilter }, t),
@@ -4409,19 +4408,19 @@
             c,
           );
         },
-        Ji = { padding: "10px 0", marginLeft: 12 },
-        Xi = { paddingBottom: 10, marginLeft: 12 },
-        Qi = ({ animation: e }) =>
+        Yi = { padding: "10px 0", marginLeft: 12 },
+        Ji = { paddingBottom: 10, marginLeft: 12 },
+        Xi = ({ animation: e }) =>
           r().createElement(
             "div",
-            { style: Ji },
+            { style: Yi },
             r().createElement(Ee.Od, { animation: e, height: 14, width: 100 }),
           ),
-        ec = ({ animation: e }) =>
-          r().createElement(Yi, {
+        Qi = ({ animation: e }) =>
+          r().createElement(qi, {
             sectionTitle: r().createElement(
               "div",
-              { style: Xi },
+              { style: Ji },
               r().createElement(Ee.Od, { animation: e, height: 14, width: 50 }),
             ),
             filterByKeyword: r().createElement(Ee.Od, {
@@ -4435,7 +4434,7 @@
                 renderTitle: () =>
                   r().createElement(
                     "div",
-                    { style: Ji },
+                    { style: Yi },
                     r().createElement(Ee.Od, {
                       animation: e,
                       height: 14,
@@ -4443,14 +4442,14 @@
                     }),
                   ),
               },
-              r().createElement(Qi, { animation: e }),
-              r().createElement(Qi, { animation: e }),
-              r().createElement(Qi, { animation: e }),
+              r().createElement(Xi, { animation: e }),
+              r().createElement(Xi, { animation: e }),
+              r().createElement(Xi, { animation: e }),
             ),
           });
-      var tc = a(43567),
-        ac = a(47895);
-      const nc = () => {
+      var ec = a(36751),
+        tc = a(257);
+      const ac = () => {
           const {
               selectedFilters: e,
               resetFilters: t,
@@ -4464,10 +4463,10 @@
             d = (0, qe.useSelector)(ln.xp),
             { resetQueryParams: u } = ai(),
             m = fi(),
-            p = Ki(),
+            p = Wi(),
             b = (() => {
               const { selectedCollectionId: e } = kn(),
-                t = Fi({ groupName: Ea.GENRE, sortBy: Ni.sH, sortDir: Ni.NV }),
+                t = Zi({ groupName: Ea.GENRE, sortBy: Ni.sH, sortDir: Ni.NV }),
                 { records: a } = va(),
                 { records: r } = va(e);
               return (0, n.useMemo)(
@@ -4483,12 +4482,12 @@
             })(),
             g = (() => {
               const { selectedCollectionId: e } = kn(),
-                t = Fi({
+                t = Zi({
                   groupName: Ea.FEATURE,
                   sortBy: Ni.sH,
                   sortDir: Ni.NV,
                 }),
-                a = Fi({
+                a = Zi({
                   groupName: "epicfeature",
                   sortBy: Ni.sH,
                   sortDir: Ni.NV,
@@ -4521,18 +4520,18 @@
             r().useEffect(() => {
               a !== f && y(a);
             }, [a]);
-          return r().createElement(Yi, {
+          return r().createElement(qi, {
             sectionTitle: r().createElement(
               r().Fragment,
               null,
-              r().createElement(ac.Z, {
+              r().createElement(tc.Z, {
                 text: r().createElement(te.Z, {
                   code: "diesel.store.browse.filters",
                   args: o > 0 ? [`(${o})`] : [""],
                 }),
               }),
               o > 0 &&
-                r().createElement(tc.Z, {
+                r().createElement(ec.Z, {
                   onClick: () => {
                     t(), u();
                   },
@@ -4541,14 +4540,14 @@
                   }),
                 }),
             ),
-            filterByKeyword: r().createElement(Hi, {
+            filterByKeyword: r().createElement(Vi, {
               onChange: (e) => y(e.target.value),
               onClear: () => {
                 y(""), l("");
               },
               value: E,
             }),
-            installed: r().createElement(zi, {
+            installed: r().createElement(Ki, {
               onFilterClick: i,
               activeFilters: e[Ea.INSTALLED],
               numberOfItems: v,
@@ -4578,7 +4577,7 @@
                 })
               : null,
             platforms: p.length
-              ? r().createElement($i, {
+              ? r().createElement(Hi, {
                   onFilterClick: i,
                   storeTags: p,
                   activeFilters: e[Ea.PLATFORM],
@@ -4586,19 +4585,19 @@
               : null,
           });
         },
-        rc = () =>
+        nc = () =>
           r().createElement(
             Ye.n4,
-            { fallback: r().createElement(ec, null) },
-            r().createElement(nc, null),
+            { fallback: r().createElement(Qi, null) },
+            r().createElement(ac, null),
           ),
-        lc = (0, io.L)(
+        rc = (0, io.L)(
           n.createElement("path", {
             d: "M5 4a1 1 0 00-1 1v5.2a1 1 0 001 1h5.2a1 1 0 001-1V5a1 1 0 00-1-1H5zm8.8 0a1 1 0 00-1 1v5.2a1 1 0 001 1H19a1 1 0 001-1V5a1 1 0 00-1-1h-5.2zM4 13.8a1 1 0 011-1h5.2a1 1 0 011 1V19a1 1 0 01-1 1H5a1 1 0 01-1-1v-5.2zm9.8-1a1 1 0 00-1 1V19a1 1 0 001 1H19a1 1 0 001-1v-5.2a1 1 0 00-1-1h-5.2z",
           }),
           "Library",
         ),
-        oc = (0, io.L)(
+        lc = (0, io.L)(
           n.createElement("path", {
             fillRule: "evenodd",
             clipRule: "evenodd",
@@ -4606,31 +4605,31 @@
           }),
           "List",
         );
-      var ic = a(62766),
-        cc = Object.defineProperty,
-        sc = Object.defineProperties,
-        dc = Object.getOwnPropertyDescriptors,
-        uc = Object.getOwnPropertySymbols,
-        mc = Object.prototype.hasOwnProperty,
-        pc = Object.prototype.propertyIsEnumerable,
-        bc = (e, t, a) =>
+      var oc = a(91575),
+        ic = Object.defineProperty,
+        cc = Object.defineProperties,
+        sc = Object.getOwnPropertyDescriptors,
+        dc = Object.getOwnPropertySymbols,
+        uc = Object.prototype.hasOwnProperty,
+        mc = Object.prototype.propertyIsEnumerable,
+        pc = (e, t, a) =>
           t in e
-            ? cc(e, t, {
+            ? ic(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        gc = (e, t) => {
-          for (var a in t || (t = {})) mc.call(t, a) && bc(e, a, t[a]);
-          if (uc) for (var a of uc(t)) pc.call(t, a) && bc(e, a, t[a]);
+        bc = (e, t) => {
+          for (var a in t || (t = {})) uc.call(t, a) && pc(e, a, t[a]);
+          if (dc) for (var a of dc(t)) mc.call(t, a) && pc(e, a, t[a]);
           return e;
         };
-      const vc = (0, m.i)((e, { isGridSelected: t }) => {
+      const gc = (0, m.i)((e, { isGridSelected: t }) => {
           return {
             gridSelected: (0, b.iv)(
-              ((a = gc(
+              ((a = bc(
                 {
                   cursor: t ? "default" : "pointer",
                   backgroundColor: t ? e.backgroundOverlay : void 0,
@@ -4644,7 +4643,7 @@
                   ? { backgroundColor: "transparent", opacity: 0 }
                   : {},
               }),
-              sc(a, dc(n))),
+              cc(a, sc(n))),
             ),
             listSelected: (0, b.iv)({
               cursor: t ? "pointer" : "default",
@@ -4659,16 +4658,16 @@
           };
           var a, n;
         }),
-        Ec = ({ value: e, onChange: t }) => {
+        vc = ({ value: e, onChange: t }) => {
           const a = e === rn.ms.Grid,
-            r = vc({ isGridSelected: a }),
+            r = gc({ isGridSelected: a }),
             l = n.useCallback(() => t(rn.ms.Grid), [t]),
             o = n.useCallback(() => t(rn.ms.List), [t]);
           return n.createElement(
             d.x,
             null,
             n.createElement(
-              ic.mJ,
+              oc.mJ,
               {
                 event: {
                   eventAction: "library-hubs-click-grid-layout",
@@ -4689,12 +4688,12 @@
                 n.createElement(
                   "span",
                   { className: r.gridIcon },
-                  n.createElement(lc, null),
+                  n.createElement(rc, null),
                 ),
               ),
             ),
             n.createElement(
-              ic.mJ,
+              oc.mJ,
               {
                 event: {
                   eventAction: "library-hubs-click-list-layout",
@@ -4712,17 +4711,17 @@
                   onClick: o,
                   variantClassName: r.listSelected,
                 },
-                n.createElement(oc, null),
+                n.createElement(lc, null),
               ),
             ),
           );
         },
-        yc = (0, m.i)(() => ({
+        Ec = (0, m.i)(() => ({
           sortMenu: (0, b.iv)((0, re.wz)(10), { minWidth: 210 }),
           rightPadding: (0, b.iv)((0, re.wz)(3)),
         })),
-        fc = ({ layoutToggle: e, sortMenu: t }) => {
-          const a = yc();
+        yc = ({ layoutToggle: e, sortMenu: t }) => {
+          const a = Ec();
           return n.createElement(
             d.x,
             { alignItems: u.Ks.Center, justify: u.jf.SpaceBetween },
@@ -4738,34 +4737,34 @@
             ),
           );
         };
-      var hc = a(10626),
-        Oc = a(51694),
-        Cc = Object.defineProperty,
-        Ic = Object.defineProperties,
-        wc = Object.getOwnPropertyDescriptors,
-        xc = Object.getOwnPropertySymbols,
-        Pc = Object.prototype.hasOwnProperty,
+      var fc = a(71737),
+        hc = a(56480),
+        Oc = Object.defineProperty,
+        Cc = Object.defineProperties,
+        Ic = Object.getOwnPropertyDescriptors,
+        wc = Object.getOwnPropertySymbols,
+        xc = Object.prototype.hasOwnProperty,
         Sc = Object.prototype.propertyIsEnumerable,
-        kc = (e, t, a) =>
+        Pc = (e, t, a) =>
           t in e
-            ? Cc(e, t, {
+            ? Oc(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Nc = (e) => {
+      const kc = (e) => {
         const t = (0, je.P)(
-            Oc.$n,
-            Oc.A2,
+            hc.$n,
+            hc.A2,
             ((n = ((e, t) => {
-              for (var a in t || (t = {})) Pc.call(t, a) && kc(e, a, t[a]);
-              if (xc) for (var a of xc(t)) Sc.call(t, a) && kc(e, a, t[a]);
+              for (var a in t || (t = {})) xc.call(t, a) && Pc(e, a, t[a]);
+              if (wc) for (var a of wc(t)) Sc.call(t, a) && Pc(e, a, t[a]);
               return e;
             })({}, e)),
             (r = { enabled: !1 !== (null == e ? void 0 : e.enabled) }),
-            Ic(n, wc(r))),
+            Cc(n, Ic(r))),
           ),
           { data: a } = t;
         var n, r;
@@ -4773,63 +4772,63 @@
           totalPlaytime: a,
           query: ((e, t) => {
             var a = {};
-            for (var n in e) Pc.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-            if (null != e && xc)
-              for (var n of xc(e))
+            for (var n in e) xc.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+            if (null != e && wc)
+              for (var n of wc(e))
                 t.indexOf(n) < 0 && Sc.call(e, n) && (a[n] = e[n]);
             return a;
           })(t, ["data"]),
         };
       };
-      var Lc = a(99088),
-        jc = Object.defineProperty,
-        Mc = Object.defineProperties,
-        Ac = Object.getOwnPropertyDescriptors,
-        Tc = Object.getOwnPropertySymbols,
-        _c = Object.prototype.hasOwnProperty,
-        Dc = Object.prototype.propertyIsEnumerable,
-        Rc = (e, t, a) =>
+      var Nc = a(10968),
+        Lc = Object.defineProperty,
+        jc = Object.defineProperties,
+        Mc = Object.getOwnPropertyDescriptors,
+        Ac = Object.getOwnPropertySymbols,
+        Tc = Object.prototype.hasOwnProperty,
+        _c = Object.prototype.propertyIsEnumerable,
+        Dc = (e, t, a) =>
           t in e
-            ? jc(e, t, {
+            ? Lc(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Bc = [
+      const Rc = [
           rn.ER.Recent_Played,
           rn.ER.Recent_Purchased,
           rn.ER.Alphabetical_ASC,
           rn.ER.Alphabetical_DESC,
           rn.ER.Time_Played,
         ],
-        Zc = (e) => {
+        Bc = (e) => {
           const { value: t, setValue: a } = nn(
             ((r = ((e, t) => {
-              for (var a in t || (t = {})) _c.call(t, a) && Rc(e, a, t[a]);
-              if (Tc) for (var a of Tc(t)) Dc.call(t, a) && Rc(e, a, t[a]);
+              for (var a in t || (t = {})) Tc.call(t, a) && Dc(e, a, t[a]);
+              if (Ac) for (var a of Ac(t)) _c.call(t, a) && Dc(e, a, t[a]);
               return e;
             })({}, e)),
-            (l = { initialValue: rn.ER.Alphabetical_ASC, allowedValues: Bc }),
-            Mc(r, Ac(l))),
+            (l = { initialValue: rn.ER.Alphabetical_ASC, allowedValues: Rc }),
+            jc(r, Mc(l))),
           );
           var r, l;
-          const { recentlyPlayed: o } = (0, hc.t2)(),
-            { totalPlaytime: i } = Nc({ suspense: !1 }),
+          const { recordsMap: o } = (0, fc.B$)(),
+            { totalPlaytime: i } = kc({ suspense: !1 }),
             c = (0, n.useCallback)(
               (e) => {
                 switch (t) {
                   case rn.ER.Alphabetical_ASC:
-                    return (0, Lc.He)(e, rn.Sr.ASC);
+                    return (0, Nc.He)(e, rn.Sr.ASC);
                   case rn.ER.Alphabetical_DESC:
-                    return (0, Lc.He)(e, rn.Sr.DESC);
+                    return (0, Nc.He)(e, rn.Sr.DESC);
                   case rn.ER.Recent_Played:
-                    return (0, Lc.vG)(o, e);
+                    return (0, Nc.vG)(o, e);
                   case rn.ER.Recent_Purchased:
-                    return (0, Lc.K_)(e);
+                    return (0, Nc.K_)(e);
                   case rn.ER.Time_Played:
-                    return (0, Lc.IR)(e, i);
+                    return (0, Nc.IR)(e, i);
                   default:
                     return e;
                 }
@@ -4838,8 +4837,8 @@
             );
           return { sortType: t, setSortType: a, applySortType: c };
         };
-      var Fc = a(11745);
-      const Uc = ({ sortType: e = rn.ER.Alphabetical_ASC, onChange: t }) => {
+      var Zc = a(78512);
+      const Fc = ({ sortType: e = rn.ER.Alphabetical_ASC, onChange: t }) => {
           const a = (0, Zo.ql)(),
             r = n.useMemo(
               () =>
@@ -4877,7 +4876,7 @@
                 ])(a),
               [a],
             );
-          return n.createElement(Fc.Z, {
+          return n.createElement(Zc.Z, {
             id: "sort-dropdown",
             label: n.createElement(Zo.v0, {
               code: "egstore.library.sort.title",
@@ -4887,32 +4886,32 @@
             onChange: t,
           });
         },
-        Wc = ({
+        Uc = ({
           layoutType: e = rn.ms.Grid,
           onLayoutChange: t,
           onSortChange: a,
           sortType: r = rn.ER.Alphabetical_ASC,
         }) =>
-          n.createElement(fc, {
-            sortMenu: n.createElement(Uc, { sortType: r, onChange: a }),
-            layoutToggle: n.createElement(Ec, { value: e, onChange: t }),
+          n.createElement(yc, {
+            sortMenu: n.createElement(Fc, { sortType: r, onChange: a }),
+            layoutToggle: n.createElement(vc, { value: e, onChange: t }),
           });
-      var Kc = Object.defineProperty,
-        zc = Object.defineProperties,
-        Vc = Object.getOwnPropertyDescriptors,
-        Hc = Object.getOwnPropertySymbols,
-        $c = Object.prototype.hasOwnProperty,
-        Gc = Object.prototype.propertyIsEnumerable,
-        qc = (e, t, a) =>
+      var Wc = Object.defineProperty,
+        Kc = Object.defineProperties,
+        zc = Object.getOwnPropertyDescriptors,
+        Vc = Object.getOwnPropertySymbols,
+        Hc = Object.prototype.hasOwnProperty,
+        $c = Object.prototype.propertyIsEnumerable,
+        Gc = (e, t, a) =>
           t in e
-            ? Kc(e, t, {
+            ? Wc(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Yc = () => {
+      const qc = () => {
         const e = (0, qe.useSelector)(on.vR),
           t = {
             keyFn: () => `${rn.i3}_${e || Oa.v.ANONYMOUS}`,
@@ -4924,48 +4923,48 @@
             query: r,
           } = nn(
             ((l = ((e, t) => {
-              for (var a in t || (t = {})) $c.call(t, a) && qc(e, a, t[a]);
-              if (Hc) for (var a of Hc(t)) Gc.call(t, a) && qc(e, a, t[a]);
+              for (var a in t || (t = {})) Hc.call(t, a) && Gc(e, a, t[a]);
+              if (Vc) for (var a of Vc(t)) $c.call(t, a) && Gc(e, a, t[a]);
               return e;
             })({}, t)),
             (o = {
               initialValue: rn.ms.Grid,
               allowedValues: [rn.ms.Grid, rn.ms.List],
             }),
-            zc(l, Vc(o))),
+            Kc(l, zc(o))),
           );
         var l, o;
         return { layoutType: a, setLayoutType: n, isLoaded: r.isSuccess };
       };
-      var Jc = Object.defineProperty,
-        Xc = Object.defineProperties,
-        Qc = Object.getOwnPropertyDescriptors,
-        es = Object.getOwnPropertySymbols,
-        ts = Object.prototype.hasOwnProperty,
-        as = Object.prototype.propertyIsEnumerable,
-        ns = (e, t, a) =>
+      var Yc = Object.defineProperty,
+        Jc = Object.defineProperties,
+        Xc = Object.getOwnPropertyDescriptors,
+        Qc = Object.getOwnPropertySymbols,
+        es = Object.prototype.hasOwnProperty,
+        ts = Object.prototype.propertyIsEnumerable,
+        as = (e, t, a) =>
           t in e
-            ? Jc(e, t, {
+            ? Yc(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        rs = (e, t) => {
-          for (var a in t || (t = {})) ts.call(t, a) && ns(e, a, t[a]);
-          if (es) for (var a of es(t)) as.call(t, a) && ns(e, a, t[a]);
+        ns = (e, t) => {
+          for (var a in t || (t = {})) es.call(t, a) && as(e, a, t[a]);
+          if (Qc) for (var a of Qc(t)) ts.call(t, a) && as(e, a, t[a]);
           return e;
         },
-        ls = (e, t) => Xc(e, Qc(t));
-      const os = (xl.bg - 24) / 2,
-        is = (xl.nx - 24) / 2,
-        cs = (0, m.i)((e) => {
+        rs = (e, t) => Jc(e, Xc(t));
+      const ls = (xl.bg - 24) / 2,
+        os = (xl.nx - 24) / 2,
+        is = (0, m.i)((e) => {
           const t = (0, b.iv)({ width: "100%" });
           return {
             component: t,
             root: (0, b.iv)(
-              ls(rs({}, (0, rt.ip)("background-color")), {
+              rs(ns({}, (0, rt.ip)("background-color")), {
                 position: "relative",
                 backgroundColor: e.level1,
                 height: xl.Zg,
@@ -4986,8 +4985,8 @@
               height: xl.bg,
               width: xl.nx,
               backgroundColor: e.backgroundOverlay,
-              "&::after": ls(
-                rs(rs(rs({}, (0, rt.ip)("opacity")), ml.a), Ot.d),
+              "&::after": rs(
+                ns(ns(ns({}, (0, rt.ip)("opacity")), ml.a), Ot.d),
                 {
                   borderRadius: U.E0,
                   backgroundColor: fe.ix,
@@ -5014,14 +5013,14 @@
             }),
             settingsSpacer: (0, b.iv)({ width: 77, height: "100%" }),
             favoriteDiv: (0, b.iv)(
-              ls(rs({ top: os }, (0, re.F2)(is)), {
+              rs(ns({ top: ls }, (0, re.F2)(os)), {
                 [`.${t}:hover &`]: { opacity: 1 },
               }),
             ),
             infoText: (0, b.iv)({ fontSize: 12, color: e.textPrimary }),
           };
         }),
-        ss = ({
+        cs = ({
           achievements: e,
           active: t,
           badges: a,
@@ -5040,7 +5039,7 @@
           onContextMenu: f,
           onKeyDown: h,
         }) => {
-          const O = cs(),
+          const O = is(),
             C = (0, b.cx)(O.root, { active: t, hasHover: l }),
             I = n.useMemo(
               () =>
@@ -5132,34 +5131,34 @@
             ),
           );
         };
-      var ds = Object.defineProperty,
-        us = Object.defineProperties,
-        ms = Object.getOwnPropertyDescriptors,
-        ps = Object.getOwnPropertySymbols,
-        bs = Object.prototype.hasOwnProperty,
-        gs = Object.prototype.propertyIsEnumerable,
-        vs = (e, t, a) =>
+      var ss = Object.defineProperty,
+        ds = Object.defineProperties,
+        us = Object.getOwnPropertyDescriptors,
+        ms = Object.getOwnPropertySymbols,
+        ps = Object.prototype.hasOwnProperty,
+        bs = Object.prototype.propertyIsEnumerable,
+        gs = (e, t, a) =>
           t in e
-            ? ds(e, t, {
+            ? ss(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Es = (e, t) => {
-          for (var a in t || (t = {})) bs.call(t, a) && vs(e, a, t[a]);
-          if (ps) for (var a of ps(t)) gs.call(t, a) && vs(e, a, t[a]);
+        vs = (e, t) => {
+          for (var a in t || (t = {})) ps.call(t, a) && gs(e, a, t[a]);
+          if (ms) for (var a of ms(t)) bs.call(t, a) && gs(e, a, t[a]);
           return e;
         },
-        ys = (e, t) => us(e, ms(t));
-      const fs = {
+        Es = (e, t) => ds(e, us(t));
+      const ys = {
           imageWrapper: (0, b.iv)(
-            ys(Es({}, (0, fe.fF)(fe.oM.x3x4)), { borderRadius: fe.E0 }),
+            Es(vs({}, (0, fe.fF)(fe.oM.x3x4)), { borderRadius: fe.E0 }),
           ),
-          fakeImage: (0, b.iv)(ys(Es({}, ml.a), { height: "auto" })),
+          fakeImage: (0, b.iv)(Es(vs({}, ml.a), { height: "auto" })),
         },
-        hs =
+        fs =
           ({ Image: e, Layout: t }) =>
           ({ animation: a }) => {
             const r = {
@@ -5177,32 +5176,32 @@
               }),
               image: n.createElement(e, { animation: a }),
             };
-            return n.createElement(t, Es({}, r));
+            return n.createElement(t, vs({}, r));
           },
-        Os = hs({
+        hs = fs({
           Image: ({ animation: e }) =>
             n.createElement(
               "div",
-              { className: fs.imageWrapper },
+              { className: ys.imageWrapper },
               n.createElement(Ee.Od, {
                 width: "100%",
-                className: fs.fakeImage,
+                className: ys.fakeImage,
                 animation: e,
               }),
             ),
           Layout: Gl,
         }),
-        Cs = hs({
+        Os = fs({
           Image: ({ animation: e }) =>
             n.createElement(Ee.Od, {
               width: xl.nx,
               height: xl.bg,
               animation: e,
             }),
-          Layout: ss,
+          Layout: cs,
         }),
-        Is = ({ animation: e }) =>
-          n.createElement(fc, {
+        Cs = ({ animation: e }) =>
+          n.createElement(yc, {
             sortMenu: n.createElement(Ee.Od, {
               width: 200,
               height: 30,
@@ -5220,9 +5219,9 @@
               n.createElement(Ee.Od, { width: 30, height: 30, animation: e }),
             ),
           });
-      var ws = a(14742),
-        xs = a(48937);
-      const Ps = (0, m.i)((e, t) => ({
+      var Is = a(43442),
+        ws = a(8132);
+      const xs = (0, m.i)((e, t) => ({
           root: (0, b.iv)({
             position: "relative",
             width: "100%",
@@ -5259,7 +5258,7 @@
           }),
         })),
         Ss = ({ onClick: e, numItems: t, code: a }) => {
-          const n = Ps(t);
+          const n = xs(t);
           return r().createElement(
             ft.Z,
             {
@@ -5276,7 +5275,7 @@
                 r().createElement(
                   "div",
                   { className: n.icon },
-                  r().createElement(xs.l, null),
+                  r().createElement(ws.l, null),
                 ),
                 r().createElement(
                   ae.ZP,
@@ -5287,27 +5286,27 @@
             ),
           );
         };
-      var ks = Object.defineProperty,
-        Ns = Object.defineProperties,
-        Ls = Object.getOwnPropertyDescriptors,
-        js = Object.getOwnPropertySymbols,
-        Ms = Object.prototype.hasOwnProperty,
-        As = Object.prototype.propertyIsEnumerable,
-        Ts = (e, t, a) =>
+      var Ps = Object.defineProperty,
+        ks = Object.defineProperties,
+        Ns = Object.getOwnPropertyDescriptors,
+        Ls = Object.getOwnPropertySymbols,
+        js = Object.prototype.hasOwnProperty,
+        Ms = Object.prototype.propertyIsEnumerable,
+        As = (e, t, a) =>
           t in e
-            ? ks(e, t, {
+            ? Ps(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        _s = (e, t) => {
-          for (var a in t || (t = {})) Ms.call(t, a) && Ts(e, a, t[a]);
-          if (js) for (var a of js(t)) As.call(t, a) && Ts(e, a, t[a]);
+        Ts = (e, t) => {
+          for (var a in t || (t = {})) js.call(t, a) && As(e, a, t[a]);
+          if (Ls) for (var a of Ls(t)) Ms.call(t, a) && As(e, a, t[a]);
           return e;
         };
-      const Ds = (0, m.i)((e) => {
+      const _s = (0, m.i)((e) => {
           return {
             root: (0, b.iv)({
               position: "relative",
@@ -5332,18 +5331,18 @@
               pointerEvents: "none",
             }),
             icon: (0, b.iv)(
-              ((t = _s({ fontSize: 11.25 }, (0, re.wz)(12))),
+              ((t = Ts({ fontSize: 11.25 }, (0, re.wz)(12))),
               (a = {
                 marginTop: 2,
-                [p.Uc.lg]: _s({ fontSize: 15, marginTop: 3 }, (0, re.wz)(12.5)),
+                [p.Uc.lg]: Ts({ fontSize: 15, marginTop: 3 }, (0, re.wz)(12.5)),
               }),
-              Ns(t, Ls(a))),
+              ks(t, Ns(a))),
             ),
           };
           var t, a;
         }),
-        Rs = ({ onClick: e, code: t }) => {
-          const a = Ds();
+        Ds = ({ onClick: e, code: t }) => {
+          const a = _s();
           return r().createElement(
             ft.Z,
             {
@@ -5360,7 +5359,7 @@
                 r().createElement(
                   "div",
                   { className: a.icon },
-                  r().createElement(xs.l, null),
+                  r().createElement(ws.l, null),
                 ),
                 r().createElement(
                   ae.ZP,
@@ -5371,14 +5370,14 @@
             ),
           );
         },
-        Bs = ({ layout: e, numItems: t }) => {
+        Rs = ({ layout: e, numItems: t }) => {
           const a = (0, qe.useDispatch)(),
             n = (0, qe.useSelector)(on.LF),
             l = (0, Xo.useLocation)(),
             o = r().useCallback(
               () =>
                 n === Oa.v.OFFLINE
-                  ? a(ws.ZP.requestSignIn(l.pathname))
+                  ? a(Is.ZP.requestSignIn(l.pathname))
                   : a((0, Qo.VF)((0, ei.generateRoutePath)("/"))),
               [n],
             ),
@@ -5391,10 +5390,10 @@
             );
           return e === rn.ms.Grid
             ? r().createElement(Ss, { onClick: o, numItems: t, code: i })
-            : r().createElement(Rs, { onClick: o, code: i });
+            : r().createElement(Ds, { onClick: o, code: i });
         };
-      var Zs = a(8763);
-      const Fs = (0, m.i)((e) => ({
+      var Bs = a(88325);
+      const Zs = (0, m.i)((e) => ({
           root: (0, b.iv)({
             width: "100%",
             borderTop: `1px solid ${e.backgroundOverlay}`,
@@ -5405,8 +5404,8 @@
           imageSpacer: (0, b.iv)({ width: 65 }),
           settingsSpacer: (0, b.iv)({ width: 77, height: "100%" }),
         })),
-        Us = () => {
-          const e = Fs();
+        Fs = () => {
+          const e = Zs();
           return n.createElement(
             "div",
             { className: e.root },
@@ -5420,7 +5419,7 @@
                 n.createElement(
                   d.x,
                   { className: e.title, fillParent: !0, justify: u.jf.Start },
-                  n.createElement(Zs.x, {
+                  n.createElement(Bs.x, {
                     code: "egstore.library.hub.product.list.search_placeholder",
                   }),
                 ),
@@ -5431,7 +5430,7 @@
                 n.createElement(
                   d.x,
                   { fillParent: !0, centerContent: !0 },
-                  n.createElement(Zs.x, { code: "egstore.achievements" }),
+                  n.createElement(Bs.x, { code: "egstore.achievements" }),
                 ),
               ),
               n.createElement(
@@ -5440,7 +5439,7 @@
                 n.createElement(
                   d.x,
                   { fillParent: !0, centerContent: !0 },
-                  n.createElement(Zs.x, { code: "diesel.products.addons" }),
+                  n.createElement(Bs.x, { code: "diesel.products.addons" }),
                 ),
               ),
               n.createElement(
@@ -5449,7 +5448,7 @@
                 n.createElement(
                   d.x,
                   { fillParent: !0, centerContent: !0 },
-                  n.createElement(Zs.x, {
+                  n.createElement(Bs.x, {
                     code: "egstore.library.column.timePlayed",
                   }),
                 ),
@@ -5460,7 +5459,7 @@
                 n.createElement(
                   d.x,
                   { fillParent: !0, centerContent: !0 },
-                  n.createElement(Zs.x, {
+                  n.createElement(Bs.x, {
                     code: "egstore.library.column.size",
                   }),
                 ),
@@ -5469,7 +5468,7 @@
             n.createElement("div", { className: e.settingsSpacer }),
           );
         },
-        Ws = (0, m.i)((e) => ({
+        Us = (0, m.i)((e) => ({
           root: (0, b.iv)({
             display: "flex",
             flexDirection: "column",
@@ -5502,7 +5501,7 @@
             gridTemplateColumns: "repeat(auto-fill, 100%)",
           }),
         })),
-        Ks = ({
+        Ws = ({
           footer: e,
           header: t,
           items: a,
@@ -5514,7 +5513,7 @@
           renderEmptyCollection: s,
           renderFilterSidePanel: d,
         }) => {
-          const u = Ws();
+          const u = Us();
           return n.createElement(
             "div",
             {
@@ -5550,7 +5549,7 @@
                     n.createElement(
                       "div",
                       { "data-testid": "product-list-section-column-header" },
-                      n.createElement(Us, null),
+                      n.createElement(Fs, null),
                     ),
                   c,
                   s,
@@ -5570,7 +5569,7 @@
                         ? n.createElement(
                             "div",
                             null,
-                            n.createElement(Bs, {
+                            n.createElement(Rs, {
                               layout: l,
                               numItems: r || 0,
                             }),
@@ -5589,25 +5588,25 @@
             ),
           );
         };
-      var zs = Object.defineProperty,
-        Vs = Object.getOwnPropertySymbols,
-        Hs = Object.prototype.hasOwnProperty,
-        $s = Object.prototype.propertyIsEnumerable,
-        Gs = (e, t, a) =>
+      var Ks = Object.defineProperty,
+        zs = Object.getOwnPropertySymbols,
+        Vs = Object.prototype.hasOwnProperty,
+        Hs = Object.prototype.propertyIsEnumerable,
+        $s = (e, t, a) =>
           t in e
-            ? zs(e, t, {
+            ? Ks(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        qs = (e, t) => {
-          for (var a in t || (t = {})) Hs.call(t, a) && Gs(e, a, t[a]);
-          if (Vs) for (var a of Vs(t)) $s.call(t, a) && Gs(e, a, t[a]);
+        Gs = (e, t) => {
+          for (var a in t || (t = {})) Vs.call(t, a) && $s(e, a, t[a]);
+          if (zs) for (var a of zs(t)) Hs.call(t, a) && $s(e, a, t[a]);
           return e;
         };
-      const Ys = {
+      const qs = {
           footer: (0, b.iv)({
             display: "flex",
             alignItems: "center",
@@ -5615,15 +5614,15 @@
             padding: "10px 0",
           }),
           pagination: (0, b.iv)({
-            [fe.Uc.lg]: qs({}, (0, re.wz)(31)),
-            [fe.Uc.xl]: qs({}, (0, re.wz)(42)),
-            [fe.Uc.maxWidth]: qs({}, (0, re.wz)(57)),
+            [fe.Uc.lg]: Gs({}, (0, re.wz)(31)),
+            [fe.Uc.xl]: Gs({}, (0, re.wz)(42)),
+            [fe.Uc.maxWidth]: Gs({}, (0, re.wz)(57)),
           }),
         },
-        Js = ({ animation: e }) =>
+        Ys = ({ animation: e }) =>
           r().createElement(
             "div",
-            { className: Ys.footer },
+            { className: qs.footer },
             r().createElement(Ee.Od, {
               variant: Ee.Jy.Rect,
               animation: e,
@@ -5632,7 +5631,7 @@
             }),
             r().createElement(
               "div",
-              { className: Ys.pagination },
+              { className: qs.pagination },
               r().createElement(Ee.Od, {
                 variant: Ee.Jy.Rect,
                 animation: e,
@@ -5647,38 +5646,38 @@
               height: 30,
             }),
           );
-      var Xs = a(69169);
-      const Qs = new Array(12).fill(0).map((e, t) =>
-          (0, Xs.fS)({
+      var Js = a(81198);
+      const Xs = new Array(12).fill(0).map((e, t) =>
+          (0, Js.fS)({
             namespace: "skeleton",
             catalogItemId: `${t}`,
             appName: `app${t}`,
           }),
         ),
-        ed = ({ layout: e, animation: t }) => {
+        Qs = ({ layout: e, animation: t }) => {
           const a = (0, ol.dD)(),
-            n = e === rn.ms.Grid ? Os : Cs;
-          return r().createElement(Ks, {
-            header: r().createElement(Is, { animation: t }),
-            footer: r().createElement(Js, { animation: t }),
-            items: Qs,
+            n = e === rn.ms.Grid ? hs : Os;
+          return r().createElement(Ws, {
+            header: r().createElement(Cs, { animation: t }),
+            footer: r().createElement(Ys, { animation: t }),
+            items: Xs,
             layout: e,
             renderItem: () => r().createElement(n, { animation: t }),
             shouldShowEmptyLibraryCard: !1,
             renderFilterSidePanel: a
               ? null
-              : r().createElement(ec, { animation: t }),
+              : r().createElement(Qi, { animation: t }),
           });
         };
-      var td = a(71767);
-      const ad = () => {};
-      var nd = a(47250),
-        rd = a(91156),
-        ld = a(99600),
-        od = a(82355),
-        id = a(26582),
-        cd = a(99389);
-      const sd = (0, b.iv)({
+      var ed = a(8825);
+      const td = () => {};
+      var ad = a(83161),
+        nd = a(78317),
+        rd = a(83231),
+        ld = a(6009),
+        od = a(20147),
+        id = a(22850);
+      const cd = (0, b.iv)({
           verticalAlign: "top",
           "& span": {
             textTransform: "none",
@@ -5686,38 +5685,38 @@
             [fe.Uc.maxWidth]: { fontSize: 12, lineHeight: "15px" },
           },
         }),
-        dd = ({ children: e }) =>
+        sd = ({ children: e }) =>
           r().createElement(
             "span",
-            { className: sd, "data-testid": "AchievementStatusText" },
+            { className: cd, "data-testid": "AchievementStatusText" },
             r().createElement(B.Z, { textLevel: F.N.SECONDARY }, e),
           );
-      var ud = a(77574),
-        md = a(11629),
-        pd = Object.defineProperty,
-        bd = Object.getOwnPropertySymbols,
-        gd = Object.prototype.hasOwnProperty,
-        vd = Object.prototype.propertyIsEnumerable,
-        Ed = (e, t, a) =>
+      var dd = a(72668),
+        ud = a(87869),
+        md = Object.defineProperty,
+        pd = Object.getOwnPropertySymbols,
+        bd = Object.prototype.hasOwnProperty,
+        gd = Object.prototype.propertyIsEnumerable,
+        vd = (e, t, a) =>
           t in e
-            ? pd(e, t, {
+            ? md(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        yd = (e, t) => {
-          for (var a in t || (t = {})) gd.call(t, a) && Ed(e, a, t[a]);
-          if (bd) for (var a of bd(t)) vd.call(t, a) && Ed(e, a, t[a]);
+        Ed = (e, t) => {
+          for (var a in t || (t = {})) bd.call(t, a) && vd(e, a, t[a]);
+          if (pd) for (var a of pd(t)) gd.call(t, a) && vd(e, a, t[a]);
           return e;
         };
-      const fd = (0, m.i)(() => ({
+      const yd = (0, m.i)(() => ({
           status: (0, b.iv)({ display: "flex", alignItems: "center" }),
-          icon: (0, b.iv)(yd({}, (0, re.wz)(4))),
+          icon: (0, b.iv)(Ed({}, (0, re.wz)(4))),
         })),
-        hd = ({ totalValue: e, progressionValue: t, platinumEarned: a }) => {
-          const r = fd();
+        fd = ({ totalValue: e, progressionValue: t, platinumEarned: a }) => {
+          const r = yd();
           return n.createElement(
             "div",
             { className: r.status, "data-testid": "AchievementsStatus" },
@@ -5725,13 +5724,13 @@
               n.createElement(
                 "div",
                 { className: r.icon },
-                n.createElement(ud.Z, {
-                  icon: md.kf.PLATINUM_TROPHY,
-                  size: md.J7.XXXSMALL,
+                n.createElement(dd.Z, {
+                  icon: ud.kf.PLATINUM_TROPHY,
+                  size: ud.J7.XXXSMALL,
                 }),
               ),
             n.createElement(
-              dd,
+              sd,
               null,
               n.createElement(Zo.v0, {
                 code: "egstore.achievements.achievements",
@@ -5740,26 +5739,26 @@
             ),
           );
         };
-      var Od = a(88023),
-        Cd = a(93734),
-        Id = a(90176),
-        wd = a(54009);
-      var xd = a(12398);
-      const Pd = (e, t) => {
+      var hd = a(62245),
+        Od = a(55132),
+        Cd = a(68356),
+        Id = a(45145);
+      var wd = a(4798);
+      const xd = (e, t) => {
         const { achievementsLinkTo: a } = (({ sandboxId: e }, t) => ({
-          achievementsLinkTo: (0, wd.Z)({ sandboxId: e }, t),
+          achievementsLinkTo: (0, Id.Z)({ sandboxId: e }, t),
         }))({ sandboxId: e }, t);
-        return { achievementsLinkTo: a, gotoAchievements: (0, xd.X)(a) };
+        return { achievementsLinkTo: a, gotoAchievements: (0, wd.X)(a) };
       };
-      var Sd = a(45537);
-      const kd = (e) =>
+      var Sd = a(84498);
+      const Pd = (e) =>
           Sd.Z.trackEvent({
-            eventCategory: ic.ro.EGS_USER_INTERACTION,
-            interactionType: ic.B8.CLICK,
-            eventAction: ic.DI.EGS_ACHIEVEMENTS_LIBRARY_CLICK,
+            eventCategory: oc.ro.EGS_USER_INTERACTION,
+            interactionType: oc.B8.CLICK,
+            eventAction: oc.DI.EGS_ACHIEVEMENTS_LIBRARY_CLICK,
             eventValue: e,
           }),
-        Nd = (0, m.i)(() => ({
+        kd = (0, m.i)(() => ({
           button: (0, b.iv)({
             display: "flex",
             alignItems: "center",
@@ -5780,16 +5779,16 @@
             [p.Uc.xxl]: { width: 100 },
           }),
         })),
-        Ld = ({ percent: e, tooltipText: t }) => {
-          const a = Nd(),
+        Nd = ({ percent: e, tooltipText: t }) => {
+          const a = kd(),
             n = r().useRef(null),
-            { namespace: l } = (0, Od.wK)(),
+            { namespace: l } = (0, hd.wK)(),
             o = (0, qe.useDispatch)(),
-            { gotoAchievements: i, achievementsLinkTo: c } = Pd(l, {
+            { gotoAchievements: i, achievementsLinkTo: c } = xd(l, {
               suspense: !1,
             }),
             s = r().useCallback(() => {
-              o(kd(c)), i();
+              o(Pd(c)), i();
             }, [i, c, o]);
           return r().createElement(
             r().Fragment,
@@ -5800,56 +5799,56 @@
               r().createElement(
                 "div",
                 { className: a.progress },
-                r().createElement(Id.E, {
+                r().createElement(Cd.E, {
                   percent: e,
-                  variant: Id.M.GREYSCALE,
+                  variant: Cd.M.GREYSCALE,
                 }),
               ),
             ),
             r().createElement(nt.u, { anchorRef: n, delay: 500 }, t),
           );
         };
-      var jd = Object.defineProperty,
-        Md = Object.defineProperties,
-        Ad = Object.getOwnPropertyDescriptors,
-        Td = Object.getOwnPropertySymbols,
-        _d = Object.prototype.hasOwnProperty,
-        Dd = Object.prototype.propertyIsEnumerable,
-        Rd = (e, t, a) =>
+      var Ld = Object.defineProperty,
+        jd = Object.defineProperties,
+        Md = Object.getOwnPropertyDescriptors,
+        Ad = Object.getOwnPropertySymbols,
+        Td = Object.prototype.hasOwnProperty,
+        _d = Object.prototype.propertyIsEnumerable,
+        Dd = (e, t, a) =>
           t in e
-            ? jd(e, t, {
+            ? Ld(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Bd = (e, t) => {
-          for (var a in t || (t = {})) _d.call(t, a) && Rd(e, a, t[a]);
-          if (Td) for (var a of Td(t)) Dd.call(t, a) && Rd(e, a, t[a]);
+        Rd = (e, t) => {
+          for (var a in t || (t = {})) Td.call(t, a) && Dd(e, a, t[a]);
+          if (Ad) for (var a of Ad(t)) _d.call(t, a) && Dd(e, a, t[a]);
           return e;
         };
-      const Zd = ({ isGridView: e }) => {
-          const t = (0, qe.useSelector)(ld.gB),
-            { namespace: a, catalogItemId: r, appName: l } = (0, Od.wK)(),
-            o = (0, Cd.K)(a, r, l),
-            c = (0, qe.useSelector)(rd.vR) || "",
+      const Bd = ({ isGridView: e }) => {
+          const t = (0, qe.useSelector)(rd.gB),
+            { namespace: a, catalogItemId: r, appName: l } = (0, hd.wK)(),
+            o = (0, Od.K)(a, r, l),
+            c = (0, qe.useSelector)(nd.vR) || "",
             s = (0, i.c)(),
             d =
               (null == o ? void 0 : o.catalogItem) &&
               !(0, Bt.kV)(o.catalogItem.categories) &&
               !(0, Bt.Bv)(o.catalogItem.categories) &&
               !(0, Bt.ZT)(o.catalogItem.categories),
-            { data: u } = (0, id.y)(
+            { data: u } = (0, od.y)(
               { epicAccountId: c, sandboxId: a },
               { enabled: s },
             ),
-            { productAchievements: m } = (0, od.R)(
+            { productAchievements: m } = (0, ld.R)(
               { sandboxId: a },
               { enabled: Boolean(s && a) },
             ),
             p = u
-              ? ((b = Bd({}, u)), Md(b, Ad({ totalXP: 0 })))
+              ? ((b = Rd({}, u)), jd(b, Md({ totalXP: 0 })))
               : {
                   achievementSets: [],
                   totalXP: 0,
@@ -5869,28 +5868,28 @@
               platinum: v,
               totalAchievements: E,
               totalUnlocked: y,
-            } = (0, cd.XA)(g, p, t),
+            } = (0, id.XA)(g, p, t),
             f = n.useMemo(() => (E > 0 ? y / E : 0), [y, E]);
           return d && E > 0
             ? e
-              ? n.createElement(hd, {
+              ? n.createElement(fd, {
                   totalValue: E,
                   progressionValue: y,
                   platinumEarned: v,
                 })
-              : n.createElement(Ld, { percent: f, tooltipText: `${y}/${E}` })
+              : n.createElement(Nd, { percent: f, tooltipText: `${y}/${E}` })
             : null;
         },
-        Fd = (e) =>
+        Zd = (e) =>
           n.createElement(
             Ye.n4,
             { fallback: null },
-            n.createElement(Zd, Bd({}, e)),
+            n.createElement(Bd, Rd({}, e)),
           );
-      var Ud = a(18023),
-        Wd = a(35054),
-        Kd = a(83482);
-      const zd = () => {
+      var Fd = a(73142),
+        Ud = a(43077),
+        Wd = a(92964);
+      const Kd = () => {
           const e = (0, qe.useDispatch)();
           return (0, n.useCallback)(
             (t, a) => {
@@ -5899,7 +5898,7 @@
             [e],
           );
         },
-        Vd = ({ disabled: e, onClick: t }) =>
+        zd = ({ disabled: e, onClick: t }) =>
           r().createElement(br.c, {
             horizontal: !0,
             title: r().createElement(te.Z, {
@@ -5908,24 +5907,24 @@
             onClick: t,
             disabled: e,
           }),
-        Hd = () => {
-          const e = (0, Od.wK)(),
+        Vd = () => {
+          const e = (0, hd.wK)(),
             { namespace: t, catalogItemId: a, appName: n } = e,
             { setActiveMenu: l } = (0, pr.U)(),
             o = (0, i.c)({ suspense: !1 }),
             c = zr({ suspense: !1 }),
-            s = (0, Cd.K)(t, a, n),
-            d = zd(),
+            s = (0, Od.K)(t, a, n),
+            d = Kd(),
             u = r().useCallback(() => {
               c && s && d(c, s), l(void 0);
             }, [d, c, s, l]);
-          return r().createElement(Vd, { onClick: u, disabled: !o });
+          return r().createElement(zd, { onClick: u, disabled: !o });
         },
-        $d = (e) => {
+        Hd = (e) => {
           const t = Object.values(e);
           return !!t.length && t.every(Boolean);
         },
-        Gd = (e, t) => {
+        $d = (e, t) => {
           const { collections: a = [] } = Fe(t),
             r = (0, qe.useSelector)(Me.$4),
             l = (0, yt.o)(),
@@ -5951,19 +5950,19 @@
                 }, {}),
               [e, a, r],
             ),
-            i = (0, n.useMemo)(() => $d(o), [o]),
-            c = (0, n.useMemo)(() => $d((0, v.Z)([l], o)), [l, o]);
+            i = (0, n.useMemo)(() => Hd(o), [o]),
+            c = (0, n.useMemo)(() => Hd((0, v.Z)([l], o)), [l, o]);
           return {
             foundInCollectionMap: o,
             isInAllCollections: i,
             isInAllCollectionsIgnoreFavorites: c,
           };
         },
-        qd = (e, t, a) => {
-          const { foundInCollectionMap: r } = Gd(t, a);
+        Gd = (e, t, a) => {
+          const { foundInCollectionMap: r } = $d(t, a);
           return (0, n.useMemo)(() => Boolean(e && r[e]), [r, e]);
         },
-        Yd = (0, io.L)(
+        qd = (0, io.L)(
           n.createElement("path", {
             fillRule: "evenodd",
             clipRule: "evenodd",
@@ -5971,64 +5970,64 @@
           }),
           "Check",
         );
-      var Jd = Object.defineProperty,
-        Xd = Object.defineProperties,
-        Qd = Object.getOwnPropertyDescriptors,
-        eu = Object.getOwnPropertySymbols,
-        tu = Object.prototype.hasOwnProperty,
-        au = Object.prototype.propertyIsEnumerable,
-        nu = (e, t, a) =>
+      var Yd = Object.defineProperty,
+        Jd = Object.defineProperties,
+        Xd = Object.getOwnPropertyDescriptors,
+        Qd = Object.getOwnPropertySymbols,
+        eu = Object.prototype.hasOwnProperty,
+        tu = Object.prototype.propertyIsEnumerable,
+        au = (e, t, a) =>
           t in e
-            ? Jd(e, t, {
+            ? Yd(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const ru = (0, m.i)((e) => ({
+      const nu = (0, m.i)((e) => ({
           icon: (0, b.iv)({ color: e.textSecondary, fontSize: 24 }),
         })),
-        lu = (e) => {
+        ru = (e) => {
           var t,
             a = e,
             { collectionName: n } = a,
             l = ((e, t) => {
               var a = {};
               for (var n in e)
-                tu.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && eu)
-                for (var n of eu(e))
-                  t.indexOf(n) < 0 && au.call(e, n) && (a[n] = e[n]);
+                eu.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Qd)
+                for (var n of Qd(e))
+                  t.indexOf(n) < 0 && tu.call(e, n) && (a[n] = e[n]);
               return a;
             })(a, ["collectionName"]);
           return r().createElement(
             br.c,
             ((t = ((e, t) => {
-              for (var a in t || (t = {})) tu.call(t, a) && nu(e, a, t[a]);
-              if (eu) for (var a of eu(t)) au.call(t, a) && nu(e, a, t[a]);
+              for (var a in t || (t = {})) eu.call(t, a) && au(e, a, t[a]);
+              if (Qd) for (var a of Qd(t)) tu.call(t, a) && au(e, a, t[a]);
               return e;
             })({}, l)),
-            Xd(
+            Jd(
               t,
-              Qd({ horizontal: !0, title: r().createElement("span", null, n) }),
+              Xd({ horizontal: !0, title: r().createElement("span", null, n) }),
             )),
           );
         },
-        ou = ({ collectionId: e }) => {
-          const t = ru(),
-            a = (0, Od.wK)(),
+        lu = ({ collectionId: e }) => {
+          const t = nu(),
+            a = (0, hd.wK)(),
             { namespace: n, catalogItemId: l, appName: o } = a,
             { setActiveMenu: c } = (0, pr.U)(),
             s = (0, i.c)({ suspense: !1 }),
             d = Ge(e, { suspense: !1 }),
-            u = (0, Cd.K)(n, l, o),
-            m = zd(),
-            p = qd(e, a, { suspense: !1 }),
+            u = (0, Od.K)(n, l, o),
+            m = Kd(),
+            p = Gd(e, a, { suspense: !1 }),
             b = r().useCallback(() => {
               d && u && m(d, u), c(void 0);
             }, [m, d, u, c]);
-          return r().createElement(lu, {
+          return r().createElement(ru, {
             collectionName: (null == d ? void 0 : d.name) || "",
             onClick: () => b(),
             disabled: !s || p,
@@ -6036,30 +6035,30 @@
               ? r().createElement(
                   "span",
                   { className: t.icon },
-                  r().createElement(Yd, null),
+                  r().createElement(qd, null),
                 )
               : void 0,
           });
         };
-      var iu = Object.defineProperty,
-        cu = Object.getOwnPropertySymbols,
-        su = Object.prototype.hasOwnProperty,
-        du = Object.prototype.propertyIsEnumerable,
-        uu = (e, t, a) =>
+      var ou = Object.defineProperty,
+        iu = Object.getOwnPropertySymbols,
+        cu = Object.prototype.hasOwnProperty,
+        su = Object.prototype.propertyIsEnumerable,
+        du = (e, t, a) =>
           t in e
-            ? iu(e, t, {
+            ? ou(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const mu = (e) =>
+      const uu = (e) =>
           r().createElement(
             br.c,
             ((e, t) => {
-              for (var a in t || (t = {})) su.call(t, a) && uu(e, a, t[a]);
-              if (cu) for (var a of cu(t)) du.call(t, a) && uu(e, a, t[a]);
+              for (var a in t || (t = {})) cu.call(t, a) && du(e, a, t[a]);
+              if (iu) for (var a of iu(t)) su.call(t, a) && du(e, a, t[a]);
               return e;
             })(
               {
@@ -6071,46 +6070,46 @@
               e,
             ),
           ),
-        pu = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        mu = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             n = (0, i.c)({ suspense: !1 }),
             { setActiveMenu: l } = (0, pr.U)(),
             { openModal: o } = Je(),
             c = (0, qe.useDispatch)(),
-            s = (0, Cd.K)(e, t, a),
+            s = (0, Od.K)(e, t, a),
             d = gt(),
             u = r().useCallback(() => {
               s && c((0, Me.bo)(s)), o(), l(void 0);
             }, [o, l, s]);
-          return r().createElement(mu, { onClick: u, disabled: !n || !d });
+          return r().createElement(uu, { onClick: u, disabled: !n || !d });
         },
-        bu = (0, m.i)(() => ({
+        pu = (0, m.i)(() => ({
           root: (0, b.iv)({ width: "max-content", minWidth: 280 }),
         })),
-        gu = () => {
-          const e = (0, Od.wK)(),
-            t = bu(),
+        bu = () => {
+          const e = (0, hd.wK)(),
+            t = pu(),
             a = Vr({ suspense: !1 }),
             l = (0, n.useMemo)(() => (null == a ? void 0 : a.length) > 0, [a]),
-            { isInAllCollectionsIgnoreFavorites: o } = Gd(e, { suspense: !1 }),
+            { isInAllCollectionsIgnoreFavorites: o } = $d(e, { suspense: !1 }),
             i = l && !o;
           return r().createElement(
             "div",
             { className: t.root },
             r().createElement(
-              Pr.v,
+              Sr.v,
               { dense: !0, noBorder: !0 },
               l &&
                 a.map(({ collectionId: e }) =>
-                  r().createElement(ou, { key: e, collectionId: e }),
+                  r().createElement(lu, { key: e, collectionId: e }),
                 ),
               i && r().createElement(mo, null),
-              r().createElement(pu, null),
+              r().createElement(mu, null),
             ),
           );
         },
-        vu = ({ subMenu: e, disabled: t }) =>
-          r().createElement(Po, {
+        gu = ({ subMenu: e, disabled: t }) =>
+          r().createElement(So, {
             horizontal: !0,
             title: r().createElement(te.Z, {
               code: "diesel.library.settings.add_to_collection",
@@ -6118,32 +6117,32 @@
             subMenu: e,
             disabled: t,
           }),
-        Eu = () => {
-          const e = (0, Od.wK)(),
+        vu = () => {
+          const e = (0, hd.wK)(),
             t = (0, i.c)({ suspense: !1 }),
             a = gt(),
-            { isInAllCollectionsIgnoreFavorites: n } = Gd(e, { suspense: !1 }),
+            { isInAllCollectionsIgnoreFavorites: n } = $d(e, { suspense: !1 }),
             l = !t || (n && !a);
-          return r().createElement(vu, {
-            subMenu: r().createElement(gu, null),
+          return r().createElement(gu, {
+            subMenu: r().createElement(bu, null),
             disabled: l,
           });
         };
-      var yu = a(13581);
-      const fu = (e = "", t = "", a = "") => {
-          const { installState: r } = (0, Wd.e)(e, t, a);
+      var Eu = a(74905);
+      const yu = (e = "", t = "", a = "") => {
+          const { installState: r } = (0, Ud.e)(e, t, a);
           return (0, n.useMemo)(
             () =>
               ((e) =>
-                (0, Kd.Pb)(e) &&
-                !(0, Kd.fm)(e) &&
-                !(0, Kd.B1)(e) &&
-                !(0, Kd.yK)(e) &&
+                (0, Wd.Pb)(e) &&
+                !(0, Wd.fm)(e) &&
+                !(0, Wd.B1)(e) &&
+                !(0, Wd.yK)(e) &&
                 (null == e ? void 0 : e.updatestatus) !== Dt.uB.PleaseWait)(r),
             [r],
           );
         },
-        hu = ({ disabled: e, isUninstalling: t, onClick: a }) =>
+        fu = ({ disabled: e, isUninstalling: t, onClick: a }) =>
           n.createElement(br.c, {
             disabled: e,
             onClick: a,
@@ -6155,46 +6154,46 @@
                   code: "diesel.library.settings.cancel_install",
                 }),
           }),
-        Ou = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        hu = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            { installState: l } = (0, Wd.e)(e, t, a),
-            o = (0, yu.m)(),
-            i = fu(e, t, a),
-            c = n.useMemo(() => (0, Kd.Pb)(l), [l]),
-            s = (0, Kd.QE)(l),
+            { installState: l } = (0, Ud.e)(e, t, a),
+            o = (0, Eu.m)(),
+            i = yu(e, t, a),
+            c = n.useMemo(() => (0, Wd.Pb)(l), [l]),
+            s = (0, Wd.QE)(l),
             d = n.useCallback(() => {
               o({ namespace: e, catalogId: t, appName: a }), r(void 0);
             }, [o, e, t, a, r]);
           return c
-            ? n.createElement(hu, {
+            ? n.createElement(fu, {
                 disabled: !i,
                 onClick: d,
                 isUninstalling: s,
               })
             : null;
         };
-      var Cu = a(94932);
-      const Iu = (0, Cu.u)("cancelWaitingRoom"),
-        wu = ({ onClick: e }) =>
+      var Ou = a(62098);
+      const Cu = (0, Ou.u)("cancelWaitingRoom"),
+        Iu = ({ onClick: e }) =>
           n.createElement(br.c, {
             onClick: e,
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.cancel_waiting_room",
             }),
           }),
-        xu = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        wu = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            { installState: l } = (0, Wd.e)(e, t, a),
-            o = Iu(),
-            i = n.useMemo(() => (0, Kd.aV)(l) && (0, Kd.yK)(l), [l]),
+            { installState: l } = (0, Ud.e)(e, t, a),
+            o = Cu(),
+            i = n.useMemo(() => (0, Wd.aV)(l) && (0, Wd.yK)(l), [l]),
             c = n.useCallback(() => {
               o({ namespace: e, catalogId: t, appName: a }), r(void 0);
             }, [o, e, t, a, r]);
-          return i ? n.createElement(wu, { onClick: c }) : null;
+          return i ? n.createElement(Iu, { onClick: c }) : null;
         };
-      var Pu = a(76317);
+      var xu = a(96038);
       const Su = ({ onClick: e, disabled: t }) =>
           n.createElement(br.c, {
             onClick: e,
@@ -6203,10 +6202,10 @@
               code: "diesel.library.settings.explore_addons",
             }),
           }),
-        ku = () => {
-          const { namespace: e } = (0, Od.wK)(),
+        Pu = () => {
+          const { namespace: e } = (0, hd.wK)(),
             { setActiveMenu: t } = (0, pr.U)(),
-            { gotoAllAddons: a, allAddonsLinkTo: r } = (0, Pu.R)(e, {
+            { gotoAllAddons: a, allAddonsLinkTo: r } = (0, xu.R)(e, {
               suspense: !1,
             }),
             l = n.useCallback(() => {
@@ -6214,10 +6213,10 @@
             }, [t, a]);
           return n.createElement(Su, { onClick: l, disabled: !r });
         };
-      var Nu = a(57221),
-        Lu = a(86422);
-      var ju = a(50083);
-      const Mu = ({ onClick: e, disabled: t }) =>
+      var ku = a(70055),
+        Nu = a(47179);
+      var Lu = a(50919);
+      const ju = ({ onClick: e, disabled: t }) =>
           n.createElement(br.c, {
             onClick: e,
             disabled: t,
@@ -6225,92 +6224,25 @@
               code: "diesel.library.settings.explore_mods",
             }),
           }),
-        Au = () => {
-          const { namespace: e } = (0, Od.wK)(),
+        Mu = () => {
+          const { namespace: e } = (0, hd.wK)(),
             { setActiveMenu: t } = (0, pr.U)(),
-            { gotoAllMods: a, allModsLinkTo: r } = (0, ju.M)(e, {
+            { gotoAllMods: a, allModsLinkTo: r } = (0, Lu.M)(e, {
               suspense: !1,
             }),
             l = n.useCallback(() => {
               t(void 0), a();
             }, [t, a]);
-          return n.createElement(Mu, { onClick: l, disabled: !r });
+          return n.createElement(ju, { onClick: l, disabled: !r });
         };
-      var Tu = a(2999);
-      const _u = ji()`
-    query getIsModMarketEnabledForProducts($productIds: [String]!) {
-  Mod {
-    isModMarketEnabledForProducts(productIds: $productIds) {
-      value
-    }
-  }
-}
-    `;
-      var Du = a(87353),
-        Ru = Object.defineProperty,
-        Bu = Object.defineProperties,
-        Zu = Object.getOwnPropertyDescriptors,
-        Fu = Object.getOwnPropertySymbols,
-        Uu = Object.prototype.hasOwnProperty,
-        Wu = Object.prototype.propertyIsEnumerable,
-        Ku = (e, t, a) =>
-          t in e
-            ? Ru(e, t, {
-                enumerable: !0,
-                configurable: !0,
-                writable: !0,
-                value: a,
-              })
-            : (e[t] = a),
-        zu = (e, t) => {
-          for (var a in t || (t = {})) Uu.call(t, a) && Ku(e, a, t[a]);
-          if (Fu) for (var a of Fu(t)) Wu.call(t, a) && Ku(e, a, t[a]);
-          return e;
-        };
-      const Vu = (e) => {
-          var t;
-          const a =
-            (null == (t = null == e ? void 0 : e.Mod)
-              ? void 0
-              : t.isModMarketEnabledForProducts) || [];
-          return !(!a.length || !a[0]) && a[0].value;
-        },
-        Hu = ({ productId: e = "" }, t) => {
-          const a = (0, Du.qM)({
-              query: _u,
-              reducer: Vu,
-              variables: { productIds: [e] },
-              queryKeyFn: () => Tu.I.isModMarketEnabled(e),
-              config:
-                ((r = zu({}, t)),
-                (l = {
-                  enabled:
-                    Boolean(e) && !1 !== (null == t ? void 0 : t.enabled),
-                }),
-                Bu(r, Zu(l))),
-            }),
-            { data: n } = a;
-          var r, l;
-          return {
-            isModMarketEnabledForProduct: n,
-            query: ((e, t) => {
-              var a = {};
-              for (var n in e)
-                Uu.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && Fu)
-                for (var n of Fu(e))
-                  t.indexOf(n) < 0 && Wu.call(e, n) && (a[n] = e[n]);
-              return a;
-            })(a, ["data"]),
-          };
-        };
-      var $u = a(29240);
-      const Gu = (e, t, a, r, l) => {
-        const { isModMarketEnabledForProduct: o = !1 } = Hu(
-            { productId: r },
+      var Au = a(9765),
+        Tu = a(8474);
+      const _u = (e, t, a, r, l) => {
+        const { isModsEnabled: o = !1 } = (0, Tu.Z)(
+            { productId: r, store: "EGS" },
             l,
           ),
-          i = (0, $u.c)(e, t, a);
+          i = (0, Au.c)(e, t, a);
         return (0, n.useMemo)(
           () =>
             ((e, t) => !(!e || !(0, Bt.CR)(null == t ? void 0 : t.categories)))(
@@ -6320,23 +6252,23 @@
           [i, o],
         );
       };
-      var qu = a(67521),
-        Yu = a(10247),
-        Ju = a(67126),
-        Xu = a(51025),
-        Qu = a(43221),
-        em = a(18497),
-        tm = a(58727),
-        am = a(69281),
-        nm = a(65932),
-        rm = a(4520);
-      const lm = /^extraLaunchOption_.*_Name$/,
-        om = (e, t) => {
+      var Du = a(45382),
+        Ru = a(10247),
+        Bu = a(67126),
+        Zu = a(51025),
+        Fu = a(43221),
+        Uu = a(18497),
+        Wu = a(58727),
+        Ku = a(51794),
+        zu = a(15839),
+        Vu = a(99282);
+      const Hu = /^extraLaunchOption_.*_Name$/,
+        $u = (e, t) => {
           const a = (e && e.key) || "",
             n = (t && t.key) || "";
           return a.localeCompare(n);
         },
-        im = (e, t) =>
+        Gu = (e, t) =>
           e
             .reduce((e, a) => {
               const { customAttributes: n } = a.catalogItem || {};
@@ -6344,30 +6276,30 @@
                 n &&
                   n.forEach((r) => {
                     const { key: l, value: o } = r;
-                    if (lm.test(l) && o) {
+                    if (Hu.test(l) && o) {
                       const [r] = l.split(
-                        am.eL.EXTRA_LAUNCH_OPTION_NAME_SUFFIX,
+                        Ku.eL.EXTRA_LAUNCH_OPTION_NAME_SUFFIX,
                       );
                       ((e) => {
                         const { customAttributes: t, key: a, platform: n } = e,
-                          r = `${a}${am.eL.EXTRA_LAUNCH_OPTION_PLATFORM_RESTRICTION_SUFFIX}`,
-                          l = `${a}${am.eL.EXTRA_LAUNCH_OPTION_ARGS_SUFFIX}`,
-                          o = (0, nm.P)(r, t),
+                          r = `${a}${Ku.eL.EXTRA_LAUNCH_OPTION_PLATFORM_RESTRICTION_SUFFIX}`,
+                          l = `${a}${Ku.eL.EXTRA_LAUNCH_OPTION_ARGS_SUFFIX}`,
+                          o = (0, zu.P)(r, t),
                           i = o
-                            ? (0, Yu.Z)(
-                                (0, Wt.Z)(Ju.Z, Xu.Z),
-                                (0, Qu.Z)(",", o),
+                            ? (0, Ru.Z)(
+                                (0, Wt.Z)(Bu.Z, Zu.Z),
+                                (0, Fu.Z)(",", o),
                               )
                             : [],
-                          c = !!(0, nm.P)(l, t),
-                          s = !o || (0, em.Z)((0, Xu.Z)(n), i);
+                          c = !!(0, zu.P)(l, t),
+                          s = !o || (0, Uu.Z)((0, Zu.Z)(n), i);
                         return c && s;
                       })({ customAttributes: n, key: r, platform: t }) &&
                         e.push({
                           id: `${a.relationshipId}:${r}`,
                           key: r,
                           name: o,
-                          params: (0, tm.Z)(
+                          params: (0, Wu.Z)(
                             ["namespace", "catalogItemId", "appName"],
                             a,
                           ),
@@ -6377,42 +6309,42 @@
                 e
               );
             }, [])
-            .sort(om);
-      var cm = a(42641),
-        sm = a(94540);
-      const dm = (e, t, a) => {
-        const r = (0, $u.c)(e, t, a);
+            .sort($u);
+      var qu = a(8543),
+        Yu = a(50801);
+      const Ju = (e, t, a) => {
+        const r = (0, Au.c)(e, t, a);
         return (0, n.useMemo)(
-          () => (0, sm.K)(null == r ? void 0 : r.customAttributes),
+          () => (0, Yu.K)(null == r ? void 0 : r.customAttributes),
           [null == r ? void 0 : r.customAttributes],
         );
       };
-      var um = a(28422),
-        mm = a(91997),
-        pm = a(58979),
-        bm = a(22070),
-        gm = Object.defineProperty,
-        vm = Object.defineProperties,
-        Em = Object.getOwnPropertyDescriptors,
-        ym = Object.getOwnPropertySymbols,
-        fm = Object.prototype.hasOwnProperty,
-        hm = Object.prototype.propertyIsEnumerable,
-        Om = (e, t, a) =>
+      var Xu = a(30332),
+        Qu = a(61318),
+        em = a(46514),
+        tm = a(97748),
+        am = Object.defineProperty,
+        nm = Object.defineProperties,
+        rm = Object.getOwnPropertyDescriptors,
+        lm = Object.getOwnPropertySymbols,
+        om = Object.prototype.hasOwnProperty,
+        im = Object.prototype.propertyIsEnumerable,
+        cm = (e, t, a) =>
           t in e
-            ? gm(e, t, {
+            ? am(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Cm = (e = [], t) => {
-        const a = (0, bm.D)(e.map((e) => (0, um.b)(mm.M.Ubisoft, e))),
-          r = (0, pm.qb)(
+      const sm = (e = [], t) => {
+        const a = (0, tm.D)(e.map((e) => (0, Xu.b)(Qu.M.Ubisoft, e))),
+          r = (0, em.qb)(
             a,
             ((l = ((e, t) => {
-              for (var a in t || (t = {})) fm.call(t, a) && Om(e, a, t[a]);
-              if (ym) for (var a of ym(t)) hm.call(t, a) && Om(e, a, t[a]);
+              for (var a in t || (t = {})) om.call(t, a) && cm(e, a, t[a]);
+              if (lm) for (var a of lm(t)) im.call(t, a) && cm(e, a, t[a]);
               return e;
             })({}, t)),
             (o = {
@@ -6420,7 +6352,7 @@
                 Boolean(null == a ? void 0 : a.length) &&
                 !1 !== (null == t ? void 0 : t.enabled),
             }),
-            vm(l, Em(o))),
+            nm(l, rm(o))),
           );
         var l, o;
         return (0, n.useMemo)(
@@ -6434,53 +6366,53 @@
           [a, r],
         );
       };
-      var Im = a(43935),
-        wm = a(57459);
-      const xm = (e = "", t = "", a = "") => {
-        const n = (0, Cd.K)(e, t, a);
+      var dm = a(92277),
+        um = a(71573);
+      const mm = (e = "", t = "", a = "") => {
+        const n = (0, Od.K)(e, t, a);
         return Boolean(null == n ? void 0 : n.owned);
       };
-      var Pm = a(14953),
-        Sm = a(9196);
-      const km = (e = "", t = "", a = "") => {
-        const { installState: r } = (0, Wd.e)(e, t, a),
-          l = xm(e, t, a);
+      var pm = a(98197),
+        bm = a(82904);
+      const gm = (e = "", t = "", a = "") => {
+        const { installState: r } = (0, Ud.e)(e, t, a),
+          l = mm(e, t, a);
         return (0, n.useMemo)(
-          () => ((e, t = !1) => !!e && (0, Kd.Gd)(e) && !t)(r, l),
+          () => ((e, t = !1) => !!e && (0, Wd.Gd)(e) && !t)(r, l),
           [r, l],
         );
       };
-      var Nm = a(31303),
-        Lm = a(36965);
-      const jm = () => {
-          const e = (0, qe.useSelector)(rd.Bc);
-          return (0, n.useMemo)(() => (0, Lm.J)(e), [e]);
+      var vm = a(79334),
+        Em = a(38765);
+      const ym = () => {
+          const e = (0, qe.useSelector)(nd.Bc);
+          return (0, n.useMemo)(() => (0, Em.J)(e), [e]);
         },
-        Mm = (e = "", t = "", a = "") => {
-          const r = (0, Im.M)(e, t, a),
+        fm = (e = "", t = "", a = "") => {
+          const r = (0, dm.M)(e, t, a),
             l = (0, qe.useSelector)(on.LF),
-            o = (0, wm.wO)(e, t, a),
+            o = (0, um.wO)(e, t, a),
             i = ((e = "", t = "", a = "") => {
-              const { installState: r } = (0, Wd.e)(e, t, a),
-                l = xm(e, t, a);
+              const { installState: r } = (0, Ud.e)(e, t, a),
+                l = mm(e, t, a);
               return (0, n.useMemo)(
                 () => !(!r || r.serverstatus !== Dt.J0.Offline || l),
                 [r, l],
               );
             })(e, t, a),
-            c = km(e, t, a),
-            s = (0, Pm.B)(e, t, a),
-            d = xm(e, t, a),
-            u = dm(e, t, a),
-            m = jm(),
+            c = gm(e, t, a),
+            s = (0, pm.B)(e, t, a),
+            d = mm(e, t, a),
+            u = Ju(e, t, a),
+            m = ym(),
             p = ((e, t, a) => {
-              const r = (0, rm.c)(e, t, a, {
+              const r = (0, Vu.c)(e, t, a, {
                   includeMainGameItem: !0,
                   includeHiddenAddons: !0,
                 }),
                 l = (0, n.useMemo)(
                   () =>
-                    (0, bm.D)(
+                    (0, tm.D)(
                       r.map((e) => {
                         var t;
                         return null == (t = e.catalogItem)
@@ -6490,16 +6422,16 @@
                     ),
                   [r],
                 );
-              return Cm(l, {
+              return sm(l, {
                 enabled: Boolean(null == l ? void 0 : l.length),
                 suspense: !1,
               });
             })(e, t, a),
-            { installState: b } = (0, Wd.e)(e, t, a),
-            g = (0, Sm.a)(e, t, a);
+            { installState: b } = (0, Ud.e)(e, t, a),
+            g = (0, bm.a)(e, t, a);
           return (0, n.useMemo)(
             () =>
-              (0, Nm.y)({
+              (0, vm.y)({
                 allowMultipleInstances: r,
                 authMode: l,
                 availableDate: o,
@@ -6516,8 +6448,8 @@
             [r, l, o, i, c, s, u, m, d, p, b, g],
           );
         };
-      var Am = a(53468);
-      const Tm = ({ options: e, onClick: t }) =>
+      var hm = a(93038);
+      const Om = ({ options: e, onClick: t }) =>
           n.createElement(
             n.Fragment,
             null,
@@ -6529,11 +6461,11 @@
               }),
             ),
           ),
-        _m = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        Cm = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
             l = ((e = "", t = "", a = "") => {
-              const [r, ...l] = (0, rm.c)(e, t, a, { includeMainGameItem: !0 }),
+              const [r, ...l] = (0, Vu.c)(e, t, a, { includeMainGameItem: !0 }),
                 o = (0, qe.useSelector)(ln.xp),
                 i = (0, qe.useSelector)(on.ek);
               return (0, n.useMemo)(() => {
@@ -6542,7 +6474,7 @@
                   (null == (e = o.latestValue)
                     ? void 0
                     : e[r.relationshipId]) && r.catalogItem
-                    ? im([r], i)
+                    ? Gu([r], i)
                     : [];
                 let a = [];
                 return (
@@ -6555,13 +6487,13 @@
                           : a[t.relationshipId];
                       return t.catalogItem && n && e.push(t), e;
                     }, [])),
-                  [...t, ...(a.length ? im(a, i) : [])]
+                  [...t, ...(a.length ? Gu(a, i) : [])]
                 );
               }, [o.latestValue, i, r, l]);
             })(e, t, a),
-            o = Mm(e, t, a),
-            i = (0, qu.n)(),
-            { isThirdPartyManaged: c, triggerLaunchToast: s } = (0, cm.K)(
+            o = fm(e, t, a),
+            i = (0, Du.n)(),
+            { isThirdPartyManaged: c, triggerLaunchToast: s } = (0, qu.K)(
               e,
               t,
               a,
@@ -6580,14 +6512,14 @@
               },
               [i, e, t, a, r, c, s],
             );
-          return (o === Am.W.CanLaunch ||
-            o === Am.W.CanLaunchRestricted ||
-            o === Am.W.CanLaunchMultiple) &&
+          return (o === hm.W.CanLaunch ||
+            o === hm.W.CanLaunchRestricted ||
+            o === hm.W.CanLaunchMultiple) &&
             l.length > 0
-            ? n.createElement(Tm, { options: l, onClick: d })
+            ? n.createElement(Om, { options: l, onClick: d })
             : null;
         },
-        Dm = ({ onClick: e, disabled: t }) =>
+        Im = ({ onClick: e, disabled: t }) =>
           n.createElement(br.c, {
             onClick: e,
             disabled: t,
@@ -6595,25 +6527,25 @@
               code: "diesel.library.settings.game_achievements",
             }),
           }),
-        Rm = () => {
-          const { namespace: e } = (0, Od.wK)(),
+        wm = () => {
+          const { namespace: e } = (0, hd.wK)(),
             { setActiveMenu: t } = (0, pr.U)(),
             a = (0, qe.useDispatch)(),
-            { gotoAchievements: r, achievementsLinkTo: l } = Pd(e, {
+            { gotoAchievements: r, achievementsLinkTo: l } = xd(e, {
               suspense: !1,
             }),
             o = n.useCallback(() => {
-              t(void 0), a(kd(l)), r();
+              t(void 0), a(Pd(l)), r();
             }, [r, l, a, t]);
-          return n.createElement(Dm, { onClick: o, disabled: !l });
+          return n.createElement(Im, { onClick: o, disabled: !l });
         };
-      var Bm = a(66755);
-      var Zm = a(97477);
-      const Fm = (e, t) => {
-          const { productHomeLinkTo: a } = (0, Zm.f)({ sandboxId: e }, t);
-          return { productHomeLinkTo: a, gotoProductHome: (0, xd.X)(a) };
+      var xm = a(62374);
+      var Sm = a(12967);
+      const Pm = (e, t) => {
+          const { productHomeLinkTo: a } = (0, Sm.f)({ sandboxId: e }, t);
+          return { productHomeLinkTo: a, gotoProductHome: (0, wd.X)(a) };
         },
-        Um = ({ onClick: e, disabled: t }) =>
+        km = ({ onClick: e, disabled: t }) =>
           n.createElement(br.c, {
             onClick: e,
             disabled: t,
@@ -6621,38 +6553,38 @@
               code: "diesel.library.settings.go_to_store_page",
             }),
           }),
-        Wm = () => {
-          const { namespace: e } = (0, Od.wK)(),
+        Nm = () => {
+          const { namespace: e } = (0, hd.wK)(),
             { setActiveMenu: t } = (0, pr.U)(),
-            { gotoProductHome: a, productHomeLinkTo: r } = Fm(e, {
+            { gotoProductHome: a, productHomeLinkTo: r } = Pm(e, {
               suspense: !1,
             }),
             l = n.useCallback(() => {
               t(void 0), a();
             }, [a, t]);
-          return n.createElement(Um, { onClick: l, disabled: !r });
+          return n.createElement(km, { onClick: l, disabled: !r });
         },
-        Km = (0, Cu.u)("showInstallerOptions"),
-        zm = ({ onClick: e }) =>
+        Lm = (0, Ou.u)("showInstallerOptions"),
+        jm = ({ onClick: e }) =>
           n.createElement(br.c, {
             onClick: e,
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.options",
             }),
           }),
-        Vm = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        Mm = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            { installState: l } = (0, Wd.e)(e, t, a),
-            o = Km(),
+            { installState: l } = (0, Ud.e)(e, t, a),
+            o = Lm(),
             i = n.useCallback(() => {
               o({ namespace: e, catalogId: t, appName: a }), r(void 0);
             }, [o, e, t, a, r]);
-          return n.useMemo(() => (0, Kd.t9)(l), [l])
-            ? n.createElement(zm, { onClick: i })
+          return n.useMemo(() => (0, Wd.t9)(l), [l])
+            ? n.createElement(jm, { onClick: i })
             : null;
         },
-        Hm = (e) => () => {
+        Am = (e) => () => {
           const {
             isOpenById: t,
             openModalById: a,
@@ -6670,7 +6602,7 @@
             [t, a, r, l],
           );
         },
-        $m = ({ title: e, content: t, onCloseClick: a }) =>
+        Tm = ({ title: e, content: t, onCloseClick: a }) =>
           n.createElement(A.P, {
             header: n.createElement(
               _.x,
@@ -6679,47 +6611,47 @@
             ),
             content: t,
           });
-      var Gm = Object.defineProperty,
-        qm = Object.getOwnPropertySymbols,
-        Ym = Object.prototype.hasOwnProperty,
-        Jm = Object.prototype.propertyIsEnumerable,
-        Xm = (e, t, a) =>
+      var _m = Object.defineProperty,
+        Dm = Object.getOwnPropertySymbols,
+        Rm = Object.prototype.hasOwnProperty,
+        Bm = Object.prototype.propertyIsEnumerable,
+        Zm = (e, t, a) =>
           t in e
-            ? Gm(e, t, {
+            ? _m(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Qm = (e, t) => {
-          for (var a in t || (t = {})) Ym.call(t, a) && Xm(e, a, t[a]);
-          if (qm) for (var a of qm(t)) Jm.call(t, a) && Xm(e, a, t[a]);
+        Fm = (e, t) => {
+          for (var a in t || (t = {})) Rm.call(t, a) && Zm(e, a, t[a]);
+          if (Dm) for (var a of Dm(t)) Bm.call(t, a) && Zm(e, a, t[a]);
           return e;
         };
-      const ep = {
-          icon: (0, b.iv)(Qm({ display: "inherit" }, (0, re.wz)(14))),
+      const Um = {
+          icon: (0, b.iv)(Fm({ display: "inherit" }, (0, re.wz)(14))),
         },
-        tp = (e) => {
+        Wm = (e) => {
           var t = e,
             { title: a, subtitle: r, children: l, icon: o } = t,
             i = ((e, t) => {
               var a = {};
               for (var n in e)
-                Ym.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && qm)
-                for (var n of qm(e))
-                  t.indexOf(n) < 0 && Jm.call(e, n) && (a[n] = e[n]);
+                Rm.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Dm)
+                for (var n of Dm(e))
+                  t.indexOf(n) < 0 && Bm.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["title", "subtitle", "children", "icon"]);
           return n.createElement(
             so.s,
-            Qm(
+            Fm(
               {
                 title: n.createElement(
                   d.x,
                   { alignItems: u.Ks.Center },
-                  n.createElement("div", { className: ep.icon }, o),
+                  n.createElement("div", { className: Um.icon }, o),
                   a,
                 ),
                 subtitle: r,
@@ -6729,43 +6661,43 @@
             l && n.createElement(d.x, { justify: u.jf.End }, l),
           );
         };
-      var ap = a(50136),
-        np = Object.defineProperty,
-        rp = Object.defineProperties,
-        lp = Object.getOwnPropertyDescriptors,
-        op = Object.getOwnPropertySymbols,
-        ip = Object.prototype.hasOwnProperty,
-        cp = Object.prototype.propertyIsEnumerable,
-        sp = (e, t, a) =>
+      var Km = a(88810),
+        zm = Object.defineProperty,
+        Vm = Object.defineProperties,
+        Hm = Object.getOwnPropertyDescriptors,
+        $m = Object.getOwnPropertySymbols,
+        Gm = Object.prototype.hasOwnProperty,
+        qm = Object.prototype.propertyIsEnumerable,
+        Ym = (e, t, a) =>
           t in e
-            ? np(e, t, {
+            ? zm(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        dp = (e, t) => {
-          for (var a in t || (t = {})) ip.call(t, a) && sp(e, a, t[a]);
-          if (op) for (var a of op(t)) cp.call(t, a) && sp(e, a, t[a]);
+        Jm = (e, t) => {
+          for (var a in t || (t = {})) Gm.call(t, a) && Ym(e, a, t[a]);
+          if ($m) for (var a of $m(t)) qm.call(t, a) && Ym(e, a, t[a]);
           return e;
         },
-        up = (e, t) => rp(e, lp(t));
-      const mp = {
+        Xm = (e, t) => Vm(e, Hm(t));
+      const Qm = {
           secondaryButton: (0, b.iv)(
-            up(dp({ width: 30, height: 30 }, (0, re.wz)(14)), {
+            Xm(Jm({ width: 30, height: 30 }, (0, re.wz)(14)), {
               "> button": { width: "100%", height: "100%", padding: 0 },
             }),
           ),
         },
-        pp = ({
+        ep = ({
           title: e,
           subtitle: t,
           icon: a,
           secondaryButton: r,
           primaryButton: l,
           footer: o,
-          variant: i = ap.O.TwoColumn,
+          variant: i = Km.O.TwoColumn,
         }) => {
           const c = {
               title: e,
@@ -6781,96 +6713,96 @@
                 d.x,
                 { alignItems: u.Ks.Center },
                 r &&
-                  n.createElement("div", { className: mp.secondaryButton }, r),
+                  n.createElement("div", { className: Qm.secondaryButton }, r),
                 l,
               ),
             );
           return a
-            ? n.createElement(tp, up(dp({ icon: a }, c), { variant: i }), s)
-            : n.createElement(so.s, up(dp({}, c), { variant: i }), s);
+            ? n.createElement(Wm, Xm(Jm({ icon: a }, c), { variant: i }), s)
+            : n.createElement(so.s, Xm(Jm({}, c), { variant: i }), s);
         };
-      var bp = Object.defineProperty,
-        gp = Object.getOwnPropertySymbols,
-        vp = Object.prototype.hasOwnProperty,
-        Ep = Object.prototype.propertyIsEnumerable,
-        yp = (e, t, a) =>
+      var tp = Object.defineProperty,
+        ap = Object.getOwnPropertySymbols,
+        np = Object.prototype.hasOwnProperty,
+        rp = Object.prototype.propertyIsEnumerable,
+        lp = (e, t, a) =>
           t in e
-            ? bp(e, t, {
+            ? tp(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        fp = (e, t) => {
-          for (var a in t || (t = {})) vp.call(t, a) && yp(e, a, t[a]);
-          if (gp) for (var a of gp(t)) Ep.call(t, a) && yp(e, a, t[a]);
+        op = (e, t) => {
+          for (var a in t || (t = {})) np.call(t, a) && lp(e, a, t[a]);
+          if (ap) for (var a of ap(t)) rp.call(t, a) && lp(e, a, t[a]);
           return e;
         };
-      const hp = (e) =>
+      const ip = (e) =>
         n.createElement(ye, {
           hasHeader: !0,
           titleWidth: 200,
           content: n.createElement(
-            Pr.v,
+            Sr.v,
             { noBorder: !0, noShadow: !0, noBackground: !0, spacing: 10 },
-            n.createElement(pp, {
+            n.createElement(ep, {
               title: n.createElement(
                 Ee.Od,
-                fp({ variant: Ee.Jy.Text, width: 80, height: 20 }, e),
+                op({ variant: Ee.Jy.Text, width: 80, height: 20 }, e),
               ),
-              icon: n.createElement(Ee.Od, fp({ width: 20, height: 20 }, e)),
+              icon: n.createElement(Ee.Od, op({ width: 20, height: 20 }, e)),
               primaryButton: n.createElement(
                 Ee.Od,
-                fp({ width: 100, height: 40 }, e),
+                op({ width: 100, height: 40 }, e),
               ),
             }),
-            n.createElement(pp, {
+            n.createElement(ep, {
               title: n.createElement(
                 Ee.Od,
-                fp({ variant: Ee.Jy.Text, width: 180, height: 20 }, e),
+                op({ variant: Ee.Jy.Text, width: 180, height: 20 }, e),
               ),
-              icon: n.createElement(Ee.Od, fp({ width: 20, height: 20 }, e)),
+              icon: n.createElement(Ee.Od, op({ width: 20, height: 20 }, e)),
               primaryButton: n.createElement(
                 Ee.Od,
-                fp({ width: 40, height: 25 }, e),
+                op({ width: 40, height: 25 }, e),
               ),
             }),
-            n.createElement(pp, {
+            n.createElement(ep, {
               title: n.createElement(
                 Ee.Od,
-                fp({ variant: Ee.Jy.Text, width: 90, height: 30 }, e),
+                op({ variant: Ee.Jy.Text, width: 90, height: 30 }, e),
               ),
               subtitle: n.createElement(
                 Ee.Od,
-                fp({ variant: Ee.Jy.Text, width: 200, height: 20 }, e),
+                op({ variant: Ee.Jy.Text, width: 200, height: 20 }, e),
               ),
-              icon: n.createElement(Ee.Od, fp({ width: 20, height: 20 }, e)),
+              icon: n.createElement(Ee.Od, op({ width: 20, height: 20 }, e)),
               secondaryButton: n.createElement(
                 Ee.Od,
-                fp({ variant: Ee.Jy.Circle, width: "100%", height: "100%" }, e),
+                op({ variant: Ee.Jy.Circle, width: "100%", height: "100%" }, e),
               ),
               primaryButton: n.createElement(
                 Ee.Od,
-                fp({ width: 40, height: 25 }, e),
+                op({ width: 40, height: 25 }, e),
               ),
             }),
           ),
         });
-      var Op = a(12742);
-      const Cp = (0, m.i)((e) => ({
+      var cp = a(67541);
+      const sp = (0, m.i)((e) => ({
           button: (0, b.iv)((0, W.Bt)(e), {
             position: "relative",
             padding: "2px",
           }),
           toggle: (0, b.iv)({ pointerEvents: "none" }),
         })),
-        Ip = ({ checked: e, onClick: t, disabled: a, id: r }) => {
-          const l = Cp();
+        dp = ({ checked: e, onClick: t, disabled: a, id: r }) => {
+          const l = sp();
           return n.createElement(
             ft.Z,
             { className: l.button, onClick: t, disabled: a },
-            n.createElement(Op.Z, {
+            n.createElement(cp.Z, {
               className: l.toggle,
               checked: e,
               disabled: a,
@@ -6878,38 +6810,38 @@
             }),
           );
         };
-      var wp = a(52099),
-        xp = a(11750),
-        Pp = a(29023);
-      const Sp = (e = "", t = "", a = "", n = { enabled: !0 }) => {
-        const r = (0, qe.useSelector)(wp.Ip),
-          { data: l, query: o } = (0, Pp.Y)({
+      var up = a(8604),
+        mp = a(25198),
+        pp = a(30941);
+      const bp = (e = "", t = "", a = "", n = { enabled: !0 }) => {
+        const r = (0, qe.useSelector)(up.Ip),
+          { data: l, query: o } = (0, pp.Y)({
             bridge: (0, Dt.ZP)(),
             method: "getAutoUpdate",
             args: [e, t, a],
-            queryKey: xp.L6.settingDetail(e, t, a, xp.nM.AutoUpdate),
+            queryKey: mp.L6.settingDetail(e, t, a, mp.nM.AutoUpdate),
             config: { enabled: r && Boolean(e && t && a) && n.enabled },
           });
         return { autoUpdate: l, query: o };
       };
-      var kp = a(3602);
-      const Np = (0, Ta.uB)("useProductBridgeMutation"),
-        Lp = "setAutoUpdate",
-        jp = (
+      var gp = a(36182);
+      const vp = (0, Ta.uB)("useProductBridgeMutation"),
+        Ep = "setAutoUpdate",
+        yp = (
           e = "",
           t = "",
           a = "",
-          n = ic.Nd.LIBRARY,
+          n = oc.Nd.LIBRARY,
           r = { enabled: !0 },
         ) => {
-          const { autoUpdate: l, query: o } = Sp(e, t, a, r),
+          const { autoUpdate: l, query: o } = bp(e, t, a, r),
             { mutateAsync: i } = (0, Ma.Db)((r) => {
               return (
                 (i = void 0),
                 (c = null),
                 (s = function* () {
                   if (l !== r) {
-                    Np.log(Lp, {
+                    vp.log(Ep, {
                       namespace: e,
                       catalogId: t,
                       appName: a,
@@ -6921,7 +6853,7 @@
                         o.refetch()
                       );
                     } catch (e) {
-                      Np.warn(Lp, "error", { error: e.message }), (0, kp.pN)(e);
+                      vp.warn(Ep, "error", { error: e.message }), (0, gp.pN)(e);
                     }
                   }
                 }),
@@ -6949,7 +6881,7 @@
             });
           return i;
         },
-        Mp = (0, io.L)(
+        fp = (0, io.L)(
           n.createElement(
             "g",
             null,
@@ -6962,7 +6894,7 @@
           ),
           "Retry",
         ),
-        Ap = () =>
+        hp = () =>
           n.createElement(so.s, {
             title: n.createElement(Ee.Od, {
               variant: Ee.Jy.Text,
@@ -6970,29 +6902,29 @@
               height: "100%",
             }),
           }),
-        Tp = ({ disabled: e, checked: t, onClick: a }) =>
-          n.createElement(pp, {
+        Op = ({ disabled: e, checked: t, onClick: a }) =>
+          n.createElement(ep, {
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.autoUpdate",
             }),
-            icon: n.createElement(Mp, null),
-            primaryButton: n.createElement(Ip, {
+            icon: n.createElement(fp, null),
+            primaryButton: n.createElement(dp, {
               checked: t,
               disabled: e,
               onClick: a,
               id: "autoUpdate-toggle",
             }),
           }),
-        _p = () => {
+        Cp = () => {
           const {
             query: e,
             autoUpdateState: t,
             onClick: a,
           } = (() => {
-            const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-              { autoUpdate: r, query: l } = Sp(e, t, a),
+            const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+              { autoUpdate: r, query: l } = bp(e, t, a),
               [o, i] = n.useState(Boolean(r)),
-              c = jp(e, t, a),
+              c = yp(e, t, a),
               s = n.useCallback(() => {
                 i(!r), c(!r);
               }, [c, i, r]);
@@ -7005,42 +6937,42 @@
           })();
           return n.createElement(
             Ye.n4,
-            { fallback: n.createElement(Ap, null) },
-            n.createElement(Tp, {
+            { fallback: n.createElement(hp, null) },
+            n.createElement(Op, {
               disabled: !e.isSuccess,
               checked: t,
               onClick: a,
             }),
           );
         },
-        Dp = (e = "", t = "", a = "", n = { enabled: !0 }) => {
-          const r = (0, qe.useSelector)(wp.Ip),
-            { data: l = !1, query: o } = (0, Pp.Y)({
+        Ip = (e = "", t = "", a = "", n = { enabled: !0 }) => {
+          const r = (0, qe.useSelector)(up.Ip),
+            { data: l = !1, query: o } = (0, pp.Y)({
               bridge: (0, Dt.ZP)(),
               method: "getCloudSave",
               args: [e, t, a],
-              queryKey: xp.L6.settingDetail(e, t, a, xp.nM.CloudSave),
+              queryKey: mp.L6.settingDetail(e, t, a, mp.nM.CloudSave),
               config: { enabled: r && Boolean(e && t && a) && n.enabled },
             });
           return { cloudSave: l, query: o };
         };
-      const Rp = (0, Ta.uB)("useSetProductCloudSave"),
-        Bp = "setCloudSave",
-        Zp = (
+      const wp = (0, Ta.uB)("useSetProductCloudSave"),
+        xp = "setCloudSave",
+        Sp = (
           e = "",
           t = "",
           a = "",
-          n = ic.Nd.LIBRARY,
+          n = oc.Nd.LIBRARY,
           r = { enabled: !0 },
         ) => {
-          const { cloudSave: l, query: o } = Dp(e, t, a, r),
+          const { cloudSave: l, query: o } = Ip(e, t, a, r),
             { mutateAsync: i } = (0, Ma.Db)((r) => {
               return (
                 (i = void 0),
                 (c = null),
                 (s = function* () {
                   if (l === r) return !1;
-                  Rp.log(Bp, {
+                  wp.log(xp, {
                     namespace: e,
                     catalogId: t,
                     appName: a,
@@ -7050,7 +6982,7 @@
                     const l = yield (0, Dt.ZP)().setCloudSave(e, t, a, r, n);
                     return o.refetch(), l;
                   } catch (e) {
-                    Rp.warn(Bp, "error", { error: e.message }), (0, kp.pN)(e);
+                    wp.warn(xp, "error", { error: e.message }), (0, gp.pN)(e);
                   }
                 }),
                 new Promise((e, t) => {
@@ -7077,30 +7009,30 @@
             });
           return i;
         },
-        Fp = (0, Cu.u)("syncCloudSave");
-      var Up = Object.defineProperty,
-        Wp = Object.getOwnPropertySymbols,
-        Kp = Object.prototype.hasOwnProperty,
-        zp = Object.prototype.propertyIsEnumerable,
-        Vp = (e, t, a) =>
+        Pp = (0, Ou.u)("syncCloudSave");
+      var kp = Object.defineProperty,
+        Np = Object.getOwnPropertySymbols,
+        Lp = Object.prototype.hasOwnProperty,
+        jp = Object.prototype.propertyIsEnumerable,
+        Mp = (e, t, a) =>
           t in e
-            ? Up(e, t, {
+            ? kp(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Hp = (e) => {
+      const Ap = (e) => {
           var t = e,
             { icon: a, toolTipCode: r } = t,
             l = ((e, t) => {
               var a = {};
               for (var n in e)
-                Kp.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && Wp)
-                for (var n of Wp(e))
-                  t.indexOf(n) < 0 && zp.call(e, n) && (a[n] = e[n]);
+                Lp.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Np)
+                for (var n of Np(e))
+                  t.indexOf(n) < 0 && jp.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["icon", "toolTipCode"]);
           const o = n.useRef(null);
@@ -7110,8 +7042,8 @@
             n.createElement(
               tt.h,
               ((e, t) => {
-                for (var a in t || (t = {})) Kp.call(t, a) && Vp(e, a, t[a]);
-                if (Wp) for (var a of Wp(t)) zp.call(t, a) && Vp(e, a, t[a]);
+                for (var a in t || (t = {})) Lp.call(t, a) && Mp(e, a, t[a]);
+                if (Np) for (var a of Np(t)) jp.call(t, a) && Mp(e, a, t[a]);
                 return e;
               })(
                 {
@@ -7134,28 +7066,28 @@
               ),
           );
         },
-        $p = (0, io.L)(
+        Tp = (0, io.L)(
           n.createElement("path", {
             d: "M18.784 10.649c-.052 0-.101.005-.152.008C18.084 7.447 15.265 5 11.868 5a6.87 6.87 0 00-6.061 3.608C3.115 8.834 1 11.068 1 13.794c0 2.788 2.214 5.065 4.997 5.2V19h12.787C21.113 19 23 17.13 23 14.825c0-2.306-1.887-4.176-4.216-4.176zM12 17.294l-4.107-4.075h2.665V8.65c0-.38.312-.69.696-.69h1.491c.385 0 .696.31.696.69v4.57h2.666L12 17.294z",
           }),
           "CloudSaved",
         ),
-        Gp = (0, io.L)(
+        _p = (0, io.L)(
           n.createElement("path", {
             d: "M18.0005 3.9978L14.0005 7.9978H17.0005V14.9978C17.0005 16.0978 16.1005 16.9978 15.0005 16.9978C13.9005 16.9978 13.0005 16.0978 13.0005 14.9978V7.9978C13.0005 5.7878 11.2105 3.9978 9.00049 3.9978C6.79049 3.9978 5.00049 5.7878 5.00049 7.9978V14.9978H2.00049L6.00049 18.9978L10.0005 14.9978H7.00049V7.9978C7.00049 6.8978 7.90049 5.9978 9.00049 5.9978C10.1005 5.9978 11.0005 6.8978 11.0005 7.9978V14.9978C11.0005 17.2078 12.7905 18.9978 15.0005 18.9978C17.2105 18.9978 19.0005 17.2078 19.0005 14.9978V7.9978H22.0005L18.0005 3.9978Z",
           }),
           "Sync",
         );
-      var qp = a(63623);
-      const Yp = (0, b.iv)({ pointerEvents: "none" }),
-        Jp = ({
+      var Dp = a(93882);
+      const Rp = (0, b.iv)({ pointerEvents: "none" }),
+        Bp = ({
           onSyncClick: e,
           onToggleClick: t,
           formattedDate: a,
           disabled: n = !1,
           cloudSaveState: l,
         }) =>
-          r().createElement(pp, {
+          r().createElement(ep, {
             title: r().createElement(Zo.v0, {
               code: "egstore.library.manage_products_modal.cloud_save",
             }),
@@ -7163,30 +7095,30 @@
               code: "diesel.library.settings.cloud_sync.desc",
               args: [a],
             }),
-            icon: r().createElement($p, null),
-            secondaryButton: r().createElement(Hp, {
-              icon: r().createElement(Gp, null),
+            icon: r().createElement(Tp, null),
+            secondaryButton: r().createElement(Ap, {
+              icon: r().createElement(_p, null),
               onClick: e,
               toolTipCode: l ? "diesel.library.settings.cloud_sync" : "",
             }),
-            primaryButton: r().createElement(Ip, {
-              className: Yp,
+            primaryButton: r().createElement(dp, {
+              className: Rp,
               checked: l,
               onClick: t,
               disabled: n,
               id: "cloudSave-toggle",
             }),
           }),
-        Xp = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            { installState: n } = (0, Wd.e)(e, t, a),
-            l = Fp(),
-            o = (0, qp.C)(),
-            { cloudSave: i, query: c } = Dp(e, t, a),
-            s = Zp(e, t, a),
+        Zp = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            { installState: n } = (0, Ud.e)(e, t, a),
+            l = Pp(),
+            o = (0, Dp.C)(),
+            { cloudSave: i, query: c } = Ip(e, t, a),
+            s = Sp(e, t, a),
             [d, u] = r().useState(Boolean(i)),
-            { closeModal: m } = mg(),
-            p = r().useMemo(() => (0, Kd.O7)(o, n), [o, n]),
+            { closeModal: m } = Xb(),
+            p = r().useMemo(() => (0, Wd.O7)(o, n), [o, n]),
             b = r().useCallback(() => {
               u(!i), s(!i);
             }, [s, u, i]);
@@ -7196,7 +7128,7 @@
           const g = r().useCallback(() => {
             d && m(), l({ namespace: e, catalogId: t, appName: a });
           }, [d, m, l, e, t, a]);
-          return r().createElement(Jp, {
+          return r().createElement(Bp, {
             onSyncClick: g,
             formattedDate: p,
             onToggleClick: b,
@@ -7204,37 +7136,37 @@
             cloudSaveState: d,
           });
         },
-        Qp = (0, Cu.u)("createShortcut");
-      var eb = Object.defineProperty,
-        tb = Object.getOwnPropertySymbols,
-        ab = Object.prototype.hasOwnProperty,
-        nb = Object.prototype.propertyIsEnumerable,
-        rb = (e, t, a) =>
+        Fp = (0, Ou.u)("createShortcut");
+      var Up = Object.defineProperty,
+        Wp = Object.getOwnPropertySymbols,
+        Kp = Object.prototype.hasOwnProperty,
+        zp = Object.prototype.propertyIsEnumerable,
+        Vp = (e, t, a) =>
           t in e
-            ? eb(e, t, {
+            ? Up(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const lb = (e) => {
+      const Hp = (e) => {
           var t = e,
             { children: a } = t,
             r = ((e, t) => {
               var a = {};
               for (var n in e)
-                ab.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && tb)
-                for (var n of tb(e))
-                  t.indexOf(n) < 0 && nb.call(e, n) && (a[n] = e[n]);
+                Kp.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Wp)
+                for (var n of Wp(e))
+                  t.indexOf(n) < 0 && zp.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["children"]);
           return n.createElement(
             al.f5,
             ((e, t) => {
-              for (var a in t || (t = {})) ab.call(t, a) && rb(e, a, t[a]);
-              if (tb) for (var a of tb(t)) nb.call(t, a) && rb(e, a, t[a]);
+              for (var a in t || (t = {})) Kp.call(t, a) && Vp(e, a, t[a]);
+              if (Wp) for (var a of Wp(t)) zp.call(t, a) && Vp(e, a, t[a]);
               return e;
             })(
               {
@@ -7247,76 +7179,76 @@
             a,
           );
         },
-        ob = (0, io.L)(
+        $p = (0, io.L)(
           n.createElement("path", {
             d: "M18.864 4H4.136c-.9 0-1.636.72-1.636 1.6v9.6c0 .88.736 1.6 1.636 1.6h5.728v1.6H8.227V20h6.546v-1.6h-1.637v-1.6h5.728c.9 0 1.636-.72 1.636-1.6V5.6c0-.88-.736-1.6-1.636-1.6zm0 11.2H4.136V5.6h14.728v9.6z",
           }),
           "ResolutionExtraLarge",
         ),
-        ib = ({ onClick: e }) =>
-          r().createElement(pp, {
+        Gp = ({ onClick: e }) =>
+          r().createElement(ep, {
             title: r().createElement(Zo.v0, {
               code: "egstore.library.manage_products_modal.create_desktop_shortcut",
             }),
-            icon: r().createElement(ob, null),
+            icon: r().createElement($p, null),
             primaryButton: r().createElement(
-              lb,
+              Hp,
               { onClick: e },
               r().createElement(Zo.v0, {
                 code: "egstore.library.manage_products_modal.create",
               }),
             ),
           }),
-        cb = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            { closeModal: n } = mg(),
-            l = Qp(),
+        qp = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            { closeModal: n } = Xb(),
+            l = Fp(),
             o = r().useCallback(() => {
               n(),
                 l({
                   namespace: e,
                   catalogId: t,
                   appName: a,
-                  funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
+                  funnelId: oc.Nd.MANAGE_PRODUCT_MODAL,
                 });
             }, [n, l, e, t, a]);
-          return r().createElement(ib, { onClick: o });
+          return r().createElement(Gp, { onClick: o });
         },
-        sb = (0, Cu.u)("showInstallLocation"),
-        db = (0, Cu.g)(
+        Yp = (0, Ou.u)("showInstallLocation"),
+        Jp = (0, Ou.g)(
           "uninstall",
           ({
             namespace: e,
             catalogId: t,
             appName: a,
-            funnelId: n = ic.Nd.LIBRARY,
+            funnelId: n = oc.Nd.LIBRARY,
             options: r,
           }) => (0, Dt.ZP)().uninstall(e, t, a, n, r),
         );
-      var ub = Object.defineProperty,
-        mb = Object.getOwnPropertySymbols,
-        pb = Object.prototype.hasOwnProperty,
-        bb = Object.prototype.propertyIsEnumerable,
-        gb = (e, t, a) =>
+      var Xp = Object.defineProperty,
+        Qp = Object.getOwnPropertySymbols,
+        eb = Object.prototype.hasOwnProperty,
+        tb = Object.prototype.propertyIsEnumerable,
+        ab = (e, t, a) =>
           t in e
-            ? ub(e, t, {
+            ? Xp(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const vb = (0, m.i)(() => ({
+      const nb = (0, m.i)(() => ({
           tooltip: (0, b.iv)({ textAlign: "left" }),
           warning: (0, b.iv)({ marginTop: 20, maxWidth: 275 }),
         })),
-        Eb = (e) => {
-          const t = vb();
+        rb = (e) => {
+          const t = nb();
           return n.createElement(
             nt.u,
             ((e, t) => {
-              for (var a in t || (t = {})) pb.call(t, a) && gb(e, a, t[a]);
-              if (mb) for (var a of mb(t)) bb.call(t, a) && gb(e, a, t[a]);
+              for (var a in t || (t = {})) eb.call(t, a) && ab(e, a, t[a]);
+              if (Qp) for (var a of Qp(t)) tb.call(t, a) && ab(e, a, t[a]);
               return e;
             })({}, e),
             n.createElement(
@@ -7335,7 +7267,7 @@
             ),
           );
         },
-        yb = ({ title: e, onUninstallClick: t, onCancelClick: a }) =>
+        lb = ({ title: e, onUninstallClick: t, onCancelClick: a }) =>
           r().createElement(Xn, {
             modalTitle: r().createElement(te.Z, {
               code: "diesel.common.smart_button.uninstall",
@@ -7363,31 +7295,31 @@
             ),
             onCloseClick: a,
           });
-      var fb = Object.defineProperty,
-        hb = Object.defineProperties,
-        Ob = Object.getOwnPropertyDescriptors,
-        Cb = Object.getOwnPropertySymbols,
-        Ib = Object.prototype.hasOwnProperty,
-        wb = Object.prototype.propertyIsEnumerable,
-        xb = (e, t, a) =>
+      var ob = Object.defineProperty,
+        ib = Object.defineProperties,
+        cb = Object.getOwnPropertyDescriptors,
+        sb = Object.getOwnPropertySymbols,
+        db = Object.prototype.hasOwnProperty,
+        ub = Object.prototype.propertyIsEnumerable,
+        mb = (e, t, a) =>
           t in e
-            ? fb(e, t, {
+            ? ob(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Pb = (e, t) => {
-          for (var a in t || (t = {})) Ib.call(t, a) && xb(e, a, t[a]);
-          if (Cb) for (var a of Cb(t)) wb.call(t, a) && xb(e, a, t[a]);
+        pb = (e, t) => {
+          for (var a in t || (t = {})) db.call(t, a) && mb(e, a, t[a]);
+          if (sb) for (var a of sb(t)) ub.call(t, a) && mb(e, a, t[a]);
           return e;
         },
-        Sb = (e, t) => hb(e, Ob(t));
-      const kb = (e) =>
+        bb = (e, t) => ib(e, cb(t));
+      const gb = (e) =>
         n.createElement(
           ye,
-          Sb(Pb({}, e), {
+          bb(pb({}, e), {
             hasHeader: !0,
             hasFooter: !0,
             hasPrimaryButton: !0,
@@ -7400,47 +7332,47 @@
                 { direction: u.jO.Column, alignItems: u.Ks.Center },
                 n.createElement(
                   Ee.Od,
-                  Pb({ variant: Ee.Jy.Text, width: 500, height: 50 }, e),
+                  pb({ variant: Ee.Jy.Text, width: 500, height: 50 }, e),
                 ),
                 n.createElement(
                   Ee.Od,
-                  Sb(Pb({ variant: Ee.Jy.Text, width: 300, height: 50 }, e), {
+                  bb(pb({ variant: Ee.Jy.Text, width: 300, height: 50 }, e), {
                     style: { margin: "-10px 0 10px" },
                   }),
                 ),
                 n.createElement(
                   Ee.Od,
-                  Pb({ variant: Ee.Jy.Text, width: 260, height: 30 }, e),
+                  pb({ variant: Ee.Jy.Text, width: 260, height: 30 }, e),
                 ),
               ),
             ),
           }),
         );
-      var Nb = a(17782);
-      const Lb = Hm("uninstall-confirm-modal"),
-        jb = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            n = (0, Nb.V)(e, t, a),
-            l = db(),
-            { closeModal: o, cancelModal: i } = Lb(),
+      var vb = a(11199);
+      const Eb = Am("uninstall-confirm-modal"),
+        yb = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            n = (0, vb.V)(e, t, a),
+            l = Jp(),
+            { closeModal: o, cancelModal: i } = Eb(),
             c = r().useCallback(() => {
               o(),
                 l({
                   namespace: e,
                   catalogId: t,
                   appName: a,
-                  funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
+                  funnelId: oc.Nd.MANAGE_PRODUCT_MODAL,
                   options: { disableConfirmation: !0 },
                 });
             }, [o, l, e, t, a]);
-          return r().createElement(yb, {
+          return r().createElement(lb, {
             title: n,
             onUninstallClick: c,
             onCancelClick: i,
           });
         },
-        Mb = () => {
-          const { isOpen: e, cancelModal: t, getData: a } = Lb(),
+        fb = () => {
+          const { isOpen: e, cancelModal: t, getData: a } = Eb(),
             n = a();
           return n
             ? r().createElement(
@@ -7448,35 +7380,35 @@
                 { isOpen: e, onClose: t },
                 r().createElement(
                   Ye.n4,
-                  { fallback: r().createElement(kb, null) },
+                  { fallback: r().createElement(gb, null) },
                   r().createElement(
-                    Od.wi.Provider,
+                    hd.wi.Provider,
                     { value: n },
-                    r().createElement(jb, null),
+                    r().createElement(yb, null),
                   ),
                 ),
               )
             : null;
         },
-        Ab = (e, t, a) => {
-          const { installState: r } = (0, Wd.e)(e, t, a);
-          return (0, n.useMemo)(() => (0, Kd.b8)(r), [r]);
+        hb = (e, t, a) => {
+          const { installState: r } = (0, Ud.e)(e, t, a);
+          return (0, n.useMemo)(() => (0, Wd.b8)(r), [r]);
         };
-      var Tb = a(54874),
-        _b = a(59052),
-        Db = a(77531);
-      const Rb = (e, t) =>
-          (0, Xs.fS)({
+      var Ob = a(31e3),
+        Cb = a(17998),
+        Ib = a(41786);
+      const wb = (e, t) =>
+          (0, Js.fS)({
             namespace: e.namespace,
             catalogid: e.catalogItemId,
             appname: e.appName,
             bshouldbeinstalled: t,
           }),
-        Bb = () => {},
-        Zb = (e = "", t = "", a = "") => {
-          const r = (0, Db.R)(e, t, a),
-            l = (0, _b.I)(e, t, a),
-            o = (0, Tb.$)(
+        xb = () => {},
+        Sb = (e = "", t = "", a = "") => {
+          const r = (0, Ib.R)(e, t, a),
+            l = (0, Cb.I)(e, t, a),
+            o = (0, Ob.$)(
               l ? (null == r ? void 0 : r.namespace) : "",
               l ? (null == r ? void 0 : r.catalogItemId) : "",
               l ? (null == r ? void 0 : r.appName) : "",
@@ -7486,13 +7418,13 @@
               r = (0, Dt.ZP)().supportsLaunchableAddonsFlow() && l;
             return {
               isLaunchableAddon: l,
-              install: r ? () => o([Rb(n, !0)]) : Bb,
-              uninstall: r ? () => o([Rb(n, !1)]) : Bb,
+              install: r ? () => o([wb(n, !0)]) : xb,
+              uninstall: r ? () => o([wb(n, !1)]) : xb,
             };
           }, [e, t, a, l]);
         };
-      var Fb = a(78957);
-      const Ub = (0, io.L)(
+      var Pb = a(16087);
+      const kb = (0, io.L)(
           n.createElement("path", {
             fillRule: "evenodd",
             clipRule: "evenodd",
@@ -7500,9 +7432,9 @@
           }),
           "FolderEmpty",
         ),
-        Wb = ({ size: e, onFolderLocationClick: t, onUninstallClick: a }) => {
+        Nb = ({ size: e, onFolderLocationClick: t, onUninstallClick: a }) => {
           const r = n.useRef(null);
-          return n.createElement(pp, {
+          return n.createElement(ep, {
             title: n.createElement(Zo.v0, {
               code: "egstore.library.manage_products_modal.installation",
             }),
@@ -7510,19 +7442,19 @@
               code: "egstore.library.manage_products_modal.install_size",
               args: [e],
             }),
-            icon: n.createElement(Fb.X, null),
+            icon: n.createElement(Pb.X, null),
             secondaryButton: n.createElement(
               n.Fragment,
               null,
-              n.createElement(Hp, {
+              n.createElement(Ap, {
                 forwardRef: r,
-                icon: n.createElement(Ub, null),
+                icon: n.createElement(kb, null),
                 onClick: t,
               }),
-              n.createElement(Eb, { anchorRef: r }),
+              n.createElement(rb, { anchorRef: r }),
             ),
             primaryButton: n.createElement(
-              lb,
+              Hp,
               { onClick: a },
               n.createElement(Zo.v0, {
                 code: "diesel.common.smart_button.uninstall",
@@ -7530,14 +7462,14 @@
             ),
           });
         },
-        Kb = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            r = Ab(e, t, a),
-            { closeModal: l } = mg(),
-            { openModal: o } = Lb(),
-            i = sb(),
-            c = db(),
-            { isLaunchableAddon: s, uninstall: d } = Zb(e, t, a),
+        Lb = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            r = hb(e, t, a),
+            { closeModal: l } = Xb(),
+            { openModal: o } = Eb(),
+            i = Yp(),
+            c = Jp(),
+            { isLaunchableAddon: s, uninstall: d } = Sb(e, t, a),
             u = n.useCallback(() => {
               i({ namespace: e, catalogId: t, appName: a });
             }, [i, e, t, a]),
@@ -7549,58 +7481,58 @@
                     ? o({ namespace: e, catalogItemId: t, appName: a })
                     : c({ namespace: e, catalogId: t, appName: a });
             }, [l, o, s, c, d, e, t, a]);
-          return n.createElement(Wb, {
+          return n.createElement(Nb, {
             size: r,
             onFolderLocationClick: u,
             onUninstallClick: m,
           });
         };
-      var zb = a(28594);
-      const Vb = (0, io.L)(
+      var jb = a(22467);
+      const Mb = (0, io.L)(
           n.createElement("path", {
             d: "M6 2.8C4.894 2.8 4 3.694 4 4.8V20.8C4 21.906 4.894 22.8 6 22.8H10.051L7.57 20.331L12.55\n        15.381L15.693 18.506L20 14.222V7.8L15 2.8H6ZM15.693 24.8L24 16.541L22.651 15.2L15.693 22.117L12.549\n        18.994L11.2 20.334L15.693 24.8Z",
             fill: "white",
           }),
           "File",
         ),
-        Hb = ({ onClick: e }) =>
-          n.createElement(pp, {
+        Ab = ({ onClick: e }) =>
+          n.createElement(ep, {
             title: n.createElement(te.Z, {
               code: "egstore.library.manage_products_modal.verify_files",
             }),
-            icon: n.createElement(Vb, null),
+            icon: n.createElement(Mb, null),
             primaryButton: n.createElement(
-              lb,
+              Hp,
               { onClick: e },
               n.createElement(te.Z, {
                 code: "egstore.library.manage_products_modal.verify",
               }),
             ),
           }),
-        $b = () => {
-          const { closeModal: e } = mg(),
-            { namespace: t, catalogItemId: a, appName: r } = (0, Od.wK)(),
-            l = (0, zb.h)(),
+        Tb = () => {
+          const { closeModal: e } = Xb(),
+            { namespace: t, catalogItemId: a, appName: r } = (0, hd.wK)(),
+            l = (0, jb.h)(),
             o = n.useCallback(() => {
               l({
                 namespace: t,
                 catalogId: a,
                 appName: r,
-                funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
+                funnelId: oc.Nd.MANAGE_PRODUCT_MODAL,
               }),
                 e();
             }, [l, t, a, r, e]);
-          return n.createElement(Hb, { onClick: o });
+          return n.createElement(Ab, { onClick: o });
         };
-      var Gb = a(90805);
-      var qb = a(82136);
-      const Yb = (e, t, a) => {
-          const { installState: r } = (0, Wd.e)(e, t, a),
-            l = (0, $u.c)(e, t, a),
+      var _b = a(4136);
+      var Db = a(43730);
+      const Rb = (e, t, a) => {
+          const { installState: r } = (0, Ud.e)(e, t, a),
+            l = (0, Au.c)(e, t, a),
             o = (0, n.useMemo)(() => (0, Rt.uD)(l), [l]),
             i = (0, n.useMemo)(() => (0, Bo.mW)(l), [l]),
-            { globalAutoUpdate: c } = (0, qb.t)(),
-            s = (0, _b.I)(e, t, a);
+            { globalAutoUpdate: c } = (0, Db.t)(),
+            s = (0, Cb.I)(e, t, a);
           return (0, n.useMemo)(
             () =>
               ((e) => {
@@ -7611,9 +7543,9 @@
                     globalAutoUpdate: r = !1,
                     isLaunchableAddon: l = !1,
                   } = e,
-                  o = (0, Kd.Pb)(t),
-                  i = (0, Kd.aV)(t),
-                  c = (0, Kd.yK)(t);
+                  o = (0, Wd.Pb)(t),
+                  i = (0, Wd.aV)(t),
+                  c = (0, Wd.yK)(t);
                 return !l && !a && !o && !c && !n && i && r;
               })({
                 installState: r,
@@ -7625,19 +7557,19 @@
             [r, o, i, c, s],
           );
         },
-        Jb = (e = "", t = "", a = "") => {
+        Bb = (e = "", t = "", a = "") => {
           const r = (0, qe.useSelector)(on.LA),
-            { installState: l } = (0, Wd.e)(e, t, a),
-            o = xm(e, t, a);
+            { installState: l } = (0, Ud.e)(e, t, a),
+            o = mm(e, t, a);
           return (0, n.useMemo)(
             () =>
               (({ isOnline: e, isEntitledToLibraryItem: t, installState: a }) =>
                 e &&
                 t &&
-                !(0, Kd.Gd)(a) &&
-                !(0, Kd.Pb)(a) &&
-                !(0, Kd.Ic)(a) &&
-                !(0, Kd.Ct)(a))({
+                !(0, Wd.Gd)(a) &&
+                !(0, Wd.Pb)(a) &&
+                !(0, Wd.Ic)(a) &&
+                !(0, Wd.Ct)(a))({
                 installState: l,
                 isOnline: r,
                 isEntitledToLibraryItem: o,
@@ -7645,92 +7577,91 @@
             [l, r, o],
           );
         };
-      var Xb = Object.defineProperty,
-        Qb = Object.defineProperties,
-        eg = Object.getOwnPropertyDescriptors,
-        tg = Object.getOwnPropertySymbols,
-        ag = Object.prototype.hasOwnProperty,
-        ng = Object.prototype.propertyIsEnumerable,
-        rg = (e, t, a) =>
+      var Zb = Object.defineProperty,
+        Fb = Object.defineProperties,
+        Ub = Object.getOwnPropertyDescriptors,
+        Wb = Object.getOwnPropertySymbols,
+        Kb = Object.prototype.hasOwnProperty,
+        zb = Object.prototype.propertyIsEnumerable,
+        Vb = (e, t, a) =>
           t in e
-            ? Xb(e, t, {
+            ? Zb(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        lg = (e, t) => {
-          for (var a in t || (t = {})) ag.call(t, a) && rg(e, a, t[a]);
-          if (tg) for (var a of tg(t)) ng.call(t, a) && rg(e, a, t[a]);
+        Hb = (e, t) => {
+          for (var a in t || (t = {})) Kb.call(t, a) && Vb(e, a, t[a]);
+          if (Wb) for (var a of Wb(t)) zb.call(t, a) && Vb(e, a, t[a]);
           return e;
         };
-      const og = (e = "", t = "", a = "", r = { enabled: !0 }) => {
-        const l = (0, qe.useSelector)(wp.Ip),
-          o = (0, Ma.NL)(),
-          i = (0, n.useMemo)(
-            () => xp.L6.additionalCommandsDetail(e, t, a),
-            [e, t, a],
-          ),
-          c = (0, n.useMemo)(
-            () =>
-              (0, Dt.ZP)().supportsAdditionalCommands() &&
-              l &&
-              r.enabled &&
-              Boolean(e && a && t),
-            [l, r.enabled],
-          ),
-          { data: s, query: d } = (0, Pp.Y)({
-            bridge: (0, Dt.ZP)(),
-            method: "getAdditionalCommands",
-            args: [e, t, a],
-            queryKey: i,
-            config:
-              ((u = lg({}, r)),
-              (m = { enabled: c, refetchOnMount: "always" }),
-              Qb(u, eg(m))),
+      const $b = (e = "", t = "", a = "", r = { enabled: !0 }) => {
+          const l = (0, qe.useSelector)(up.Ip),
+            o = (0, Ma.NL)(),
+            i = (0, n.useMemo)(
+              () => mp.L6.additionalCommandsDetail(e, t, a),
+              [e, t, a],
+            ),
+            c = (0, n.useMemo)(
+              () =>
+                (0, Dt.ZP)().supportsAdditionalCommands() &&
+                l &&
+                r.enabled &&
+                Boolean(e && a && t),
+              [l, r.enabled],
+            ),
+            { data: s, query: d } = (0, pp.Y)({
+              bridge: (0, Dt.ZP)(),
+              method: "getAdditionalCommands",
+              args: [e, t, a],
+              queryKey: i,
+              config:
+                ((u = Hb({}, r)),
+                (m = { enabled: c, refetchOnMount: "always" }),
+                Fb(u, Ub(m))),
+            });
+          var u, m;
+          const { mutate: p } = (0, Ma.Db)((n) => {
+            return (
+              (r = void 0),
+              (l = null),
+              (s = function* () {
+                if (c)
+                  try {
+                    yield (0, Dt.ZP)().setAdditionalCommands(e, t, a, n),
+                      yield o.invalidateQueries(i);
+                  } catch (e) {
+                    (0, gp.pN)(e);
+                  }
+              }),
+              new Promise((e, t) => {
+                var a = (e) => {
+                    try {
+                      o(s.next(e));
+                    } catch (e) {
+                      t(e);
+                    }
+                  },
+                  n = (e) => {
+                    try {
+                      o(s.throw(e));
+                    } catch (e) {
+                      t(e);
+                    }
+                  },
+                  o = (t) =>
+                    t.done ? e(t.value) : Promise.resolve(t.value).then(a, n);
+                o((s = s.apply(r, l)).next());
+              })
+            );
+            var r, l, s;
           });
-        var u, m;
-        const { mutate: p } = (0, Ma.Db)((n) => {
-          return (
-            (r = void 0),
-            (l = null),
-            (s = function* () {
-              if (c)
-                try {
-                  yield (0, Dt.ZP)().setAdditionalCommands(e, t, a, n),
-                    yield o.invalidateQueries(i);
-                } catch (e) {
-                  (0, kp.pN)(e);
-                }
-            }),
-            new Promise((e, t) => {
-              var a = (e) => {
-                  try {
-                    o(s.next(e));
-                  } catch (e) {
-                    t(e);
-                  }
-                },
-                n = (e) => {
-                  try {
-                    o(s.throw(e));
-                  } catch (e) {
-                    t(e);
-                  }
-                },
-                o = (t) =>
-                  t.done ? e(t.value) : Promise.resolve(t.value).then(a, n);
-              o((s = s.apply(r, l)).next());
-            })
-          );
-          var r, l, s;
-        });
-        return { commands: s, setCommands: p, query: d };
-      };
-      var ig = a(4277);
-      const cg = ({ isEnabled: e, setIsEnabled: t, args: a, setArgs: n }) =>
-          r().createElement(pp, {
+          return { commands: s, setCommands: p, query: d };
+        },
+        Gb = ({ isEnabled: e, setIsEnabled: t, args: a, setArgs: n }) =>
+          r().createElement(ep, {
             icon: r().createElement(po.o, null),
             title: r().createElement(te.Z, {
               code: "diesel.library.settings.custom_launch_args_title",
@@ -7738,7 +7669,7 @@
             subtitle: r().createElement(te.Z, {
               code: "diesel.library.settings.custom_launch_args_desc",
             }),
-            primaryButton: r().createElement(Ip, {
+            primaryButton: r().createElement(dp, {
               checked: e,
               onClick: () => t(!e),
               id: "enable-custom-launch-args",
@@ -7750,72 +7681,71 @@
                   onChange: (e) => n(e.target.value),
                 })
               : void 0,
-            variant: ap.O.TwoColumnWithFooter,
+            variant: Km.O.TwoColumnWithFooter,
           }),
-        sg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            { commands: n, setCommands: l } = og(e, t, a),
-            [o, i] = r().useState(!1),
-            [c, s] = r().useState(""),
-            [d] = (0, zo.Z)(c, 200, { trailing: !0 }),
-            u = (0, ig.Z)(n ? n.value : d),
-            m = (0, ig.Z)(n ? n.enabled : o);
+        qb = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            { commands: n, setCommands: l, query: o } = $b(e, t, a),
+            [i, c] = r().useState(!1),
+            [s, d] = r().useState(""),
+            [u] = (0, zo.Z)(s, 200, { trailing: !0 });
           return (
             r().useEffect(() => {
-              n && (s(n.value), i(n.enabled));
-            }, [null == n ? void 0 : n.value, null == n ? void 0 : n.enabled]),
+              n && (d(n.value), c(n.enabled));
+            }, [o.isSuccess]),
             r().useEffect(() => {
-              ((void 0 !== u && c !== u) || (void 0 !== m && o !== m)) &&
-                l({ value: c, enabled: o });
-            }, [d, o]),
-            r().createElement(cg, {
-              isEnabled: o,
-              setIsEnabled: i,
-              args: c,
-              setArgs: s,
+              !n ||
+                (n.value === u && n.enabled === i) ||
+                l({ value: u, enabled: i });
+            }, [u, i]),
+            r().createElement(Gb, {
+              isEnabled: i,
+              setIsEnabled: c,
+              args: s,
+              setArgs: d,
             })
           );
         },
-        dg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        Yb = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             r = ((e = "", t = "", a = "") => {
               const r = (0, qe.useSelector)(on.ek),
-                { installState: l } = (0, Wd.e)(e, t, a);
+                { installState: l } = (0, Ud.e)(e, t, a);
               return (0, n.useMemo)(
                 () =>
-                  (r === Gb.om.WINDOWS || r === Gb.om.WIN32) && (0, Kd.aV)(l),
+                  (r === _b.om.WINDOWS || r === _b.om.WIN32) && (0, Wd.aV)(l),
                 [r, l],
               );
             })(e, t, a),
-            l = Yb(e, t, a),
+            l = Rb(e, t, a),
             o = ((e = "", t = "", a = "") => {
-              const { installState: n } = (0, Wd.e)(e, t, a);
-              return (0, Kd.jW)(n);
+              const { installState: n } = (0, Ud.e)(e, t, a);
+              return (0, Wd.jW)(n);
             })(e, t, a),
-            i = Jb(e, t, a);
+            i = Bb(e, t, a);
           return n.createElement(
-            Pr.v,
+            Sr.v,
             { noBorder: !0, noShadow: !0, noBackground: !0, spacing: 10 },
-            i && n.createElement($b, null),
-            l && n.createElement(_p, null),
-            o && n.createElement(Xp, null),
-            r && n.createElement(cb, null),
-            n.createElement(Kb, null),
-            n.createElement(sg, null),
+            i && n.createElement(Tb, null),
+            l && n.createElement(Cp, null),
+            o && n.createElement(Zp, null),
+            r && n.createElement(qp, null),
+            n.createElement(Lb, null),
+            n.createElement(qb, null),
           );
         };
-      var ug = a(79058);
-      const mg = Hm("manage-product-modal"),
-        pg = () => {
-          const { cancelModal: e } = mg();
-          return n.createElement($m, {
-            title: n.createElement(ug.F, null),
+      var Jb = a(49464);
+      const Xb = Am("manage-product-modal"),
+        Qb = () => {
+          const { cancelModal: e } = Xb();
+          return n.createElement(Tm, {
+            title: n.createElement(Jb.F, null),
             onCloseClick: e,
-            content: n.createElement(dg, null),
+            content: n.createElement(Yb, null),
           });
         },
-        bg = () => {
-          const { isOpen: e, cancelModal: t, getData: a } = mg(),
+        eg = () => {
+          const { isOpen: e, cancelModal: t, getData: a } = Xb(),
             r = a();
           return r
             ? n.createElement(
@@ -7823,36 +7753,36 @@
                 { isOpen: e, onClose: t },
                 n.createElement(
                   Ye.n4,
-                  { fallback: n.createElement(hp, null) },
+                  { fallback: n.createElement(ip, null) },
                   n.createElement(
-                    Od.wi.Provider,
+                    hd.wi.Provider,
                     { value: r },
-                    n.createElement(pg, null),
+                    n.createElement(Qb, null),
                   ),
                 ),
               )
             : null;
         },
-        gg = ({ onClick: e }) =>
+        tg = ({ onClick: e }) =>
           n.createElement(br.c, {
             onClick: e,
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.manage",
             }),
           }),
-        vg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        ag = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            { openModal: l } = mg(),
-            { installState: o } = (0, Wd.e)(e, t, a),
+            { openModal: l } = Xb(),
+            { installState: o } = (0, Ud.e)(e, t, a),
             i = n.useCallback(() => {
               r(void 0), l({ namespace: e, catalogItemId: t, appName: a });
             }, [l, r]);
-          return n.useMemo(() => (0, Kd.aV)(o), [o])
-            ? n.createElement(gg, { onClick: i })
+          return n.useMemo(() => (0, Wd.aV)(o), [o])
+            ? n.createElement(tg, { onClick: i })
             : null;
         },
-        Eg = (e, t, a) => {
+        ng = (e, t, a) => {
           const r = ((e = "", t = "", a = "") =>
             (0, n.useMemo)(() => {
               if (e && t && a)
@@ -7863,32 +7793,32 @@
                   .replace(":catalogId", encodeURIComponent(t))
                   .replace(":appName", encodeURIComponent(a));
             }, [e, t, a]))(e, t, a);
-          return { manageAddonsLinkTo: r, gotoManageAddons: (0, xd.X)(r) };
+          return { manageAddonsLinkTo: r, gotoManageAddons: (0, wd.X)(r) };
         },
-        yg = ({ onClick: e }) =>
+        rg = ({ onClick: e }) =>
           n.createElement(br.c, {
             onClick: e,
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.manageDLC",
             }),
           }),
-        fg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        lg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            l = (0, rm.c)(e, t, a),
-            { installState: o } = (0, Wd.e)(e, t, a),
-            { manageAddonsLinkTo: i, gotoManageAddons: c } = Eg(e, t, a),
-            s = n.useMemo(() => (0, Kd.aV)(o), [o]),
-            d = n.useMemo(() => (0, Kd.Ct)(o), [o]),
+            l = (0, Vu.c)(e, t, a),
+            { installState: o } = (0, Ud.e)(e, t, a),
+            { manageAddonsLinkTo: i, gotoManageAddons: c } = ng(e, t, a),
+            s = n.useMemo(() => (0, Wd.aV)(o), [o]),
+            d = n.useMemo(() => (0, Wd.Ct)(o), [o]),
             u = n.useCallback(() => {
               r(void 0), c();
             }, [c, r]);
           return s && !d && l.length > 0 && !!i
-            ? n.createElement(yg, { onClick: u })
+            ? n.createElement(rg, { onClick: u })
             : null;
         };
-      var hg = a(62667);
-      const Og = (e, t, a) => {
+      var og = a(25281);
+      const ig = (e, t, a) => {
           const r = ((e = "", t = "", a = "") =>
             (0, n.useMemo)(() => {
               if (e && t && a)
@@ -7899,35 +7829,35 @@
                   .replace(":catalogId", encodeURIComponent(t))
                   .replace(":appName", encodeURIComponent(a));
             }, [e, t]))(e, t, a);
-          return { manageModsLinkTo: r, gotoManageMods: (0, xd.X)(r) };
+          return { manageModsLinkTo: r, gotoManageMods: (0, wd.X)(r) };
         },
-        Cg = ({ onClick: e }) =>
+        cg = ({ onClick: e }) =>
           n.createElement(br.c, {
             onClick: e,
             title: n.createElement(te.Z, {
               code: "diesel.library.settings.manage_mods",
             }),
           }),
-        Ig = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        sg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            { installState: l } = (0, Wd.e)(e, t, a),
-            o = (0, hg.L)(e, t, a),
-            { manageModsLinkTo: i, gotoManageMods: c } = Og(e, t, a),
-            s = n.useMemo(() => (0, Kd.aV)(l), [l]),
-            d = n.useMemo(() => (0, Kd.Ct)(l), [l]),
+            { installState: l } = (0, Ud.e)(e, t, a),
+            o = (0, og.L)(e, t, a),
+            { manageModsLinkTo: i, gotoManageMods: c } = ig(e, t, a),
+            s = n.useMemo(() => (0, Wd.aV)(l), [l]),
+            d = n.useMemo(() => (0, Wd.Ct)(l), [l]),
             u = n.useCallback(() => {
               r(void 0), c();
             }, [c, r]);
           return s && !d && o.length > 0 && !!i
-            ? n.createElement(Cg, { onClick: u })
+            ? n.createElement(cg, { onClick: u })
             : null;
         };
-      var wg = a(54754);
-      const xg = () => {
-        const { appName: e } = (0, Od.wK)(),
+      var dg = a(33663);
+      const ug = () => {
+        const { appName: e } = (0, hd.wK)(),
           t = (0, Zo.AT)(),
-          { playtime: a } = (0, wg.U)({ artifactId: e });
+          { playtime: a } = (0, dg.U)({ artifactId: e });
         return (0, n.useMemo)(() => {
           const { hours: e, minutes: n } = ((e) => {
             const t = Math.min(e, Number.MAX_SAFE_INTEGER) / 60,
@@ -7951,28 +7881,28 @@
           );
         }, [a]);
       };
-      var Pg = Object.defineProperty,
-        Sg = Object.getOwnPropertySymbols,
-        kg = Object.prototype.hasOwnProperty,
-        Ng = Object.prototype.propertyIsEnumerable,
-        Lg = (e, t, a) =>
+      var mg = Object.defineProperty,
+        pg = Object.getOwnPropertySymbols,
+        bg = Object.prototype.hasOwnProperty,
+        gg = Object.prototype.propertyIsEnumerable,
+        vg = (e, t, a) =>
           t in e
-            ? Pg(e, t, {
+            ? mg(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const jg = ({ defaultValue: e = "0s" }) => {
-          const t = xg();
+      const Eg = ({ defaultValue: e = "0s" }) => {
+          const t = ug();
           return r().createElement(
             "span",
             { "data-testid": "playtime" },
             t || e,
           );
         },
-        Mg = (e) =>
+        yg = (e) =>
           r().createElement(
             Ye.n4,
             {
@@ -7983,15 +7913,15 @@
               }),
             },
             r().createElement(
-              jg,
+              Eg,
               ((e, t) => {
-                for (var a in t || (t = {})) kg.call(t, a) && Lg(e, a, t[a]);
-                if (Sg) for (var a of Sg(t)) Ng.call(t, a) && Lg(e, a, t[a]);
+                for (var a in t || (t = {})) bg.call(t, a) && vg(e, a, t[a]);
+                if (pg) for (var a of pg(t)) gg.call(t, a) && vg(e, a, t[a]);
                 return e;
               })({}, e),
             ),
           ),
-        Ag = ({ playtime: e }) =>
+        fg = ({ playtime: e }) =>
           n.createElement(so.s, {
             horizontal: !0,
             title: n.createElement(te.Z, {
@@ -7999,8 +7929,8 @@
             }),
             subtitle: e,
           }),
-        Tg = () => n.createElement(Ag, { playtime: n.createElement(Mg, null) }),
-        _g = () => {
+        hg = () => n.createElement(fg, { playtime: n.createElement(yg, null) }),
+        Og = () => {
           const e = (0, qe.useDispatch)();
           return (0, n.useCallback)(
             (t, a) => {
@@ -8009,36 +7939,36 @@
             [e],
           );
         };
-      var Dg = Object.defineProperty,
-        Rg = Object.getOwnPropertySymbols,
-        Bg = Object.prototype.hasOwnProperty,
-        Zg = Object.prototype.propertyIsEnumerable,
-        Fg = (e, t, a) =>
+      var Cg = Object.defineProperty,
+        Ig = Object.getOwnPropertySymbols,
+        wg = Object.prototype.hasOwnProperty,
+        xg = Object.prototype.propertyIsEnumerable,
+        Sg = (e, t, a) =>
           t in e
-            ? Dg(e, t, {
+            ? Cg(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Ug = (e) => {
+      const Pg = (e) => {
           var t = e,
             { collectionName: a } = t,
             n = ((e, t) => {
               var a = {};
               for (var n in e)
-                Bg.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && Rg)
-                for (var n of Rg(e))
-                  t.indexOf(n) < 0 && Zg.call(e, n) && (a[n] = e[n]);
+                wg.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Ig)
+                for (var n of Ig(e))
+                  t.indexOf(n) < 0 && xg.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["collectionName"]);
           return r().createElement(
             br.c,
             ((e, t) => {
-              for (var a in t || (t = {})) Bg.call(t, a) && Fg(e, a, t[a]);
-              if (Rg) for (var a of Rg(t)) Zg.call(t, a) && Fg(e, a, t[a]);
+              for (var a in t || (t = {})) wg.call(t, a) && Sg(e, a, t[a]);
+              if (Ig) for (var a of Ig(t)) xg.call(t, a) && Sg(e, a, t[a]);
               return e;
             })(
               {
@@ -8052,42 +7982,42 @@
             ),
           );
         },
-        Wg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        kg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: n } = (0, pr.U)(),
             { selectedCollectionId: l } = kn(),
             o = (0, i.c)({ suspense: !1 }),
             c = Ge(l, { suspense: !1 }),
-            s = (0, Cd.K)(e, t, a),
-            d = _g(),
+            s = (0, Od.K)(e, t, a),
+            d = Og(),
             u = r().useCallback(() => {
               c && s && d(c, s), n(void 0);
             }, [d, c, s, n]);
-          return r().createElement(Ug, {
+          return r().createElement(Pg, {
             onClick: u,
             collectionName: (null == c ? void 0 : c.name) || "",
             disabled: !o || !c,
           });
         };
-      var Kg = Object.defineProperty,
-        zg = Object.getOwnPropertySymbols,
-        Vg = Object.prototype.hasOwnProperty,
-        Hg = Object.prototype.propertyIsEnumerable,
-        $g = (e, t, a) =>
+      var Ng = Object.defineProperty,
+        Lg = Object.getOwnPropertySymbols,
+        jg = Object.prototype.hasOwnProperty,
+        Mg = Object.prototype.propertyIsEnumerable,
+        Ag = (e, t, a) =>
           t in e
-            ? Kg(e, t, {
+            ? Ng(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Gg = (e) =>
+      const Tg = (e) =>
           r().createElement(
             br.c,
             ((e, t) => {
-              for (var a in t || (t = {})) Vg.call(t, a) && $g(e, a, t[a]);
-              if (zg) for (var a of zg(t)) Hg.call(t, a) && $g(e, a, t[a]);
+              for (var a in t || (t = {})) jg.call(t, a) && Ag(e, a, t[a]);
+              if (Lg) for (var a of Lg(t)) Mg.call(t, a) && Ag(e, a, t[a]);
               return e;
             })(
               {
@@ -8099,19 +8029,19 @@
               e,
             ),
           ),
-        qg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        _g = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: n } = (0, pr.U)(),
             l = (0, i.c)({ suspense: !1 }),
             o = zr({ suspense: !1 }),
-            c = (0, Cd.K)(e, t, a),
-            s = _g(),
+            c = (0, Od.K)(e, t, a),
+            s = Og(),
             d = r().useCallback(() => {
               o && c && s(o, c), n(void 0);
             }, [s, o, c, n]);
-          return r().createElement(Gg, { onClick: d, disabled: !l || !o });
+          return r().createElement(Tg, { onClick: d, disabled: !l || !o });
         },
-        Yg = ({ onClick: e, formattedSize: t }) =>
+        Dg = ({ onClick: e, formattedSize: t }) =>
           n.createElement(br.c, {
             dense: !0,
             horizontal: !0,
@@ -8121,13 +8051,13 @@
             subtitle: n.createElement("span", null, t),
             onClick: e,
           }),
-        Jg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
+        Rg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
             { setActiveMenu: r } = (0, pr.U)(),
-            l = db(),
-            o = Ab(e, t, a),
-            { openModal: i } = Lb(),
-            { isLaunchableAddon: c, uninstall: s } = Zb(e, t, a),
+            l = Jp(),
+            o = hb(e, t, a),
+            { openModal: i } = Eb(),
+            { isLaunchableAddon: c, uninstall: s } = Sb(e, t, a),
             d = n.useCallback(() => {
               c && !(0, Dt.ZP)().supportsLaunchableAddonsV2Flow()
                 ? s()
@@ -8136,9 +8066,9 @@
                   : l({ namespace: e, catalogId: t, appName: a }),
                 r(void 0);
             }, [l, e, t, a, r, c, s]);
-          return n.createElement(Yg, { onClick: d, formattedSize: o });
+          return n.createElement(Dg, { onClick: d, formattedSize: o });
         },
-        Xg = ({ version: e }) =>
+        Bg = ({ version: e }) =>
           n.createElement(so.s, {
             horizontal: !0,
             title: n.createElement(te.Z, {
@@ -8150,58 +8080,58 @@
               e,
             ),
           }),
-        Qg = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            { installState: r } = (0, Wd.e)(e, t, a),
-            l = n.useMemo(() => (0, Kd.pe)(r), [r]);
-          return n.createElement(Xg, { version: l });
+        Zg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            { installState: r } = (0, Ud.e)(e, t, a),
+            l = n.useMemo(() => (0, Wd.pe)(r), [r]);
+          return n.createElement(Bg, { version: l });
         };
-      var ev = Object.defineProperty,
-        tv = Object.getOwnPropertySymbols,
-        av = Object.prototype.hasOwnProperty,
-        nv = Object.prototype.propertyIsEnumerable,
-        rv = (e, t, a) =>
+      var Fg = Object.defineProperty,
+        Ug = Object.getOwnPropertySymbols,
+        Wg = Object.prototype.hasOwnProperty,
+        Kg = Object.prototype.propertyIsEnumerable,
+        zg = (e, t, a) =>
           t in e
-            ? ev(e, t, {
+            ? Fg(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const lv = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            r = (0, qe.useSelector)(Ud.LF),
-            l = km(e, t, a),
-            o = (0, Sm.a)(e, t, a),
-            { installState: c } = (0, Wd.e)(e, t, a),
-            s = n.useMemo(() => (0, Kd.aV)(c) && !(0, Kd.Pb)(c), [c]),
-            d = n.useMemo(() => (0, Kd.Pb)(c) || (0, Kd.t9)(c), [c]),
+      const Vg = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            r = (0, qe.useSelector)(Fd.LF),
+            l = gm(e, t, a),
+            o = (0, bm.a)(e, t, a),
+            { installState: c } = (0, Ud.e)(e, t, a),
+            s = n.useMemo(() => (0, Wd.aV)(c) && !(0, Wd.Pb)(c), [c]),
+            d = n.useMemo(() => (0, Wd.Pb)(c) || (0, Wd.t9)(c), [c]),
             u = (() => {
               const {
                   namespace: e,
                   catalogItemId: t,
                   appName: a,
-                } = (0, Od.wK)(),
-                { installState: r } = (0, Wd.e)(e, t, a),
-                l = (0, n.useMemo)(() => (0, Kd.aV)(r), [r]),
-                o = (0, n.useMemo)(() => (0, Kd.Gd)(r), [r]),
-                i = (0, n.useMemo)(() => (0, Kd.Pb)(r), [r]),
-                c = (0, n.useMemo)(() => (0, Kd.yK)(r), [r]);
+                } = (0, hd.wK)(),
+                { installState: r } = (0, Ud.e)(e, t, a),
+                l = (0, n.useMemo)(() => (0, Wd.aV)(r), [r]),
+                o = (0, n.useMemo)(() => (0, Wd.Gd)(r), [r]),
+                i = (0, n.useMemo)(() => (0, Wd.Pb)(r), [r]),
+                c = (0, n.useMemo)(() => (0, Wd.yK)(r), [r]);
               return (l || o) && !(i || c);
             })(),
             m = ((e) => {
-              const { namespace: t } = (0, Od.wK)(),
-                a = (0, Bm.l)({ sandboxId: t }),
+              const { namespace: t } = (0, hd.wK)(),
+                a = (0, xm.l)({ sandboxId: t }),
                 n = (0, i.c)(e);
               return Boolean(n && a);
             })({ suspense: !1 }),
             p = ((e) => {
-              const { namespace: t } = (0, Od.wK)();
+              const { namespace: t } = (0, hd.wK)();
               return (
-                (0, Lu.C)(
+                (0, Nu.C)(
                   {
-                    categories: [Nu.WD.ADDONS, Nu.WD.DIGITAL_EXTRAS],
+                    categories: [ku.WD.ADDONS, ku.WD.DIGITAL_EXTRAS],
                     sandboxId: t,
                   },
                   e,
@@ -8213,9 +8143,9 @@
                   namespace: e,
                   catalogItemId: t,
                   appName: a,
-                } = (0, Od.wK)(),
-                n = (0, Cd.K)(e, t, a);
-              return Gu(e, t, a, (null == n ? void 0 : n.productId) || "", {
+                } = (0, hd.wK)(),
+                n = (0, Od.K)(e, t, a);
+              return _u(e, t, a, (null == n ? void 0 : n.productId) || "", {
                 suspense: !1,
               });
             })(),
@@ -8224,26 +8154,26 @@
                   namespace: e,
                   catalogItemId: t,
                   appName: a,
-                } = (0, Od.wK)(),
-                { installState: r } = (0, Wd.e)(e, t, a);
-              return n.useMemo(() => (0, Kd.aV)(r), [r]);
+                } = (0, hd.wK)(),
+                { installState: r } = (0, Ud.e)(e, t, a);
+              return n.useMemo(() => (0, Wd.aV)(r), [r]);
             })(),
             v = (() => {
               const {
                   namespace: e,
                   catalogItemId: t,
                   appName: a,
-                } = (0, Od.wK)(),
-                { installState: r } = (0, Wd.e)(e, t, a),
-                l = (0, $u.c)(e, t, a),
+                } = (0, hd.wK)(),
+                { installState: r } = (0, Ud.e)(e, t, a),
+                l = (0, Au.c)(e, t, a),
                 o = (0, n.useMemo)(() => (0, Bo.mW)(l), [l]),
-                i = (0, n.useMemo)(() => (0, Kd.pe)(r), [r]);
+                i = (0, n.useMemo)(() => (0, Wd.pe)(r), [r]);
               return (0, n.useMemo)(() => !o && Boolean(i), [o, i]);
             })(),
             E = (() => {
-              const e = (0, Od.wK)(),
+              const e = (0, hd.wK)(),
                 t = (0, yt.o)();
-              return !qd(t, e, { suspense: !1 });
+              return !Gd(t, e, { suspense: !1 });
             })(),
             y = (() => {
               const { selectedCollectionId: e } = kn(),
@@ -8257,26 +8187,26 @@
             return n.createElement(
               n.Fragment,
               null,
-              n.createElement(Wm, null),
+              n.createElement(Nm, null),
               u && n.createElement(mo, null),
-              u && n.createElement(Jg, null),
+              u && n.createElement(Rg, null),
             );
           const C = n.createElement(
             n.Fragment,
             null,
             n.createElement(mo, null),
-            E ? n.createElement(Hd, null) : n.createElement(qg, null),
-            n.createElement(Eu, null),
-            y && n.createElement(Wg, null),
+            E ? n.createElement(Vd, null) : n.createElement(_g, null),
+            n.createElement(vu, null),
+            y && n.createElement(kg, null),
           );
           if (o)
             return n.createElement(
               n.Fragment,
               null,
-              n.createElement(Wm, null),
+              n.createElement(Nm, null),
               C,
               g && n.createElement(mo, null),
-              g && n.createElement(Tg, null),
+              g && n.createElement(hg, null),
             );
           const I =
               f &&
@@ -8284,9 +8214,9 @@
                 n.Fragment,
                 null,
                 n.createElement(mo, null),
-                m && n.createElement(Rm, null),
-                p && n.createElement(ku, null),
-                b && n.createElement(Au, null),
+                m && n.createElement(wm, null),
+                p && n.createElement(Pu, null),
+                b && n.createElement(Mu, null),
               ),
             w =
               h &&
@@ -8294,13 +8224,13 @@
                 n.Fragment,
                 null,
                 n.createElement(mo, null),
-                g && n.createElement(Tg, null),
-                v && n.createElement(Qg, null),
+                g && n.createElement(hg, null),
+                v && n.createElement(Zg, null),
               );
           return n.createElement(
             n.Fragment,
             null,
-            n.createElement(Wm, null),
+            n.createElement(Nm, null),
             C,
             I,
             O &&
@@ -8312,93 +8242,93 @@
                   n.createElement(
                     n.Fragment,
                     null,
-                    n.createElement(Ou, null),
-                    n.createElement(Vm, null),
+                    n.createElement(hu, null),
+                    n.createElement(Mm, null),
                   ),
                 s &&
                   n.createElement(
                     n.Fragment,
                     null,
-                    n.createElement(xu, null),
-                    n.createElement(_m, null),
-                    n.createElement(Ig, null),
-                    n.createElement(fg, null),
-                    n.createElement(vg, null),
+                    n.createElement(wu, null),
+                    n.createElement(Cm, null),
+                    n.createElement(sg, null),
+                    n.createElement(lg, null),
+                    n.createElement(ag, null),
                   ),
-                u && n.createElement(Jg, null),
+                u && n.createElement(Rg, null),
               ),
             w,
           );
         },
-        ov = n.forwardRef((e, t) => {
+        Hg = n.forwardRef((e, t) => {
           var a = e,
             { id: r } = a,
             l = ((e, t) => {
               var a = {};
               for (var n in e)
-                av.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && tv)
-                for (var n of tv(e))
-                  t.indexOf(n) < 0 && nv.call(e, n) && (a[n] = e[n]);
+                Wg.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Ug)
+                for (var n of Ug(e))
+                  t.indexOf(n) < 0 && Kg.call(e, n) && (a[n] = e[n]);
               return a;
             })(a, ["id"]);
           return n.createElement(
-            Pr.v,
+            Sr.v,
             ((e, t) => {
-              for (var a in t || (t = {})) av.call(t, a) && rv(e, a, t[a]);
-              if (tv) for (var a of tv(t)) nv.call(t, a) && rv(e, a, t[a]);
+              for (var a in t || (t = {})) Wg.call(t, a) && zg(e, a, t[a]);
+              if (Ug) for (var a of Ug(t)) Kg.call(t, a) && zg(e, a, t[a]);
               return e;
             })({ ref: t, id: r, dense: !0, noBorder: !0 }, l),
-            n.createElement(lv, null),
+            n.createElement(Vg, null),
           );
         });
-      var iv = Object.defineProperty,
-        cv = Object.getOwnPropertySymbols,
-        sv = Object.prototype.hasOwnProperty,
-        dv = Object.prototype.propertyIsEnumerable,
-        uv = (e, t, a) =>
+      var $g = Object.defineProperty,
+        Gg = Object.getOwnPropertySymbols,
+        qg = Object.prototype.hasOwnProperty,
+        Yg = Object.prototype.propertyIsEnumerable,
+        Jg = (e, t, a) =>
           t in e
-            ? iv(e, t, {
+            ? $g(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const mv = (0, m.i)(() => ({
+      const Xg = (0, m.i)(() => ({
           root: (0, b.iv)({ width: "max-content", minWidth: 280 }),
         })),
-        pv = (e) => {
+        Qg = (e) => {
           var t = e,
             { id: a } = t,
             n = ((e, t) => {
               var a = {};
               for (var n in e)
-                sv.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && cv)
-                for (var n of cv(e))
-                  t.indexOf(n) < 0 && dv.call(e, n) && (a[n] = e[n]);
+                qg.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && Gg)
+                for (var n of Gg(e))
+                  t.indexOf(n) < 0 && Yg.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["id"]);
-          const l = mv();
+          const l = Xg();
           return r().createElement(
             xr,
             ((e, t) => {
-              for (var a in t || (t = {})) sv.call(t, a) && uv(e, a, t[a]);
-              if (cv) for (var a of cv(t)) dv.call(t, a) && uv(e, a, t[a]);
+              for (var a in t || (t = {})) qg.call(t, a) && Jg(e, a, t[a]);
+              if (Gg) for (var a of Gg(t)) Yg.call(t, a) && Jg(e, a, t[a]);
               return e;
             })({}, n),
             r().createElement(
               "div",
               { className: l.root },
-              r().createElement(ov, { id: a }),
+              r().createElement(Hg, { id: a }),
             ),
           );
         };
-      var bv = a(51617);
-      const gv = ({ animation: e }) =>
+      var ev = a(10499);
+      const tv = ({ animation: e }) =>
           n.createElement(
-            Pr.v,
+            Sr.v,
             { dense: !0, noBorder: !0 },
             n.createElement(so.s, {
               title: n.createElement(Ee.Od, {
@@ -8431,36 +8361,36 @@
               }),
             }),
           ),
-        vv = (e) => {
+        av = (e) => {
           const { activeMenu: t, setActiveMenu: a } = (0, pr.U)(),
             r = t === e,
             l = (0, n.useCallback)(() => a(r ? void 0 : e), [r, e, a]),
             o = (0, n.useCallback)(() => a(void 0), [a]);
           return { isOpen: r, toggleMenu: l, closeMenu: o };
         };
-      var Ev = Object.defineProperty,
-        yv = Object.defineProperties,
-        fv = Object.getOwnPropertyDescriptors,
-        hv = Object.getOwnPropertySymbols,
-        Ov = Object.prototype.hasOwnProperty,
-        Cv = Object.prototype.propertyIsEnumerable,
-        Iv = (e, t, a) =>
+      var nv = Object.defineProperty,
+        rv = Object.defineProperties,
+        lv = Object.getOwnPropertyDescriptors,
+        ov = Object.getOwnPropertySymbols,
+        iv = Object.prototype.hasOwnProperty,
+        cv = Object.prototype.propertyIsEnumerable,
+        sv = (e, t, a) =>
           t in e
-            ? Ev(e, t, {
+            ? nv(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const wv = ({
+      const dv = ({
         id: e,
         toggleClassName: t,
         menuClassName: a,
         renderMenu: r,
       }) => {
-        const { isOpen: l, toggleMenu: o, closeMenu: i } = vv(e);
-        return n.createElement(bv.L, {
+        const { isOpen: l, toggleMenu: o, closeMenu: i } = av(e);
+        return n.createElement(ev.L, {
           id: e,
           isOpen: l,
           onClose: i,
@@ -8472,11 +8402,11 @@
               n.createElement(
                 oo,
                 ((a = ((e, t) => {
-                  for (var a in t || (t = {})) Ov.call(t, a) && Iv(e, a, t[a]);
-                  if (hv) for (var a of hv(t)) Cv.call(t, a) && Iv(e, a, t[a]);
+                  for (var a in t || (t = {})) iv.call(t, a) && sv(e, a, t[a]);
+                  if (ov) for (var a of ov(t)) cv.call(t, a) && sv(e, a, t[a]);
                   return e;
                 })({}, e)),
-                yv(a, fv({ onClick: o }))),
+                rv(a, lv({ onClick: o }))),
               ),
             );
             var a;
@@ -8487,51 +8417,51 @@
               { className: a },
               n.createElement(
                 Ye.n4,
-                { fallback: n.createElement(gv, null) },
+                { fallback: n.createElement(tv, null) },
                 r(e),
               ),
             ),
         });
       };
-      var xv = Object.defineProperty,
-        Pv = Object.getOwnPropertySymbols,
-        Sv = Object.prototype.hasOwnProperty,
-        kv = Object.prototype.propertyIsEnumerable,
-        Nv = (e, t, a) =>
+      var uv = Object.defineProperty,
+        mv = Object.getOwnPropertySymbols,
+        pv = Object.prototype.hasOwnProperty,
+        bv = Object.prototype.propertyIsEnumerable,
+        gv = (e, t, a) =>
           t in e
-            ? xv(e, t, {
+            ? uv(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Lv = ({ id: e, toggleClassName: t, menuClassName: a }) =>
-        n.createElement(wv, {
+      const vv = ({ id: e, toggleClassName: t, menuClassName: a }) =>
+        n.createElement(dv, {
           id: e,
           toggleClassName: t,
           menuClassName: a,
           renderMenu: (e) =>
             n.createElement(
-              ov,
+              Hg,
               ((e, t) => {
-                for (var a in t || (t = {})) Sv.call(t, a) && Nv(e, a, t[a]);
-                if (Pv) for (var a of Pv(t)) kv.call(t, a) && Nv(e, a, t[a]);
+                for (var a in t || (t = {})) pv.call(t, a) && gv(e, a, t[a]);
+                if (mv) for (var a of mv(t)) bv.call(t, a) && gv(e, a, t[a]);
                 return e;
               })({}, e),
             ),
         });
-      var jv = a(30790);
-      const Mv = ({ children: e }) => {
-        const { namespace: t, catalogItemId: a, appName: r } = (0, Od.wK)(),
-          l = (0, $u.c)(t, a, r),
-          { installState: o } = (0, Wd.e)(t, a, r),
-          i = (0, Nb.V)(t, a, r),
+      var Ev = a(27429);
+      const yv = ({ children: e }) => {
+        const { namespace: t, catalogItemId: a, appName: r } = (0, hd.wK)(),
+          l = (0, Au.c)(t, a, r),
+          { installState: o } = (0, Ud.e)(t, a, r),
+          i = (0, vb.V)(t, a, r),
           c = n.useMemo(() => (0, Bo.X3)(l), [l]),
           s = n.useMemo(() => (0, Bo.X5)(l), [l]),
-          d = (0, Kd.HO)(o),
+          d = (0, Wd.HO)(o),
           u =
-            (0, Kd.aV)(o) && !(0, Kd.Pb)(o)
+            (0, Wd.aV)(o) && !(0, Wd.Pb)(o)
               ? 1
               : null == o
                 ? void 0
@@ -8540,24 +8470,24 @@
           Il,
           {
             image: c
-              ? n.createElement(jv.E, { alt: i, src: c, showBrokenOnError: !0 })
+              ? n.createElement(Ev.E, { alt: i, src: c, showBrokenOnError: !0 })
               : void 0,
-            logo: s ? n.createElement(jv.E, { alt: i, src: s }) : void 0,
+            logo: s ? n.createElement(Ev.E, { alt: i, src: s }) : void 0,
             percent: u,
             indeterminate: d,
           },
           e,
         );
       };
-      var Av = ((e) => (
+      var fv = ((e) => (
         (e.BackgroundOverlay = "backgroundOverlay"),
         (e.AccentOverlay = "accentOverlay"),
         (e.Accent = "accent"),
         (e.Level1 = "level1"),
         (e.Level2 = "level2"),
         e
-      ))(Av || {});
-      const Tv = (0, m.i)((e, { variant: t }) => ({
+      ))(fv || {});
+      const hv = (0, m.i)((e, { variant: t }) => ({
           root: (0, b.iv)({
             display: "inline-block",
             lineHeight: 1,
@@ -8570,12 +8500,12 @@
           }),
           pill: (0, b.iv)({ borderRadius: "50rem" }),
         })),
-        _v = ({
+        Ov = ({
           children: e,
           variant: t = "backgroundOverlay",
           pill: a = !1,
         }) => {
-          const r = Tv({ variant: t }),
+          const r = hv({ variant: t }),
             l = (0, b.cx)(r.root, { [r.pill]: a });
           return n.createElement(
             "span",
@@ -8583,15 +8513,15 @@
             n.createElement(Z.Z, null, e),
           );
         },
-        Dv = ({ count: e }) => {
+        Cv = ({ count: e }) => {
           const t = "diesel.library.dlc" + (e > 1 ? ".plural" : "");
           return n.createElement(
-            _v,
-            { variant: Av.Level2 },
+            Ov,
+            { variant: fv.Level2 },
             n.createElement(te.Z, { code: t, args: [e] }),
           );
         },
-        Rv = (0, m.i)(() => ({
+        Iv = (0, m.i)(() => ({
           button: (0, b.iv)({
             display: "flex",
             alignItems: "center",
@@ -8611,13 +8541,13 @@
             "button:hover &, button:focus &": { background: fe.yS },
           }),
         })),
-        Bv = ({ count: e }) => {
+        wv = ({ count: e }) => {
           const t = n.useRef(null),
-            a = Rv(),
-            { namespace: r, catalogItemId: l, appName: o } = (0, Od.wK)(),
-            { gotoManageAddons: i } = Eg(r, l, o),
-            { installState: c } = (0, Wd.e)(r, l, o),
-            s = n.useMemo(() => (0, Kd.aV)(c) && !(0, Kd.Pb)(c), [c]),
+            a = Iv(),
+            { namespace: r, catalogItemId: l, appName: o } = (0, hd.wK)(),
+            { gotoManageAddons: i } = ng(r, l, o),
+            { installState: c } = (0, Ud.e)(r, l, o),
+            s = n.useMemo(() => (0, Wd.aV)(c) && !(0, Wd.Pb)(c), [c]),
             d = n.useCallback(() => i(), [r, i]);
           return n.useMemo(
             () =>
@@ -8646,7 +8576,7 @@
             [s],
           );
         },
-        Zv = (0, io.L)(
+        xv = (0, io.L)(
           n.createElement(
             "g",
             null,
@@ -8679,30 +8609,30 @@
           ),
           "HeartOutline",
         );
-      var Fv = Object.defineProperty,
-        Uv = Object.defineProperties,
-        Wv = Object.getOwnPropertyDescriptors,
-        Kv = Object.getOwnPropertySymbols,
-        zv = Object.prototype.hasOwnProperty,
-        Vv = Object.prototype.propertyIsEnumerable,
-        Hv = (e, t, a) =>
+      var Sv = Object.defineProperty,
+        Pv = Object.defineProperties,
+        kv = Object.getOwnPropertyDescriptors,
+        Nv = Object.getOwnPropertySymbols,
+        Lv = Object.prototype.hasOwnProperty,
+        jv = Object.prototype.propertyIsEnumerable,
+        Mv = (e, t, a) =>
           t in e
-            ? Fv(e, t, {
+            ? Sv(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        $v = (e, t) => {
-          for (var a in t || (t = {})) zv.call(t, a) && Hv(e, a, t[a]);
-          if (Kv) for (var a of Kv(t)) Vv.call(t, a) && Hv(e, a, t[a]);
+        Av = (e, t) => {
+          for (var a in t || (t = {})) Lv.call(t, a) && Mv(e, a, t[a]);
+          if (Nv) for (var a of Nv(t)) jv.call(t, a) && Mv(e, a, t[a]);
           return e;
         };
-      const Gv = (0, m.i)((e, { isInCollection: t, showFullIcon: a }) => {
+      const Tv = (0, m.i)((e, { isInCollection: t, showFullIcon: a }) => {
           return {
             root: (0, b.iv)(
-              ((n = $v(
+              ((n = Av(
                 {
                   position: "absolute",
                   height: 24,
@@ -8738,12 +8668,12 @@
                   svg: { fontSize: a || t ? 14 : 12 },
                 },
               }),
-              Uv(n, Wv(r))),
+              Pv(n, kv(r))),
             ),
           };
           var n, r;
         }),
-        qv = ({
+        _v = ({
           className: e,
           onClick: t,
           onKeyDown: a,
@@ -8751,7 +8681,7 @@
           isOnline: l,
         }) => {
           const [o, i] = r().useState(!1),
-            c = Gv({ isInCollection: n, showFullIcon: o }),
+            c = Tv({ isInCollection: n, showFullIcon: o }),
             s = r().useCallback(() => {
               n || i(!0);
             }, [n]),
@@ -8783,18 +8713,18 @@
               },
               o || n
                 ? r().createElement(Wo, null)
-                : r().createElement(Zv, null),
+                : r().createElement(xv, null),
             ),
           );
         },
-        Yv = ({ className: e }) => {
-          const t = (0, Od.wK)(),
+        Dv = ({ className: e }) => {
+          const t = (0, hd.wK)(),
             { namespace: a, catalogItemId: r, appName: l } = t,
-            o = (0, Cd.K)(a, r, l),
+            o = (0, Od.K)(a, r, l),
             c = zr(),
-            s = qd(null == c ? void 0 : c.collectionId, t),
-            d = zd(),
-            u = _g(),
+            s = Gd(null == c ? void 0 : c.collectionId, t),
+            d = Kd(),
+            u = Og(),
             m = (0, i.c)(),
             p = (e) => {
               c && o && (e ? u(c, o) : d(c, o));
@@ -8808,7 +8738,7 @@
               },
               [t, s],
             );
-          return n.createElement(qv, {
+          return n.createElement(_v, {
             className: e,
             isOnline: m,
             isInCollection: s,
@@ -8816,15 +8746,15 @@
             onKeyDown: g,
           });
         };
-      var Jv = a(30838),
-        Xv = ((e) => (
+      var Rv = a(92954),
+        Bv = ((e) => (
           (e.BLUE = "blue"),
           (e.DEFAULT = "black"),
           (e.GREEN = "green"),
           (e.PURPLE = "purple"),
           e
-        ))(Xv || {});
-      const Qv = {
+        ))(Bv || {});
+      const Zv = {
           root: (0, b.iv)({
             letterSpacing: 1,
             padding: "2px 5px",
@@ -8842,117 +8772,117 @@
             overflow: "hidden",
             textOverflow: "ellipsis",
           }),
-          blue: (0, b.iv)({ backgroundColor: Jv.St }),
-          black: (0, b.iv)({ backgroundColor: Jv.Fi }),
-          green: (0, b.iv)({ backgroundColor: Jv.$w }),
-          purple: (0, b.iv)({ backgroundColor: Jv.Yh }),
+          blue: (0, b.iv)({ backgroundColor: Rv.St }),
+          black: (0, b.iv)({ backgroundColor: Rv.Fi }),
+          green: (0, b.iv)({ backgroundColor: Rv.$w }),
+          purple: (0, b.iv)({ backgroundColor: Rv.Yh }),
         },
-        eE = ({ color: e = "black", children: t }) => {
-          const a = (0, b.cx)(Qv.root, Qv[e]);
+        Fv = ({ color: e = "black", children: t }) => {
+          const a = (0, b.cx)(Zv.root, Zv[e]);
           return n.createElement(
             "div",
             { className: a, "data-testid": "StatusBar" },
             n.createElement(
               Z.Z,
               null,
-              n.createElement("span", { className: Qv.lineClamp }, t),
+              n.createElement("span", { className: Zv.lineClamp }, t),
             ),
           );
         },
-        tE = (e) => {
+        Uv = (e) => {
           switch (e.toUpperCase()) {
             case rn.PP.Stage:
-              return Xv.BLUE;
+              return Bv.BLUE;
             case rn.PP.Live:
-              return Xv.PURPLE;
+              return Bv.PURPLE;
             default:
-              return Xv.GREEN;
+              return Bv.GREEN;
           }
         },
-        aE = () => {
-          const { namespace: e, appName: t, catalogItemId: a } = (0, Od.wK)(),
-            n = (0, Cd.K)(e, a, t);
+        Wv = () => {
+          const { namespace: e, appName: t, catalogItemId: a } = (0, hd.wK)(),
+            n = (0, Od.K)(e, a, t);
           if (
             (null == n ? void 0 : n.sandboxType) === rn.Dj.Private &&
             (null == n ? void 0 : n.sandboxName)
           ) {
             const e = n.sandboxName;
-            return r().createElement(eE, { color: tE(e) }, e);
+            return r().createElement(Fv, { color: Uv(e) }, e);
           }
           return null;
         };
-      var nE = Object.defineProperty,
-        rE = Object.defineProperties,
-        lE = Object.getOwnPropertyDescriptors,
-        oE = Object.getOwnPropertySymbols,
-        iE = Object.prototype.hasOwnProperty,
-        cE = Object.prototype.propertyIsEnumerable,
-        sE = (e, t, a) =>
+      var Kv = Object.defineProperty,
+        zv = Object.defineProperties,
+        Vv = Object.getOwnPropertyDescriptors,
+        Hv = Object.getOwnPropertySymbols,
+        $v = Object.prototype.hasOwnProperty,
+        Gv = Object.prototype.propertyIsEnumerable,
+        qv = (e, t, a) =>
           t in e
-            ? nE(e, t, {
+            ? Kv(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        dE = (e, t) => {
-          for (var a in t || (t = {})) iE.call(t, a) && sE(e, a, t[a]);
-          if (oE) for (var a of oE(t)) cE.call(t, a) && sE(e, a, t[a]);
+        Yv = (e, t) => {
+          for (var a in t || (t = {})) $v.call(t, a) && qv(e, a, t[a]);
+          if (Hv) for (var a of Hv(t)) Gv.call(t, a) && qv(e, a, t[a]);
           return e;
         };
-      const uE = ({
+      const Jv = ({
           namespace: e,
           catalogItemId: t,
           appName: a,
           defaultValue: r = "0B",
         }) => {
-          const l = Ab(e, t, a);
+          const l = hb(e, t, a);
           return n.createElement(
             "span",
             { "data-testid": "InstallSizeOnDisk" },
             l || r,
           );
         },
-        mE = () =>
+        Xv = () =>
           n.createElement(Ee.Od, {
             variant: Ee.Jy.Text,
             height: "100%",
             width: 50,
           }),
-        pE = (e) =>
+        Qv = (e) =>
           n.createElement(
             Ye.n4,
-            { fallback: n.createElement(mE, null) },
-            n.createElement(uE, dE({}, e)),
+            { fallback: n.createElement(Xv, null) },
+            n.createElement(Jv, Yv({}, e)),
           ),
-        bE = ({ defaultValue: e }) => {
-          const t = (0, Od.wK)();
+        eE = ({ defaultValue: e }) => {
+          const t = (0, hd.wK)();
           return n.createElement(
-            pE,
-            ((a = dE({}, t)), rE(a, lE({ defaultValue: e }))),
+            Qv,
+            ((a = Yv({}, t)), zv(a, Vv({ defaultValue: e }))),
           );
           var a;
         };
-      var gE = Object.defineProperty,
-        vE = Object.getOwnPropertySymbols,
-        EE = Object.prototype.hasOwnProperty,
-        yE = Object.prototype.propertyIsEnumerable,
-        fE = (e, t, a) =>
+      var tE = Object.defineProperty,
+        aE = Object.getOwnPropertySymbols,
+        nE = Object.prototype.hasOwnProperty,
+        rE = Object.prototype.propertyIsEnumerable,
+        lE = (e, t, a) =>
           t in e
-            ? gE(e, t, {
+            ? tE(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        hE = (e, t) => {
-          for (var a in t || (t = {})) EE.call(t, a) && fE(e, a, t[a]);
-          if (vE) for (var a of vE(t)) yE.call(t, a) && fE(e, a, t[a]);
+        oE = (e, t) => {
+          for (var a in t || (t = {})) nE.call(t, a) && lE(e, a, t[a]);
+          if (aE) for (var a of aE(t)) rE.call(t, a) && lE(e, a, t[a]);
           return e;
         };
-      const OE =
+      const iE =
           ({
             hasSettingsMenu: e = !0,
             Layout: t,
@@ -8961,15 +8891,15 @@
             isGridView: l,
           }) =>
           () => {
-            const o = (0, Od.wK)(),
+            const o = (0, hd.wK)(),
               { namespace: i, catalogItemId: c, appName: s } = o,
-              d = `settings_${(0, Xs.ue)(i, c, s)}`,
+              d = `settings_${(0, Js.ue)(i, c, s)}`,
               u = `${d}_context`,
-              m = (0, nd.E)(),
+              m = (0, ad.E)(),
               p = r(o),
               b = (0, qe.useSelector)(on.vR) || Oa.v.ANONYMOUS,
               g = n.useRef(null),
-              { isOpen: v, closeMenu: E } = vv(d),
+              { isOpen: v, closeMenu: E } = av(d),
               {
                 openContextMenu: y,
                 openContextMenuWithKeyboard: f,
@@ -8980,8 +8910,8 @@
                 () =>
                   O
                     ? n.createElement(
-                        pv,
-                        hE({ id: u, anchorElement: g.current }, h),
+                        Qg,
+                        oE({ id: u, anchorElement: g.current }, h),
                       )
                     : void 0,
                 [u, h.anchorPosition, h.isOpen, h.onClose, O],
@@ -8990,7 +8920,7 @@
                 () =>
                   e
                     ? (e) =>
-                        n.createElement(Lv, {
+                        n.createElement(vv, {
                           id: d,
                           toggleClassName: e.button,
                           menuClassName: e.menu,
@@ -9000,10 +8930,10 @@
               );
             return n.createElement(t, {
               forwardedRef: g,
-              title: n.createElement(ug.F, { hasTooltip: !0, lineClamp: !l }),
+              title: n.createElement(Jb.F, { hasTooltip: !0, lineClamp: !l }),
               subtitle: n.createElement(a, { isGridView: l }),
-              image: n.createElement(Mv, null, n.createElement(aE, null)),
-              renderFavorite: (e) => n.createElement(Yv, { className: e }),
+              image: n.createElement(yv, null, n.createElement(Wv, null)),
+              renderFavorite: (e) => n.createElement(Dv, { className: e }),
               onContextMenu: O
                 ? (e) => {
                     E(), y(e);
@@ -9014,33 +8944,33 @@
               renderSettingsMenu: I,
               badges: m.length
                 ? l
-                  ? n.createElement(Dv, { count: m.length })
-                  : n.createElement(Bv, { count: m.length })
+                  ? n.createElement(Cv, { count: m.length })
+                  : n.createElement(wv, { count: m.length })
                 : void 0,
               active: v || h.isOpen,
               hasHover: !!p,
               onClick: p,
-              playtime: n.createElement(Mg, { defaultValue: "-" }),
-              installSize: n.createElement(bE, { defaultValue: "-" }),
-              achievements: b ? n.createElement(Fd, { isGridView: l }) : void 0,
+              playtime: n.createElement(yg, { defaultValue: "-" }),
+              installSize: n.createElement(eE, { defaultValue: "-" }),
+              achievements: b ? n.createElement(Zd, { isGridView: l }) : void 0,
             });
           },
-        CE = (e) => ({
-          GridCard: OE(hE({ Layout: Gl, isGridView: !0 }, e)),
-          ListCard: OE(hE({ Layout: ss, isGridView: !1 }, e)),
+        cE = (e) => ({
+          GridCard: iE(oE({ Layout: Gl, isGridView: !0 }, e)),
+          ListCard: iE(oE({ Layout: cs, isGridView: !1 }, e)),
         }),
-        IE = CE({
-          useButtonAction: ad,
-          SubtitleComponent: td.c,
+        sE = cE({
+          useButtonAction: td,
+          SubtitleComponent: ed.c,
           hasSettingsMenu: !0,
         });
-      var wE = a(41796);
-      const xE = (0, Cu.g)(
+      var dE = a(20766);
+      const uE = (0, Ou.g)(
         "installWithOptions",
         ({ namespace: e, catalogId: t, appName: a, options: n }) =>
           (0, Dt.ZP)().installWithOptions(e, t, a, n),
       );
-      const PE = (0, Cu.g)("chooseInstallLocation", (e) => {
+      const mE = (0, Ou.g)("chooseInstallLocation", (e) => {
           return (
             (t = void 0),
             (a = [e]),
@@ -9069,9 +8999,9 @@
           );
           var t, a, n;
         }),
-        SE = (0, Cu.u)("install");
-      var kE = a(23634);
-      const NE = (0, m.i)(() => ({
+        pE = (0, Ou.u)("install");
+      var bE = a(51460);
+      const gE = (0, m.i)(() => ({
           pathInfo: (0, b.iv)({
             margin: "10px 0 20px 0",
             width: "100%",
@@ -9083,8 +9013,8 @@
           autoUpdateLabel: (0, b.iv)((0, re.oI)(10)),
           buttonDiv: (0, b.iv)({ marginTop: 20 }),
         })),
-        LE = ({ path: e }) => {
-          const t = NE();
+        vE = ({ path: e }) => {
+          const t = gE();
           return n.createElement(
             "div",
             { className: t.pathInfo },
@@ -9106,7 +9036,7 @@
             ),
           );
         },
-        jE = ({
+        EE = ({
           directoryPath: e = "",
           downloadSize: t = "",
           error: a = "",
@@ -9120,7 +9050,7 @@
           path: p = "",
           requiredSpace: b = "",
         }) => {
-          const g = NE();
+          const g = gE();
           return n.createElement(A.P, {
             header: n.createElement(
               _.x,
@@ -9158,7 +9088,7 @@
                     code: "egstore.library.install_location_modal.folder",
                   }),
                 }),
-                r && n.createElement(LE, { path: p }),
+                r && n.createElement(vE, { path: p }),
               ),
               n.createElement(
                 L,
@@ -9175,7 +9105,7 @@
                       "data-testid": "BrowseButton",
                     },
                     n.createElement(
-                      kE.Z,
+                      bE.Z,
                       null,
                       n.createElement(Zo.v0, {
                         code: "egstore.library.install_location_modal.browse",
@@ -9195,7 +9125,7 @@
                           "data-testid": "OptionsButton",
                         },
                         n.createElement(
-                          kE.Z,
+                          bE.Z,
                           null,
                           n.createElement(Zo.v0, {
                             code: "egstore.library.install_location_modal.options",
@@ -9209,7 +9139,7 @@
                 n.createElement(
                   L,
                   { xs: 12 },
-                  n.createElement(LE, { path: p }),
+                  n.createElement(vE, { path: p }),
                 ),
               m,
             ),
@@ -9280,25 +9210,25 @@
             ),
           });
         };
-      var ME = Object.defineProperty,
-        AE = Object.getOwnPropertySymbols,
-        TE = Object.prototype.hasOwnProperty,
-        _E = Object.prototype.propertyIsEnumerable,
-        DE = (e, t, a) =>
+      var yE = Object.defineProperty,
+        fE = Object.getOwnPropertySymbols,
+        hE = Object.prototype.hasOwnProperty,
+        OE = Object.prototype.propertyIsEnumerable,
+        CE = (e, t, a) =>
           t in e
-            ? ME(e, t, {
+            ? yE(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        RE = (e, t) => {
-          for (var a in t || (t = {})) TE.call(t, a) && DE(e, a, t[a]);
-          if (AE) for (var a of AE(t)) _E.call(t, a) && DE(e, a, t[a]);
+        IE = (e, t) => {
+          for (var a in t || (t = {})) hE.call(t, a) && CE(e, a, t[a]);
+          if (fE) for (var a of fE(t)) OE.call(t, a) && CE(e, a, t[a]);
           return e;
         };
-      const BE = (e) =>
+      const wE = (e) =>
         n.createElement(ye, {
           hasHeader: !0,
           hasFooter: !0,
@@ -9317,18 +9247,18 @@
               { xs: 12 },
               n.createElement(
                 Ee.Od,
-                RE({ variant: Ee.Jy.Text, width: 50, height: 20 }, e),
+                IE({ variant: Ee.Jy.Text, width: 50, height: 20 }, e),
               ),
             ),
             n.createElement(
               L,
               { xs: 9 },
-              n.createElement(Ee.Od, RE({ width: "100%", height: 40 }, e)),
+              n.createElement(Ee.Od, IE({ width: "100%", height: 40 }, e)),
             ),
             n.createElement(
               L,
               { xs: 3 },
-              n.createElement(Ee.Od, RE({ width: "100%", height: 40 }, e)),
+              n.createElement(Ee.Od, IE({ width: "100%", height: 40 }, e)),
             ),
             n.createElement(
               L,
@@ -9338,23 +9268,23 @@
                 { style: { margin: "20px 0" } },
                 n.createElement(
                   Ee.Od,
-                  RE({ variant: Ee.Jy.Text, width: "80%", height: 25 }, e),
+                  IE({ variant: Ee.Jy.Text, width: "80%", height: 25 }, e),
                 ),
               ),
             ),
           ),
         });
-      var ZE = a(25419);
-      const FE = (0, m.i)(() => ({ textLabel: (0, b.iv)((0, re.oI)(10)) })),
-        UE = ({ ariaLabel: e, checked: t, id: a, label: r, onClick: l }) => {
-          const o = FE();
+      var xE = a(4329);
+      const SE = (0, m.i)(() => ({ textLabel: (0, b.iv)((0, re.oI)(10)) })),
+        PE = ({ ariaLabel: e, checked: t, id: a, label: r, onClick: l }) => {
+          const o = SE();
           return n.createElement(
             L,
             { xs: 12 },
             n.createElement(
               d.x,
               { alignItems: u.Ks.Center },
-              n.createElement(ZE.X, {
+              n.createElement(xE.X, {
                 id: a,
                 ariaLabel: e,
                 checked: t,
@@ -9372,11 +9302,11 @@
             ),
           );
         },
-        WE =
+        kE =
           (e) =>
           ({ value: t, onClick: a }) => {
             const r = (0, Zo.ql)();
-            return n.createElement(UE, {
+            return n.createElement(PE, {
               id: e.id,
               ariaLabel: r(e.titleCode),
               label: n.createElement(Zo.v0, { code: e.titleCode }),
@@ -9384,28 +9314,29 @@
               onClick: a,
             });
           },
-        KE = WE({
+        NE = kE({
           id: "installAutoUpdate",
           titleCode: "egstore.library.install_location_modal.auto_update",
         }),
-        zE = WE({
+        LE = kE({
           id: "createShortcut",
           titleCode: "egstore.library.install_location_modal.create_shortcut",
-        }),
-        VE = Hm("install-location-modal"),
-        HE = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            { closeModal: r, cancelModal: l, getData: o } = VE(),
+        });
+      var jE = a(63236);
+      const ME = Am("install-location-modal"),
+        AE = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            { closeModal: r, cancelModal: l, getData: o } = ME(),
             { additionalInstalls: i } = o() || {},
-            c = PE(),
-            s = Km(),
-            d = xE(),
-            { installState: u } = (0, Wd.e)(e, t, a),
+            c = mE(),
+            s = Lm(),
+            d = uE(),
+            { installState: u } = (0, Ud.e)(e, t, a),
             [m, p] = n.useState(!0),
             [b, g] = n.useState(!0),
             { path: v, directoryPath: E } = ((e, t, a) => {
-              const { installState: r } = (0, Wd.e)(e, t, a),
-                l = n.useMemo(() => (0, Kd.Kk)(r), [r]),
+              const { installState: r } = (0, Ud.e)(e, t, a),
+                l = n.useMemo(() => (0, Wd.Kk)(r), [r]),
                 o = n.useMemo(
                   () =>
                     ((e) => {
@@ -9420,8 +9351,8 @@
               return { path: l, directoryPath: o };
             })(e, t, a),
             y = ((e, t, a) => {
-              const r = (0, $u.c)(e, t, a),
-                { globalAutoUpdate: l } = (0, qb.t)(),
+              const r = (0, Au.c)(e, t, a),
+                { globalAutoUpdate: l } = (0, Db.t)(),
                 o = (0, n.useMemo)(() => (0, Bo.mW)(r), [r]),
                 i = (0, n.useMemo)(
                   () => (0, Bt.Bv)(null == r ? void 0 : r.categories),
@@ -9431,24 +9362,55 @@
             })(e, t, a),
             f = (() => {
               const e = (0, qe.useSelector)(on.ek);
-              return e === Gb.om.WINDOWS || e === Gb.om.WIN32;
+              return e === _b.om.WINDOWS || e === _b.om.WIN32;
             })(),
             h = ((e, t, a) => {
-              const { installState: r } = (0, Wd.e)(e, t, a);
-              return (0, n.useMemo)(() => (0, Kd.t9)(r), [r]);
+              const { installState: r } = (0, Ud.e)(e, t, a);
+              return (0, n.useMemo)(() => (0, Wd.t9)(r), [r]);
             })(e, t, a),
-            O = n.useMemo(() => (0, Kd.Ii)(u), [u]),
-            C = n.useMemo(
-              () => Boolean(!v || O),
+            { metadata: O } = ((e = "", t = "") => {
+              const a = (0, qe.useDispatch)(),
+                r = (0, n.useMemo)(() => (0, ln.KG)(t), [t]),
+                l = (0, qe.useSelector)(r),
+                o = Boolean(e && t),
+                i =
+                  !(null == l ? void 0 : l.state) ||
+                  (null == l ? void 0 : l.state) === jE.s.notAsked;
+              return (
+                (0, n.useEffect)(() => {
+                  o && i && a((0, hc.X4)({ sandboxId: e, artifactId: t }));
+                }, [o, i]),
+                (0, n.useMemo)(
+                  () => ({
+                    metadata: null == l ? void 0 : l.latestValue,
+                    query: {
+                      isFetching:
+                        (null == l ? void 0 : l.state) === jE.s.fetching,
+                      isSuccess:
+                        (null == l ? void 0 : l.state) === jE.s.success,
+                    },
+                  }),
+                  [
+                    null == l ? void 0 : l.latestValue,
+                    null == l ? void 0 : l.state,
+                  ],
+                )
+              );
+            })(e, a),
+            C = (0, Wd.td)((null == O ? void 0 : O.downloadSizeBytes) || 0),
+            I = (0, Wd.td)((null == O ? void 0 : O.installedSizeBytes) || 0),
+            w = n.useMemo(() => (0, Wd.Ii)(u), [u]),
+            x = n.useMemo(
+              () => Boolean(!v || w),
               [v, null == u ? void 0 : u.stateerror],
             ),
-            I = n.useCallback(() => {
+            S = n.useCallback(() => {
               c({ namespace: e, catalogId: t, appName: a });
             }, [c, e, t, a]),
-            w = n.useCallback(() => {
+            P = n.useCallback(() => {
               s({ namespace: e, catalogId: t, appName: a });
             }, [s, e, t, a]),
-            x = n.useCallback(() => {
+            k = n.useCallback(() => {
               d({
                 namespace: e,
                 catalogId: t,
@@ -9466,32 +9428,34 @@
                   }),
                 r();
             }, [r, d, e, t, a, m, b, i]);
-          return n.createElement(jE, {
-            isInstallDisabled: C,
+          return n.createElement(EE, {
+            isInstallDisabled: x,
             hasInstallOptions: h,
-            onBrowseClick: I,
+            onBrowseClick: S,
             onCancelClick: l,
-            onInstallClick: x,
-            onInstallOptionsClick: w,
+            onInstallClick: k,
+            onInstallOptionsClick: P,
             path: v,
             directoryPath: E,
-            error: O,
+            error: w,
+            downloadSize: C,
+            requiredSpace: I,
             options: n.createElement(
               n.Fragment,
               null,
               y &&
-                n.createElement(KE, { value: m, onClick: () => p((e) => !e) }),
+                n.createElement(NE, { value: m, onClick: () => p((e) => !e) }),
               f &&
-                n.createElement(zE, { value: b, onClick: () => g((e) => !e) }),
+                n.createElement(LE, { value: b, onClick: () => g((e) => !e) }),
             ),
           });
         },
-        $E = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            r = SE(),
-            { closeModal: l } = VE(),
+        TE = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            r = pE(),
+            { closeModal: l } = ME(),
             o = (0, Dt.ZP)().supportsWebClientInstallFlow(),
-            { isThirdPartyManaged: i, triggerInstallToast: c } = (0, cm.K)(
+            { isThirdPartyManaged: i, triggerInstallToast: c } = (0, qu.K)(
               e,
               t,
               a,
@@ -9503,16 +9467,16 @@
                   namespace: e,
                   catalogId: t,
                   appName: a,
-                  funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
+                  funnelId: oc.Nd.MANAGE_PRODUCT_MODAL,
                 }),
                 i && c(),
                 l());
             }, [i]),
-            !i && o ? n.createElement(HE, null) : n.createElement(BE, null)
+            !i && o ? n.createElement(AE, null) : n.createElement(wE, null)
           );
         },
-        GE = () => {
-          const { isOpen: e, cancelModal: t, getData: a } = VE(),
+        _E = () => {
+          const { isOpen: e, cancelModal: t, getData: a } = ME(),
             r = a();
           return r
             ? n.createElement(
@@ -9520,31 +9484,31 @@
                 { isOpen: e, onClose: t },
                 n.createElement(
                   Ye.n4,
-                  { fallback: n.createElement(BE, null) },
+                  { fallback: n.createElement(wE, null) },
                   n.createElement(
-                    Od.wi.Provider,
+                    hd.wi.Provider,
                     { value: r },
-                    n.createElement($E, null),
+                    n.createElement(TE, null),
                   ),
                 ),
               )
             : null;
         },
-        qE = (e) => {
+        DE = (e) => {
           const { namespace: t, catalogItemId: a, appName: r } = e,
-            { openModal: l } = VE(),
-            o = xE(),
-            i = (0, Db.R)(t, a, r),
-            { isLaunchableAddon: c, install: s } = Zb(t, a, r),
-            { installState: d } = (0, Wd.e)(
+            { openModal: l } = ME(),
+            o = uE(),
+            i = (0, Ib.R)(t, a, r),
+            { isLaunchableAddon: c, install: s } = Sb(t, a, r),
+            { installState: d } = (0, Ud.e)(
               c ? (null == i ? void 0 : i.namespace) : "",
               c ? (null == i ? void 0 : i.catalogItemId) : "",
               c ? (null == i ? void 0 : i.appName) : "",
             );
           return (0, n.useCallback)(() => {
-            const t = (0, Kd.aV)(d),
-              a = (0, Kd.Pb)(d),
-              n = (0, Kd.Gd)(d);
+            const t = (0, Wd.aV)(d),
+              a = (0, Wd.Pb)(d),
+              n = (0, Wd.Gd)(d);
             if (c && d)
               if ((0, Dt.ZP)().supportsLaunchableAddonsV2Flow()) {
                 if (t || a || n)
@@ -9572,172 +9536,172 @@
             else l(e);
           }, [c, s, o, l, e, i, d]);
         },
-        YE = CE({
-          useButtonAction: qE,
-          SubtitleComponent: wE.y,
+        RE = cE({
+          useButtonAction: DE,
+          SubtitleComponent: dE.y,
           hasSettingsMenu: !0,
         }),
-        JE = CE({
-          useButtonAction: qE,
-          SubtitleComponent: wE.v,
+        BE = cE({
+          useButtonAction: DE,
+          SubtitleComponent: dE.v,
           hasSettingsMenu: !0,
         });
-      var XE = a(70960);
-      const QE = CE({
-          useButtonAction: XE.v,
+      var ZE = a(47789);
+      const FE = cE({
+          useButtonAction: ZE.v,
           SubtitleComponent: wl.L6,
           hasSettingsMenu: !0,
         }),
-        ey = CE({
-          useButtonAction: XE.v,
+        UE = cE({
+          useButtonAction: ZE.v,
           SubtitleComponent: wl.WL,
           hasSettingsMenu: !0,
         }),
-        ty = CE({
-          useButtonAction: XE.v,
+        WE = cE({
+          useButtonAction: ZE.v,
           SubtitleComponent: wl.YA,
           hasSettingsMenu: !0,
         });
-      var ay = a(7507);
-      const ny = CE({
-        useButtonAction: ad,
-        SubtitleComponent: ay.D,
+      var KE = a(33506);
+      const zE = cE({
+        useButtonAction: td,
+        SubtitleComponent: KE.D,
         hasSettingsMenu: !1,
       });
-      var ry = a(69456),
-        ly = a(10695);
-      const oy = CE({
-        useButtonAction: ly.v,
-        SubtitleComponent: ry.c,
+      var VE = a(52687),
+        HE = a(86680);
+      const $E = cE({
+        useButtonAction: HE.v,
+        SubtitleComponent: VE.c,
         hasSettingsMenu: !0,
       });
-      var iy = a(59309);
-      const cy = CE({
+      var GE = a(63366);
+      const qE = cE({
         useButtonAction: ({ namespace: e }) => {
-          const { gotoProductHome: t } = Fm(e, { suspense: !1 });
+          const { gotoProductHome: t } = Pm(e, { suspense: !1 });
           return t;
         },
-        SubtitleComponent: iy.g,
+        SubtitleComponent: GE.g,
         hasSettingsMenu: !0,
       });
-      var sy = a(16242),
-        dy = a(75806);
-      const uy = (0, dy.f)(db),
-        my = CE({
-          useButtonAction: uy,
-          SubtitleComponent: sy.g,
+      var YE = a(42113),
+        JE = a(89331);
+      const XE = (0, JE.f)(Jp),
+        QE = cE({
+          useButtonAction: XE,
+          SubtitleComponent: YE.g,
           hasSettingsMenu: !1,
         });
-      var py = a(92309);
-      const by = CE({
-        useButtonAction: () => (0, xd.X)("UE"),
-        SubtitleComponent: py.u,
+      var ey = a(19602);
+      const ty = cE({
+        useButtonAction: () => (0, wd.X)("UE"),
+        SubtitleComponent: ey.u,
         hasSettingsMenu: !1,
       });
-      var gy = a(80476),
-        vy = a(57873),
-        Ey = a(41108);
-      const yy = (0, dy.f)(gy.$),
-        fy = (0, dy.f)(vy.z),
-        hy = CE({
-          useButtonAction: ad,
-          SubtitleComponent: Ey.ob,
+      var ay = a(5190),
+        ny = a(86416),
+        ry = a(66685);
+      const ly = (0, JE.f)(ay.$),
+        oy = (0, JE.f)(ny.z),
+        iy = cE({
+          useButtonAction: td,
+          SubtitleComponent: ry.ob,
           hasSettingsMenu: !1,
         }),
-        Oy = CE({
-          useButtonAction: yy,
-          SubtitleComponent: Ey.zQ,
+        cy = cE({
+          useButtonAction: ly,
+          SubtitleComponent: ry.zQ,
           hasSettingsMenu: !0,
         }),
-        Cy = CE({
-          useButtonAction: fy,
-          SubtitleComponent: Ey.Jy,
+        sy = cE({
+          useButtonAction: oy,
+          SubtitleComponent: ry.Jy,
           hasSettingsMenu: !0,
         }),
-        Iy = CE({
-          useButtonAction: ad,
+        dy = cE({
+          useButtonAction: td,
           SubtitleComponent: o.z,
           hasSettingsMenu: !1,
         });
-      var wy = a(20841);
-      const xy = CE({
-        useButtonAction: ad,
-        SubtitleComponent: wy.V,
+      var uy = a(9800);
+      const my = cE({
+        useButtonAction: td,
+        SubtitleComponent: uy.V,
         hasSettingsMenu: !0,
       });
-      var Py = a(18766),
-        Sy = a(57123);
-      const ky = CE({
-        useButtonAction: Sy.m,
+      var py = a(93088),
+        by = a(48912);
+      const gy = cE({
+        useButtonAction: by.m,
+        SubtitleComponent: py.l,
+        hasSettingsMenu: !0,
+      });
+      var vy = a(60331);
+      const Ey = cE({
+        useButtonAction: td,
+        SubtitleComponent: vy.i,
+        hasSettingsMenu: !0,
+      });
+      var yy = a(92679);
+      const fy = cE({
+        useButtonAction: td,
+        SubtitleComponent: yy.t,
+        hasSettingsMenu: !0,
+      });
+      var hy = a(40762);
+      const Oy = cE({
+        useButtonAction: td,
+        SubtitleComponent: hy.K,
+        hasSettingsMenu: !0,
+      });
+      cE({ useButtonAction: td, SubtitleComponent: hy.d, hasSettingsMenu: !0 });
+      var Cy = a(52976);
+      const Iy = cE({
+        useButtonAction: td,
+        SubtitleComponent: Cy.i,
+        hasSettingsMenu: !1,
+      });
+      var wy = a(41015),
+        xy = a(99907);
+      const Sy = cE({
+        useButtonAction: wy.e,
+        SubtitleComponent: xy.d,
+        hasSettingsMenu: !0,
+      });
+      var Py = a(98405);
+      const ky = cE({
+        useButtonAction: td,
         SubtitleComponent: Py.l,
         hasSettingsMenu: !0,
       });
-      var Ny = a(657);
-      const Ly = CE({
-        useButtonAction: ad,
-        SubtitleComponent: Ny.i,
+      var Ny = a(31820);
+      const Ly = cE({
+        useButtonAction: td,
+        SubtitleComponent: Ny.O,
         hasSettingsMenu: !0,
       });
-      var jy = a(36781);
-      const My = CE({
-        useButtonAction: ad,
-        SubtitleComponent: jy.t,
+      var jy = a(48874),
+        My = a(10911);
+      const Ay = cE({
+        useButtonAction: My.s,
+        SubtitleComponent: jy.I,
         hasSettingsMenu: !0,
       });
-      var Ay = a(68669);
-      const Ty = CE({
-        useButtonAction: ad,
-        SubtitleComponent: Ay.K,
-        hasSettingsMenu: !0,
-      });
-      CE({ useButtonAction: ad, SubtitleComponent: Ay.d, hasSettingsMenu: !0 });
-      var _y = a(24154);
-      const Dy = CE({
-        useButtonAction: ad,
-        SubtitleComponent: _y.i,
-        hasSettingsMenu: !1,
-      });
-      var Ry = a(10746),
-        By = a(11844);
-      const Zy = CE({
-        useButtonAction: Ry.e,
-        SubtitleComponent: By.d,
-        hasSettingsMenu: !0,
-      });
-      var Fy = a(87106);
-      const Uy = CE({
-        useButtonAction: ad,
-        SubtitleComponent: Fy.l,
-        hasSettingsMenu: !0,
-      });
-      var Wy = a(7484);
-      const Ky = CE({
-        useButtonAction: ad,
-        SubtitleComponent: Wy.O,
-        hasSettingsMenu: !0,
-      });
-      var zy = a(21664),
-        Vy = a(74738);
-      const Hy = CE({
-        useButtonAction: Vy.s,
-        SubtitleComponent: zy.I,
-        hasSettingsMenu: !0,
-      });
-      var $y = a(93348),
-        Gy = a(77910);
-      const qy = (e) =>
-          (0, um.b)(mm.M.Ubisoft, null == e ? void 0 : e.customAttributes),
-        Yy = CE({
+      var Ty = a(89701),
+        _y = a(29878);
+      const Dy = (e) =>
+          (0, Xu.b)(Qu.M.Ubisoft, null == e ? void 0 : e.customAttributes),
+        Ry = cE({
           useButtonAction: ({ namespace: e, catalogItemId: t, appName: a }) => {
             const r = (0, qe.useDispatch)(),
-              { uplayCodes: l } = (0, pm.Rb)(),
-              o = (0, rm.c)(e, t, a, {
+              { uplayCodes: l } = (0, em.Rb)(),
+              o = (0, Vu.c)(e, t, a, {
                 includeMainGameItem: !0,
                 includeHiddenAddons: !0,
               }),
               i = (0, n.useMemo)(() => {
                 const e = o.map((e) => e.catalogItem);
-                return (0, bm.D)(e.map(qy)).filter(
+                return (0, tm.D)(e.map(Dy)).filter(
                   ((e) => (t) => {
                     const a =
                       null == e
@@ -9754,83 +9718,83 @@
               }, [o, l]);
             return (0, n.useCallback)(() => {
               (null == i ? void 0 : i.length) &&
-                r((0, Gy.E)({ partnerGameIds: i }));
+                r((0, _y.E)({ partnerGameIds: i }));
             }, [i, r]);
           },
-          SubtitleComponent: $y.o,
+          SubtitleComponent: Ty.o,
           hasSettingsMenu: !1,
         }),
-        Jy = () => {
+        By = () => {
           const e = (0, qe.useDispatch)();
           return (0, n.useCallback)(() => {
-            e(ws.ZP.startUplayLinkProcess());
+            e(Is.ZP.startUplayLinkProcess());
           }, [e]);
         };
-      var Xy = a(90534);
-      const Qy = CE({
-        useButtonAction: Jy,
-        SubtitleComponent: Xy.H,
+      var Zy = a(24859);
+      const Fy = cE({
+        useButtonAction: By,
+        SubtitleComponent: Zy.H,
         hasSettingsMenu: !1,
       });
-      var ef = a(20120),
-        tf = a(32500),
-        af = a(44675);
-      const nf = (0, ef.o)({
-          icon: n.createElement(af.Z, null),
-          Component: tf.YU,
+      var Uy = a(73389),
+        Wy = a(18144),
+        Ky = a(91139);
+      const zy = (0, Uy.o)({
+          icon: n.createElement(Ky.Z, null),
+          Component: Wy.YU,
         }),
-        rf = CE({
-          useButtonAction: ad,
-          SubtitleComponent: nf,
+        Vy = cE({
+          useButtonAction: td,
+          SubtitleComponent: zy,
           hasSettingsMenu: !0,
         }),
-        lf = {
-          [Am.W.Banned]: IE,
-          [Am.W.CanInstall]: YE,
-          [Am.W.CanLaunch]: QE,
-          [Am.W.CanLaunchMultiple]: ey,
-          [Am.W.CanLaunchRestricted]: ty,
-          [Am.W.CanPreInstall]: JE,
-          [Am.W.CloudSyncing]: ny,
-          [Am.W.Corrupted]: oy,
-          [Am.W.ForceGet]: cy,
-          [Am.W.ForceUninstall]: my,
-          [Am.W.GotoHub]: by,
-          [Am.W.Installing]: Oy,
-          [Am.W.InstallingPaused]: Cy,
-          [Am.W.InstallingPreparing]: hy,
-          [Am.W.Loading]: Iy,
-          [Am.W.Offline]: xy,
-          [Am.W.PartiallyInstalled]: ky,
-          [Am.W.PreInstalled]: Ly,
-          [Am.W.PrePurchased]: My,
-          [Am.W.Queued]: Ty,
-          [Am.W.QueuedForUpdate]: Ty,
-          [Am.W.Running]: Dy,
-          [Am.W.SelfUpdate]: Iy,
-          [Am.W.SignIn]: Zy,
-          [Am.W.Unavailable]: Uy,
-          [Am.W.Unsupported]: Ky,
-          [Am.W.Update]: Hy,
-          [Am.W.UplaySignIn]: Qy,
-          [Am.W.UplayRedeem]: Yy,
-          [Am.W.WaitingInLine]: rf,
+        Hy = {
+          [hm.W.Banned]: sE,
+          [hm.W.CanInstall]: RE,
+          [hm.W.CanLaunch]: FE,
+          [hm.W.CanLaunchMultiple]: UE,
+          [hm.W.CanLaunchRestricted]: WE,
+          [hm.W.CanPreInstall]: BE,
+          [hm.W.CloudSyncing]: zE,
+          [hm.W.Corrupted]: $E,
+          [hm.W.ForceGet]: qE,
+          [hm.W.ForceUninstall]: QE,
+          [hm.W.GotoHub]: ty,
+          [hm.W.Installing]: cy,
+          [hm.W.InstallingPaused]: sy,
+          [hm.W.InstallingPreparing]: iy,
+          [hm.W.Loading]: dy,
+          [hm.W.Offline]: my,
+          [hm.W.PartiallyInstalled]: gy,
+          [hm.W.PreInstalled]: Ey,
+          [hm.W.PrePurchased]: fy,
+          [hm.W.Queued]: Oy,
+          [hm.W.QueuedForUpdate]: Oy,
+          [hm.W.Running]: Iy,
+          [hm.W.SelfUpdate]: dy,
+          [hm.W.SignIn]: Sy,
+          [hm.W.Unavailable]: ky,
+          [hm.W.Unsupported]: Ly,
+          [hm.W.Update]: Ay,
+          [hm.W.UplaySignIn]: Fy,
+          [hm.W.UplayRedeem]: Ry,
+          [hm.W.WaitingInLine]: Vy,
         };
-      var of = a(74737),
-        cf = Object.defineProperty,
-        sf = Object.getOwnPropertySymbols,
-        df = Object.prototype.hasOwnProperty,
-        uf = Object.prototype.propertyIsEnumerable,
-        mf = (e, t, a) =>
+      var $y = a(74737),
+        Gy = Object.defineProperty,
+        qy = Object.getOwnPropertySymbols,
+        Yy = Object.prototype.hasOwnProperty,
+        Jy = Object.prototype.propertyIsEnumerable,
+        Xy = (e, t, a) =>
           t in e
-            ? cf(e, t, {
+            ? Gy(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const pf = ({
+      const Qy = ({
           layout: e,
           namespace: t,
           catalogItemId: a,
@@ -9841,8 +9805,8 @@
               catalogItemId: t,
               appName: a,
             }) => {
-              const n = Mm(e, t, a);
-              return lf[n];
+              const n = fm(e, t, a);
+              return Hy[n];
             })({ namespace: t, catalogItemId: a, appName: r }),
             i = n.useMemo(() => (e === rn.ms.Grid ? l : o), [e, l, o]),
             c = n.useMemo(
@@ -9850,21 +9814,21 @@
               [t, a, r],
             );
           return n.createElement(
-            Od.wi.Provider,
+            hd.wi.Provider,
             { value: c },
             n.createElement(i, null),
           );
         },
-        bf = (e) => {
+        ef = (e) => {
           var t = e,
             { index: a = -1, layout: r } = t,
             l = ((e, t) => {
               var a = {};
               for (var n in e)
-                df.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && sf)
-                for (var n of sf(e))
-                  t.indexOf(n) < 0 && uf.call(e, n) && (a[n] = e[n]);
+                Yy.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && qy)
+                for (var n of qy(e))
+                  t.indexOf(n) < 0 && Jy.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["index", "layout"]);
           const [o, i] = n.useState(a >= 0 && a < 24),
@@ -9874,9 +9838,9 @@
               },
               [i],
             ),
-            s = n.useMemo(() => (r === rn.ms.Grid ? Os : Cs), [r]);
+            s = n.useMemo(() => (r === rn.ms.Grid ? hs : Os), [r]);
           return n.createElement(
-            of.ZP,
+            $y.ZP,
             { disabled: o, rootMargin: "50%", onChange: c },
             n.createElement(
               "div",
@@ -9886,12 +9850,12 @@
                     Ye.n4,
                     { fallback: n.createElement(s, { animation: Ee.ru.None }) },
                     n.createElement(
-                      pf,
+                      Qy,
                       ((e, t) => {
                         for (var a in t || (t = {}))
-                          df.call(t, a) && mf(e, a, t[a]);
-                        if (sf)
-                          for (var a of sf(t)) uf.call(t, a) && mf(e, a, t[a]);
+                          Yy.call(t, a) && Xy(e, a, t[a]);
+                        if (qy)
+                          for (var a of qy(t)) Jy.call(t, a) && Xy(e, a, t[a]);
                         return e;
                       })({ layout: r }, l),
                     ),
@@ -9900,8 +9864,8 @@
             ),
           );
         };
-      var gf = a(35477);
-      const vf = (0, m.i)(() => ({
+      var tf = a(50694);
+      const af = (0, m.i)(() => ({
           wrapper: (0, b.iv)({
             display: "flex",
             flexDirection: "column",
@@ -9913,8 +9877,8 @@
           }),
           title: (0, b.iv)({ width: 608 }),
         })),
-        Ef = () => {
-          const e = vf(),
+        nf = () => {
+          const e = af(),
             { resetFilters: t } = hn(),
             { selectedCollectionId: a } = kn(),
             r = n.useMemo(
@@ -9941,7 +9905,7 @@
               "div",
               { "aria-live": "polite", role: "alert", className: e.title },
               n.createElement(
-                gf.Z.Heading,
+                tf.Z.Heading,
                 { headingLevel: 1 },
                 n.createElement(te.Z, { code: r }),
               ),
@@ -9953,8 +9917,8 @@
             ),
           );
         },
-        yf = ({ pageSize: e, options: t, onChange: a, layout: n }) =>
-          r().createElement(Fc.Z, {
+        rf = ({ pageSize: e, options: t, onChange: a, layout: n }) =>
+          r().createElement(Zc.Z, {
             id: "page-size-dropdown",
             label: r().createElement(te.Z, {
               code: `egstore.library.page_size.title.${n.toLowerCase()}`,
@@ -9963,39 +9927,39 @@
             selectedValue: e,
             onChange: a,
           });
-      var ff = ((e) => (
+      var lf = ((e) => (
         (e.Page = "page"),
         (e.Previous = "previous"),
         (e.StartEllipsis = "start-ellipsis"),
         (e.Next = "next"),
         (e.EndEllipsis = "end-ellipsis"),
         e
-      ))(ff || {});
-      const hf = (e, t) => {
+      ))(lf || {});
+      const of = (e, t) => {
         const a = t - e + 1;
         return Array.from({ length: a }, (t, a) => e + a);
       };
-      var Of = a(95116),
-        Cf = a(79474),
-        If = Object.defineProperty,
-        wf = Object.getOwnPropertySymbols,
-        xf = Object.prototype.hasOwnProperty,
-        Pf = Object.prototype.propertyIsEnumerable,
-        Sf = (e, t, a) =>
+      var cf = a(19451),
+        sf = a(79494),
+        df = Object.defineProperty,
+        uf = Object.getOwnPropertySymbols,
+        mf = Object.prototype.hasOwnProperty,
+        pf = Object.prototype.propertyIsEnumerable,
+        bf = (e, t, a) =>
           t in e
-            ? If(e, t, {
+            ? df(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        kf = (e, t) => {
-          for (var a in t || (t = {})) xf.call(t, a) && Sf(e, a, t[a]);
-          if (wf) for (var a of wf(t)) Pf.call(t, a) && Sf(e, a, t[a]);
+        gf = (e, t) => {
+          for (var a in t || (t = {})) mf.call(t, a) && bf(e, a, t[a]);
+          if (uf) for (var a of uf(t)) pf.call(t, a) && bf(e, a, t[a]);
           return e;
         };
-      const Nf = (0, m.i)((e) => ({
+      const vf = (0, m.i)((e) => ({
           delimiter: (0, b.iv)({ color: e.textSecondary }),
           number: (0, b.iv)({
             'button:hover:not([disabled]) &, button[aria-current="true"] &': {
@@ -10006,30 +9970,30 @@
           }),
           icon: (0, b.iv)((0, re.N2)("rtl")),
         })),
-        Lf = (e) => {
+        Ef = (e) => {
           var t = e,
             {
               page: a,
               selected: r = !1,
               disabled: l = !1,
-              type: o = ff.Page,
+              type: o = lf.Page,
               onClick: i,
             } = t,
             c = ((e, t) => {
               var a = {};
               for (var n in e)
-                xf.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
-              if (null != e && wf)
-                for (var n of wf(e))
-                  t.indexOf(n) < 0 && Pf.call(e, n) && (a[n] = e[n]);
+                mf.call(e, n) && t.indexOf(n) < 0 && (a[n] = e[n]);
+              if (null != e && uf)
+                for (var n of uf(e))
+                  t.indexOf(n) < 0 && pf.call(e, n) && (a[n] = e[n]);
               return a;
             })(t, ["page", "selected", "disabled", "type", "onClick"]);
-          const s = Nf(),
+          const s = vf(),
             d = ((e, t, a) => {
               const r = (0, oe.useLocalization)();
               return n.useMemo(
                 () =>
-                  e === ff.Page
+                  e === lf.Page
                     ? r(
                         a
                           ? "epic.store.pagination.page"
@@ -10040,28 +10004,28 @@
                 [e, a, t],
               );
             })(o, a, r);
-          return o === ff.StartEllipsis || o === ff.EndEllipsis
+          return o === lf.StartEllipsis || o === lf.EndEllipsis
             ? n.createElement("div", { className: s.delimiter }, "…")
-            : o === ff.Previous
+            : o === lf.Previous
               ? n.createElement(
                   "div",
                   { className: s.icon, "data-testid": "previous" },
                   n.createElement(
                     tt.h,
-                    kf(
+                    gf(
                       { disabled: l, onClick: () => i(a - 1), "aria-label": d },
                       c,
                     ),
-                    n.createElement(Of.v, null),
+                    n.createElement(cf.v, null),
                   ),
                 )
-              : o === ff.Next
+              : o === lf.Next
                 ? n.createElement(
                     "div",
                     { className: s.icon, "data-testid": "next" },
                     n.createElement(
                       tt.h,
-                      kf(
+                      gf(
                         {
                           disabled: l,
                           onClick: () => i(a + 1),
@@ -10069,13 +10033,13 @@
                         },
                         c,
                       ),
-                      n.createElement(Cf.E, null),
+                      n.createElement(sf.E, null),
                     ),
                   )
                 : n.createElement(
                     nl.F6,
-                    kf(
-                      kf(
+                    gf(
+                      gf(
                         {
                           buttonWidth: R.WL.AUTO,
                           disabled: l,
@@ -10093,23 +10057,23 @@
                     ),
                   );
         };
-      var jf = a(11240),
-        Mf = Object.defineProperty,
-        Af = Object.defineProperties,
-        Tf = Object.getOwnPropertyDescriptors,
-        _f = Object.getOwnPropertySymbols,
-        Df = Object.prototype.hasOwnProperty,
-        Rf = Object.prototype.propertyIsEnumerable,
-        Bf = (e, t, a) =>
+      var yf = a(6232),
+        ff = Object.defineProperty,
+        hf = Object.defineProperties,
+        Of = Object.getOwnPropertyDescriptors,
+        Cf = Object.getOwnPropertySymbols,
+        If = Object.prototype.hasOwnProperty,
+        wf = Object.prototype.propertyIsEnumerable,
+        xf = (e, t, a) =>
           t in e
-            ? Mf(e, t, {
+            ? ff(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Zf = {
+      const Sf = {
           list: (0, b.iv)({
             margin: 0,
             padding: 0,
@@ -10123,12 +10087,12 @@
             "&:first-of-type": (0, re.wz)(8),
           }),
         },
-        Ff = ({ page: e, totalPages: t, onClick: a }) => {
+        Pf = ({ page: e, totalPages: t, onClick: a }) => {
           const r = n.useRef(null),
             l = (0, oe.useLocalization)(),
             { items: o } = (({ totalPages: e, page: t }) => {
-              const a = (0, n.useMemo)(() => hf(1, Math.min(1, e)), [e]),
-                r = (0, n.useMemo)(() => hf(Math.max(e - 1 + 1, 2), e), [e]),
+              const a = (0, n.useMemo)(() => of(1, Math.min(1, e)), [e]),
+                r = (0, n.useMemo)(() => of(Math.max(e - 1 + 1, 2), e), [e]),
                 l = Math.max(Math.min(t - 1, e - 1 - 2 - 1), 3),
                 o = Math.min(
                   Math.max(t + 1, 5),
@@ -10140,7 +10104,7 @@
                     "previous",
                     ...a,
                     ...(l > 3 ? ["start-ellipsis"] : 2 < e - 1 ? [2] : []),
-                    ...hf(l, o),
+                    ...of(l, o),
                     ...(o < e - 1 - 1
                       ? ["end-ellipsis"]
                       : e - 1 > 1
@@ -10179,57 +10143,57 @@
               "aria-label": l("epic.store.pagination.pagination_navigation"),
             },
             n.createElement(
-              jf.a,
-              { data: o, className: Zf.list, itemClassName: Zf.listItem },
+              yf.a,
+              { data: o, className: Sf.list, itemClassName: Sf.listItem },
               (e, t) => {
                 return n.createElement(
-                  Lf,
+                  Ef,
                   ((r = ((e, t) => {
                     for (var a in t || (t = {}))
-                      Df.call(t, a) && Bf(e, a, t[a]);
-                    if (_f)
-                      for (var a of _f(t)) Rf.call(t, a) && Bf(e, a, t[a]);
+                      If.call(t, a) && xf(e, a, t[a]);
+                    if (Cf)
+                      for (var a of Cf(t)) wf.call(t, a) && xf(e, a, t[a]);
                     return e;
                   })({}, e)),
                   (l = { onClick: a, key: `${e.page}-${t}` }),
-                  Af(r, Tf(l))),
+                  hf(r, Of(l))),
                 );
                 var r, l;
               },
             ),
           );
         };
-      var Uf = Object.defineProperty,
-        Wf = Object.getOwnPropertySymbols,
-        Kf = Object.prototype.hasOwnProperty,
-        zf = Object.prototype.propertyIsEnumerable,
-        Vf = (e, t, a) =>
+      var kf = Object.defineProperty,
+        Nf = Object.getOwnPropertySymbols,
+        Lf = Object.prototype.hasOwnProperty,
+        jf = Object.prototype.propertyIsEnumerable,
+        Mf = (e, t, a) =>
           t in e
-            ? Uf(e, t, {
+            ? kf(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Hf = (e, t) => {
-          for (var a in t || (t = {})) Kf.call(t, a) && Vf(e, a, t[a]);
-          if (Wf) for (var a of Wf(t)) zf.call(t, a) && Vf(e, a, t[a]);
+        Af = (e, t) => {
+          for (var a in t || (t = {})) Lf.call(t, a) && Mf(e, a, t[a]);
+          if (Nf) for (var a of Nf(t)) jf.call(t, a) && Mf(e, a, t[a]);
           return e;
         };
-      const $f = {
+      const Tf = {
           footer: (0, b.iv)({
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
           }),
           pagination: (0, b.iv)({
-            [fe.Uc.lg]: Hf({}, (0, re.wz)(31)),
-            [fe.Uc.xl]: Hf({}, (0, re.wz)(42)),
-            [fe.Uc.maxWidth]: Hf({}, (0, re.wz)(57)),
+            [fe.Uc.lg]: Af({}, (0, re.wz)(31)),
+            [fe.Uc.xl]: Af({}, (0, re.wz)(42)),
+            [fe.Uc.maxWidth]: Af({}, (0, re.wz)(57)),
           }),
         },
-        Gf = ({
+        _f = ({
           totalItems: e,
           totalPages: t,
           page: a,
@@ -10280,16 +10244,16 @@
           );
           return r().createElement(
             "div",
-            { className: $f.footer },
+            { className: Tf.footer },
             r().createElement(ae.ZP, { textLevel: F.N.SECONDARY }, v),
             b &&
               r().createElement(
                 "div",
-                { className: $f.pagination },
-                r().createElement(Ff, { page: a, totalPages: t, onClick: E }),
+                { className: Tf.pagination },
+                r().createElement(Pf, { page: a, totalPages: t, onClick: E }),
               ),
             e > i[0].value
-              ? r().createElement(yf, {
+              ? r().createElement(rf, {
                   pageSize: l,
                   onChange: o,
                   options: i,
@@ -10298,22 +10262,22 @@
               : null,
           );
         };
-      var qf = Object.defineProperty,
-        Yf = Object.defineProperties,
-        Jf = Object.getOwnPropertyDescriptors,
-        Xf = Object.getOwnPropertySymbols,
-        Qf = Object.prototype.hasOwnProperty,
-        eh = Object.prototype.propertyIsEnumerable,
-        th = (e, t, a) =>
+      var Df = Object.defineProperty,
+        Rf = Object.defineProperties,
+        Bf = Object.getOwnPropertyDescriptors,
+        Zf = Object.getOwnPropertySymbols,
+        Ff = Object.prototype.hasOwnProperty,
+        Uf = Object.prototype.propertyIsEnumerable,
+        Wf = (e, t, a) =>
           t in e
-            ? qf(e, t, {
+            ? Df(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const ah = ({ totalItems: e, options: t, key: a }) => {
+      const Kf = ({ totalItems: e, options: t, key: a }) => {
         const l = (0, qe.useSelector)(on.vR),
           o = t[0].value,
           [i, c] = (0, n.useState)(1),
@@ -10323,11 +10287,11 @@
           },
           { value: d, setValue: u } = nn(
             ((m = ((e, t) => {
-              for (var a in t || (t = {})) Qf.call(t, a) && th(e, a, t[a]);
-              if (Xf) for (var a of Xf(t)) eh.call(t, a) && th(e, a, t[a]);
+              for (var a in t || (t = {})) Ff.call(t, a) && Wf(e, a, t[a]);
+              if (Zf) for (var a of Zf(t)) Uf.call(t, a) && Wf(e, a, t[a]);
               return e;
             })({}, s)),
-            Yf(m, Jf({ initialValue: o }))),
+            Rf(m, Bf({ initialValue: o }))),
           );
         var m;
         const p = (0, n.useMemo)(() => {
@@ -10363,38 +10327,38 @@
           applyPagination: v,
         };
       };
-      var nh = ((e) => (
+      var zf = ((e) => (
         (e.TEN = "TEN"),
         (e.TWELVE = "TWELVE"),
         (e.TWENTY_FOUR = "TWENTY_FOUR"),
         e
-      ))(nh || {});
-      var rh = a(1558),
-        lh = a(49047),
-        oh = a(21810),
-        ih = a(10138);
-      const ch = (0, Wt.Z)(
-          (0, Yu.Z)((e) => {
+      ))(zf || {});
+      var Vf = a(8086),
+        Hf = a(61621),
+        $f = a(21810),
+        Gf = a(95337);
+      const qf = (0, Wt.Z)(
+          (0, Ru.Z)((e) => {
             var t;
             return null != (t = null == e ? void 0 : e.id) ? t : null;
           }),
           (0, ia.Z)(ca.Z),
         ),
-        sh = ({ offerItem: e, catalogItem: t }) => {
+        Yf = ({ offerItem: e, catalogItem: t }) => {
           const {
               offer: a,
               offerSubItems: r,
               isBundle: l,
             } = ((e) => {
-              const { data: t } = (0, rh.wH)(
+              const { data: t } = (0, Vf.wH)(
                   {
-                    fields: [rh.Hd.items, rh.Hd.title, rh.Hd.categories],
+                    fields: [Vf.Hd.items, Vf.Hd.title, Vf.Hd.categories],
                     offerId: null == e ? void 0 : e.offerId,
                     sandboxId: null == e ? void 0 : e.sandboxId,
                   },
                   { enabled: Boolean(e) },
                 ),
-                { offerSubItems: a } = (0, lh.h)(
+                { offerSubItems: a } = (0, Hf.h)(
                   {
                     offerId: null == e ? void 0 : e.offerId,
                     sandboxId: null == e ? void 0 : e.sandboxId,
@@ -10408,9 +10372,9 @@
               };
             })(e),
             { records: o } = va(),
-            { data: i } = (0, ih.ab)(
+            { data: i } = (0, Gf.ab)(
               {
-                fields: [ih.eZ.title],
+                fields: [Gf.eZ.title],
                 itemId: null == t ? void 0 : t.catalogItemId,
                 sandboxId: null == t ? void 0 : t.sandboxId,
               },
@@ -10427,11 +10391,11 @@
                   ? ((e, t, a) => {
                       var n;
                       if (e) return [e.catalogItemId];
-                      const r = ch(
+                      const r = qf(
                           null != (n = null == t ? void 0 : t.items) ? n : [],
                         ),
-                        l = ch(null != a ? a : []);
-                      return (0, oh.Z)([...r, ...l]);
+                        l = qf(null != a ? a : []);
+                      return (0, $f.Z)([...r, ...l]);
                     })(t, a, null != r ? r : [])
                   : c.map((e) => e.catalogItemId),
               title: i
@@ -10442,23 +10406,23 @@
             };
           }, [e, a, r, t, i, l, o]);
         };
-      var dh = a(17407),
-        uh = Object.defineProperty,
-        mh = Object.defineProperties,
-        ph = Object.getOwnPropertyDescriptors,
-        bh = Object.getOwnPropertySymbols,
-        gh = Object.prototype.hasOwnProperty,
-        vh = Object.prototype.propertyIsEnumerable,
-        Eh = (e, t, a) =>
+      var Jf = a(75299),
+        Xf = Object.defineProperty,
+        Qf = Object.defineProperties,
+        eh = Object.getOwnPropertyDescriptors,
+        th = Object.getOwnPropertySymbols,
+        ah = Object.prototype.hasOwnProperty,
+        nh = Object.prototype.propertyIsEnumerable,
+        rh = (e, t, a) =>
           t in e
-            ? uh(e, t, {
+            ? Xf(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const yh = ({ setSortType: e }) => {
+      const lh = ({ setSortType: e }) => {
         const {
             sort: t,
             offerItem: a,
@@ -10466,7 +10430,7 @@
             collectionId: l,
             resetQueryParams: o,
           } = ai(),
-          { catalogItemIds: i, title: c } = sh({
+          { catalogItemIds: i, title: c } = Yf({
             offerItem: a,
             catalogItem: r,
           }),
@@ -10478,39 +10442,39 @@
           });
         (0, n.useEffect)(() => {
           var a, n;
-          t === dh.D.PurchaseDate && i.length && c
+          t === Jf.D.PurchaseDate && i.length && c
             ? (e(rn.ER.Recent_Purchased),
               s(
                 ((a = ((e, t) => {
-                  for (var a in t || (t = {})) gh.call(t, a) && Eh(e, a, t[a]);
-                  if (bh) for (var a of bh(t)) vh.call(t, a) && Eh(e, a, t[a]);
+                  for (var a in t || (t = {})) ah.call(t, a) && rh(e, a, t[a]);
+                  if (th) for (var a of th(t)) nh.call(t, a) && rh(e, a, t[a]);
                   return e;
                 })({}, ya)),
                 (n = { [Ea.CATALOG_ITEM_ID]: i }),
-                mh(a, ph(n))),
+                Qf(a, eh(n))),
               ),
               d(c))
-            : t === dh.D.PurchaseDate && l === Et.U.ALL
+            : t === Jf.D.PurchaseDate && l === Et.U.ALL
               ? (s(ya), e(rn.ER.Recent_Purchased), o())
-              : t === dh.D.PurchaseDate && (e(rn.ER.Recent_Purchased), o());
+              : t === Jf.D.PurchaseDate && (e(rn.ER.Recent_Purchased), o());
         }, [t, i, c, l]);
       };
-      var fh = Object.defineProperty,
-        hh = Object.defineProperties,
-        Oh = Object.getOwnPropertyDescriptors,
-        Ch = Object.getOwnPropertySymbols,
-        Ih = Object.prototype.hasOwnProperty,
-        wh = Object.prototype.propertyIsEnumerable,
-        xh = (e, t, a) =>
+      var oh = Object.defineProperty,
+        ih = Object.defineProperties,
+        ch = Object.getOwnPropertyDescriptors,
+        sh = Object.getOwnPropertySymbols,
+        dh = Object.prototype.hasOwnProperty,
+        uh = Object.prototype.propertyIsEnumerable,
+        mh = (e, t, a) =>
           t in e
-            ? fh(e, t, {
+            ? oh(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Ph = ({ layout: e, setLayout: t }) => {
+      const ph = ({ layout: e, setLayout: t }) => {
           const { selectedCollectionId: a, setSelectedCollectionId: r } = kn(),
             {
               selectedFilters: l,
@@ -10525,7 +10489,7 @@
               setSortType: p,
               applySortType: b,
             } = ((e) =>
-              Zc({
+              Bc({
                 keyFn: () => `${rn.rv}_${e || Oa.v.ANONYMOUS}`,
                 localStorageEnabled: !0,
               }))(u),
@@ -10555,9 +10519,9 @@
                   ],
                 };
               return (0, n.useMemo)(() => a[e], [e]);
-            })(nh.TWENTY_FOUR),
+            })(zf.TWENTY_FOUR),
             E = (0, Xo.useHistory)();
-          yh({ setSortType: p });
+          lh({ setSortType: p });
           const y = n.useMemo(() => (0, Wt.Z)(i, b)(c), [c, b, i]),
             f = y.length,
             {
@@ -10567,12 +10531,12 @@
               pageSize: I,
               setPageSize: w,
               applyPagination: x,
-            } = ah({
+            } = Kf({
               totalItems: f,
               options: v,
               key: rn.Bi.EGS_LIBRARY_PAGE_SIZE,
             }),
-            P = n.useMemo(() => x(y), [x, y]);
+            S = n.useMemo(() => x(y), [x, y]);
           n.useEffect(() => {
             O(1);
           }, [m, l, a]),
@@ -10583,20 +10547,20 @@
                   o(
                     ((t = ((e, t) => {
                       for (var a in t || (t = {}))
-                        Ih.call(t, a) && xh(e, a, t[a]);
-                      if (Ch)
-                        for (var a of Ch(t)) wh.call(t, a) && xh(e, a, t[a]);
+                        dh.call(t, a) && mh(e, a, t[a]);
+                      if (sh)
+                        for (var a of sh(t)) uh.call(t, a) && mh(e, a, t[a]);
                       return e;
                     })({}, l)),
                     (a = { [Ea.CATALOG_ITEM_ID]: [] }),
-                    hh(t, Oh(a))),
+                    ih(t, ch(a))),
                   );
               });
               return () => {
                 e();
               };
             }, [l]);
-          const S = () => {
+          const P = () => {
               r(Et.U.ALL), p(rn.ER.Recent_Played);
             },
             k = () => {
@@ -10613,20 +10577,20 @@
               () =>
                 a === d
                   ? n.createElement(Ko, { onActionClick: k })
-                  : n.createElement(Uo, { onActionClick: S }),
+                  : n.createElement(Uo, { onActionClick: P }),
               [a, d],
             );
           return s.isFetching && !c.length
-            ? n.createElement(ed, { layout: e })
-            : n.createElement(Ks, {
-                header: n.createElement(Wc, {
+            ? n.createElement(Qs, { layout: e })
+            : n.createElement(Ws, {
+                header: n.createElement(Uc, {
                   layoutType: e,
                   onLayoutChange: t,
                   sortType: m,
                   onSortChange: p,
                 }),
-                footer: P.length
-                  ? n.createElement(Gf, {
+                footer: S.length
+                  ? n.createElement(_f, {
                       totalItems: f,
                       totalPages: C,
                       page: h,
@@ -10638,18 +10602,18 @@
                       keyword: l[Ea.KEYWORD],
                     })
                   : null,
-                items: P,
+                items: S,
                 totalItems: f,
                 shouldShowEmptyLibraryCard: A,
-                renderFilterSidePanel: N ? null : n.createElement(rc, null),
-                renderEmptySearch: _ ? n.createElement(Ef, null) : null,
+                renderFilterSidePanel: N ? null : n.createElement(nc, null),
+                renderEmptySearch: _ ? n.createElement(nf, null) : null,
                 renderEmptyCollection: T ? D : null,
                 layout: e,
                 renderItem: (
                   { namespace: t, catalogItemId: a, appName: r },
                   l,
                 ) =>
-                  n.createElement(bf, {
+                  n.createElement(ef, {
                     index: l,
                     namespace: t,
                     catalogItemId: a,
@@ -10658,8 +10622,8 @@
                   }),
               });
         },
-        Sh = () => {
-          const { layoutType: e, setLayoutType: t, isLoaded: a } = Yc();
+        bh = () => {
+          const { layoutType: e, setLayoutType: t, isLoaded: a } = qc();
           return n.createElement(
             n.Fragment,
             null,
@@ -10667,74 +10631,74 @@
               e &&
               n.createElement(
                 Ye.n4,
-                { fallback: n.createElement(ed, { layout: e }) },
-                n.createElement(Ph, { layout: e, setLayout: t }),
+                { fallback: n.createElement(Qs, { layout: e }) },
+                n.createElement(ph, { layout: e, setLayout: t }),
               ),
           );
         },
-        kh = ({ animation: e }) => {
+        gh = ({ animation: e }) => {
           const t = (0, ol.dD)();
-          return r().createElement(Ks, {
-            header: r().createElement(Is, { animation: e }),
-            footer: r().createElement(Js, { animation: e }),
+          return r().createElement(Ws, {
+            header: r().createElement(Cs, { animation: e }),
+            footer: r().createElement(Ys, { animation: e }),
             shouldShowEmptyLibraryCard: !1,
             renderFilterSidePanel: t
               ? null
-              : r().createElement(ec, { animation: e }),
+              : r().createElement(Qi, { animation: e }),
           });
         };
-      var Nh = a(92489),
-        Lh = Object.defineProperty,
-        jh = Object.defineProperties,
-        Mh = Object.getOwnPropertyDescriptors,
-        Ah = Object.getOwnPropertySymbols,
-        Th = Object.prototype.hasOwnProperty,
-        _h = Object.prototype.propertyIsEnumerable,
-        Dh = (e, t, a) =>
+      var vh = a(77800),
+        Eh = Object.defineProperty,
+        yh = Object.defineProperties,
+        fh = Object.getOwnPropertyDescriptors,
+        hh = Object.getOwnPropertySymbols,
+        Oh = Object.prototype.hasOwnProperty,
+        Ch = Object.prototype.propertyIsEnumerable,
+        Ih = (e, t, a) =>
           t in e
-            ? Lh(e, t, {
+            ? Eh(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Rh = (e, t) => {
-          for (var a in t || (t = {})) Th.call(t, a) && Dh(e, a, t[a]);
-          if (Ah) for (var a of Ah(t)) _h.call(t, a) && Dh(e, a, t[a]);
+        wh = (e, t) => {
+          for (var a in t || (t = {})) Oh.call(t, a) && Ih(e, a, t[a]);
+          if (hh) for (var a of hh(t)) Ch.call(t, a) && Ih(e, a, t[a]);
           return e;
         };
-      const Bh = (0, b.F4)({
+      const xh = (0, b.F4)({
           from: { transform: "rotate(0deg)" },
           to: { transform: "rotate(-360deg)" },
         }),
-        Zh = (0, m.i)((e) => {
+        Sh = (0, m.i)((e) => {
           return {
             buttonDiv: (0, b.iv)({
               button:
-                ((t = Rh({}, (0, rt.ip)("opacity"))),
+                ((t = wh({}, (0, rt.ip)("opacity"))),
                 (a = {
                   color: e.textPrimary,
                   opacity: 0.4,
                   "&:hover, &:active, &:focus": { opacity: 1 },
                 }),
-                jh(t, Mh(a))),
+                yh(t, fh(a))),
             }),
             icon: (0, b.iv)({ fontSize: 17 }),
-            spin: (0, b.iv)({ svg: { animation: `${Bh} 2s linear infinite` } }),
+            spin: (0, b.iv)({ svg: { animation: `${xh} 2s linear infinite` } }),
           };
           var t, a;
         }),
-        Fh = ({ onClick: e, disabled: t, animateIcon: a }) => {
+        Ph = ({ onClick: e, disabled: t, animateIcon: a }) => {
           const r = (0, oe.useLocalization)(),
             l = n.useRef(null),
             o = r("egstore.library.reload.a11y.reload_library"),
-            i = Zh();
+            i = Sh();
           return n.createElement(
             "div",
             { className: i.buttonDiv },
             n.createElement(
-              Nh.Z,
+              vh.Z,
               {
                 "aria-label": o,
                 onClick: e,
@@ -10746,7 +10710,7 @@
               n.createElement(
                 "span",
                 { className: (0, b.cx)({ [i.icon]: !0, [i.spin]: a }) },
-                n.createElement(Mp, null),
+                n.createElement(fp, null),
               ),
             ),
             n.createElement(
@@ -10758,12 +10722,12 @@
             ),
           );
         },
-        Uh = (0, m.i)(() => ({
+        kh = (0, m.i)(() => ({
           root: (0, b.iv)({ marginTop: 10, marginBottom: 34 }),
           title: (0, b.iv)((0, re.wz)(3)),
         })),
-        Wh = ({ reloadButton: e }) => {
-          const t = Uh();
+        Nh = ({ reloadButton: e }) => {
+          const t = kh();
           return n.createElement(
             d.x,
             { alignItems: u.Ks.Center, className: t.root },
@@ -10771,7 +10735,7 @@
               "div",
               { className: t.title },
               n.createElement(
-                gf.Z.Heading,
+                tf.Z.Heading,
                 { headingLevel: 1 },
                 n.createElement(te.Z, {
                   code: "diesel.common.page.library.title",
@@ -10781,11 +10745,11 @@
             e,
           );
         },
-        Kh = (e) => {
+        Lh = (e) => {
           const t = (() => {
               const e = (0, qe.useDispatch)();
               return (0, n.useCallback)(() => {
-                e((0, Oc.kQ)());
+                e((0, hc.kQ)());
               }, [e]);
             })(),
             [a, r] = (0, n.useState)(e),
@@ -10799,18 +10763,18 @@
             { isReloading: a, reloadLibrary: l }
           );
         },
-        zh = () => {
+        jh = () => {
           const { query: e } = va(),
-            { isReloading: t, reloadLibrary: a } = Kh(e.isFetching),
+            { isReloading: t, reloadLibrary: a } = Lh(e.isFetching),
             r = (0, i.c)();
-          return n.createElement(Wh, {
+          return n.createElement(Nh, {
             reloadButton: r
-              ? n.createElement(Fh, { onClick: a, disabled: t, animateIcon: t })
+              ? n.createElement(Ph, { onClick: a, disabled: t, animateIcon: t })
               : void 0,
           });
         },
-        Vh = ({ animation: e }) =>
-          n.createElement(Wh, {
+        Mh = ({ animation: e }) =>
+          n.createElement(Nh, {
             reloadButton: n.createElement(Ee.Od, {
               width: 57,
               height: 40,
@@ -10818,14 +10782,14 @@
               style: { marginLeft: 10 },
             }),
           }),
-        Hh = () =>
+        Ah = () =>
           r().createElement(
             r().Fragment,
             null,
             r().createElement(et, null),
             r().createElement(mr, null),
           ),
-        $h = ({ title: e, onRetryClick: t, onCancelClick: a }) =>
+        Th = ({ title: e, onRetryClick: t, onCancelClick: a }) =>
           r().createElement(Xn, {
             modalTitle: r().createElement(te.Z, {
               code: "diesel.common.smart_button.uninstall",
@@ -10850,31 +10814,31 @@
             ),
             onCloseClick: a,
           });
-      var Gh = Object.defineProperty,
-        qh = Object.defineProperties,
-        Yh = Object.getOwnPropertyDescriptors,
-        Jh = Object.getOwnPropertySymbols,
-        Xh = Object.prototype.hasOwnProperty,
-        Qh = Object.prototype.propertyIsEnumerable,
-        eO = (e, t, a) =>
+      var _h = Object.defineProperty,
+        Dh = Object.defineProperties,
+        Rh = Object.getOwnPropertyDescriptors,
+        Bh = Object.getOwnPropertySymbols,
+        Zh = Object.prototype.hasOwnProperty,
+        Fh = Object.prototype.propertyIsEnumerable,
+        Uh = (e, t, a) =>
           t in e
-            ? Gh(e, t, {
+            ? _h(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        tO = (e, t) => {
-          for (var a in t || (t = {})) Xh.call(t, a) && eO(e, a, t[a]);
-          if (Jh) for (var a of Jh(t)) Qh.call(t, a) && eO(e, a, t[a]);
+        Wh = (e, t) => {
+          for (var a in t || (t = {})) Zh.call(t, a) && Uh(e, a, t[a]);
+          if (Bh) for (var a of Bh(t)) Fh.call(t, a) && Uh(e, a, t[a]);
           return e;
         },
-        aO = (e, t) => qh(e, Yh(t));
-      const nO = (e) =>
+        Kh = (e, t) => Dh(e, Rh(t));
+      const zh = (e) =>
           n.createElement(
             ye,
-            aO(tO({}, e), {
+            Kh(Wh({}, e), {
               hasHeader: !0,
               hasFooter: !0,
               hasPrimaryButton: !0,
@@ -10891,11 +10855,11 @@
                   { direction: u.jO.Column, alignItems: u.Ks.Center },
                   n.createElement(
                     Ee.Od,
-                    tO({ variant: Ee.Jy.Text, width: 500, height: 50 }, e),
+                    Wh({ variant: Ee.Jy.Text, width: 500, height: 50 }, e),
                   ),
                   n.createElement(
                     Ee.Od,
-                    aO(tO({ variant: Ee.Jy.Text, width: 300, height: 50 }, e), {
+                    Kh(Wh({ variant: Ee.Jy.Text, width: 300, height: 50 }, e), {
                       style: { margin: "-10px 0 0" },
                     }),
                   ),
@@ -10903,30 +10867,30 @@
               ),
             }),
           ),
-        rO = Hm("uninstall-close-instances-modal"),
-        lO = () => {
-          const { namespace: e, catalogItemId: t, appName: a } = (0, Od.wK)(),
-            n = (0, Nb.V)(e, t, a),
-            { closeModal: l, cancelModal: o } = rO(),
-            i = db(),
+        Vh = Am("uninstall-close-instances-modal"),
+        Hh = () => {
+          const { namespace: e, catalogItemId: t, appName: a } = (0, hd.wK)(),
+            n = (0, vb.V)(e, t, a),
+            { closeModal: l, cancelModal: o } = Vh(),
+            i = Jp(),
             c = r().useCallback(() => {
               l(),
                 i({
                   namespace: e,
                   catalogId: t,
                   appName: a,
-                  funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
+                  funnelId: oc.Nd.MANAGE_PRODUCT_MODAL,
                   options: { disableConfirmation: !0 },
                 });
             }, [l, i, e, t, a]);
-          return r().createElement($h, {
+          return r().createElement(Th, {
             title: n,
             onRetryClick: c,
             onCancelClick: o,
           });
         },
-        oO = () => {
-          const { isOpen: e, cancelModal: t, getData: a } = rO(),
+        $h = () => {
+          const { isOpen: e, cancelModal: t, getData: a } = Vh(),
             n = a();
           return n
             ? r().createElement(
@@ -10934,23 +10898,23 @@
                 { isOpen: e, onClose: t },
                 r().createElement(
                   Ye.n4,
-                  { fallback: r().createElement(nO, null) },
+                  { fallback: r().createElement(zh, null) },
                   r().createElement(
-                    Od.wi.Provider,
+                    hd.wi.Provider,
                     { value: n },
-                    r().createElement(lO, null),
+                    r().createElement(Hh, null),
                   ),
                 ),
               )
             : null;
         },
-        iO = () => {
+        Gh = () => {
           const { action: e, item: t } = ai(),
-            { openModal: a } = VE();
+            { openModal: a } = ME();
           r().useEffect(() => {
-            e === dh.M.Install && t && a(t);
+            e === Jf.M.Install && t && a(t);
           }, [e, t]);
-          const { isOpen: n, openModal: l } = rO();
+          const { isOpen: n, openModal: l } = Vh();
           return (
             r().useEffect(
               () =>
@@ -10974,21 +10938,21 @@
             r().createElement(
               r().Fragment,
               null,
-              r().createElement(GE, null),
-              r().createElement(bg, null),
-              r().createElement(Mb, null),
-              r().createElement(oO, null),
+              r().createElement(_E, null),
+              r().createElement(eg, null),
+              r().createElement(fb, null),
+              r().createElement($h, null),
             )
           );
         },
-        cO = () =>
+        qh = () =>
           r().createElement(
             r().Fragment,
             null,
             r().createElement(
               Ye.n4,
-              { fallback: r().createElement(Vh, null) },
-              r().createElement(zh, null),
+              { fallback: r().createElement(Mh, null) },
+              r().createElement(jh, null),
             ),
             r().createElement(
               Ye.n4,
@@ -11002,22 +10966,22 @@
             ),
             r().createElement(
               Ye.n4,
-              { fallback: r().createElement(kh, null) },
-              r().createElement(Sh, null),
+              { fallback: r().createElement(gh, null) },
+              r().createElement(bh, null),
             ),
-            r().createElement(iO, null),
-            r().createElement(Hh, null),
+            r().createElement(Gh, null),
+            r().createElement(Ah, null),
           );
-      var sO = a(84888),
-        dO = a(52708);
-      const uO = (0, sO.xo)("hook-mounted");
-      let mO = !1;
-      const pO = (0, Ta.uB)("useMeasureLibraryRenderTime"),
-        bO = (0, sO.xo)("render-sync"),
-        [gO, vO] = (0, sO.sM)("render-duration-sync"),
-        EO = (0, sO.xo)("render-async"),
-        [yO, fO] = (0, sO.sM)("render-duration-async");
-      function hO({
+      var Yh = a(15141),
+        Jh = a(17653);
+      const Xh = (0, Yh.xo)("hook-mounted");
+      let Qh = !1;
+      const eO = (0, Ta.uB)("useMeasureLibraryRenderTime"),
+        tO = (0, Yh.xo)("render-sync"),
+        [aO, nO] = (0, Yh.sM)("render-duration-sync"),
+        rO = (0, Yh.xo)("render-async"),
+        [lO, oO] = (0, Yh.sM)("render-duration-async");
+      function iO({
         dom: e,
         componentName: t,
         labels: a,
@@ -11028,13 +10992,13 @@
           if (e.current) {
             const o = performance.now(),
               i = r(e.current);
-            pO.log("querying for predicate time: " + (performance.now() - o)),
+            eO.log("querying for predicate time: " + (performance.now() - o)),
               i &&
-                (pO.log("non observer paint start"),
+                (eO.log("non observer paint start"),
                 performance.mark(a.start, { detail: { componentName: t } }),
                 n("measuring"),
                 setTimeout(() => {
-                  pO.log("non observer paint end"),
+                  eO.log("non observer paint end"),
                     n("complete"),
                     performance.mark(a.timeFromPageLoad, {
                       detail: { componentName: t },
@@ -11045,46 +11009,46 @@
           } else l();
         });
       }
-      var OO = a(29318);
-      const CO = () => {
+      var cO = a(14951);
+      const sO = () => {
         const e = r().useRef(null),
           t = (0, Zo.ql)();
         return (
           (function () {
-            const e = (0, qe.useSelector)(dO.S);
+            const e = (0, qe.useSelector)(Jh.S);
             r().useEffect(() => {
               if (!e) return;
               if (Aa.r2.isSsr()) return;
-              if (mO)
+              if (Qh)
                 return void console.warn(
                   "useLibraryPerformance is already mounted. Please ensure only one instance of this hook exists at any point",
                 );
-              const t = new sO.SH();
+              const t = new Yh.SH();
               return (
                 t.connect(),
-                (mO = !0),
-                performance.mark(uO),
+                (Qh = !0),
+                performance.mark(Xh),
                 () => {
-                  t.disconnect(), (mO = !1);
+                  t.disconnect(), (Qh = !1);
                 }
               );
             }, []);
           })(),
           (function (e, t, a) {
-            const n = (0, qe.useSelector)(dO.S),
+            const n = (0, qe.useSelector)(Jh.S),
               l = r().useRef("idle");
             r().useEffect(() => {
               if (!n) return;
               if (Aa.r2.isSsr())
-                return void pO.log("skipping measuring of render time on SSR.");
+                return void eO.log("skipping measuring of render time on SSR.");
               function r(e) {
                 l.current = e;
               }
-              pO.log("starting useMeasureLibraryRenderTime"),
-                hO({
+              eO.log("starting useMeasureLibraryRenderTime"),
+                iO({
                   dom: e,
                   componentName: t,
-                  labels: { start: gO, end: vO, timeFromPageLoad: bO },
+                  labels: { start: aO, end: nO, timeFromPageLoad: tO },
                   stateChangeCallback: r,
                   predicate: a,
                 });
@@ -11093,10 +11057,10 @@
                   (performance = o),
                     "complete" !== l.current
                       ? "measuring" !== l.current &&
-                        hO({
+                        iO({
                           dom: e,
                           componentName: t,
-                          labels: { start: yO, end: fO, timeFromPageLoad: EO },
+                          labels: { start: lO, end: oO, timeFromPageLoad: rO },
                           stateChangeCallback: r,
                           predicate: a,
                         }).then(() => i.disconnect())
@@ -11127,9 +11091,9 @@
             })(t),
           ),
           r().createElement(
-            OO.z,
+            cO.z,
             null,
-            r().createElement("div", { ref: e }, r().createElement(cO, null)),
+            r().createElement("div", { ref: e }, r().createElement(qh, null)),
           )
         );
       };
@@ -11139,4 +11103,4 @@
     },
   },
 ]);
-//# sourceMappingURL=ManageProductsPage.egstore-site.0f9c5c0d50404f12b79d.js.map
+//# sourceMappingURL=ManageProductsPage.egstore-site.61c4f5b901b9147d693b.js.map
