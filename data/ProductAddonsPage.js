@@ -1,21 +1,21 @@
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
   [230],
   {
-    65047: (e, t, a) => {
+    14380: (e, t, a) => {
       "use strict";
       a.r(t), a.d(t, { default: () => N });
-      var l = a(89963),
-        n = a(54874),
-        c = a(29571),
-        r = a(65708),
-        o = a(16040),
-        s = a(12092),
-        d = a(17782),
-        i = a(88023),
-        m = a(76317),
-        C = a(41725),
-        p = a(1768),
-        u = a(69175),
+      var l = a(65164),
+        n = a(31e3),
+        c = a(92287),
+        r = a(44115),
+        o = a(98988),
+        s = a(46732),
+        d = a(11199),
+        i = a(62245),
+        m = a(96038),
+        C = a(84244),
+        p = a(67764),
+        u = a(96685),
         E = a(45418),
         _ = a.n(E);
       const b = (0, u.L)(
@@ -53,9 +53,9 @@
             ? _().createElement(g, { onClick: c, disabled: !r, title: n })
             : null;
         };
-      var H = a(47250),
-        v = a(83164),
-        I = a(52389);
+      var H = a(83161),
+        v = a(80847),
+        I = a(85449);
       const V = (0, r.a)({
           contentType: c.ot.ADDONS,
           useRecords: H.E,
@@ -74,7 +74,7 @@
               _().createElement(V, null),
             ),
           );
-      var L = a(29318);
+      var L = a(14951);
       const N = ({ match: e }) => {
         const { namespace: t, catalogId: a, appName: l } = e.params;
         return _().createElement(
@@ -86,4 +86,4 @@
     },
   },
 ]);
-//# sourceMappingURL=ProductAddonsPage.egstore-site.23237510591b4cf25ca0.js.map
+//# sourceMappingURL=ProductAddonsPage.egstore-site.78a6e91f4d30b2e9b6e2.js.map
