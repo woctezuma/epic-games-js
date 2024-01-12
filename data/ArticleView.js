@@ -1,104 +1,109 @@
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
   [484],
   {
-    53915: (e, t, i) => {
+    67925: (e, t, i) => {
       "use strict";
-      i.r(t), i.d(t, { default: () => de });
+      i.r(t), i.d(t, { default: () => ge });
       var o = i(45418),
         a = i.n(o),
         s = i(37922);
       const n = (e) => ((e) => e.get("feed"))(e).blog;
-      var r = i(28901),
-        l = i(88583),
-        c = i(10936),
-        m = i(90920),
-        d = i(27542),
-        g = i(1847),
-        h = i(41725),
-        p = i(74758),
-        u = i(96737),
-        b = i.n(u),
-        v = i(22538),
-        E = i(18023);
-      const f = ({ meta: e, title: t }) => {
-        const { EPIC_SERVER_URL: i } = (0, s.useSelector)(E.f3),
-          o = b()(i || "https://epicgames.com"),
-          { pathname: n } = (0, v.useLocation)(),
-          r = b()(n);
+      var r = i(22538),
+        l = i(28901),
+        c = i(32396),
+        m = i(10035),
+        d = i(77915),
+        g = i(1255),
+        h = i(90783),
+        p = i(45035),
+        u = i(50560),
+        b = i(16618),
+        v = i(63236),
+        E = i(73172),
+        f = i(84244),
+        x = i(74758),
+        L = i(96737),
+        S = i.n(L),
+        P = i(73142);
+      const N = ({ meta: e, title: t }) => {
+        const { EPIC_SERVER_URL: i } = (0, s.useSelector)(P.f3),
+          o = S()(i || "https://epicgames.com"),
+          { pathname: n } = (0, r.useLocation)(),
+          l = S()(n);
         return (
-          r.set("protocol", o.protocol),
-          r.set("host", o.host),
-          r.set("hash", ""),
-          r.set("query", ""),
+          l.set("protocol", o.protocol),
+          l.set("host", o.host),
+          l.set("hash", ""),
+          l.set("query", ""),
           a().createElement(
-            p.q,
+            x.q,
             { meta: e, title: t },
             a().createElement("link", {
               id: "page-link-canonical",
               "data-testid": "page-link-canonical",
               rel: "canonical",
-              href: r.toString(),
+              href: l.toString(),
             }),
           )
         );
       };
-      var x = i(22085),
-        L = i(77574),
-        S = i(29945),
-        P = i(73575),
-        N = i(96545),
-        y = i(906),
-        C = i(13179),
-        O = i(73099),
-        A = Object.defineProperty,
-        I = Object.defineProperties,
-        w = Object.getOwnPropertyDescriptors,
-        R = Object.getOwnPropertySymbols,
-        _ = Object.prototype.hasOwnProperty,
-        k = Object.prototype.propertyIsEnumerable,
-        D = (e, t, i) =>
+      var y = i(93844),
+        C = i(72668),
+        O = i(46741),
+        A = i(81549),
+        I = i(29498),
+        w = i(23752),
+        R = i(65817),
+        _ = i(15130),
+        k = Object.defineProperty,
+        D = Object.defineProperties,
+        H = Object.getOwnPropertyDescriptors,
+        T = Object.getOwnPropertySymbols,
+        V = Object.prototype.hasOwnProperty,
+        B = Object.prototype.propertyIsEnumerable,
+        Y = (e, t, i) =>
           t in e
-            ? A(e, t, {
+            ? k(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: i,
               })
             : (e[t] = i),
-        H = (e, t) => {
-          for (var i in t || (t = {})) _.call(t, i) && D(e, i, t[i]);
-          if (R) for (var i of R(t)) k.call(t, i) && D(e, i, t[i]);
+        Z = (e, t) => {
+          for (var i in t || (t = {})) V.call(t, i) && Y(e, i, t[i]);
+          if (T) for (var i of T(t)) B.call(t, i) && Y(e, i, t[i]);
           return e;
         };
-      const T = (0, r.iv)({ overflow: "hidden" }),
-        V = (0, r.iv)(O.Hi, O.CX, (0, y.fF)(y.oM.x16x9), {
+      const X = (0, l.iv)({ overflow: "hidden" }),
+        $ = (0, l.iv)(_.Hi, _.CX, (0, w.fF)(w.oM.x16x9), {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          [N.Uc.lg]: { borderRadius: N.E0 },
+          [I.Uc.lg]: { borderRadius: I.E0 },
         }),
-        B = (0, r.iv)({
+        j = (0, l.iv)({
           width: "100%",
           opacity: 0,
           position: "absolute",
           pointerEvents: "none",
         }),
-        Y = (0, r.iv)({ marginTop: 40, [N.Uc.xxl]: { padding: "0 72px" } }),
-        Z = (0, r.iv)({ position: "relative" }),
-        X = (0, r.iv)({
+        U = (0, l.iv)({ marginTop: 40, [I.Uc.xxl]: { padding: "0 72px" } }),
+        z = (0, l.iv)({ position: "relative" }),
+        M = (0, l.iv)({
           marginBottom: 40,
           h1:
-            (($ = H({}, (0, N.fL)(40, -0.5, 1))),
-            (U = { fontWeight: N.Ue.bold, marginBottom: 20 }),
-            I($, w(U))),
+            ((W = Z({}, (0, I.fL)(40, -0.5, 1))),
+            (F = { fontWeight: I.Ue.bold, marginBottom: 20 }),
+            D(W, H(F))),
         });
-      var $, U;
-      const j = (0, r.iv)({
+      var W, F;
+      const q = (0, l.iv)({
           paddingRight: 5,
           marginRight: 5,
           borderRight: "1px solid #000",
         }),
-        z = (0, r.iv)({ marginTop: 40, fontSize: 16 }),
-        M = (0, r.iv)({
+        K = (0, l.iv)({ marginTop: 40, fontSize: 16 }),
+        G = (0, l.iv)({
           img: {
             cursor: "pointer",
             border: "1px solid transparent",
@@ -107,14 +112,14 @@
             "&:hover": { border: "1px solid black" },
           },
         }),
-        W = (0, r.iv)({
+        J = (0, l.iv)({
           position: "fixed",
           width: "100%",
           height: "100%",
-          backgroundColor: N.CT,
+          backgroundColor: I.CT,
           top: 0,
           left: 0,
-          zIndex: C.W.modal,
+          zIndex: R.W.modal,
           padding: 50,
           textAlign: "center",
           img: {
@@ -126,13 +131,13 @@
             position: "relative",
           },
         });
-      var q = ((e) => (
+      var Q = ((e) => (
         (e.CLOSE = "CLOSE"), (e.PREV = "PREV"), (e.NEXT = "NEXT"), e
-      ))(q || {});
-      const F = (e) =>
-          (0, r.iv)(
-            H(
-              { color: N.$e, position: "absolute", padding: 15 },
+      ))(Q || {});
+      const ee = (e) =>
+          (0, l.iv)(
+            Z(
+              { color: I.$e, position: "absolute", padding: 15 },
               "CLOSE" === e
                 ? { right: 5, top: 5 }
                 : "PREV" === e
@@ -142,7 +147,7 @@
                     : { top: "calc(50% - 10px)" },
             ),
           ),
-        K = (0, r.iv)({
+        te = (0, l.iv)({
           img: { maxWidth: "100%", height: "auto !important", margin: "2em 0" },
           ".embed-responsive-16by9": { paddingBottom: "56.25% !important" },
           ".embed-responsive": {
@@ -164,7 +169,7 @@
               border: 0,
             },
         });
-      class G extends a().PureComponent {
+      class ie extends a().PureComponent {
         constructor() {
           super(...arguments),
             (this.state = {
@@ -181,7 +186,7 @@
               const t = this.blogHeader.current,
                 i = this.cmsContainer.current,
                 o = (function () {
-                  const e = (0, g.Y)();
+                  const e = (0, E.Y)();
                   return void 0 === e.document
                     ? 0
                     : e.pageYOffset || e.document.documentElement.scrollTop;
@@ -204,15 +209,15 @@
             }),
             (this.showLightbox = (e) => {
               var t;
-              (0, g.Y)().document.body.className += ` ${T}`;
+              (0, E.Y)().document.body.className += ` ${X}`;
               const i = null == (t = e.target) ? void 0 : t.dataset,
                 o = parseInt(i.idx || "0", 10) || 0;
               this.setState({ current: o });
             }),
             (this.hideLightbox = (e) => {
               e.preventDefault(),
-                ((0, g.Y)().document.body.className = (0,
-                g.Y)().document.body.className.replace(` ${T}`, "")),
+                ((0, E.Y)().document.body.className = (0,
+                E.Y)().document.body.className.replace(` ${X}`, "")),
                 this.setState({ current: -1 });
             }),
             (this.prevImage = (e) => {
@@ -228,11 +233,11 @@
             });
         }
         componentDidMount() {
-          (0, g.Y)().addEventListener("scroll", this.handleScroll),
+          (0, E.Y)().addEventListener("scroll", this.handleScroll),
             this.initLightbox(this.props.blog);
         }
         componentWillUnmount() {
-          (0, g.Y)().removeEventListener("scroll", this.handleScroll),
+          (0, E.Y)().removeEventListener("scroll", this.handleScroll),
             this.images.length &&
               this.images.forEach((e) => {
                 e.removeEventListener("click", this.showLightbox);
@@ -246,7 +251,7 @@
         initLightbox(e) {
           var t;
           if (!e || !e.enableLightbox) return;
-          const i = (0, g.Y)().document.getElementById("cmsSection");
+          const i = (0, E.Y)().document.getElementById("cmsSection");
           if (!i) return;
           const o = i.getElementsByTagName("img");
           (this.images = [].slice.call(o || [])),
@@ -262,7 +267,7 @@
               trendingImage: o,
               enableLightbox: s = !1,
               trendingImageAlt: n = "",
-              content: l,
+              content: r,
               title: c,
               author: m,
             } = t,
@@ -276,15 +281,15 @@
                 : ""
             ).replace(/\//g, "."),
             g = !0 === t.noTopImage || !o,
-            p = (0, x.LX)(e, t, void 0, c),
-            u = g
+            h = (0, y.LX)(e, t, void 0, c),
+            p = g
               ? {}
               : { backgroundImage: `url("${o}")`, backgroundPosition: "top" };
           return a().createElement(
             "div",
             null,
-            a().createElement(f, {
-              meta: p,
+            a().createElement(N, {
+              meta: h,
               title: i("egstore.store.meta.title.article", [c]),
             }),
             g
@@ -293,24 +298,24 @@
                   "div",
                   {
                     ref: this.blogHeader,
-                    className: V,
-                    style: u,
+                    className: $,
+                    style: p,
                     "data-testid": "header",
                   },
-                  a().createElement("img", { className: B, alt: n, src: o }),
+                  a().createElement("img", { className: j, alt: n, src: o }),
                 ),
             a().createElement(
               "section",
-              { className: Y },
+              { className: U },
               a().createElement(
                 "article",
                 { "data-testid": "article" },
                 a().createElement(
                   "div",
-                  { ref: this.cmsContainer, className: Z },
+                  { ref: this.cmsContainer, className: z },
                   a().createElement(
                     "div",
-                    { className: X },
+                    { className: M },
                     a().createElement("h1", null, c),
                     a().createElement(
                       "div",
@@ -318,7 +323,7 @@
                       t.subtitle
                         ? a().createElement(
                             "span",
-                            { className: j },
+                            { className: q },
                             t.subtitle,
                           )
                         : null,
@@ -327,8 +332,8 @@
                     m &&
                       a().createElement(
                         "div",
-                        { className: z },
-                        a().createElement(h.v0, {
+                        { className: K },
+                        a().createElement(f.v0, {
                           code: "egstore.blog.article.author",
                           args: [m],
                         }),
@@ -336,8 +341,8 @@
                   ),
                   a().createElement("section", {
                     id: "cmsSection",
-                    className: (0, r.cx)(K, { [M]: s }),
-                    dangerouslySetInnerHTML: { __html: l },
+                    className: (0, l.cx)(te, { [G]: s }),
+                    dangerouslySetInnerHTML: { __html: r },
                   }),
                 ),
               ),
@@ -346,7 +351,7 @@
               a().createElement(
                 "div",
                 {
-                  className: W,
+                  className: J,
                   onClick: this.hideLightbox,
                   role: "presentation",
                   "data-testid": "lightbox",
@@ -359,87 +364,84 @@
                   "span",
                   {
                     role: "presentation",
-                    className: F(q.CLOSE),
+                    className: ee(Q.CLOSE),
                     onClick: this.hideLightbox,
                     "data-testid": "lightbox-close",
                   },
-                  a().createElement(L.Z, { icon: P.Z.CLOSE, size: S.$.XSMALL }),
+                  a().createElement(C.Z, { icon: A.Z.CLOSE, size: O.$.XSMALL }),
                 ),
                 a().createElement(
                   "span",
                   {
                     role: "presentation",
-                    className: F(q.PREV),
+                    className: ee(Q.PREV),
                     onClick: this.prevImage,
                     "data-testid": "lightbox-prev",
                   },
-                  a().createElement(L.Z, {
-                    icon: P.Z.CHEVRON_FLIPPED,
-                    size: S.$.XSMALL,
+                  a().createElement(C.Z, {
+                    icon: A.Z.CHEVRON_FLIPPED,
+                    size: O.$.XSMALL,
                   }),
                 ),
                 a().createElement(
                   "span",
                   {
                     role: "presentation",
-                    className: F(q.NEXT),
+                    className: ee(Q.NEXT),
                     onClick: this.nextImage,
                     "data-testid": "lightbox-next",
                   },
-                  a().createElement(L.Z, {
-                    icon: P.Z.CHEVRON,
-                    size: S.$.XSMALL,
+                  a().createElement(C.Z, {
+                    icon: A.Z.CHEVRON,
+                    size: O.$.XSMALL,
                   }),
                 ),
               ),
           );
         }
       }
-      const J = (0, h.in)(G);
-      var Q = i(22463),
-        ee = i(98142),
-        te = i(87946),
-        ie = i(91841);
-      const oe = (0, r.iv)({ minHeight: "100vh" }),
-        ae = ({ isLauncher: e, blog: t, getBlogPost: i }) => {
-          var o, s;
-          const n = (0, d.useLocalizationLocale)(),
-            r = (0, v.useParams)(),
-            { newsSlug: g } = r || {};
+      const oe = (0, f.in)(ie),
+        ae = (0, l.iv)({ minHeight: "100vh" }),
+        se = ({ isLauncher: e, blog: t, getBlogPost: i }) => {
+          var o, n;
+          const l = (0, s.useSelector)(u.e),
+            E = (0, m.useLocalizationLocale)(),
+            f = (0, r.useParams)(),
+            { newsSlug: x } = f || {};
           if (
             (a().useEffect(() => {
-              const e = t.state === te.s.notAsked,
-                o = t.state === te.s.success;
-              (e || (o && t.latestValue.slug !== g)) && i(n, g);
-            }, [g, t]),
-            t.state === te.s.error)
+              const e = t.state === v.s.notAsked,
+                o = t.state === v.s.success;
+              (e || (o && t.latestValue.slug !== x)) && i(E, x);
+            }, [x, t]),
+            t.state === v.s.error)
           )
-            return a().createElement(ee.Z, {
-              to: `${(0, Q.getPlainPath)()}/${n}/not-found`,
+            return a().createElement(b.Z, {
+              to: `${(0, c.getPlainPath)()}/${E}/not-found`,
             });
           if (
-            t.state === te.s.success &&
-            (null == (s = null == (o = t.latestValue) ? void 0 : o.redirect)
+            t.state === v.s.success &&
+            (null == (n = null == (o = t.latestValue) ? void 0 : o.redirect)
               ? void 0
-              : s.url)
+              : n.url)
           ) {
             const { url: e, code: i } = t.latestValue.redirect;
-            return a().createElement(ie.Z, {
-              to: (0, Q.generateRoutePath)(e),
+            return a().createElement(g.Z, {
+              to: (0, c.generateRoutePath)(e),
               status: i ? Number(i) : 301,
             });
           }
           return a().createElement(
-            m.Z,
-            { pageTheme: c.f8 },
+            h.Z,
+            { pageTheme: l ? p.Fj : p.f8 },
             a().createElement(
-              l.Yn,
+              d.Yn,
               null,
               a().createElement(
                 "div",
-                { id: "storeNews", className: oe },
+                { id: "storeNews", className: ae },
                 t.latestValue &&
-                  a().createElement(J, {
+                  a().createElement(oe, {
                     blog: t.latestValue,
                     isLauncher: e,
                     disableShareIcons: !0,
@@ -448,25 +450,25 @@
             ),
           );
         };
-      var se = i(12890),
-        ne = i(52099);
-      const re = (0, s.connect)(
-        (e) => ({ blog: n(e), isLauncher: (0, ne.Ip)(e) }),
-        (e) => ({ getBlogPost: (t, i) => e(se.I.getBlogPost(t, i)) }),
-      )(ae);
-      var le = i(61264),
-        ce = i(46786);
-      const me = () => o.createElement(re, null);
-      me.getInitialProps = (e, t) => {
+      var ne = i(68692),
+        re = i(8604);
+      const le = (0, s.connect)(
+        (e) => ({ blog: n(e), isLauncher: (0, re.Ip)(e) }),
+        (e) => ({ getBlogPost: (t, i) => e(ne.I.getBlogPost(t, i)) }),
+      )(se);
+      var ce = i(41846),
+        me = i(18567);
+      const de = () => o.createElement(le, null);
+      de.getInitialProps = (e, t) => {
         return (
           (i = void 0),
           (o = [e, t]),
           (a = function* (e, { store: t }) {
             const i = e.params || {},
               { newsSlug: o, locale: a } = i;
-            if ((t.dispatch(ce.Z.setSSRPageTheme(c.f8)), o))
+            if ((t.dispatch(me.Z.setSSRPageTheme(p.f8)), o))
               try {
-                yield (0, le.tn)(t.dispatch, a, o);
+                yield (0, ce.tn)(t.dispatch, a, o);
               } catch (e) {
                 console.error(
                   "PromotionView SSR getInitialProps failed (%s)",
@@ -496,8 +498,8 @@
         );
         var i, o, a;
       };
-      const de = me;
+      const ge = de;
     },
   },
 ]);
-//# sourceMappingURL=ArticleView.egstore-site.0977996ba1e1b34412bd.js.map
+//# sourceMappingURL=ArticleView.egstore-site.7968ad5d8cfeac5bd469.js.map

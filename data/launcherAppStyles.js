@@ -1,4 +1,4 @@
-/*! For license information please see launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js.LICENSE.txt */
+/*! For license information please see launcherAppStyles.egstore-site.6797d7e14d38f51b2711.js.LICENSE.txt */
 (() => {
   var e,
     t,
@@ -20,7 +20,11 @@
             : "undefined" != typeof self
               ? self
               : {}
-        ).SENTRY_RELEASE = { id: "bb756bd662fdc945d54a94f73a9c70620dd8b814" };
+        ).SENTRY_RELEASE = { id: "1d2c8b3ee6a8ac6acae031a8d45e5d4a3f12a1af" };
+      },
+      57842: (e, t, n) => {
+        "use strict";
+        void 0 !== typeof window && (n.p = __webpack_asset_path);
       },
       54516: (e) => {
         "use strict";
@@ -8453,10 +8457,6 @@
         "use strict";
         e.exports = n(39666);
       },
-      8620: (e, t, n) => {
-        "use strict";
-        void 0 !== typeof window && (n.p = __webpack_asset_path);
-      },
     },
     d = {};
   function p(e) {
@@ -8663,6 +8663,6 @@
       };
     }),
     p(1884);
-  p(8620);
+  p(57842);
 })();
-//# sourceMappingURL=launcherAppStyles.egstore-site.52e315c70dd6c27ca05a.js.map
+//# sourceMappingURL=launcherAppStyles.egstore-site.6797d7e14d38f51b2711.js.map

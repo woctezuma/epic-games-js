@@ -1,52 +1,52 @@
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
   [661],
   {
-    73849: (e, t, r) => {
+    24312: (e, t, r) => {
       "use strict";
       r.r(t), r.d(t, { default: () => Ir });
       var a = r(45418),
         n = r.n(a),
-        l = r(41412),
-        o = r(10466),
-        i = r(98142),
-        s = r(22463),
-        c = r(88583),
-        m = r(68125),
-        d = r(2525),
-        p = r(27542),
-        u = r(46897),
+        l = r(79705),
+        o = r(71297),
+        i = r(16618),
+        s = r(32396),
+        c = r(77915),
+        m = r(14058),
+        d = r(24668),
+        p = r(10035),
+        u = r(11003),
         v = r(67526),
         g = r(32042);
-      var b = r(22538),
-        f = r(28901),
-        E = r(96545),
-        y = r(48673),
-        h = r(96517);
-      const w = (0, r(69175).L)(
+      var f = r(22538),
+        b = r(28901),
+        E = r(29498),
+        y = r(43651),
+        h = r(61651);
+      const w = (0, r(96685).L)(
         a.createElement("path", {
           d: "M11.526 1.405a.5.5 0 0 1 .948 0l2.244 6.658a.5.5 0 0 0 .474.34h7.222a.5.5 0 0 1 .287.91l-5.81 4.07a.5.5 0 0 0-.188.568l2.227 6.607a.5.5 0 0 1-.76.569l-5.883-4.12a.5.5 0 0 0-.574 0l-5.883 4.12a.5.5 0 0 1-.76-.57l2.227-6.606a.5.5 0 0 0-.187-.569l-5.811-4.07a.5.5 0 0 1 .287-.909h7.222a.5.5 0 0 0 .474-.34l2.244-6.658Z",
         }),
         "Star",
       );
-      var x = r(68080),
-        O = r(17751),
-        L = r(45381),
-        I = r(17613),
-        N = r(56635);
+      var x = r(31265),
+        O = r(85858),
+        L = r(92270),
+        I = r(34272),
+        N = r(79546);
       const P = (0, L.i)((e) => ({
-          newsMeta: (0, f.iv)({
+          newsMeta: (0, b.iv)({
             display: "flex",
             alignItems: "center",
             justifyContent: "flex-start",
           }),
-          newsMetaItem: (0, f.iv)({
+          newsMetaItem: (0, b.iv)({
             margin: "0 5px",
             "&:first-child": (0, I.oI)(0),
             "&:last-child": (0, I.wz)(0),
             "> span": { lineHeight: "inherit" },
           }),
-          sep: (0, f.iv)({ width: 1, height: 12, background: e.textSecondary }),
-          star: (0, f.iv)((0, I.wz)(5), { color: e.textSecondary }),
+          sep: (0, b.iv)({ width: 1, height: 12, background: e.textSecondary }),
+          star: (0, b.iv)((0, I.wz)(5), { color: e.textSecondary }),
         })),
         j = ({ date: e, hasStar: t, tags: r }) => {
           const a = P(),
@@ -61,7 +61,7 @@
               t &&
                 n().createElement(
                   "div",
-                  { className: (0, f.cx)(a.newsMetaItem, a.star) },
+                  { className: (0, b.cx)(a.newsMetaItem, a.star) },
                   n().createElement(w, null),
                 ),
               o &&
@@ -75,7 +75,7 @@
                       n().createElement(x.Z, { textLevel: O.N.SECONDARY }, e),
                     ),
                     n().createElement("div", {
-                      className: (0, f.cx)(a.newsMetaItem, a.sep),
+                      className: (0, b.cx)(a.newsMetaItem, a.sep),
                     }),
                   ),
                 ),
@@ -91,9 +91,9 @@
             ),
           );
         };
-      var S = r(63806),
-        k = r(30838),
-        Z = r(38621),
+      var S = r(93026),
+        k = r(92954),
+        Z = r(72420),
         D = Object.defineProperty,
         A = Object.getOwnPropertySymbols,
         C = Object.prototype.hasOwnProperty,
@@ -112,17 +112,17 @@
           if (A) for (var r of A(t)) z.call(t, r) && R(e, r, t[r]);
           return e;
         };
-      const M = (0, f.iv)({
+      const M = (0, b.iv)({
           flex: 1,
           display: "flex",
           flexDirection: "column",
         }),
-        U = (0, f.iv)({ display: "flex" }),
-        $ = (0, f.iv)({ marginBottom: 5 }),
-        B = (0, f.iv)({ margin: "14px 0" }),
-        W = (0, f.iv)({ display: "inline-flex", alignItems: "flex-end" }),
+        U = (0, b.iv)({ display: "flex" }),
+        $ = (0, b.iv)({ marginBottom: 5 }),
+        B = (0, b.iv)({ margin: "14px 0" }),
+        W = (0, b.iv)({ display: "inline-flex", alignItems: "flex-end" }),
         T = (e) =>
-          (0, f.iv)(
+          (0, b.iv)(
             _(
               {
                 color: (0, Z.$)(e) ? k.ix : k.Sn,
@@ -137,13 +137,13 @@
               (0, I.wz)("auto"),
             ),
           ),
-        F = (0, f.iv)(_({ marginBottom: 3 }, (0, I.oI)(3)));
-      var X = r(51187),
-        K = r(77574),
-        H = r(82996),
-        Y = r(84647),
-        V = r(11629),
-        q = r(71403);
+        F = (0, b.iv)(_({ marginBottom: 3 }, (0, I.oI)(3)));
+      var X = r(17654),
+        K = r(72668),
+        H = r(58532),
+        Y = r(37817),
+        V = r(87869),
+        q = r(7301);
       const G = ({
         title: e,
         short: t,
@@ -171,12 +171,12 @@
               "h2",
               { id: m ? r : "" },
               a.createElement(
-                H.Z,
+                Y.Z,
                 { to: l, ariaLabelledby: r, className: U },
                 a.createElement(
                   X.ZP,
                   { textLevel: O.N.PRIMARY, weight: X.G0.BOLD },
-                  m ? e : a.createElement(Y.Z, { lines: 3, text: e }),
+                  m ? e : a.createElement(H.Z, { lines: 3, text: e }),
                 ),
               ),
             ),
@@ -187,13 +187,13 @@
               a.createElement(
                 X.ZP,
                 { textLevel: O.N.SECONDARY },
-                m ? t : a.createElement(Y.Z, { lines: 5, text: t }),
+                m ? t : a.createElement(H.Z, { lines: 5, text: t }),
               ),
             ),
           o &&
             a.createElement(
-              H.Z,
-              { className: T(d), to: l, ariaLabelledby: r, rel: "nofollow" },
+              Y.Z,
+              { className: T(d), to: l, ariaLabel: o, rel: "nofollow" },
               a.createElement(
                 "span",
                 { className: W },
@@ -208,11 +208,11 @@
             ),
         );
       };
-      var J = r(906),
-        Q = r(26008),
-        ee = r(81934),
-        te = r(83242),
-        re = r(62766),
+      var J = r(23752),
+        Q = r(21650),
+        ee = r(87690),
+        te = r(71630),
+        re = r(91575),
         ae = Object.defineProperty,
         ne = Object.defineProperties,
         le = Object.getOwnPropertyDescriptors,
@@ -234,7 +234,7 @@
           return e;
         },
         de = (e, t) => ne(e, le(t));
-      const pe = (0, f.iv)(
+      const pe = (0, b.iv)(
           de(me({ width: "100%" }, (0, I.wz)(20)), {
             padding: 0,
             position: "relative",
@@ -245,14 +245,14 @@
         ),
         ue = {
           rowWrapper: (e) =>
-            (0, f.iv)({
+            (0, b.iv)({
               display: "flex",
               color: (0, Z.$)(e) ? k.ix : k.Sn,
               flexDirection: "column",
               height: "100%",
               flex: 1,
             }),
-          imageWrapper: (0, f.iv)(
+          imageWrapper: (0, b.iv)(
             de(
               me(
                 {
@@ -280,14 +280,14 @@
               },
             ),
           ),
-          content: (0, f.iv)({
+          content: (0, b.iv)({
             position: "absolute",
             top: 0,
             left: 0,
             width: "100%",
             height: "100%",
           }),
-          headerWrapper: (0, f.iv)({ display: "flex", flex: 1, marginTop: 15 }),
+          headerWrapper: (0, b.iv)({ display: "flex", flex: 1, marginTop: 15 }),
         },
         ve = ({
           date: e,
@@ -320,7 +320,7 @@
                 "div",
                 { className: ue.rowWrapper(m) },
                 n().createElement(
-                  H.Z,
+                  Y.Z,
                   { to: l, ariaLabelledby: a, rel: "nofollow" },
                   n().createElement(
                     "div",
@@ -348,14 +348,14 @@
           );
         };
       var ge = r(42723),
-        be = r.n(ge);
-      const fe = ({ url: e, externalLink: t }) => {
+        fe = r.n(ge);
+      const be = ({ url: e, externalLink: t }) => {
         if (t) return t;
-        const r = `${be().appContext}${e}`;
+        const r = `${fe().appContext}${e}`;
         return (0, s.generateRoutePath)(r);
       };
-      var Ee = r(31293);
-      const ye = (0, f.iv)({
+      var Ee = r(98095);
+      const ye = (0, b.iv)({
           width: "100%",
           height: "100%",
           overflow: "hidden",
@@ -380,18 +380,18 @@
             u = N.qU.RATIO_16X9_480,
             v = e || t,
             g = v ? { [V.AV.name.XSMALL]: (0, N.fp)(v, u) } : null,
-            b = d(
+            f = d(
               s.includes("/p/") || s.includes("/product/")
                 ? "diesel.common.post.view_game"
                 : "diesel.common.post.read_more",
             );
           return a.createElement(ve, {
-            url: fe({ url: s, externalLink: m }),
+            url: be({ url: s, externalLink: m }),
             date: n,
             slug: i,
             title: l,
             short: o,
-            cta: b,
+            cta: f,
             externalLink: m,
             renderMain: () =>
               g
@@ -400,10 +400,10 @@
             tags: c,
           });
         };
-      var we = r(91651),
-        xe = r(52792);
+      var we = r(10567),
+        xe = r(65067);
       const Oe = {
-          image: (0, f.iv)({
+          image: (0, b.iv)({
             width: "100%",
             height: "100%",
             overflow: "hidden",
@@ -412,7 +412,7 @@
             left: 0,
             zIndex: 2,
           }),
-          videoContainer: (0, f.iv)({
+          videoContainer: (0, b.iv)({
             width: "100%",
             height: "100%",
             overflow: "hidden",
@@ -486,7 +486,7 @@
           return e;
         };
       const Ze = {
-          wrapper: (0, f.iv)({
+          wrapper: (0, b.iv)({
             display: "flex",
             justifyContent: "space-between",
             [E.Uc.xs]: { flexDirection: "column" },
@@ -503,8 +503,8 @@
                 : a.createElement(he, ke({ key: e.id }, e));
             }),
           );
-      var Ae = r(83817),
-        Ce = r(48556),
+      var Ae = r(66273),
+        Ce = r(25185),
         ze = Object.defineProperty,
         Re = Object.getOwnPropertySymbols,
         _e = Object.prototype.hasOwnProperty,
@@ -524,14 +524,14 @@
           return e;
         };
       const Be = {
-          slider: (0, f.iv)({ overflow: "visible !important" }),
-          slideItem: (0, f.iv)((0, I.oI)(10), { width: "calc(100% - 10px)" }),
-          firstSlideItem: (0, f.iv)((0, I.oI)(0)),
+          slider: (0, b.iv)({ overflow: "visible !important" }),
+          slideItem: (0, b.iv)((0, I.oI)(10), { width: "calc(100% - 10px)" }),
+          firstSlideItem: (0, b.iv)((0, I.oI)(0)),
         },
         We = ({ items: e }) => {
           const t = (0, y.Su)(),
             r = e.map((e, t) => {
-              const r = (0, f.cx)(Be.slideItem, {
+              const r = (0, b.cx)(Be.slideItem, {
                   [Be.firstSlideItem]: 0 === t,
                 }),
                 { type: n } = e;
@@ -559,7 +559,7 @@
           );
         },
         Te = {
-          promoSection: (0, f.iv)({
+          promoSection: (0, b.iv)({
             marginBottom: 60,
             [E.Uc.maxWidth]: { marginLeft: 10, marginRight: 10 },
           }),
@@ -574,10 +574,10 @@
               : a.createElement(De, { items: e }),
           );
         };
-      var Xe = r(10225),
+      var Xe = r(71535),
         Ke = r(43653),
         He = r.n(Ke),
-        Ye = r(16317);
+        Ye = r(72051);
       const Ve = (e = "en-US") => {
         return (
           (t = void 0),
@@ -666,8 +666,8 @@
           })(a, ["data"]),
         };
       };
-      var nt = r(10930),
-        lt = r(45178),
+      var nt = r(79394),
+        lt = r(33055),
         ot = Object.defineProperty,
         it = Object.getOwnPropertySymbols,
         st = Object.prototype.hasOwnProperty,
@@ -695,12 +695,12 @@
             )
           : null;
       };
-      var pt = r(38909),
-        ut = r(41725),
+      var pt = r(35070),
+        ut = r(84244),
         vt = Object.defineProperty,
         gt = Object.defineProperties,
-        bt = Object.getOwnPropertyDescriptors,
-        ft = Object.getOwnPropertySymbols,
+        ft = Object.getOwnPropertyDescriptors,
+        bt = Object.getOwnPropertySymbols,
         Et = Object.prototype.hasOwnProperty,
         yt = Object.prototype.propertyIsEnumerable,
         ht = (e, t, r) =>
@@ -713,10 +713,10 @@
               })
             : (e[t] = r);
       const wt = (e) => {
-          return (0, f.iv)(
+          return (0, b.iv)(
             ((t = ((e, t) => {
               for (var r in t || (t = {})) Et.call(t, r) && ht(e, r, t[r]);
-              if (ft) for (var r of ft(t)) yt.call(t, r) && ht(e, r, t[r]);
+              if (bt) for (var r of bt(t)) yt.call(t, r) && ht(e, r, t[r]);
               return e;
             })({}, E.cp.text12)),
             (r = {
@@ -724,7 +724,7 @@
               marginBottom: 10,
               [E.Uc.maxWidth]: { marginLeft: 10, marginRight: 10 },
             }),
-            gt(t, bt(r))),
+            gt(t, ft(r))),
           );
           var t, r;
         },
@@ -738,9 +738,9 @@
             }),
           );
         };
-      var Ot = r(33211),
-        Lt = r(86216),
-        It = r(12375),
+      var Ot = r(43989),
+        Lt = r(43146),
+        It = r(42925),
         Nt = Object.defineProperty,
         Pt = Object.defineProperties,
         jt = Object.getOwnPropertyDescriptors,
@@ -763,24 +763,24 @@
         },
         Ct = (e, t) => Pt(e, jt(t));
       const zt = (0, L.i)((e) => ({
-          item: (0, f.iv)({
+          item: (0, b.iv)({
             width: "100%",
             marginTop: 0,
             position: "relative",
           }),
-          link: (0, f.iv)(
+          link: (0, b.iv)(
             Ct(At({}, (0, It.Bt)(e)), {
               display: "flex",
               [E.Uc.xs]: { flexDirection: "column" },
               border: "1px solid transparent",
             }),
           ),
-          rowWrapper: (0, f.iv)({
+          rowWrapper: (0, b.iv)({
             display: "flex",
             [E.Uc.xs]: { flexDirection: "column" },
           }),
-          linkWrapper: (0, f.iv)((0, I.wz)(20)),
-          imageWrapper: (0, f.iv)({
+          linkWrapper: (0, b.iv)((0, I.wz)(20)),
+          imageWrapper: (0, b.iv)({
             position: "relative",
             borderRadius: E.E0,
             overflow: "hidden",
@@ -799,7 +799,7 @@
             "&:hover::after": { opacity: 1 },
             [E.Uc.xs]: Ct(At({}, (0, I.wz)(0)), { marginBottom: 10 }),
           }),
-          image: (0, f.iv)({
+          image: (0, b.iv)({
             position: "relative",
             width: 200,
             display: "block",
@@ -823,13 +823,13 @@
         }) => {
           const v = (0, p.useLocalization)(),
             g = zt(),
-            b = (0, N.fp)(e || t, N.qU.RATIO_16X9_320),
-            f = v(
+            f = (0, N.fp)(e || t, N.qU.RATIO_16X9_320),
+            b = v(
               i.includes("/p/") || i.includes("/product/")
                 ? "diesel.common.post.view_game"
                 : "diesel.common.post.read_more",
             ),
-            y = fe({ url: i, externalLink: m });
+            y = be({ url: i, externalLink: m });
           return a.createElement(
             "article",
             { className: g.item },
@@ -853,7 +853,7 @@
                   "div",
                   { className: g.linkWrapper },
                   a.createElement(
-                    H.Z,
+                    Y.Z,
                     { to: y, ariaLabelledby: o, rel: "nofollow" },
                     a.createElement(
                       "div",
@@ -865,7 +865,7 @@
                           Ot.Z,
                           { aspectRatio: E.oM.x16x9 },
                           a.createElement(Lt.w, {
-                            src: b,
+                            src: f,
                             alt: r || l,
                             showBrokenOnError: !0,
                           }),
@@ -881,7 +881,7 @@
                   sticky: c,
                   date: n,
                   externalLink: m,
-                  ctaLabel: f,
+                  ctaLabel: b,
                   linkUrl: y,
                   tags: s,
                 }),
@@ -916,11 +916,11 @@
         );
         var r;
       };
-      var Xt = r(11240),
-        Kt = r(38764);
+      var Xt = r(6232),
+        Kt = r(13405);
       const Ht = (0, L.i)(() => ({
-          wrapper: (0, f.iv)({ paddingBottom: 16 }),
-          listItems: (0, f.iv)({
+          wrapper: (0, b.iv)({ paddingBottom: 16 }),
+          listItems: (0, b.iv)({
             borderTop: `1px solid ${E.tL}`,
             paddingTop: 20,
             "&:not(:last-child)": {
@@ -956,9 +956,9 @@
             );
           return a ? l : n().createElement(xt, null);
         });
-      var Vt = r(23524),
-        qt = r(22085),
-        Gt = r(37274);
+      var Vt = r(35934),
+        qt = r(93844),
+        Gt = r(60353);
       const { selector: Jt } = (0, Gt.F)({
         name: "news-pagination",
         defaultConfig: { pageSize: 10 },
@@ -969,9 +969,9 @@
             e.push({ search: String(t), pathname: "news" });
         },
         tr = () => {
-          const e = (0, b.useHistory)(),
+          const e = (0, f.useHistory)(),
             { pageSize: t } = (0, Qt.useSelector)(Jt),
-            { search: r } = (0, b.useLocation)(),
+            { search: r } = (0, f.useLocation)(),
             l = new URLSearchParams(r),
             o = l.get("page"),
             i = Boolean(o),
@@ -985,7 +985,7 @@
             ),
             d = 1 === s,
             {
-              blogList: f,
+              blogList: b,
               stickyPosts: E,
               paging: y,
             } = ((e, t) => {
@@ -1010,8 +1010,8 @@
               };
             })(s - 1, t),
             { data: h, feedPromoItems: w } = (0, a.useMemo)(
-              () => (0, qt.s$)(f, E, d),
-              [f, E, d],
+              () => (0, qt.s$)(b, E, d),
+              [b, E, d],
             ),
             x = (null == y ? void 0 : y.total) ? Math.ceil(y.total / t) : 0,
             O = x && x > 1;
@@ -1035,18 +1035,18 @@
             )
           );
         };
-      var rr = r(90920),
-        ar = r(18023),
-        nr = r(52389);
+      var rr = r(90783),
+        ar = r(73142),
+        nr = r(85449);
       const lr = {
-          content: (0, f.iv)({
+          content: (0, b.iv)({
             [E.Uc.md]: { flexDirection: "row" },
             display: "flex",
             flexDirection: "column-reverse",
             position: "relative",
             [E.Uc.underMd]: { overflowX: "hidden" },
           }),
-          innerWrapper: (0, f.iv)({ flexGrow: 1 }),
+          innerWrapper: (0, b.iv)({ flexGrow: 1 }),
         },
         or = ({ children: e }) =>
           n().createElement(
@@ -1055,12 +1055,12 @@
             n().createElement("div", { className: lr.innerWrapper }, e),
           ),
         ir = (e) =>
-          (0, f.iv)({
+          (0, b.iv)({
             background: e.level1,
             position: "relative",
             width: "100%",
           }),
-        sr = (0, f.iv)({
+        sr = (0, b.iv)({
           width: "100%",
           padding: "45px 35px",
           display: "flex",
@@ -1070,29 +1070,29 @@
           pointerEvents: "none",
           overflow: "hidden",
         }),
-        cr = (0, f.iv)(E.cp.text2, {
+        cr = (0, b.iv)(E.cp.text2, {
           marginBottom: "10px",
           height: "0.8em",
           width: "40%",
         }),
-        mr = (0, f.iv)(E.cp.text6, {
+        mr = (0, b.iv)(E.cp.text6, {
           display: "flex",
           width: "100%",
           alignItems: "center",
         }),
-        dr = (0, f.iv)((0, I.wz)(10), {
+        dr = (0, b.iv)((0, I.wz)(10), {
           borderRadius: "50%",
           width: "20px",
           height: "20px",
         }),
-        pr = (0, f.iv)({ width: "22%", height: "0.8em" }),
+        pr = (0, b.iv)({ width: "22%", height: "0.8em" }),
         ur = (e) =>
-          (0, f.iv)({
+          (0, b.iv)({
             backgroundColor: e.level2,
             width: "100%",
             height: "260px",
           });
-      var vr = r(88904);
+      var vr = r(85569);
       const gr = () => {
           const e = (0, q.Z)();
           return a.createElement(
@@ -1112,20 +1112,20 @@
             a.createElement("div", { className: ur(e) }),
           );
         },
-        br = () =>
+        fr = () =>
           a.createElement(
             a.Fragment,
             null,
             a.createElement(gr, null),
             a.createElement(gr, null),
           );
-      var fr = Object.defineProperty,
+      var br = Object.defineProperty,
         Er = Object.getOwnPropertySymbols,
         yr = Object.prototype.hasOwnProperty,
         hr = Object.prototype.propertyIsEnumerable,
         wr = (e, t, r) =>
           t in e
-            ? fr(e, t, {
+            ? br(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
@@ -1133,7 +1133,7 @@
               })
             : (e[t] = r);
       const xr = {
-          news: (0, f.iv)({ "&.title": { fontSize: 24, margin: "10px 0" } }),
+          news: (0, b.iv)({ "&.title": { fontSize: 24, margin: "10px 0" } }),
         },
         Or = () => {
           const e = (0, Qt.useSelector)(ar.$u),
@@ -1177,7 +1177,7 @@
                         a.Fragment,
                         null,
                         a.createElement(xt, null),
-                        a.createElement(br, null),
+                        a.createElement(fr, null),
                       ),
                     },
                     a.createElement(Or, null),
@@ -1196,4 +1196,4 @@
     },
   },
 ]);
-//# sourceMappingURL=NewsView.egstore-site.1c691eebe0f0866ecef2.js.map
+//# sourceMappingURL=NewsView.egstore-site.a0d996eec1b80c3c6f59.js.map
