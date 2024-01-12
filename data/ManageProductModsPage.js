@@ -1,21 +1,21 @@
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
   [322],
   {
-    93807: (e, t, a) => {
+    79446: (e, t, a) => {
       "use strict";
       a.r(t), a.d(t, { default: () => D });
-      var l = a(27545),
-        n = a(44145),
-        c = a(29571),
-        L = a(65708),
-        o = a(16040),
-        r = a(12092),
-        s = a(17782),
-        d = a(88023),
-        C = a(50083),
-        m = a(41725),
-        i = a(1768),
-        p = a(69175),
+      var l = a(66936),
+        n = a(49774),
+        c = a(92287),
+        L = a(44115),
+        o = a(98988),
+        r = a(46732),
+        s = a(11199),
+        d = a(62245),
+        C = a(50919),
+        m = a(84244),
+        i = a(67764),
+        p = a(96685),
         u = a(45418),
         E = a.n(u);
       const _ = (0, p.L)(
@@ -55,9 +55,9 @@
             ? E().createElement(b, { onClick: c, disabled: !L, title: n })
             : null;
         };
-      var v = a(83164),
-        I = a(62667),
-        f = a(52389);
+      var v = a(80847),
+        I = a(25281),
+        f = a(85449);
       const M = (0, L.a)({
           contentType: c.ot.MODS,
           useRecords: I.L,
@@ -76,7 +76,7 @@
               E().createElement(M, null),
             ),
           );
-      var A = a(29318);
+      var A = a(14951);
       const D = ({ match: e }) => {
         const { namespace: t, catalogId: a, appName: l } = e.params;
         return E().createElement(
@@ -88,4 +88,4 @@
     },
   },
 ]);
-//# sourceMappingURL=ManageProductModsPage.egstore-site.f0d9cf3f2d300110a40f.js.map
+//# sourceMappingURL=ManageProductModsPage.egstore-site.94cde599712875abeacb.js.map
