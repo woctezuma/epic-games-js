@@ -6,7 +6,7 @@ This repository contains Python code to retrieve data (JSON, JavaScript) from th
 
 ## Requirements
 
--   Install the latest version of [Python 3.X][python-download].
+- Install the latest version of [Python 3.X][python-download].
 
 ## Usage
 
@@ -24,5 +24,5 @@ python download.py
 
 <!-- Definitions -->
 
-[img-cover]: <https://github.com/woctezuma/epic-games-js/wiki/img/cover.jpg>
-[python-download]: <https://www.python.org/downloads/>
+[img-cover]: https://github.com/woctezuma/epic-games-js/wiki/img/cover.jpg
+[python-download]: https://www.python.org/downloads/
