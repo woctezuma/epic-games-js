@@ -1,4 +1,4 @@
-/*! For license information please see webAppStyles.egstore-site.33f145190ed9db754acc.js.LICENSE.txt */
+/*! For license information please see webAppStyles.egstore-site.1eeb7f51bd57c6bc30a4.js.LICENSE.txt */
 (() => {
   var e,
     t,
@@ -20,7 +20,7 @@
             : "undefined" != typeof self
               ? self
               : {}
-        ).SENTRY_RELEASE = { id: "1d2c8b3ee6a8ac6acae031a8d45e5d4a3f12a1af" };
+        ).SENTRY_RELEASE = { id: "84c5248aa9700c4c553ff12d6974b329ba83a876" };
       },
       72092: (e, t, n) => {
         "use strict";
@@ -8665,4 +8665,4 @@
     p(1884);
   p(72092);
 })();
-//# sourceMappingURL=webAppStyles.egstore-site.33f145190ed9db754acc.js.map
+//# sourceMappingURL=webAppStyles.egstore-site.1eeb7f51bd57c6bc30a4.js.map
