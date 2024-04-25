@@ -3,22 +3,22 @@
   {
     67925: (e, t, i) => {
       "use strict";
-      i.r(t), i.d(t, { default: () => ge });
+      i.r(t), i.d(t, { default: () => he });
       var o = i(45418),
         a = i.n(o),
         s = i(37922);
       const n = (e) => ((e) => e.get("feed"))(e).blog;
       var r = i(22538),
-        l = i(28901),
+        l = i(56470),
         c = i(32396),
         m = i(10035),
         d = i(77915),
         g = i(1255),
-        h = i(90783),
-        p = i(45035),
-        u = i(50560),
-        b = i(16618),
-        v = i(63236),
+        h = i(63236),
+        p = i(90783),
+        u = i(45035),
+        b = i(50560),
+        v = i(16618),
         E = i(73172),
         f = i(84244),
         x = i(74758),
@@ -53,8 +53,8 @@
         A = i(81549),
         I = i(29498),
         w = i(23752),
-        R = i(65817),
-        _ = i(15130),
+        R = i(15130),
+        _ = i(65817),
         k = Object.defineProperty,
         D = Object.defineProperties,
         H = Object.getOwnPropertyDescriptors,
@@ -76,17 +76,12 @@
           return e;
         };
       const X = (0, l.iv)({ overflow: "hidden" }),
-        $ = (0, l.iv)(_.Hi, _.CX, (0, w.fF)(w.oM.x16x9), {
+        $ = (0, l.iv)(R.Hi, R.CX, (0, w.fF)(w.oM.x16x9), {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           [I.Uc.lg]: { borderRadius: I.E0 },
         }),
-        j = (0, l.iv)({
-          width: "100%",
-          opacity: 0,
-          position: "absolute",
-          pointerEvents: "none",
-        }),
+        j = (0, l.iv)({ width: "100%", opacity: 0, position: "absolute" }),
         U = (0, l.iv)({ marginTop: 40, [I.Uc.xxl]: { padding: "0 72px" } }),
         z = (0, l.iv)({ position: "relative" }),
         M = (0, l.iv)({
@@ -119,7 +114,7 @@
           backgroundColor: I.CT,
           top: 0,
           left: 0,
-          zIndex: R.W.modal,
+          zIndex: _.W.modal,
           padding: 50,
           textAlign: "center",
           img: {
@@ -168,8 +163,9 @@
               width: "100%",
               border: 0,
             },
-        });
-      class ie extends a().PureComponent {
+        }),
+        ie = (0, l.iv)({ img: { pointerEvents: "auto" } });
+      class oe extends a().PureComponent {
         constructor() {
           super(...arguments),
             (this.state = {
@@ -287,7 +283,7 @@
               : { backgroundImage: `url("${o}")`, backgroundPosition: "top" };
           return a().createElement(
             "div",
-            null,
+            { className: ie },
             a().createElement(N, {
               meta: h,
               title: i("egstore.store.meta.title.article", [c]),
@@ -400,27 +396,27 @@
           );
         }
       }
-      const oe = (0, f.in)(ie),
-        ae = (0, l.iv)({ minHeight: "100vh" }),
-        se = ({ isLauncher: e, blog: t, getBlogPost: i }) => {
+      const ae = (0, f.in)(oe),
+        se = (0, l.iv)({ minHeight: "100vh" }),
+        ne = ({ isLauncher: e, blog: t, getBlogPost: i }) => {
           var o, n;
-          const l = (0, s.useSelector)(u.e),
+          const l = (0, s.useSelector)(b.e),
             E = (0, m.useLocalizationLocale)(),
             f = (0, r.useParams)(),
             { newsSlug: x } = f || {};
           if (
             (a().useEffect(() => {
-              const e = t.state === v.s.notAsked,
-                o = t.state === v.s.success;
+              const e = t.state === h.s.notAsked,
+                o = t.state === h.s.success;
               (e || (o && t.latestValue.slug !== x)) && i(E, x);
             }, [x, t]),
-            t.state === v.s.error)
+            t.state === h.s.error)
           )
-            return a().createElement(b.Z, {
+            return a().createElement(v.Z, {
               to: `${(0, c.getPlainPath)()}/${E}/not-found`,
             });
           if (
-            t.state === v.s.success &&
+            t.state === h.s.success &&
             (null == (n = null == (o = t.latestValue) ? void 0 : o.redirect)
               ? void 0
               : n.url)
@@ -432,16 +428,16 @@
             });
           }
           return a().createElement(
-            h.Z,
-            { pageTheme: l ? p.Fj : p.f8 },
+            p.Z,
+            { pageTheme: l ? u.Fj : u.f8 },
             a().createElement(
               d.Yn,
               null,
               a().createElement(
                 "div",
-                { id: "storeNews", className: ae },
+                { id: "storeNews", className: se },
                 t.latestValue &&
-                  a().createElement(oe, {
+                  a().createElement(ae, {
                     blog: t.latestValue,
                     isLauncher: e,
                     disableShareIcons: !0,
@@ -450,25 +446,25 @@
             ),
           );
         };
-      var ne = i(68692),
-        re = i(8604);
-      const le = (0, s.connect)(
-        (e) => ({ blog: n(e), isLauncher: (0, re.Ip)(e) }),
-        (e) => ({ getBlogPost: (t, i) => e(ne.I.getBlogPost(t, i)) }),
-      )(se);
-      var ce = i(41846),
-        me = i(18567);
-      const de = () => o.createElement(le, null);
-      de.getInitialProps = (e, t) => {
+      var re = i(68692),
+        le = i(8604);
+      const ce = (0, s.connect)(
+        (e) => ({ blog: n(e), isLauncher: (0, le.Ip)(e) }),
+        (e) => ({ getBlogPost: (t, i) => e(re.I.getBlogPost(t, i)) }),
+      )(ne);
+      var me = i(41846),
+        de = i(18567);
+      const ge = () => o.createElement(ce, null);
+      ge.getInitialProps = (e, t) => {
         return (
           (i = void 0),
           (o = [e, t]),
           (a = function* (e, { store: t }) {
             const i = e.params || {},
               { newsSlug: o, locale: a } = i;
-            if ((t.dispatch(me.Z.setSSRPageTheme(p.f8)), o))
+            if ((t.dispatch(de.Z.setSSRPageTheme(u.f8)), o))
               try {
-                yield (0, ce.tn)(t.dispatch, a, o);
+                yield (0, me.tn)(t.dispatch, a, o);
               } catch (e) {
                 console.error(
                   "PromotionView SSR getInitialProps failed (%s)",
@@ -498,8 +494,8 @@
         );
         var i, o, a;
       };
-      const ge = de;
+      const he = ge;
     },
   },
 ]);
-//# sourceMappingURL=ArticleView.egstore-site.7968ad5d8cfeac5bd469.js.map
+//# sourceMappingURL=ArticleView.egstore-site.9119317f9551349e77ce.js.map
