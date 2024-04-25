@@ -52,11 +52,11 @@
         g = n(17054),
         b = n(37922),
         h = n(73714),
-        I = n(28901),
+        I = n(56470),
         y = n(98095),
         A = n(79746),
         x = n.n(A),
-        _ = n(87869),
+        _ = n(84258),
         L = n(85449),
         O = n(43651),
         S = n(8604),
@@ -328,11 +328,11 @@
       var pe = n(80223),
         ge = n(56167),
         be = n(67873),
-        he = n(82059),
-        Ie = n(36221),
-        ye = n(63307),
-        Ae = n(62749),
-        xe = n(86674),
+        he = n(68304),
+        Ie = n(86674),
+        ye = n(62749),
+        Ae = n(36221),
+        xe = n(82059),
         _e = n(8086),
         Le = n(51387);
       const Oe = ({ offers: e }) => {
@@ -370,20 +370,20 @@
                 "div",
                 { className: Se.blade, "data-testid": o },
                 a().createElement(
-                  he.Z,
+                  xe.Z,
                   { event: v, key: t },
                   a().createElement(
                     l,
                     {
-                      renderHeader: () => a().createElement(Ie.P, { title: s }),
+                      renderHeader: () => a().createElement(Ae.P, { title: s }),
                       renderCTA: () =>
                         (null == f ? void 0 : f.linkText) &&
                         a().createElement(
-                          xe.Z,
+                          Ie.Z,
                           {
                             ariaLabel: `${s} ${f.linkText}`,
                             to: f.src || "",
-                            priority: Ae.Z.TERTIARY,
+                            priority: ye.Z.TERTIARY,
                           },
                           f.linkText,
                         ),
@@ -394,18 +394,16 @@
                       cardRenderer: ({
                         card: e,
                         cardImageOrientation: t,
-                        cardLayout: n,
-                        groupTitle: r,
-                        pagination: l,
+                        groupTitle: n,
+                        pagination: r,
                       }) =>
-                        a().createElement(ye.Z, {
+                        a().createElement(he.Z, {
                           offer: e,
-                          cardImageOrientation: t,
-                          cardLayout: n,
+                          imageOrientation: t,
                           trackingMeta: E,
-                          title: r,
-                          index: l.index,
-                          total: l.total,
+                          groupTitle: n,
+                          index: r.index,
+                          total: r.total,
                         }),
                     }),
                   ),
@@ -761,4 +759,4 @@
     },
   },
 ]);
-//# sourceMappingURL=CartSuccessView.egstore-site.f2912975b043c7929d95.js.map
+//# sourceMappingURL=CartSuccessView.egstore-site.ade72b8cdc09048fdc7b.js.map
