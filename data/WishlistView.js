@@ -1,136 +1,140 @@
+"use strict";
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
-  [937],
+  [313],
   {
-    58504: (e, t, r) => {
-      "use strict";
-      r.r(t), r.d(t, { default: () => Gr });
-      var n = r(45418),
-        l = r.n(n),
-        o = r(85449),
-        i = r(32396),
-        a = r(16618),
-        s = r(77909),
-        c = r(50203),
-        d = r(13986),
-        m = r(24668),
-        p = r(84258),
-        u = r(79546),
-        h = r(10035),
-        f = r(69926),
-        g = r(13623),
-        v = r(98889),
-        E = r(80509);
-      const y = ({
+    50492: (e, t, r) => {
+      r.r(t), r.d(t, { default: () => qn });
+      var n = r(8788),
+        a = r.n(n),
+        l = r(61801),
+        o = r(36233),
+        i = r(6415),
+        s = r(380),
+        c = r(3493),
+        d = r(56578),
+        m = r(96157),
+        p = r(96114),
+        u = r(35294),
+        g = r(66713),
+        E = r(66879),
+        h = r(68085),
+        f = r(85727),
+        y = r(10288),
+        v = r(67509),
+        b = r(90927),
+        A = r(88462),
+        w = r(35324);
+      const C = ({
         filterGroup: e,
         filtersInitiallyCollapsed: t,
         onFilterSelect: r,
         options: n = [],
-        selectedFilters: o,
-        title: i,
+        selectedFilters: l,
+        title: o,
       }) =>
         0 === n.length
           ? null
-          : l().createElement(
-              E.Oy,
+          : a().createElement(
+              w.ou,
               {
                 collapsible: !0,
                 initialCollapseState: t,
                 renderTitle: ({ isCollapsed: e, toggleCollapsed: t }) =>
-                  l().createElement(E.c4, {
+                  a().createElement(w.f7, {
                     isCollapsed: e,
-                    text: i,
+                    text: o,
                     toggleCollapsed: t,
                   }),
               },
               n.map(({ id: t, name: n }) => {
-                const i = o.includes(t);
-                return l().createElement(E.kD, {
-                  checked: i,
+                const o = l.includes(t);
+                return a().createElement(w.Dp, {
+                  checked: o,
                   key: t,
-                  onClick: () => r({ checked: i, group: e, id: t }),
+                  onClick: () => r({ checked: o, group: e, id: t }),
                   text: n,
                 });
               }),
             );
-      var b = r(37808),
-        w = r(25635);
-      const C = ({
+      var I = r(51251),
+        S = r(41637);
+      const O = ({
         filters: e = {},
         onClear: t,
         onDone: r,
         onOverlayClick: n,
       }) => {
         const {
-            dispatch: o,
-            wishlistUndoState: { selectedFilterIds: i },
-          } = (0, b.Q)(),
-          a = (0, h.useLocalization)(),
-          { feature: s, genre: c, event: m, platform: p } = e,
+            dispatch: l,
+            wishlistUndoState: { selectedFilterIds: o },
+          } = (0, I.G)(),
+          i = (0, m.useLocalization)(),
+          { feature: s, genre: c, event: d, platform: p } = e,
           u = c || [],
           E = s || [],
-          C = m || [],
-          O = p || [],
-          S = !0,
-          I = (null == i ? void 0 : i.length) || 0,
-          L = ({ checked: e, id: t }) => {
-            o(
+          h = d || [],
+          f = p || [],
+          y = !0,
+          w = (null == o ? void 0 : o.length) || 0,
+          O = ({ checked: e, id: t }) => {
+            l(
               e
-                ? { type: w.S.REMOVE_FILTERS, payload: { filterIds: [t] } }
-                : { type: w.S.ADD_FILTERS, payload: { filterIds: [t] } },
+                ? { type: S.d.REMOVE_FILTERS, payload: { filterIds: [t] } }
+                : { type: S.d.ADD_FILTERS, payload: { filterIds: [t] } },
             );
           },
-          x = () => o({ type: w.S.RESET_FILTERS }),
-          T = (0, d.SO)(f.H, { numSelectedFilters: I, resetFilters: x }),
-          Z = (0, d.R)(
-            y,
+          x = () => l({ type: S.d.RESET_FILTERS }),
+          L = (0, g.P)(v.l, { numSelectedFilters: w, resetFilters: x }),
+          T = (0, g.ZX)(
+            C,
             {
-              filterGroup: g.e_.Event,
-              filtersInitiallyCollapsed: S,
-              onFilterSelect: L,
-              options: C,
-              selectedFilters: i,
-              title: a("diesel.store.browse.events") || "",
+              filterGroup: b.I8.Event,
+              filtersInitiallyCollapsed: y,
+              onFilterSelect: O,
+              options: h,
+              selectedFilters: o,
+              title: i("diesel.store.browse.events") || "",
             },
-            C.length > 0,
+            h.length > 0,
           ),
-          P = (0, d.R)(
-            y,
+          H = (0, g.ZX)(
+            C,
             {
-              filterGroup: g.e_.Genre,
-              filtersInitiallyCollapsed: S,
-              onFilterSelect: L,
+              filterGroup: b.I8.Genre,
+              filtersInitiallyCollapsed: y,
+              onFilterSelect: O,
               options: u,
-              selectedFilters: i,
-              title: a("diesel.store.browse.genre") || "",
+              selectedFilters: o,
+              title: i("diesel.store.browse.genre") || "",
             },
             u.length > 0,
           ),
-          k = (0, d.R)(
-            y,
+          k = (0, g.ZX)(
+            C,
             {
-              filterGroup: g.e_.Feature,
-              filtersInitiallyCollapsed: S,
-              onFilterSelect: L,
+              filterGroup: b.I8.Feature,
+              filtersInitiallyCollapsed: y,
+              onFilterSelect: O,
               options: E,
-              selectedFilters: i,
-              title: a("diesel.store.browse.features") || "",
+              selectedFilters: o,
+              title: i("diesel.store.browse.features") || "",
             },
             E.length > 0,
           ),
-          _ = (0, d.R)(
-            y,
+          N = (0, g.ZX)(
+            C,
             {
-              filterGroup: g.e_.Platform,
-              filtersInitiallyCollapsed: S,
-              onFilterSelect: L,
-              options: O,
-              selectedFilters: i,
-              title: a("diesel.products.about.meta.platform") || "",
+              filterGroup: b.I8.Platform,
+              filtersInitiallyCollapsed: y,
+              onFilterSelect: O,
+              options: f,
+              selectedFilters: o,
+              title: i("diesel.products.about.meta.platform") || "",
             },
-            O.length > 0,
+            f.length > 0,
           );
-        return l().createElement(
-          v.W,
+        return a().createElement(
+          A.P,
           {
             onClear: () => {
               x(), t && t();
@@ -138,28 +142,28 @@
             onDone: r,
             onOverlayClick: n,
           },
+          L && L(),
           T && T(),
-          Z && Z(),
-          P && P(),
+          H && H(),
           k && k(),
-          _ && _(),
+          N && N(),
         );
       };
-      var O = r(24408);
-      const S = ({ count: e = 0, onClick: t }) => {
-        const r = (0, h.useLocalization)();
-        return l().createElement(
-          O.Z,
+      var x = r(17245);
+      const L = ({ count: e = 0, onClick: t }) => {
+        const r = (0, m.useLocalization)();
+        return a().createElement(
+          x.A,
           { onClick: t },
           r("diesel.store.browse.filter", e > 0 ? [`(${e})`] : [""]),
         );
       };
-      var I = r(56470),
-        L = r(89697),
-        x = r(86376),
-        T = r(14058);
-      const Z = {
-          contentWrapper: (0, I.iv)({
+      var T = r(11923),
+        H = r(56764),
+        k = r(60263),
+        N = r(97116);
+      const P = {
+          contentWrapper: (0, T.AH)({
             height: "100%",
             "& > div": {
               display: "flex",
@@ -167,67 +171,79 @@
               width: "100%",
             },
           }),
-          content: (0, I.iv)({ marginTop: 12 }),
+          content: (e) => (0, T.AH)({ marginTop: e ? 0 : 12 }),
         },
-        P = ({ children: e }) =>
-          l().createElement(T.Z, { className: Z.contentWrapper }, e),
-        k = ({ children: e, renderSidebar: t }) =>
-          l().createElement(
-            T.Z,
-            { className: Z.contentWrapper },
-            l().createElement(
-              L.H,
+        j = ({ children: e }) =>
+          a().createElement(N.A, { className: P.contentWrapper }, e),
+        _ = ({ children: e, renderSidebar: t }) => {
+          const r = (0, c.useSelector)(y.k);
+          return a().createElement(
+            N.A,
+            { className: P.contentWrapper },
+            a().createElement(
+              H.d,
               { renderRightSidebar: t },
-              l().createElement("div", { className: Z.content }, e),
+              a().createElement("div", { className: P.content(r) }, e),
             ),
-          ),
-        _ = ({
+          );
+        },
+        R = ({
           children: e,
           renderSidebar: t,
           renderHeader: r,
           renderCommsBanner: n,
         }) =>
-          l().createElement(
-            x.Z,
+          a().createElement(
+            k.A,
             null,
             r && r(),
             n && n(),
             t
-              ? l().createElement(k, { renderSidebar: t }, e)
-              : l().createElement(P, null, e),
+              ? a().createElement(_, { renderSidebar: t }, e)
+              : a().createElement(j, null, e),
           );
-      var j = r(86674),
-        D = r(72668),
-        A = r(87690),
-        R = r(71630),
-        F = r(52350),
-        N = r(29498),
-        M = r(47411),
-        W = r(34272),
-        U = r(7301),
-        B = Object.defineProperty,
-        H = Object.defineProperties,
-        V = Object.getOwnPropertyDescriptors,
-        z = Object.getOwnPropertySymbols,
-        G = Object.prototype.hasOwnProperty,
-        X = Object.prototype.propertyIsEnumerable,
-        K = (e, t, r) =>
+      var F = r(76794),
+        M = r(78273),
+        D = r(14492),
+        W = r(8867),
+        B = r(3324),
+        U = r(54303),
+        z = r(14025),
+        V = r(54699),
+        q = r(68641),
+        G = r(98186),
+        X = r(40440),
+        Z = r(35688),
+        $ = r(34475),
+        Q = r(49498),
+        K = r(53248),
+        Y = r(64032),
+        J = r(69945),
+        ee = r(22357),
+        te = r(66448),
+        re = Object.defineProperty,
+        ne = Object.defineProperties,
+        ae = Object.getOwnPropertyDescriptors,
+        le = Object.getOwnPropertySymbols,
+        oe = Object.prototype.hasOwnProperty,
+        ie = Object.prototype.propertyIsEnumerable,
+        se = (e, t, r) =>
           t in e
-            ? B(e, t, {
+            ? re(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        $ = (e, t) => {
-          for (var r in t || (t = {})) G.call(t, r) && K(e, r, t[r]);
-          if (z) for (var r of z(t)) X.call(t, r) && K(e, r, t[r]);
+        ce = (e, t) => {
+          for (var r in t || (t = {})) oe.call(t, r) && se(e, r, t[r]);
+          if (le) for (var r of le(t)) ie.call(t, r) && se(e, r, t[r]);
           return e;
         },
-        Q = (e, t) => H(e, V(t));
-      const q = {
-          listItem: (0, I.iv)({
+        de = (e, t) => ne(e, ae(t));
+      const me = {
+          listItem: (0, T.AH)({
             height: "70px",
             width: "100%",
             marginBottom: "5px",
@@ -235,24 +251,24 @@
             "&.gridLayout": { width: "100%", height: "auto", marginBottom: 0 },
           }),
           content: ({ isInstalled: e, cssTheme: t }) =>
-            (0, I.iv)(
-              Q(
-                $(
-                  Q($({}, N.pB.smooth("background-color", "125ms")), {
+            (0, T.AH)(
+              de(
+                ce(
+                  de(ce({}, Y.bm.smooth("background-color", "125ms")), {
                     backgroundColor: e ? t.level2 : t.level1,
                     color: t.textPrimary,
                     width: "100%",
                     height: "100%",
                   }),
-                  (0, W.rv)(8),
+                  (0, ee.zG)(8),
                 ),
                 {
                   display: "flex",
                   alignItems: "center",
                   position: "relative",
-                  borderRadius: N.E0,
-                  ".gridLayout &": Q(
-                    $({ backgroundColor: "transparent" }, (0, W.rv)(0)),
+                  borderRadius: Y.Vq,
+                  ".gridLayout &": de(
+                    ce({ backgroundColor: "transparent" }, (0, ee.zG)(0)),
                     { paddingBottom: "6px", display: "block" },
                   ),
                   ".hasHover:hover &, .active &": {
@@ -268,7 +284,7 @@
               ),
             ),
           wrapperActionButton: (e) =>
-            (0, I.iv)(
+            (0, T.AH)(
               {
                 flex: 1,
                 backgroundColor: "transparent",
@@ -276,7 +292,7 @@
                 fontWeight: 400,
                 padding: 0,
                 borderRadius: 0,
-                [N.Uc.lgOnly]: { height: "auto" },
+                [Y.aq.lgOnly]: { height: "auto" },
                 "&.disabled": { pointerEvents: "none" },
                 ".gridLayout &": {},
               },
@@ -289,88 +305,88 @@
                   }
                 : {
                     height: "50px !important",
-                    [N.Uc.lgOnly]: { height: "50px !important" },
+                    [Y.aq.lgOnly]: { height: "50px !important" },
                   },
             ),
-          buttonInner: (0, I.iv)(
-            Q($({}, M.a), {
+          buttonInner: (0, T.AH)(
+            de(ce({}, J.A), {
               display: "flex",
               textTransform: "none",
               ".gridLayout &": { display: "block", position: "relative" },
             }),
           ),
         },
-        J = ({
+        pe = ({
           children: e,
           className: t,
           onClick: r,
-          isGridLayout: l,
-          isInstalled: o = !1,
-          isMenuOpen: i,
-          renderMenu: a,
+          isGridLayout: a,
+          isInstalled: l = !1,
+          isMenuOpen: o,
+          renderMenu: i,
           renderEndcap: s,
         }) => {
-          const c = (0, I.cx)(
-              q.listItem,
-              { gridLayout: l, active: i, hasHover: !!r },
+          const c = (0, T.cx)(
+              me.listItem,
+              { gridLayout: a, active: o, hasHover: !!r },
               t,
             ),
-            d = (0, U.Z)();
+            d = (0, te.A)();
           return n.createElement(
             "div",
             { className: c, role: "listitem" },
             n.createElement(
               "div",
               {
-                className: q.content({ isInstalled: o, cssTheme: d }),
+                className: me.content({ isInstalled: l, cssTheme: d }),
                 "data-testid": "listitem-content",
               },
               n.createElement(
-                j.Z,
+                z.A,
                 {
-                  className: q.wrapperActionButton(l),
-                  disabled: i,
+                  className: me.wrapperActionButton(a),
+                  disabled: o,
                   hasMinWidth: !1,
                   hasHover: !1,
                   onClick: r,
                   "data-testid": "primary-button",
                 },
-                n.createElement("div", { className: q.buttonInner }, e),
+                n.createElement("div", { className: me.buttonInner }, e),
               ),
               s && s(),
             ),
-            a && a(),
+            i && i(),
           );
         };
-      var Y = r(84244),
-        ee = r(67873),
-        te = r(239),
-        re = r(68292),
-        ne = r(51078),
-        le = r(50821),
-        oe = r(302),
-        ie = r(78660),
-        ae = r(90585);
-      r(72124),
+      var ue = r(42209),
+        ge = r(78487),
+        Ee = r(83823),
+        he = r(59849),
+        fe = r(28079),
+        ye = r(99277),
+        ve = r(34421),
+        be = r(85327),
+        Ae = r(71335);
+      r(98985),
         Object.getOwnPropertySymbols,
         Object.prototype.hasOwnProperty,
         Object.prototype.propertyIsEnumerable;
-      const se = (e) => {
+      const we = (e) => {
           if (!e) return !1;
           const { effectiveDate: t } = e;
           return !!t && new Date(t).getTime() > Date.now();
         },
-        ce = (e) => {
+        Ce = (e) => {
           if (!e) return !1;
           const { expiryDate: t } = e;
           return !!t && new Date(t).getTime() < Date.now();
         },
-        de = (e) => !!e && e.status === te.PV.ACTIVE && !e.isCodeRedemptionOnly,
-        me = (e) => {
+        Ie = (e) => !!e && e.status === Ee.Zt.ACTIVE && !e.isCodeRedemptionOnly,
+        Se = (e) => {
           var t;
           return null == (t = null == e ? void 0 : e.offer) ? void 0 : t.title;
         },
-        pe = (e) => {
+        Oe = (e) => {
           var t, r, n;
           return null ==
             (n =
@@ -382,12 +398,12 @@
             ? void 0
             : n.discountPrice;
         },
-        ue = (0, le.Z)((e) =>
+        xe = (0, ye.A)((e) =>
           e && e.created ? new Date(e.created).getTime() : null,
         ),
-        he = (0, oe.Z)(pe),
-        fe = (0, le.Z)(pe),
-        ge = (0, le.Z)((e) => {
+        Le = (0, ve.A)(Oe),
+        Te = (0, ye.A)(Oe),
+        He = (0, ye.A)((e) => {
           const t = ((e) => {
             var t, r;
             return null ==
@@ -400,75 +416,75 @@
           const { originalPrice: r, discountPrice: n } = t;
           return 0 === r && 0 === n ? 0 : Math.round(100 * (1 - n / r));
         }),
-        ve = (e, t) => (se(e.offer) ? 1 : 0) - (se(t.offer) ? 1 : 0),
-        Ee = (e, t) => {
-          const r = de(e.offer) && !ce(e.offer) ? 1 : 0;
-          return (de(t.offer) && !ce(t.offer) ? 1 : 0) - r;
+        ke = (e, t) => (we(e.offer) ? 1 : 0) - (we(t.offer) ? 1 : 0),
+        Ne = (e, t) => {
+          const r = Ie(e.offer) && !Ce(e.offer) ? 1 : 0;
+          return (Ie(t.offer) && !Ce(t.offer) ? 1 : 0) - r;
         },
-        ye = (0, ie.Z)((e, t) => {
-          const r = me(e),
-            n = me(t);
+        Pe = (0, be.A)((e, t) => {
+          const r = Se(e),
+            n = Se(t);
           return r.localeCompare(n);
         }),
-        be = (0, ie.Z)(ue),
-        we = (0, ae.Z)([Ee, ve, he, ue]),
-        Ce = (0, ae.Z)([Ee, ve, fe, ue]),
-        Oe = (0, ae.Z)([Ee, ve, ge, ue]);
-      var Se = r(62444),
-        Ie = r(24779),
-        Le = Object.defineProperty,
-        xe = Object.defineProperties,
-        Te = Object.getOwnPropertyDescriptors,
-        Ze = Object.getOwnPropertySymbols,
-        Pe = Object.prototype.hasOwnProperty,
-        ke = Object.prototype.propertyIsEnumerable,
-        _e = (e, t, r) =>
+        je = (0, be.A)(xe),
+        _e = (0, Ae.A)([Ne, ke, Le, xe]),
+        Re = (0, Ae.A)([Ne, ke, Te, xe]),
+        Fe = (0, Ae.A)([Ne, ke, He, xe]);
+      var Me = r(76221),
+        De = r(11783),
+        We = Object.defineProperty,
+        Be = Object.defineProperties,
+        Ue = Object.getOwnPropertyDescriptors,
+        ze = Object.getOwnPropertySymbols,
+        Ve = Object.prototype.hasOwnProperty,
+        qe = Object.prototype.propertyIsEnumerable,
+        Ge = (e, t, r) =>
           t in e
-            ? Le(e, t, {
+            ? We(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        je = (e, t) => {
-          for (var r in t || (t = {})) Pe.call(t, r) && _e(e, r, t[r]);
-          if (Ze) for (var r of Ze(t)) ke.call(t, r) && _e(e, r, t[r]);
+        Xe = (e, t) => {
+          for (var r in t || (t = {})) Ve.call(t, r) && Ge(e, r, t[r]);
+          if (ze) for (var r of ze(t)) qe.call(t, r) && Ge(e, r, t[r]);
           return e;
         },
-        De = (e, t) => xe(e, Te(t));
-      const Ae = (0, I.iv)(
-          De(je({}, Se.cp.text6), {
+        Ze = (e, t) => Be(e, Ue(t));
+      const $e = (0, T.AH)(
+          Ze(Xe({}, De.Il.text6), {
             display: "flex",
             height: "100%",
             alignItems: "center",
             width: "100%",
             position: "relative",
-            [N.Uc.underMd]: { overflow: "hidden" },
+            [Y.aq.underMd]: { overflow: "hidden" },
           }),
         ),
-        Re = (0, I.iv)({
+        Qe = (0, T.AH)({
           textTransform: "none",
           marginLeft: 21,
           textAlign: "left",
           whiteSpace: "normal",
           "[dir=rtl] &": { textAlign: "right" },
-          [N.Uc.underMd]: { marginBottom: 6 },
+          [Y.aq.underMd]: { marginBottom: 6 },
         }),
-        Fe = (0, I.iv)({
+        Ke = (0, T.AH)({
           display: "flex",
           "& > div": { backgroundColor: "transparent" },
-          [N.Uc.underMd]: { minHeight: 70 },
+          [Y.aq.underMd]: { minHeight: 70 },
         }),
-        Ne = (0, I.iv)({
+        Ye = (0, T.AH)({
           whiteSpace: "normal",
           alignItems: "baseline",
           textAlign: "left",
         }),
-        Me = {
-          itemContainer: Ae,
+        Je = {
+          itemContainer: $e,
           removeButton: (e) =>
-            (0, I.iv)({
+            (0, T.AH)({
               transition: "background-color 125ms ease-in-out",
               display: "flex",
               alignContent: "center",
@@ -483,25 +499,26 @@
               "&:hover": {
                 backgroundColor: e.accent,
                 color: e.accentText,
-                "&:after": De(je(je({}, Ie.d), M.a), {
+                "&:after": Ze(Xe(Xe({}, Me.j), J.A), {
                   backgroundColor: e.accentOverlay,
                 }),
               },
-              [N.Uc.lgOnly]: { height: "100%" },
+              [Y.aq.lgOnly]: { height: "100%" },
             }),
-          title: Re,
-          undoButton: (0, I.iv)({
+          title: Qe,
+          undoButton: (0, T.AH)({
+            position: "relative",
             whiteSpace: "normal",
             wordBreak: "break-all",
             padding: "0 2px",
           }),
-          undoItem: Fe,
-          undoTitle: Ne,
+          undoItem: Ke,
+          undoTitle: Ye,
           wishlistItem: ({ inactive: e, isUndo: t, cssTheme: r }) =>
-            (0, I.iv)(
+            (0, T.AH)(
               {
                 button: { cursor: e ? "default" : void 0 },
-                [N.Uc.underMd]: {
+                [Y.aq.underMd]: {
                   height: "auto",
                   "& > div": { height: "auto" },
                   "& > div > button:first-child": {
@@ -511,7 +528,7 @@
                   },
                   "& > div > div": { height: "auto" },
                 },
-                [N.Uc.xs]: { "& > div": { paddingLeft: "0 !important" } },
+                [Y.aq.xs]: { "& > div": { paddingLeft: "0 !important" } },
               },
               t
                 ? { pointerEvents: "none" }
@@ -529,159 +546,275 @@
                     },
                   },
             ),
+          undoTextWrapper: (0, T.AH)({
+            position: "relative",
+            opacity: 1,
+            transition: "opacity 5ms ease-in-out",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }),
+          undoTextTransition: (0, T.AH)({ opacity: 0 }),
+          loading: (0, T.AH)({
+            margin: "0 auto",
+            left: 0,
+            right: 0,
+            position: "absolute",
+            transition: "opacity 5m ease-in-out",
+          }),
         },
-        We = ({ onClick: e, title: t }) => {
-          const r = (0, R.y)();
-          return l().createElement(
-            j.Z,
-            {
-              className: (0, I.cx)(Me.removeButton(r), Me.undoButton),
-              hasMinWidth: !1,
-              hasHover: !1,
-              onClick: e,
-              title: t,
-            },
-            l().createElement(Y.v0, { code: "egstore.wishlist.undo" }),
-          );
+        et = ({ onClick: e, title: t, isLoading: r }) => {
+          const n = (0, c.useSelector)(y.k),
+            l = (0, $.E)();
+          return n
+            ? a().createElement(
+                D.$,
+                {
+                  variant: Q.ml.OUTLINE,
+                  loading: r,
+                  loadingLabel: t,
+                  onClick: e,
+                  disabled: r,
+                  title: t,
+                },
+                a().createElement(ue.QB, { code: "egstore.wishlist.undo" }),
+              )
+            : a().createElement(
+                z.A,
+                {
+                  className: (0, T.cx)(Je.removeButton(l), Je.undoButton),
+                  hasMinWidth: !1,
+                  hasHover: !1,
+                  onClick: e,
+                  title: t,
+                  disabled: r,
+                },
+                a().createElement(
+                  "div",
+                  { className: Je.undoTextWrapper },
+                  a().createElement(ue.QB, {
+                    className: (0, T.cx)({ [Je.undoTextTransition]: r }),
+                    code: "egstore.wishlist.undo",
+                  }),
+                  r &&
+                    a().createElement(V.A, {
+                      icon: X.A.CIRCLE_LOADING,
+                      size: G.A.XXSMALL,
+                      className: Je.loading,
+                    }),
+                ),
+              );
         },
-        Ue = ({ onClick: e, title: t }) => {
-          const r = (0, R.y)();
-          return l().createElement(
-            j.Z,
-            {
-              className: (0, I.cx)(Me.removeButton(r), Me.undoButton),
-              hasMinWidth: !1,
-              hasHover: !1,
-              onClick: e,
-              title: t,
-            },
-            l().createElement(D.Z, { icon: p.kf.CLOSE, size: p.J7.XXXSMALL }),
-          );
+        tt = ({ onClick: e, title: t }) => {
+          const r = (0, c.useSelector)(y.k),
+            n = (0, $.E)();
+          return r
+            ? a().createElement(D.$, {
+                variant: Q.ml.GHOST,
+                onClick: e,
+                icon: a().createElement(W.f, null),
+                title: t,
+              })
+            : a().createElement(
+                z.A,
+                {
+                  className: (0, T.cx)(Je.removeButton(n), Je.undoButton),
+                  hasMinWidth: !1,
+                  hasHover: !1,
+                  onClick: e,
+                  title: t,
+                },
+                a().createElement(V.A, { icon: X.A.CLOSE, size: G.A.XXXSMALL }),
+              );
         },
-        Be = ({
+        rt = ({
           addFromWishlistView: e,
           namespace: t,
           offer: r,
-          offerId: o,
+          offerId: l,
+          isUndoLoading: o,
         }) => {
-          const i = (0, F.K)(),
-            [a, s] = (0, n.useState)(!1),
-            c = (0, R.y)(),
-            d = (0, h.useLocalization)(),
-            m = l().useCallback(() => {
-              e({ namespace: t, offerId: o }),
+          const i = (0, K.j)(),
+            [s, c] = (0, n.useState)(!1),
+            d = (0, m.useLocalization)(),
+            p = a().useCallback(() => {
+              e({ namespace: t, offerId: l }),
                 i({
-                  eventAction: re.hO.ADD_FROM_WISHLIST_VIEW,
-                  eventCategory: ne.u9,
-                  eventLabel: ne.rq,
-                  eventValue: (0, A.Z)({ offer: { namespace: t, offerId: o } }),
-                  interactionType: ee.md.Interaction,
+                  eventAction: he.kv.ADD_FROM_WISHLIST_VIEW,
+                  eventCategory: fe.nT,
+                  eventLabel: fe.jX,
+                  eventValue: (0, Z.A)({ offer: { namespace: t, offerId: l } }),
+                  interactionType: ge.HH.Interaction,
                 });
-            }, [t, o]),
-            p = () => {
-              s(!0);
+            }, [t, l]),
+            u = () => {
+              c(!0);
             },
-            u = r.status === te.PV.ACTIVE && !r.isCodeRedemptionOnly && !ce(r);
-          return a
+            g = r.status === Ee.Zt.ACTIVE && !r.isCodeRedemptionOnly && !Ce(r),
+            E = a().useCallback(
+              () =>
+                g
+                  ? a().createElement(et, {
+                      onClick: p,
+                      isLoading: o,
+                      title:
+                        d("egstore.wishlist.undo.removed", [r.title]) || "",
+                    })
+                  : a().createElement(tt, {
+                      onClick: u,
+                      title: d("diesel.main.navigation.close") || "",
+                    }),
+              [g, o, p, r.title, u],
+            );
+          return s
             ? null
-            : l().createElement(
-                l().Fragment,
+            : a().createElement(U.T, {
+                type: q.v.OTHER,
+                icon: a().createElement(B.u, { color: Q.tV.CRITICAL }),
+                content: a().createElement(ue.QB, {
+                  code: "egstore.wishlist.undo.removed",
+                  args: [r.title],
+                }),
+                cta: a().createElement(E, null),
+              });
+        },
+        nt = ({
+          addFromWishlistView: e,
+          namespace: t,
+          offer: r,
+          offerId: l,
+          isUndoLoading: o,
+        }) => {
+          const i = (0, K.j)(),
+            [s, c] = (0, n.useState)(!1),
+            d = (0, $.E)(),
+            p = (0, m.useLocalization)(),
+            u = a().useCallback(() => {
+              e({ namespace: t, offerId: l }),
+                i({
+                  eventAction: he.kv.ADD_FROM_WISHLIST_VIEW,
+                  eventCategory: fe.nT,
+                  eventLabel: fe.jX,
+                  eventValue: (0, Z.A)({ offer: { namespace: t, offerId: l } }),
+                  interactionType: ge.HH.Interaction,
+                });
+            }, [t, l]),
+            g = () => {
+              c(!0);
+            },
+            E = r.status === Ee.Zt.ACTIVE && !r.isCodeRedemptionOnly && !Ce(r);
+          return s
+            ? null
+            : a().createElement(
+                a().Fragment,
                 null,
-                l().createElement(
-                  J,
+                a().createElement(
+                  pe,
                   {
-                    className: (0, I.cx)(
-                      Me.wishlistItem({
-                        inactive: !u,
+                    className: (0, T.cx)(
+                      Je.wishlistItem({
+                        inactive: !E,
                         isUndo: !0,
-                        cssTheme: c,
+                        cssTheme: d,
                       }),
-                      Me.undoItem,
+                      Je.undoItem,
                     ),
                     isGridLayout: !1,
                     isMenuOpen: !1,
-                    renderEndcap: u
+                    renderEndcap: E
                       ? () =>
-                          l().createElement(We, {
-                            onClick: m,
+                          a().createElement(et, {
+                            onClick: u,
+                            isLoading: o,
                             title:
-                              d("egstore.wishlist.undo.removed", [r.title]) ||
+                              p("egstore.wishlist.undo.removed", [r.title]) ||
                               "",
                           })
                       : () =>
-                          l().createElement(Ue, {
-                            onClick: p,
-                            title: d("diesel.main.navigation.close") || "",
+                          a().createElement(tt, {
+                            onClick: g,
+                            title: p("diesel.main.navigation.close") || "",
                           }),
                   },
-                  l().createElement(
+                  a().createElement(
                     "div",
-                    { className: Me.itemContainer },
-                    l().createElement(
+                    { className: Je.itemContainer },
+                    a().createElement(
                       "div",
-                      { className: (0, I.cx)(Me.title, Me.undoTitle) },
-                      d("egstore.wishlist.undo.removed", [r.title]),
+                      { className: (0, T.cx)(Je.title, Je.undoTitle) },
+                      p("egstore.wishlist.undo.removed", [r.title]),
                     ),
                   ),
                 ),
               );
         };
-      var He = r(59918),
-        Ve = r(74737),
-        ze = r(89040),
-        Ge = r(6269),
-        Xe = Object.defineProperty,
-        Ke = Object.defineProperties,
-        $e = Object.getOwnPropertyDescriptors,
-        Qe = Object.getOwnPropertySymbols,
-        qe = Object.prototype.hasOwnProperty,
-        Je = Object.prototype.propertyIsEnumerable,
-        Ye = (e, t, r) =>
+      var at = r(87553),
+        lt = r(55922),
+        ot = Object.defineProperty,
+        it = Object.defineProperties,
+        st = Object.getOwnPropertyDescriptors,
+        ct = Object.getOwnPropertySymbols,
+        dt = Object.prototype.hasOwnProperty,
+        mt = Object.prototype.propertyIsEnumerable,
+        pt = (e, t, r) =>
           t in e
-            ? Xe(e, t, {
+            ? ot(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
-            : (e[t] = r);
-      const et = { wrapper: (0, I.iv)({ width: "100%" }) },
-        tt = (e) => {
-          var t, r, o, i;
-          const { dispatch: a } = (0, b.Q)(),
-            { namespace: s, offer: c, isUndo: d } = e,
-            m = null == c ? void 0 : c.id,
-            p =
-              null != (r = null == (t = c.catalogNs) ? void 0 : t.store)
+            : (e[t] = r),
+        ut = (e, t) => {
+          for (var r in t || (t = {})) dt.call(t, r) && pt(e, r, t[r]);
+          if (ct) for (var r of ct(t)) mt.call(t, r) && pt(e, r, t[r]);
+          return e;
+        },
+        gt = (e, t) => it(e, st(t));
+      const Et = { wrapper: (0, T.AH)({ width: "100%" }) },
+        ht = (e) => {
+          var t, r, l, o;
+          const i = (0, c.useSelector)(y.k),
+            { dispatch: s } = (0, I.G)(),
+            { namespace: d, offer: m, isUndo: p } = e,
+            u = null == m ? void 0 : m.id,
+            g =
+              null != (r = null == (t = m.catalogNs) ? void 0 : t.store)
                 ? r
                 : "",
-            u =
-              null != (i = null == (o = c.catalogNs) ? void 0 : o.parent)
-                ? i
+            E =
+              null != (o = null == (l = m.catalogNs) ? void 0 : l.parent)
+                ? o
                 : "",
             [h, f] = (0, n.useState)(!1),
-            [g, v] = (0, He.x)({ offerId: m, sandboxId: s }),
-            E = (0, n.useCallback)(() => {
-              v.isLoading ||
-                g().then((e) => {
+            [v, b] = (0, lt.n)({ offerId: u, sandboxId: d }),
+            A = (0, n.useCallback)(() => {
+              b.isLoading ||
+                v().then((e) => {
                   var t;
                   e &&
                     (null == (t = e.data) ? void 0 : t.success) &&
-                    a({ type: w.S.REMOVE_UNDO, payload: { offerId: m } });
+                    s({ type: S.d.REMOVE_UNDO, payload: { offerId: u } });
                 });
-            }, [s, m, v.isLoading]);
-          return d
-            ? l().createElement(
-                Be,
-                ((y = ((e, t) => {
-                  for (var r in t || (t = {})) qe.call(t, r) && Ye(e, r, t[r]);
-                  if (Qe) for (var r of Qe(t)) Je.call(t, r) && Ye(e, r, t[r]);
-                  return e;
-                })({}, e)),
-                Ke(y, $e({ addFromWishlistView: E }))),
-              )
-            : l().createElement(
-                Ve.ZP,
+            }, [d, u, b.isLoading]);
+          return p
+            ? i
+              ? a().createElement(
+                  rt,
+                  gt(ut({}, e), {
+                    isUndoLoading: b.isLoading,
+                    addFromWishlistView: A,
+                  }),
+                )
+              : a().createElement(
+                  nt,
+                  gt(ut({}, e), {
+                    isUndoLoading: b.isLoading,
+                    addFromWishlistView: A,
+                  }),
+                )
+            : a().createElement(
+                F.Ay,
                 {
                   disabled: h,
                   rootMargin: "10%",
@@ -689,39 +822,38 @@
                     f(e);
                   },
                 },
-                l().createElement(
+                a().createElement(
                   "div",
-                  { className: et.wrapper },
+                  { className: Et.wrapper },
                   h
-                    ? l().createElement(Ge.m1, {
-                        offerId: m,
-                        sandboxId: s,
-                        store: p,
-                        productId: u,
+                    ? a().createElement(M.lF, {
+                        offerId: u,
+                        sandboxId: d,
+                        store: g,
+                        productId: E,
                       })
-                    : l().createElement(ze.A, null),
+                    : a().createElement(at.G, null),
                 ),
               );
-          var y;
         };
-      var rt = r(6232),
-        nt = Object.defineProperty,
-        lt = Object.defineProperties,
-        ot = Object.getOwnPropertyDescriptors,
-        it = Object.getOwnPropertySymbols,
-        at = Object.prototype.hasOwnProperty,
-        st = Object.prototype.propertyIsEnumerable,
-        ct = (e, t, r) =>
+      var ft = r(92619),
+        yt = Object.defineProperty,
+        vt = Object.defineProperties,
+        bt = Object.getOwnPropertyDescriptors,
+        At = Object.getOwnPropertySymbols,
+        wt = Object.prototype.hasOwnProperty,
+        Ct = Object.prototype.propertyIsEnumerable,
+        It = (e, t, r) =>
           t in e
-            ? nt(e, t, {
+            ? yt(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r);
-      const dt = {
-          wishlistItem: (0, I.iv)({
+      const St = {
+          wishlistItem: (0, T.AH)({
             listStyle: "none outside none",
             padding: 0,
             margin: 0,
@@ -729,160 +861,866 @@
             width: "100%",
             marginBottom: 15,
           }),
-          wishlist: (0, I.iv)({ padding: 0, width: "100%" }),
+          wishlist: (0, T.AH)({ padding: 0, width: "100%" }),
         },
-        mt = (e) => {
+        Ot = (e) => {
           return n.createElement(
-            rt.a,
+            ft.B,
             ((t = ((e, t) => {
-              for (var r in t || (t = {})) at.call(t, r) && ct(e, r, t[r]);
-              if (it) for (var r of it(t)) st.call(t, r) && ct(e, r, t[r]);
+              for (var r in t || (t = {})) wt.call(t, r) && It(e, r, t[r]);
+              if (At) for (var r of At(t)) Ct.call(t, r) && It(e, r, t[r]);
               return e;
             })({}, e)),
-            lt(
+            vt(
               t,
-              ot({ className: dt.wishlist, itemClassName: dt.wishlistItem }),
+              bt({ className: St.wishlist, itemClassName: St.wishlistItem }),
             )),
           );
           var t;
         },
-        pt = ({ count: e, animation: t }) => {
+        xt = ({ count: e, animation: t }) => {
           const r = [...Array(e).keys()];
-          return l().createElement(mt, { data: r }, () =>
-            l().createElement(ze.A, { animation: t }),
+          return a().createElement(Ot, { data: r }, () =>
+            a().createElement(at.G, { animation: t }),
           );
         };
-      var ut = Object.defineProperty,
-        ht = Object.getOwnPropertySymbols,
-        ft = Object.prototype.hasOwnProperty,
-        gt = Object.prototype.propertyIsEnumerable,
-        vt = (e, t, r) =>
+      var Lt = Object.defineProperty,
+        Tt = Object.getOwnPropertySymbols,
+        Ht = Object.prototype.hasOwnProperty,
+        kt = Object.prototype.propertyIsEnumerable,
+        Nt = (e, t, r) =>
           t in e
-            ? ut(e, t, {
+            ? Lt(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r);
-      const Et = ({ items: e = [], isLoading: t }) => {
+      const Pt = ({ items: e = [], isLoading: t }) => {
         const r = 0 === e.length;
-        return l().createElement(
-          l().Fragment,
+        return a().createElement(
+          a().Fragment,
           null,
           t && r
-            ? l().createElement(pt, { count: ne.zL })
-            : l().createElement(mt, { data: e }, (e) =>
-                l().createElement(
-                  tt,
+            ? a().createElement(xt, { count: fe.aX })
+            : a().createElement(Ot, { data: e }, (e) =>
+                a().createElement(
+                  ht,
                   ((e, t) => {
                     for (var r in t || (t = {}))
-                      ft.call(t, r) && vt(e, r, t[r]);
-                    if (ht)
-                      for (var r of ht(t)) gt.call(t, r) && vt(e, r, t[r]);
+                      Ht.call(t, r) && Nt(e, r, t[r]);
+                    if (Tt)
+                      for (var r of Tt(t)) kt.call(t, r) && Nt(e, r, t[r]);
                     return e;
                   })({}, e),
                 ),
               ),
         );
       };
-      var yt = r(50694),
-        bt = r(13405),
-        wt = r(53288);
-      const Ct = {
-          container: (0, I.iv)({
-            marginTop: 8,
-            marginBottom: 30,
-            display: "flex",
-            flexDirection: "column-reverse",
-            justifyContent: "space-between",
-            [bt.Uc.md]: { alignItems: "center", flexDirection: "row" },
-          }),
-          title: (0, I.iv)({
-            [bt.Uc.underMd]: {
-              display: "flex",
-              width: "100%",
-              justifyContent: "space-between",
-            },
-          }),
-        },
-        Ot = ({ animation: e }) =>
-          l().createElement(
-            "div",
-            { className: Ct.container },
-            l().createElement(
-              "div",
-              { className: Ct.title },
-              l().createElement(wt.Od, {
-                height: 50,
-                width: 120,
-                animation: e,
-              }),
+      var jt = r(44316),
+        _t = r(39278),
+        Rt = r(65784),
+        Ft = r(54741),
+        Mt = r(91749),
+        Dt = r(8497),
+        Wt = r(44904),
+        Bt = r(47035),
+        Ut = r(68813),
+        zt = r(76957),
+        Vt = r(19281),
+        qt = r(705),
+        Gt = r(38210);
+      const Xt = (0, T.AH)(),
+        Zt = ({ to: e }) => {
+          const t = (0, c.useSelector)(y.k),
+            r = (0, $.E)(),
+            l = (0, n.useMemo)(
+              () =>
+                ((e) => ({
+                  root: (0, T.AH)({
+                    display: "flex",
+                    alignItems: "center",
+                    color: e.textSecondary,
+                    [`.${Xt}`]: {
+                      color: e.textSecondary,
+                      borderBottom: `1px solid ${e.accentOverlay}`,
+                    },
+                    "&:hover": {
+                      color: e.textPrimary,
+                      [`.${Xt}`]: {
+                        color: e.textPrimary,
+                        borderColor: e.textPrimary,
+                      },
+                    },
+                  }),
+                  externalLinkIcon: (0, T.AH)((0, ee.S$)(3), (0, ee.hz)(10), {
+                    marginTop: 2,
+                  }),
+                }))(r),
+              [r],
             ),
-          ),
-        St = ({ renderWallet: e }) => {
-          const t = (0, h.useLocalization)();
-          return l().createElement(
+            o = (0, Gt.A)(),
+            i = (0, f.N1)(o) ? zt.A : Ut.Ay;
+          return t
+            ? a().createElement(
+                Vt.n,
+                { variant: Q.S$.PRIMARY, size: Q.mM.SM, to: e },
+                a().createElement(ue.QB, {
+                  code: "egstore.email.preferences_v2",
+                }),
+              )
+            : a().createElement(
+                "div",
+                { className: l.root },
+                a().createElement(
+                  qt.A,
+                  { to: e },
+                  a().createElement(
+                    i,
+                    null,
+                    a().createElement(
+                      "span",
+                      { className: Xt },
+                      a().createElement(ue.QB, {
+                        code: "egstore.email.preferences_v2",
+                      }),
+                    ),
+                  ),
+                ),
+                a().createElement(
+                  "div",
+                  { className: l.externalLinkIcon },
+                  a().createElement(Bt.t, { size: Q.sp.SM }),
+                ),
+              );
+        },
+        $t = () => {
+          const e = (0, c.useSelector)(Wt.Gp),
+            t = (0, m.useLocalizationLocale)();
+          return a().createElement(Zt, { to: `${e}?lang=${t}` });
+        };
+      var Qt = r(74819);
+      const Kt = {
+          wrapper: (0, T.AH)({ display: "flex", color: Y.E4 }),
+          textWrapper: (0, T.AH)((0, ee.S$)(12)),
+        },
+        Yt = () =>
+          a().createElement(U.T, {
+            type: q.v.ERROR,
+            content: a().createElement(ue.QB, {
+              code: "egstore.email.opt_in_error",
+            }),
+          }),
+        Jt = () =>
+          a().createElement(
             "div",
-            { className: Ct.container },
-            l().createElement(
+            { className: Kt.wrapper },
+            a().createElement(V.A, { icon: Qt.T, size: G.A.XXSMALL }),
+            a().createElement(
               "div",
-              { className: Ct.title },
-              l().createElement(
-                yt.Z.Heading,
-                { headingLevel: 1 },
-                t("diesel.main.navigation.wishlist"),
+              { className: Kt.textWrapper },
+              a().createElement(
+                Ut.Ay,
+                null,
+                a().createElement(ue.QB, {
+                  code: "egstore.email.opt_in_error",
+                }),
               ),
             ),
-            e && e(),
           );
-        };
-      var It = r(87250),
-        Lt = r(75187),
-        xt = r(42958),
-        Tt = r(7531),
-        Zt = r(55156);
-      const Pt = (e = [], t = []) => {
-        const r = e.reduce(
-          (e, r) =>
-            ((e, t) => !!(0, Lt.Z)((0, xt.Z)("id", e), t))(r, t)
-              ? [...e, !0]
-              : [...e, !1],
-          [],
-        );
-        return (0, Tt.Z)((0, Zt.Z)(!0), r);
-      };
-      var kt = r(22202),
-        _t = r(3858),
-        jt = r(1049),
-        Dt = r(21810),
-        At = r(6977),
-        Rt = Object.defineProperty,
-        Ft = Object.defineProperties,
-        Nt = Object.getOwnPropertyDescriptors,
-        Mt = Object.getOwnPropertySymbols,
-        Wt = Object.prototype.hasOwnProperty,
-        Ut = Object.prototype.propertyIsEnumerable,
-        Bt = (e, t, r) =>
+      var er = r(2758),
+        tr = r(45580),
+        rr = Object.defineProperty,
+        nr = Object.getOwnPropertySymbols,
+        ar = Object.prototype.hasOwnProperty,
+        lr = Object.prototype.propertyIsEnumerable,
+        or = (e, t, r) =>
           t in e
-            ? Rt(e, t, {
+            ? rr(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        Ht = (e, t) => {
-          for (var r in t || (t = {})) Wt.call(t, r) && Bt(e, r, t[r]);
-          if (Mt) for (var r of Mt(t)) Ut.call(t, r) && Bt(e, r, t[r]);
+        ir = (e, t) => {
+          for (var r in t || (t = {})) ar.call(t, r) && or(e, r, t[r]);
+          if (nr) for (var r of nr(t)) lr.call(t, r) && or(e, r, t[r]);
+          return e;
+        };
+      const sr = {
+          wrapper: (0, T.AH)({ display: "flex", flexDirection: "column" }),
+          text: (e) =>
+            (0, T.AH)(
+              ir(
+                { display: "inline-flex", alignItems: "center" },
+                e && ir({}, (0, ee.hz)(25)),
+              ),
+            ),
+          leftCol: (0, T.AH)({ display: "flex" }),
+          iconWrapper: (e) =>
+            (0, T.AH)((0, ee.hz)(e ? 8 : 20), {
+              display: "none",
+              [tr.aq.sm]: {
+                height: e ? void 0 : 40,
+                width: e ? void 0 : 40,
+                display: "flex",
+                alignItems: e ? "flex-start" : "center",
+                justifyContent: "center",
+              },
+            }),
+          error: (0, T.AH)({ marginTop: 12, minHeight: 20 }),
+          content: (e) =>
+            (0, T.AH)({
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              minHeight: e ? void 0 : 40,
+            }),
+        },
+        cr = ({
+          renderMessage: e,
+          renderToggle: t,
+          renderIcon: r,
+          renderError: n,
+          Container: l = a().Fragment,
+        }) => {
+          const o = (0, c.useSelector)(y.k);
+          return o
+            ? a().createElement(
+                "div",
+                {
+                  "data-testid": "opt-in-toggle-layout",
+                  className: sr.wrapper,
+                },
+                a().createElement(er.NN, {
+                  content: a().createElement(
+                    "div",
+                    { className: sr.content(o) },
+                    a().createElement(
+                      "div",
+                      { className: sr.leftCol },
+                      r &&
+                        a().createElement(
+                          "div",
+                          { className: sr.iconWrapper(o) },
+                          r(),
+                        ),
+                      a().createElement("div", { className: sr.text(o) }, e()),
+                    ),
+                    t(),
+                  ),
+                }),
+                a().createElement("div", { className: sr.error }, n && n()),
+              )
+            : a().createElement(
+                "div",
+                {
+                  "data-testid": "opt-in-toggle-layout",
+                  className: sr.wrapper,
+                },
+                a().createElement(
+                  l,
+                  null,
+                  a().createElement(
+                    "div",
+                    { className: sr.content(o) },
+                    a().createElement(
+                      "div",
+                      { className: sr.leftCol },
+                      r &&
+                        a().createElement(
+                          "div",
+                          { className: sr.iconWrapper(o) },
+                          r(),
+                        ),
+                      a().createElement("div", { className: sr.text(o) }, e()),
+                    ),
+                    t(),
+                  ),
+                ),
+                a().createElement("div", { className: sr.error }, n && n()),
+              );
+        };
+      var dr = r(57805),
+        mr = Object.defineProperty,
+        pr = Object.getOwnPropertySymbols,
+        ur = Object.prototype.hasOwnProperty,
+        gr = Object.prototype.propertyIsEnumerable,
+        Er = (e, t, r) =>
+          t in e
+            ? mr(e, t, {
+                enumerable: !0,
+                configurable: !0,
+                writable: !0,
+                value: r,
+              })
+            : (e[t] = r),
+        hr = (e, t) => {
+          for (var r in t || (t = {})) ur.call(t, r) && Er(e, r, t[r]);
+          if (pr) for (var r of pr(t)) gr.call(t, r) && Er(e, r, t[r]);
+          return e;
+        };
+      const fr = { primary: (0, T.AH)((0, ee.hz)(8), { display: "inline" }) },
+        yr = ({ code: e, id: t, renderSecondary: r, shouldStackOnWrap: n }) => {
+          const l = (0, c.useSelector)(y.k),
+            o = ((e, { shouldStackOnWrap: t }) => ({
+              root: (0, T.AH)(
+                hr(
+                  { display: "flex", alignItems: "center" },
+                  t
+                    ? {
+                        [tr.aq.underLg]: {
+                          flexDirection: "column",
+                          alignItems: "flex-start",
+                        },
+                      }
+                    : {},
+                ),
+              ),
+              secondary: (0, T.AH)({
+                display: "inline-block",
+                [tr.aq.underLg]: { marginTop: t ? 5 : 0 },
+              }),
+              primary: (0, T.AH)((0, ee.hz)(25), {
+                display: "inline",
+                color: e.textSecondary,
+              }),
+            }))((0, $.E)(), { shouldStackOnWrap: n });
+          return l
+            ? a().createElement(
+                "div",
+                { className: o.root },
+                a().createElement(
+                  dr.E,
+                  { variant: Q.ZJ.UIMD, color: Q.Uf.PRIMARY },
+                  a().createElement(
+                    "div",
+                    { className: fr.primary },
+                    a().createElement(ue.QB, { id: t, code: e }),
+                  ),
+                ),
+                a().createElement("div", { className: o.secondary }, r && r()),
+              )
+            : a().createElement(
+                Ut.Ay,
+                null,
+                a().createElement(
+                  "div",
+                  { className: o.root },
+                  a().createElement(
+                    "div",
+                    { className: o.primary },
+                    a().createElement(ue.QB, { id: t, code: e }),
+                  ),
+                  a().createElement(
+                    "div",
+                    { className: o.secondary },
+                    r && r(),
+                  ),
+                ),
+              );
+        };
+      var vr = r(38981);
+      const br = (
+        ({ Container: e = a().Fragment }) =>
+        ({
+          channelType: t,
+          settingKeys: r,
+          selectedSettingKey: l,
+          icon: o,
+          toggleTextId: i,
+          enabledMessage: s,
+          disabledMessage: d,
+          secondary: p,
+          iconSize: u,
+          ariaLabelCode: g,
+        }) => {
+          var E, h;
+          const f = (0, c.useSelector)(y.k),
+            v = (0, c.useSelector)(Rt.ic),
+            b = (0, m.useLocalization)(),
+            { settings: A } = (0, Ft.Ay)(
+              { identity: v, settingKeyPrefix: t, settingKeys: r },
+              { refetchOnMount: "always" },
+            ),
+            w =
+              null !=
+                (h =
+                  null == (E = A.find((e) => e.settingKey === l))
+                    ? void 0
+                    : E.settingValue) && h,
+            [C, I] = (0, Mt.P)({ settingKey: l, settingKeyPrefix: t }),
+            S = (0, n.useCallback)(
+              (e) => {
+                return (
+                  (t = void 0),
+                  (r = null),
+                  (n = function* () {
+                    yield C(!e);
+                  }),
+                  new Promise((e, a) => {
+                    var l = (e) => {
+                        try {
+                          i(n.next(e));
+                        } catch (e) {
+                          a(e);
+                        }
+                      },
+                      o = (e) => {
+                        try {
+                          i(n.throw(e));
+                        } catch (e) {
+                          a(e);
+                        }
+                      },
+                      i = (t) =>
+                        t.done
+                          ? e(t.value)
+                          : Promise.resolve(t.value).then(l, o);
+                    i((n = n.apply(t, r)).next());
+                  })
+                );
+                var t, r, n;
+              },
+              [C],
+            ),
+            O = (0, n.useCallback)(
+              () =>
+                a().createElement(vr.A, {
+                  checked: w,
+                  onChange: () => S(w),
+                  tabIndex: 0,
+                  ariaLabelledBy: i,
+                  ariaLabel: g && b(g),
+                  size: 20,
+                }),
+              [w, S, i],
+            ),
+            x = (0, n.useCallback)(
+              () =>
+                a().createElement(yr, {
+                  code: w ? s : d,
+                  id: i,
+                  renderSecondary: w ? () => a().createElement($t, null) : p,
+                  shouldStackOnWrap: w,
+                }),
+              [w, s, d, i, p],
+            ),
+            L = (0, n.useMemo)(() => {
+              const e = f
+                ? a().createElement(_t.u, { color: Q.tV.SELECT })
+                : a().createElement(V.A, { icon: o, size: u });
+              return o ? () => e : void 0;
+            }, [o]),
+            T = (0, n.useMemo)(
+              () =>
+                I.isError
+                  ? () =>
+                      f
+                        ? a().createElement(Yt, null)
+                        : a().createElement(Jt, null)
+                  : void 0,
+              [I.isError, f],
+            );
+          return a().createElement(cr, {
+            renderToggle: O,
+            renderMessage: x,
+            renderIcon: L,
+            renderError: T,
+            Container: e,
+          });
+        }
+      )({ Container: Dt.A });
+      var Ar = r(38365);
+      const wr = {
+          textWrapper: (0, T.AH)({
+            display: "flex",
+            flexDirection: "column",
+            height: "100%",
+          }),
+          toggleSkeleton: (0, T.AH)({ borderRadius: 26 }),
+          lineOne: (0, T.AH)({
+            width: 400,
+            height: 14,
+            [tr.aq.underSm]: { width: 200 },
+          }),
+          lineTwo: (0, T.AH)({
+            width: 180,
+            height: 14,
+            [tr.aq.underSm]: { width: 160 },
+          }),
+        },
+        Cr = ({ className: e, animation: t }) =>
+          a().createElement(Ar.EA, {
+            variant: Ar.qd.Text,
+            animation: t,
+            className: e,
+          }),
+        Ir = ({ animation: e }) =>
+          a().createElement(Ar.EA, {
+            variant: Ar.qd.Rect,
+            animation: e,
+            width: 32,
+            height: 20,
+            className: wr.toggleSkeleton,
+          }),
+        Sr = ({ animation: e }) =>
+          a().createElement(cr, {
+            renderMessage: () =>
+              a().createElement(Cr, { className: wr.lineOne, animation: e }),
+            renderToggle: () => a().createElement(Ir, { animation: e }),
+            renderIcon: () =>
+              a().createElement(Ar.EA, { height: 36, width: 36, animation: e }),
+            Container: Dt.A,
+          });
+      var Or = r(90413),
+        xr = r(10558);
+      const Lr = ({ message: e }) => {
+          const t = (0, $.E)(),
+            r = (0, n.useMemo)(
+              () =>
+                (({ cssTheme: e }) => ({
+                  wrapper: (0, T.AH)({ [tr.aq.underSm]: { display: "none" } }),
+                  icon: (0, T.AH)({
+                    color: e.textPrimary,
+                    height: 16,
+                    width: 16,
+                    "&:hover": { cursor: "help" },
+                  }),
+                  message: (0, T.AH)({ maxWidth: 300, textAlign: "left" }),
+                }))({ cssTheme: t }),
+              [t],
+            ),
+            l = a().createRef();
+          return a().createElement(
+            "div",
+            { className: r.wrapper },
+            a().createElement(
+              "div",
+              { ref: l },
+              a().createElement(V.A, {
+                icon: xr.U,
+                size: G.A.CUSTOM,
+                className: r.icon,
+              }),
+            ),
+            a().createElement(
+              Or.m,
+              { hideOnClick: !1, anchorRef: l, className: r.message },
+              a().createElement(ue.QB, { code: e }),
+            ),
+          );
+        },
+        Tr = {
+          viewBox: "0 0 36 36",
+          data: a().createElement(
+            a().Fragment,
+            null,
+            a().createElement("path", {
+              d: "M21.5284 11.2948C22.256 11.0999 23.0038 11.5316 23.1987 12.2591L26.4436 24.3664C26.6386 25.0939 26.2068 25.8418 25.4793 26.0367L7.18597 30.939C6.45845 31.134 5.71062 30.7023 5.51566 29.9747L2.27109 17.8673C2.07614 17.1398 2.50785 16.392 3.23536 16.197L21.5284 11.2948Z",
+              fill: "#C4C4C4",
+            }),
+            a().createElement("path", {
+              d: "M12.6961 21.5614L13.3991 21.8883C14.1695 22.2466 15.0859 22.001 15.5738 21.3056L16.0187 20.6715L26.2814 25.4443C26.1048 25.7258 25.8256 25.9437 25.4794 26.0365L7.18667 30.9388C6.84019 31.0317 6.4891 30.9824 6.19532 30.8267L12.6961 21.5614Z",
+              fill: "#A6A6A6",
+            }),
+            a().createElement(
+              "g",
+              { style: { mixBlendMode: "multiply" } },
+              a().createElement("path", {
+                d: "M21.528 11.2954L3.23487 16.1976C2.88889 16.2904 2.60981 16.5081 2.43322 16.7892L13.3858 23.1168C14.37 23.6854 15.6287 23.3481 16.1967 22.3637L22.5186 11.4072C22.225 11.2518 21.8742 11.2026 21.528 11.2954Z",
+                fill: "#ECECEC",
+              }),
+            ),
+            a().createElement("path", {
+              d: "M21.5289 11.2954L3.23585 16.1976C2.88987 16.2904 2.61079 16.5081 2.43419 16.7892L13.3998 21.8889C14.1702 22.2471 15.0866 22.0016 15.5746 21.3061L22.5196 11.4072C22.226 11.2518 21.8751 11.2026 21.5289 11.2954Z",
+              fill: "#ECECEC",
+            }),
+            a().createElement("path", {
+              d: "M23.6807 1.85819C23.6235 1.65158 23.2857 1.65158 23.2283 1.85819C23.0687 2.43365 22.8364 3.12459 22.5693 3.46321C22.2733 3.83858 21.5346 4.1598 20.9748 4.36119C20.7875 4.42839 20.7875 4.74244 20.9748 4.80964C21.5346 5.01103 22.2733 5.33225 22.5693 5.7074C22.8364 6.04602 23.0687 6.73696 23.2283 7.31242C23.2857 7.51925 23.6235 7.51925 23.6807 7.31242C23.8403 6.73696 24.0726 6.04602 24.3396 5.7074C24.6358 5.33225 25.3744 5.01103 25.9344 4.80964C26.1215 4.74244 26.1215 4.42839 25.9344 4.36119C25.3744 4.1598 24.6358 3.83858 24.3396 3.46321C24.0726 3.12459 23.8403 2.43365 23.6807 1.85819Z",
+              fill: "white",
+            }),
+            a().createElement("path", {
+              d: "M29.6923 6.20397C29.6164 5.9296 29.1678 5.9296 29.0916 6.20397C28.8796 6.96818 28.5711 7.88573 28.2165 8.33542C27.8234 8.83391 26.8423 9.26049 26.0989 9.52793C25.8502 9.61717 25.8502 10.0342 26.0989 10.1235C26.8423 10.3909 27.8234 10.8175 28.2165 11.3157C28.5711 11.7654 28.8796 12.6829 29.0916 13.4471C29.1678 13.7218 29.6164 13.7218 29.6923 13.4471C29.9043 12.6829 30.2128 11.7654 30.5674 11.3157C30.9608 10.8175 31.9416 10.3909 32.6853 10.1235C32.9337 10.0342 32.9337 9.61717 32.6853 9.52793C31.9416 9.26049 30.9608 8.83391 30.5674 8.33542C30.2128 7.88573 29.9043 6.96818 29.6923 6.20397Z",
+              fill: "white",
+            }),
+          ),
+        };
+      var Hr = r(79829),
+        kr = r(79575),
+        Nr = r(5983);
+      const Pr = () => {
+        var e;
+        const t = (0, c.useSelector)(y.k),
+          r = (0, $.E)();
+        return a().createElement(
+          l.tY,
+          { fallback: a().createElement(Sr, null) },
+          a().createElement(
+            Nr.A,
+            {
+              themeOverrides: t
+                ? void 0
+                : {
+                    accent:
+                      null == (e = (0, jt.LV)(kr.X[r.mode].success))
+                        ? void 0
+                        : e.rgb(),
+                  },
+            },
+            a().createElement(br, {
+              channelType: "email",
+              settingKeys: [Hr.T.EMAIL, Hr.T.WISHLIST_EMAIL],
+              selectedSettingKey: Hr.T.WISHLIST_EMAIL,
+              toggleTextId: "wishlist-toggle-label",
+              enabledMessage: "egstore.wishlist.notification_toggle_enabled",
+              disabledMessage: t
+                ? "egstore.wishlist.notification_toggle_tooltip"
+                : "egstore.wishlist.notification_toggle",
+              ariaLabelCode: "egstore.wishlist.notification_toggle.switch",
+              icon: Tr,
+              iconSize: G.A.SMALL,
+              secondary: () =>
+                t
+                  ? void 0
+                  : a().createElement(Lr, {
+                      message: "egstore.wishlist.notification_toggle_tooltip",
+                    }),
+            }),
+          ),
+        );
+      };
+      var jr = r(25355),
+        _r = r(14531);
+      const Rr = {
+          container: (0, T.AH)({
+            marginTop: 8,
+            marginBottom: 30,
+            display: "flex",
+            flexDirection: "column-reverse",
+            justifyContent: "space-between",
+            [tr.aq.md]: { alignItems: "center", flexDirection: "row" },
+          }),
+          title: (0, T.AH)({
+            [tr.aq.underMd]: {
+              display: "flex",
+              width: "100%",
+              justifyContent: "space-between",
+            },
+          }),
+        },
+        Fr = ({ animation: e }) =>
+          a().createElement(
+            "div",
+            { className: Rr.container },
+            a().createElement(
+              "div",
+              { className: Rr.title },
+              a().createElement(Ar.EA, {
+                height: 50,
+                width: 120,
+                animation: e,
+              }),
+            ),
+          ),
+        Mr = ({ renderWallet: e }) => {
+          const t = (0, c.useSelector)(y.k),
+            r = (0, m.useLocalization)();
+          return t
+            ? a().createElement(
+                "div",
+                { className: Rr.container },
+                a().createElement(
+                  "div",
+                  { className: Rr.title },
+                  a().createElement(
+                    dr.E,
+                    { variant: Q.ZJ.H2XL, color: Q.Uf.PRIMARY, as: "h1" },
+                    a().createElement(jr.A, {
+                      code: "diesel.main.navigation.wishlist",
+                    }),
+                  ),
+                ),
+                e && e(),
+              )
+            : a().createElement(
+                "div",
+                { className: Rr.container },
+                a().createElement(
+                  "div",
+                  { className: Rr.title },
+                  a().createElement(
+                    _r.A.Heading,
+                    { headingLevel: 1 },
+                    r("diesel.main.navigation.wishlist"),
+                  ),
+                ),
+                e && e(),
+              );
+        };
+      var Dr = r(77108),
+        Wr = r(46571),
+        Br = Object.defineProperty,
+        Ur = Object.defineProperties,
+        zr = Object.getOwnPropertyDescriptors,
+        Vr = Object.getOwnPropertySymbols,
+        qr = Object.prototype.hasOwnProperty,
+        Gr = Object.prototype.propertyIsEnumerable,
+        Xr = (e, t, r) =>
+          t in e
+            ? Br(e, t, {
+                enumerable: !0,
+                configurable: !0,
+                writable: !0,
+                value: r,
+              })
+            : (e[t] = r),
+        Zr = (e, t) => {
+          for (var r in t || (t = {})) qr.call(t, r) && Xr(e, r, t[r]);
+          if (Vr) for (var r of Vr(t)) Gr.call(t, r) && Xr(e, r, t[r]);
+          return e;
+        };
+      const $r = ({
+          onSort: e = () => {},
+          sortingOptions: t,
+          sortValue: r = "",
+        }) => {
+          const l = (0, te.A)(),
+            o = (0, n.useMemo)(
+              () =>
+                ((e) => {
+                  return {
+                    main: (0, T.AH)({
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      alignItems: "center",
+                      flexWrap: "wrap",
+                    }),
+                    sortWrapper: (0, T.AH)({
+                      display: "flex",
+                      flexDirection: "row",
+                      flexGrow: 1,
+                    }),
+                    totalWrapper: (0, T.AH)(
+                      ((t = Zr({}, De.Il.text8)),
+                      (r = {
+                        textAlign: "right",
+                        [Wr.aq.xs]: { display: "none" },
+                      }),
+                      Ur(t, zr(r))),
+                    ),
+                    layoutWrapper: (0, T.AH)({ textAlign: "right" }),
+                    layoutButton: (0, T.AH)((0, ee.wv)(1), {
+                      transition: "background-color 125ms ease-in-out",
+                      height: "100%",
+                      color: e.textPrimary,
+                      backgroundColor: "transparent",
+                      padding: 0,
+                    }),
+                    border: (0, T.AH)({
+                      border: `1px solid ${e.backgroundOverlay}`,
+                    }),
+                    transparentBorder: (0, T.AH)({
+                      border: "1px solid transparent",
+                    }),
+                  };
+                  var t, r;
+                })(l),
+              [l],
+            );
+          return a().createElement(
+            "div",
+            { className: o.main },
+            a().createElement(
+              "div",
+              { className: o.sortWrapper },
+              t &&
+                a().createElement(
+                  a().Fragment,
+                  null,
+                  a().createElement(Dr.w, {
+                    id: "sort-dropdown",
+                    label: a().createElement(ue.QB, {
+                      code: "egstore.library.sort.title",
+                    }),
+                    options: t,
+                    selectedValue: r,
+                    onChange: (t) => e(t),
+                  }),
+                ),
+            ),
+          );
+        },
+        Qr = {
+          root: (0, T.AH)({
+            display: "flex",
+            justifyContent: "space-between",
+            marginBottom: 20,
+          }),
+        },
+        Kr = ({
+          sortType: e,
+          setSortType: t,
+          wishlistSortingOptions: r,
+          renderFilterToggle: n,
+        }) =>
+          a().createElement(
+            "div",
+            { "data-testid": "wishlist-sort-layout", className: Qr.root },
+            a().createElement($r, {
+              onSort: (e) => t(e),
+              sortingOptions: r,
+              sortValue: e,
+            }),
+            n && n(),
+          );
+      var Yr = r(62619),
+        Jr = r(94815),
+        en = r(89744),
+        tn = r(8631);
+      const rn = (e = [], t = []) => {
+        const r = e.reduce(
+          (e, r) =>
+            ((e, t) => !!(0, Jr.A)((0, en.A)("id", e), t))(r, t)
+              ? [...e, !0]
+              : [...e, !1],
+          [],
+        );
+        return (0, tn.A)((0, d.A)(!0), r);
+      };
+      var nn = r(68971),
+        an = r(51449),
+        ln = r(11654),
+        on = r(86394),
+        sn = r(71188),
+        cn = Object.defineProperty,
+        dn = Object.defineProperties,
+        mn = Object.getOwnPropertyDescriptors,
+        pn = Object.getOwnPropertySymbols,
+        un = Object.prototype.hasOwnProperty,
+        gn = Object.prototype.propertyIsEnumerable,
+        En = (e, t, r) =>
+          t in e
+            ? cn(e, t, {
+                enumerable: !0,
+                configurable: !0,
+                writable: !0,
+                value: r,
+              })
+            : (e[t] = r),
+        hn = (e, t) => {
+          for (var r in t || (t = {})) un.call(t, r) && En(e, r, t[r]);
+          if (pn) for (var r of pn(t)) gn.call(t, r) && En(e, r, t[r]);
           return e;
         },
-        Vt = (e, t) => Ft(e, Nt(t));
-      const zt = (0, ae.Z)([
-          (0, le.Z)((0, jt.Z)("count")),
-          (0, oe.Z)((0, jt.Z)("name")),
+        fn = (e, t) => dn(e, mn(t));
+      const yn = (0, Ae.A)([
+          (0, ye.A)((0, ln.A)("count")),
+          (0, ve.A)((0, ln.A)("name")),
         ]),
-        Gt = (0, At.Z)(
+        vn = (0, sn.A)(
           (e = []) =>
             e.reduce((e, t) => {
               var r, n;
@@ -896,28 +1734,25 @@
             e.reduce((e, t) => {
               if (!t.groupName) return e;
               const r = e[t.groupName] || [];
-              return Vt(Ht({}, e), { [t.groupName]: [...r, t] });
+              return fn(hn({}, e), { [t.groupName]: [...r, t] });
             }, {}),
           (e = {}) => {
-            const t = ((e = {}) => (0, kt.Z)((0, _t.Z)((0, jt.Z)("id")), e))(e);
-            return (0, kt.Z)((e, r) => {
+            const t = ((e = {}) => (0, nn.A)((0, an.A)((0, ln.A)("id")), e))(e);
+            return (0, nn.A)((e, r) => {
               const n = t[r];
-              return (0, Dt.Z)(e).map((e) => Vt(Ht({}, e), { count: n[e.id] }));
+              return (0, on.A)(e).map((e) => fn(hn({}, e), { count: n[e.id] }));
             }, e);
           },
-          (e = {}) => (0, kt.Z)(zt, e),
+          (e = {}) => (0, nn.A)(yn, e),
         );
-      var Xt = r(74758),
-        Kt = r(37922),
-        $t = r(75420),
-        Qt = r(65128),
-        qt = r(50560);
-      const Jt = (e) => ({
-          wrapper: (0, I.iv)({
+      var bn = r(28637),
+        An = r(48559);
+      const wn = (e) => ({
+          wrapper: (0, T.AH)({
             marginTop: 30,
-            '[data-component="Icon"]': { path: { fill: N.JD } },
+            '[data-component="Icon"]': { path: { fill: Y.OF } },
           }),
-          link: (0, I.iv)({
+          link: (0, T.AH)({
             borderBottom: `1px solid ${e.accentOverlay}`,
             color: e.textSecondary,
             "&:hover": {
@@ -926,525 +1761,309 @@
             },
           }),
         }),
-        Yt = () => {
-          const e = (0, Kt.useSelector)(qt.e),
-            t = (0, h.useLocalization)(),
-            r = (0, R.y)(),
-            o = (0, n.useMemo)(() => Jt(r), [r]),
-            i = t("egstore.wishlist.empty_results.message"),
-            a = () =>
-              l().createElement(
-                $t.Z,
-                { to: "/", className: o.link },
+        Cn = () => {
+          const e = (0, c.useSelector)(y.k),
+            t = (0, m.useLocalization)(),
+            r = (0, $.E)(),
+            l = (0, n.useMemo)(() => wn(r), [r]),
+            o = t("egstore.wishlist.empty_results.message"),
+            i = () =>
+              a().createElement(
+                qt.A,
+                { to: "/", className: l.link },
                 t("egstore.wishlist.empty_results.shop_discover"),
               );
-          return l().createElement(
+          return e
+            ? a().createElement(An.W, {
+                contentIcon: X.A.STRESSED_FACE_EDS,
+                title: a().createElement("span", null, o),
+                body: a().createElement(
+                  bn.v,
+                  { variant: Q.ml.PRIMARY, to: "/" },
+                  a().createElement(ue.QB, {
+                    code: "egstore.wishlist.empty_results.shop_discover",
+                  }),
+                ),
+              })
+            : a().createElement(
+                "div",
+                { className: l.wrapper },
+                a().createElement(An.W, {
+                  contentIcon: X.A.STRESSED_FACE,
+                  title: a().createElement("span", null, o),
+                  body: a().createElement(i, null),
+                }),
+              );
+        },
+        In = ({ onReset: e }) => {
+          const t = (0, c.useSelector)(y.k),
+            r = (0, m.useLocalization)(),
+            l = (0, $.E)(),
+            o = (0, n.useMemo)(() => wn(l), [l]);
+          return a().createElement(
             "div",
             { className: o.wrapper },
-            l().createElement(Qt.D, {
-              contentIcon: e ? p.kf.STRESSED_FACE_EDS : p.kf.STRESSED_FACE,
-              title: l().createElement("span", null, i),
-              body: l().createElement(a, null),
-            }),
-          );
-        },
-        er = ({ onReset: e }) => {
-          const t = (0, Kt.useSelector)(qt.e),
-            r = (0, h.useLocalization)(),
-            o = (0, R.y)(),
-            i = (0, n.useMemo)(() => Jt(o), [o]);
-          return l().createElement(
-            "div",
-            { className: i.wrapper },
-            l().createElement(Qt.D, {
-              contentIcon: t ? p.kf.STRESSED_FACE_EDS : p.kf.STRESSED_FACE,
+            a().createElement(An.W, {
+              contentIcon: t ? X.A.STRESSED_FACE_EDS : X.A.STRESSED_FACE,
               title: r("diesel.common.search.noResults.title"),
-              body: l().createElement(
-                $t.Z,
+              body: a().createElement(
+                qt.A,
                 {
                   onClick: (t) => {
                     t.preventDefault(), e && e();
                   },
-                  className: i.link,
+                  className: o.link,
                 },
                 r("egstore.filters.remove_filters"),
               ),
             }),
           );
-        };
-      var tr = r(29992),
-        rr = r(15522),
-        nr = r(55219),
-        lr = r(46741),
-        or = r(71065),
-        ir = r(29177);
-      const ar = ({ message: e }) => {
-          const t = (0, R.y)(),
-            r = (0, n.useMemo)(
-              () =>
-                (({ cssTheme: e }) => ({
-                  wrapper: (0, I.iv)({ [bt.Uc.underSm]: { display: "none" } }),
-                  icon: (0, I.iv)({
-                    color: e.textPrimary,
-                    height: 16,
-                    width: 16,
-                    "&:hover": { cursor: "help" },
-                  }),
-                  message: (0, I.iv)({ maxWidth: 300, textAlign: "left" }),
-                }))({ cssTheme: t }),
-              [t],
-            ),
-            o = l().createRef();
-          return l().createElement(
-            "div",
-            { className: r.wrapper },
-            l().createElement(
-              "div",
-              { ref: o },
-              l().createElement(D.Z, {
-                icon: ir.A,
-                size: lr.Z.CUSTOM,
-                className: r.icon,
-              }),
-            ),
-            l().createElement(
-              or.u,
-              { hideOnClick: !1, anchorRef: o, className: r.message },
-              l().createElement(Y.v0, { code: e }),
-            ),
-          );
         },
-        sr = {
-          viewBox: "0 0 36 36",
-          data: l().createElement(
-            l().Fragment,
-            null,
-            l().createElement("path", {
-              d: "M21.5284 11.2948C22.256 11.0999 23.0038 11.5316 23.1987 12.2591L26.4436 24.3664C26.6386 25.0939 26.2068 25.8418 25.4793 26.0367L7.18597 30.939C6.45845 31.134 5.71062 30.7023 5.51566 29.9747L2.27109 17.8673C2.07614 17.1398 2.50785 16.392 3.23536 16.197L21.5284 11.2948Z",
-              fill: "#C4C4C4",
-            }),
-            l().createElement("path", {
-              d: "M12.6961 21.5614L13.3991 21.8883C14.1695 22.2466 15.0859 22.001 15.5738 21.3056L16.0187 20.6715L26.2814 25.4443C26.1048 25.7258 25.8256 25.9437 25.4794 26.0365L7.18667 30.9388C6.84019 31.0317 6.4891 30.9824 6.19532 30.8267L12.6961 21.5614Z",
-              fill: "#A6A6A6",
-            }),
-            l().createElement(
-              "g",
-              { style: { mixBlendMode: "multiply" } },
-              l().createElement("path", {
-                d: "M21.528 11.2954L3.23487 16.1976C2.88889 16.2904 2.60981 16.5081 2.43322 16.7892L13.3858 23.1168C14.37 23.6854 15.6287 23.3481 16.1967 22.3637L22.5186 11.4072C22.225 11.2518 21.8742 11.2026 21.528 11.2954Z",
-                fill: "#ECECEC",
-              }),
-            ),
-            l().createElement("path", {
-              d: "M21.5289 11.2954L3.23585 16.1976C2.88987 16.2904 2.61079 16.5081 2.43419 16.7892L13.3998 21.8889C14.1702 22.2471 15.0866 22.0016 15.5746 21.3061L22.5196 11.4072C22.226 11.2518 21.8751 11.2026 21.5289 11.2954Z",
-              fill: "#ECECEC",
-            }),
-            l().createElement("path", {
-              d: "M23.6807 1.85819C23.6235 1.65158 23.2857 1.65158 23.2283 1.85819C23.0687 2.43365 22.8364 3.12459 22.5693 3.46321C22.2733 3.83858 21.5346 4.1598 20.9748 4.36119C20.7875 4.42839 20.7875 4.74244 20.9748 4.80964C21.5346 5.01103 22.2733 5.33225 22.5693 5.7074C22.8364 6.04602 23.0687 6.73696 23.2283 7.31242C23.2857 7.51925 23.6235 7.51925 23.6807 7.31242C23.8403 6.73696 24.0726 6.04602 24.3396 5.7074C24.6358 5.33225 25.3744 5.01103 25.9344 4.80964C26.1215 4.74244 26.1215 4.42839 25.9344 4.36119C25.3744 4.1598 24.6358 3.83858 24.3396 3.46321C24.0726 3.12459 23.8403 2.43365 23.6807 1.85819Z",
-              fill: "white",
-            }),
-            l().createElement("path", {
-              d: "M29.6923 6.20397C29.6164 5.9296 29.1678 5.9296 29.0916 6.20397C28.8796 6.96818 28.5711 7.88573 28.2165 8.33542C27.8234 8.83391 26.8423 9.26049 26.0989 9.52793C25.8502 9.61717 25.8502 10.0342 26.0989 10.1235C26.8423 10.3909 27.8234 10.8175 28.2165 11.3157C28.5711 11.7654 28.8796 12.6829 29.0916 13.4471C29.1678 13.7218 29.6164 13.7218 29.6923 13.4471C29.9043 12.6829 30.2128 11.7654 30.5674 11.3157C30.9608 10.8175 31.9416 10.3909 32.6853 10.1235C32.9337 10.0342 32.9337 9.61717 32.6853 9.52793C31.9416 9.26049 30.9608 8.83391 30.5674 8.33542C30.2128 7.88573 29.9043 6.96818 29.6923 6.20397Z",
-              fill: "white",
-            }),
-          ),
-        };
-      var cr = r(14267),
-        dr = r(89484),
-        mr = r(40467);
-      const pr = () => {
-        var e;
-        const t = (0, R.y)();
-        return l().createElement(
-          o.n4,
-          { fallback: l().createElement(nr.a, null) },
-          l().createElement(
-            mr.Z,
+        Sn = {
+          [Ee.Fj.ALPHABETICAL]: Pe,
+          [Ee.Fj.RECENTLY_ADDED]: je,
+          [Ee.Fj.LOWEST_PRICE]: _e,
+          [Ee.Fj.HIGHEST_PRICE]: Re,
+          [Ee.Fj.ON_SALE]: Fe,
+        },
+        On = ({ breakpoint: e }) => {
+          const t = (0, c.useSelector)(y.k),
+            r = (0, p.H)(),
+            l = (0, m.useLocalization)(),
+            [o, i] = (0, n.useState)(Ee.Fj.ON_SALE),
+            [v, b] = (0, n.useState)([]),
+            [A, w] = (0, n.useState)(!1),
             {
-              themeOverrides: {
-                accent:
-                  null == (e = (0, tr.re)(dr.g[t.mode].success))
-                    ? void 0
-                    : e.rgb(),
-              },
-            },
-            l().createElement(rr.M4, {
-              channelType: "email",
-              settingKeys: [cr.p.EMAIL, cr.p.WISHLIST_EMAIL],
-              selectedSettingKey: cr.p.WISHLIST_EMAIL,
-              toggleTextId: "wishlist-toggle-label",
-              enabledMessage: "egstore.wishlist.notification_toggle_enabled",
-              disabledMessage: "egstore.wishlist.notification_toggle",
-              ariaLabelCode: "egstore.wishlist.notification_toggle.switch",
-              icon: sr,
-              iconSize: lr.Z.SMALL,
-              secondary: () =>
-                l().createElement(ar, {
-                  message: "egstore.wishlist.notification_toggle_tooltip",
-                }),
-            }),
-          ),
-        );
-      };
-      var ur = r(78512),
-        hr = r(93026),
-        fr = Object.defineProperty,
-        gr = Object.defineProperties,
-        vr = Object.getOwnPropertyDescriptors,
-        Er = Object.getOwnPropertySymbols,
-        yr = Object.prototype.hasOwnProperty,
-        br = Object.prototype.propertyIsEnumerable,
-        wr = (e, t, r) =>
-          t in e
-            ? fr(e, t, {
-                enumerable: !0,
-                configurable: !0,
-                writable: !0,
-                value: r,
-              })
-            : (e[t] = r),
-        Cr = (e, t) => {
-          for (var r in t || (t = {})) yr.call(t, r) && wr(e, r, t[r]);
-          if (Er) for (var r of Er(t)) br.call(t, r) && wr(e, r, t[r]);
-          return e;
-        };
-      const Or = ({
-          onSort: e = () => {},
-          sortingOptions: t,
-          sortValue: r = "",
-        }) => {
-          const o = (0, U.Z)(),
-            i = (0, n.useMemo)(
-              () =>
-                ((e) => {
-                  return {
-                    main: (0, I.iv)({
-                      display: "flex",
-                      justifyContent: "flex-end",
-                      alignItems: "center",
-                      flexWrap: "wrap",
-                    }),
-                    sortWrapper: (0, I.iv)({
-                      display: "flex",
-                      flexDirection: "row",
-                      flexGrow: 1,
-                    }),
-                    totalWrapper: (0, I.iv)(
-                      ((t = Cr({}, Se.cp.text8)),
-                      (r = {
-                        textAlign: "right",
-                        [hr.Uc.xs]: { display: "none" },
-                      }),
-                      gr(t, vr(r))),
-                    ),
-                    layoutWrapper: (0, I.iv)({ textAlign: "right" }),
-                    layoutButton: (0, I.iv)((0, W.WL)(1), {
-                      transition: "background-color 125ms ease-in-out",
-                      height: "100%",
-                      color: e.textPrimary,
-                      backgroundColor: "transparent",
-                      padding: 0,
-                    }),
-                    border: (0, I.iv)({
-                      border: `1px solid ${e.backgroundOverlay}`,
-                    }),
-                    transparentBorder: (0, I.iv)({
-                      border: "1px solid transparent",
-                    }),
-                  };
-                  var t, r;
-                })(o),
-              [o],
-            );
-          return l().createElement(
-            "div",
-            { className: i.main },
-            l().createElement(
-              "div",
-              { className: i.sortWrapper },
-              t &&
-                l().createElement(
-                  l().Fragment,
-                  null,
-                  l().createElement(ur.Z, {
-                    id: "sort-dropdown",
-                    label: l().createElement(Y.v0, {
-                      code: "egstore.library.sort.title",
-                    }),
-                    options: t,
-                    selectedValue: r,
-                    onChange: (t) => e(t),
-                  }),
-                ),
-            ),
-          );
-        },
-        Sr = {
-          root: (0, I.iv)({
-            display: "flex",
-            justifyContent: "space-between",
-            marginBottom: 20,
-          }),
-        },
-        Ir = ({
-          sortType: e,
-          setSortType: t,
-          wishlistSortingOptions: r,
-          renderFilterToggle: n,
-        }) =>
-          l().createElement(
-            "div",
-            { "data-testid": "wishlist-sort-layout", className: Sr.root },
-            l().createElement(Or, {
-              onSort: (e) => t(e),
-              sortingOptions: r,
-              sortValue: e,
-            }),
-            n && n(),
-          ),
-        Lr = {
-          [te.AX.ALPHABETICAL]: ye,
-          [te.AX.RECENTLY_ADDED]: be,
-          [te.AX.LOWEST_PRICE]: we,
-          [te.AX.HIGHEST_PRICE]: Ce,
-          [te.AX.ON_SALE]: Oe,
-        },
-        xr = ({ breakpoint: e }) => {
-          const t = (0, c.s)(),
-            r = (0, h.useLocalization)(),
-            [o, i] = (0, n.useState)(te.AX.ON_SALE),
-            [a, f] = (0, n.useState)([]),
-            [g, v] = (0, n.useState)(!1),
+              wishlistItems: C,
+              isError: x,
+              isFetching: T,
+              isSuccess: H,
+            } = (0, Yr.A)(),
             {
-              wishlistItems: E,
-              isError: y,
-              isFetching: O,
-              isSuccess: I,
-            } = (0, It.Z)(),
-            {
-              dispatch: L,
-              wishlistUndoState: { wishlistWithUndo: x, selectedFilterIds: T },
-            } = (0, b.Q)(),
-            Z = (0, u.DX)(e),
-            P = (0, ne.UT)(r),
-            k = Gt(x) || {},
-            j = Object.keys(k).length,
-            D = () => v(!g),
-            A = (0, n.useCallback)((e = []) => Lr[o](e), [o]);
+              dispatch: k,
+              wishlistUndoState: { wishlistWithUndo: N, selectedFilterIds: P },
+            } = (0, I.G)(),
+            j = (0, f.tU)(e),
+            _ = (0, fe.yb)(l),
+            F = vn(N) || {},
+            M = Object.keys(F).length,
+            D = () => w(!A),
+            W = (0, n.useCallback)((e = []) => Sn[o](e), [o]);
           (0, n.useEffect)(() => {
-            L({ type: w.S.SET_WISHLIST, payload: { wishlist: E } });
-          }, [E]),
+            k({ type: S.d.SET_WISHLIST, payload: { wishlist: C } });
+          }, [C]),
             (0, n.useEffect)(() => {
               const e = ((e = [], t = []) =>
                 t.reduce((t, r) => {
                   var n;
-                  const l =
+                  const a =
                     (null == (n = null == r ? void 0 : r.offer)
                       ? void 0
                       : n.tags) || [];
-                  return Pt(e, l) ? [...t, r] : t;
-                }, []))(T, x);
-              (0, Zt.Z)(e, a) || f(() => e);
-            }, [T, x]),
+                  return rn(e, a) ? [...t, r] : t;
+                }, []))(P, N);
+              (0, d.A)(e, v) || b(() => e);
+            }, [P, N]),
             (0, n.useEffect)(() => {
-              L({ type: w.S.RESET_WISHLIST, payload: { wishlist: E } });
+              k({ type: S.d.RESET_WISHLIST, payload: { wishlist: C } });
             }, [o]);
-          const R = (0, d.SO)(C, { filters: k }),
-            F = (0, d.SO)(C, {
-              filters: k,
+          const B = (0, g.P)(O, { filters: F }),
+            U = (0, g.P)(O, {
+              filters: F,
               onClear: D,
               onDone: D,
               onOverlayClick: D,
             }),
-            N = (0, d.R)(S, { count: T.length, onClick: D }, Z),
-            M = (0, d.SO)(St, {
+            z = (0, g.ZX)(L, { count: P.length, onClick: D }, j),
+            V = (0, g.P)(Mr, {
               renderWallet: () =>
-                l().createElement(
-                  l().Fragment,
+                a().createElement(
+                  a().Fragment,
                   null,
-                  l().createElement(s.pp, null),
+                  a().createElement(u.dd, null),
                 ),
-            });
-          return y
-            ? l().createElement(m.Z, { type: p.aB.SERVER_ERROR })
-            : l().createElement(
-                l().Fragment,
+            }),
+            q = a().useMemo(() => !(t && !C.length), [t, C.length]);
+          return x
+            ? a().createElement(E.A, { type: h.A.SERVER_ERROR })
+            : a().createElement(
+                a().Fragment,
                 null,
-                l().createElement(Xt.q, {
-                  title: r("diesel.main.navigation.wishlist"),
+                a().createElement(s.m, {
+                  title: l("diesel.main.navigation.wishlist"),
                 }),
-                l().createElement(
-                  _,
+                a().createElement(
+                  R,
                   {
-                    renderHeader: M,
+                    renderHeader: V,
                     renderCommsBanner: () =>
-                      t ? null : l().createElement(pr, null),
-                    renderSidebar: !Z && j ? R : void 0,
+                      r ? null : a().createElement(Pr, null),
+                    renderSidebar: !j && M ? B : void 0,
                   },
-                  Z && g && F && F(),
-                  l().createElement(Ir, {
-                    sortType: o,
-                    setSortType: i,
-                    wishlistSortingOptions: P,
-                    renderFilterToggle: j ? N : void 0,
-                  }),
-                  0 === a.length &&
-                    T.length > 0 &&
-                    l().createElement(er, {
-                      onReset: () => L({ type: w.S.RESET_FILTERS }),
+                  j && A && U && U(),
+                  q &&
+                    a().createElement(Kr, {
+                      sortType: o,
+                      setSortType: i,
+                      wishlistSortingOptions: _,
+                      renderFilterToggle: M ? z : void 0,
                     }),
-                  0 === ((null == E ? void 0 : E.length) || 0) &&
-                    0 === x.length &&
-                    I
-                    ? l().createElement(Yt, null)
-                    : l().createElement(Et, { isLoading: O, items: A(a) }),
+                  0 === v.length &&
+                    P.length > 0 &&
+                    a().createElement(In, {
+                      onReset: () => k({ type: S.d.RESET_FILTERS }),
+                    }),
+                  0 === ((null == C ? void 0 : C.length) || 0) &&
+                    0 === N.length &&
+                    H
+                    ? a().createElement(Cn, null)
+                    : a().createElement(Pt, { isLoading: T, items: W(v) }),
                 ),
               );
         };
-      var Tr = r(79705),
-        Zr = r(32042),
-        Pr = r(61340),
-        kr = r(45305),
-        _r = Object.defineProperty,
-        jr = Object.defineProperties,
-        Dr = Object.getOwnPropertyDescriptors,
-        Ar = Object.getOwnPropertySymbols,
-        Rr = Object.prototype.hasOwnProperty,
-        Fr = Object.prototype.propertyIsEnumerable,
-        Nr = (e, t, r) =>
+      var xn = r(87536),
+        Ln = r(76004),
+        Tn = r(27855),
+        Hn = r(46532),
+        kn = Object.defineProperty,
+        Nn = Object.defineProperties,
+        Pn = Object.getOwnPropertyDescriptors,
+        jn = Object.getOwnPropertySymbols,
+        _n = Object.prototype.hasOwnProperty,
+        Rn = Object.prototype.propertyIsEnumerable,
+        Fn = (e, t, r) =>
           t in e
-            ? _r(e, t, {
+            ? kn(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        Mr = (e, t) => {
-          for (var r in t || (t = {})) Rr.call(t, r) && Nr(e, r, t[r]);
-          if (Ar) for (var r of Ar(t)) Fr.call(t, r) && Nr(e, r, t[r]);
+        Mn = (e, t) => {
+          for (var r in t || (t = {})) _n.call(t, r) && Fn(e, r, t[r]);
+          if (jn) for (var r of jn(t)) Rn.call(t, r) && Fn(e, r, t[r]);
           return e;
         },
-        Wr = (e, t) => jr(e, Dr(t));
-      const Ur = ({
+        Dn = (e, t) => Nn(e, Pn(t));
+      const Wn = ({
           children: e,
           initialUndoItems: t = [],
           initialWishlist: r = [],
-          initialSelectedFilterIds: o = [],
+          initialSelectedFilterIds: l = [],
         }) => {
-          const i = {
+          const o = {
               undoItems: t,
               wishlist: r,
               wishlistWithUndo: r,
-              selectedFilterIds: o,
+              selectedFilterIds: l,
             },
-            [a, s] = (0, n.useReducer)((e, t) => {
+            [i, s] = (0, n.useReducer)((e, t) => {
               switch (t.type) {
-                case w.S.SET_WISHLIST: {
+                case S.d.SET_WISHLIST: {
                   const { wishlist: r } = t.payload;
-                  if ((0, Zt.Z)(e.wishlist, r)) return e;
+                  if ((0, d.A)(e.wishlist, r)) return e;
                   if (
                     (null == r ? void 0 : r.length) &&
                     0 === e.wishlistWithUndo.length
                   )
-                    return Wr(Mr({}, e), { wishlistWithUndo: r, wishlist: r });
+                    return Dn(Mn({}, e), { wishlistWithUndo: r, wishlist: r });
                   const { undoItems: n } = e,
-                    l = ((e, t) => {
+                    a = ((e, t) => {
                       const r = e.map(({ offerId: e }) => e).sort(),
                         n = t.map(({ offerId: e }) => e).sort();
-                      return (0, Zt.Z)(r, n);
+                      return (0, d.A)(r, n);
                     })(e.wishlistWithUndo, r),
-                    o =
-                      0 !== n.length || l
+                    l =
+                      0 !== n.length || a
                         ? ((e = [], t = []) =>
                             0 === e.length
                               ? e
                               : e.reduce(
                                   (e, r) =>
-                                    (0, Lt.Z)((e) => e === r.offerId)(t)
-                                      ? [...e, Wr(Mr({}, r), { isUndo: !0 })]
-                                      : [...e, Wr(Mr({}, r), { isUndo: !1 })],
+                                    (0, Jr.A)((e) => e === r.offerId)(t)
+                                      ? [...e, Dn(Mn({}, r), { isUndo: !0 })]
+                                      : [...e, Dn(Mn({}, r), { isUndo: !1 })],
                                   [],
                                 ))(e.wishlistWithUndo, n)
                         : r;
-                  return Wr(Mr({}, e), { wishlistWithUndo: o, wishlist: r });
+                  return Dn(Mn({}, e), { wishlistWithUndo: l, wishlist: r });
                 }
-                case w.S.RESET_WISHLIST: {
+                case S.d.RESET_WISHLIST: {
                   const { wishlist: r } = t.payload;
-                  return Wr(Mr({}, e), { wishlistWithUndo: r, wishlist: r });
+                  return Dn(Mn({}, e), { wishlistWithUndo: r, wishlist: r });
                 }
-                case w.S.ADD_UNDO: {
+                case S.d.ADD_UNDO: {
                   const { offerId: r } = t.payload;
                   return r
-                    ? Wr(Mr({}, e), {
-                        undoItems: (0, Dt.Z)([...e.undoItems, r]),
+                    ? Dn(Mn({}, e), {
+                        undoItems: (0, on.A)([...e.undoItems, r]),
                       })
                     : e;
                 }
-                case w.S.REMOVE_UNDO: {
+                case S.d.REMOVE_UNDO: {
                   const { offerId: r } = t.payload;
                   if (!r) return e;
-                  const n = (0, Zr.Z)((e) => e !== r, e.undoItems);
-                  return Wr(Mr({}, e), { undoItems: n });
+                  const n = (0, Ln.A)((e) => e !== r, e.undoItems);
+                  return Dn(Mn({}, e), { undoItems: n });
                 }
-                case w.S.ADD_FILTERS: {
+                case S.d.ADD_FILTERS: {
                   const { filterIds: r = [] } = t.payload;
-                  return Wr(Mr({}, e), {
-                    selectedFilterIds: (0, Dt.Z)([
+                  return Dn(Mn({}, e), {
+                    selectedFilterIds: (0, on.A)([
                       ...e.selectedFilterIds,
                       ...r,
                     ]),
                   });
                 }
-                case w.S.REMOVE_FILTERS: {
+                case S.d.REMOVE_FILTERS: {
                   const { filterIds: r = [] } = t.payload;
-                  return Wr(Mr({}, e), {
-                    selectedFilterIds: (0, Pr.Z)(r, e.selectedFilterIds),
+                  return Dn(Mn({}, e), {
+                    selectedFilterIds: (0, Tn.A)(r, e.selectedFilterIds),
                   });
                 }
-                case w.S.RESET_FILTERS:
-                  return Wr(Mr({}, e), { selectedFilterIds: [] });
+                case S.d.RESET_FILTERS:
+                  return Dn(Mn({}, e), { selectedFilterIds: [] });
                 default:
                   return e;
               }
-            }, i),
-            c = { wishlistUndoState: a, dispatch: s };
-          return l().createElement(kr.D.Provider, { value: c }, e);
+            }, o),
+            c = { wishlistUndoState: i, dispatch: s };
+          return a().createElement(Hn.h.Provider, { value: c }, e);
         },
-        Br = { placeholder: (0, I.iv)({ marginTop: 30 }) },
-        Hr = ({ animation: e }) =>
-          l().createElement(
-            _,
+        Bn = { placeholder: (0, T.AH)({ marginTop: 30 }) },
+        Un = ({ animation: e }) =>
+          a().createElement(
+            R,
             {
-              renderHeader: () => l().createElement(Ot, { animation: e }),
-              renderCommsBanner: () =>
-                l().createElement(nr.a, { animation: e }),
+              renderHeader: () => a().createElement(Fr, { animation: e }),
+              renderCommsBanner: () => a().createElement(Sr, { animation: e }),
             },
-            l().createElement(
+            a().createElement(
               "div",
-              { className: Br.placeholder },
-              l().createElement(pt, { count: ne.zL, animation: e }),
+              { className: Bn.placeholder },
+              a().createElement(xt, { count: fe.aX, animation: e }),
             ),
           );
-      var Vr = r(81508),
-        zr = r(12766);
-      const Gr = () =>
-        (0, zr.Z)()
-          ? l().createElement(
-              Tr.Z,
+      var zn = r(35997),
+        Vn = r(88029);
+      const qn = () =>
+        (0, Vn.A)()
+          ? a().createElement(
+              xn.A,
               null,
-              l().createElement(
-                Ur,
+              a().createElement(
+                Wn,
                 null,
-                l().createElement(
-                  o.n4,
-                  { fallback: l().createElement(Hr, null) },
-                  l().createElement(Vr.Z, { render: xr }),
+                a().createElement(
+                  l.tY,
+                  { fallback: a().createElement(Un, null) },
+                  a().createElement(zn.A, { render: On }),
                 ),
               ),
             )
-          : l().createElement(a.Z, { to: (0, i.getPath)() });
+          : a().createElement(i.A, { to: (0, o.getPath)() });
     },
   },
 ]);
-//# sourceMappingURL=WishlistView.egstore-site.c14c2ed142450e79b4d0.js.map
+//# sourceMappingURL=WishlistView.egstore-site.8bbed835d025f1e5ab3e.js.map
