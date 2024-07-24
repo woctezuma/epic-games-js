@@ -1,4 +1,4 @@
-/*! For license information please see launcherAppStyles.egstore-site.d7303df3f01fdf17b63a.js.LICENSE.txt */
+/*! For license information please see launcherAppStyles.egstore-site.386b57b6232dec837c3e.js.LICENSE.txt */
 (() => {
   var e,
     t,
@@ -11,8 +11,9 @@
     i,
     s,
     c,
-    f = {
-      1884: (e, t, n) => {
+    f,
+    d = {
+      16918: (e, t, n) => {
         ("undefined" != typeof window
           ? window
           : void 0 !== n.g
@@ -20,13 +21,13 @@
             : "undefined" != typeof self
               ? self
               : {}
-        ).SENTRY_RELEASE = { id: "84c5248aa9700c4c553ff12d6974b329ba83a876" };
+        ).SENTRY_RELEASE = { id: "d9d28e82e038bf3c5a65c015235246486fd5aa6b" };
       },
-      57842: (e, t, n) => {
+      60868: (e, t, n) => {
         "use strict";
         void 0 !== typeof window && (n.p = __webpack_asset_path);
       },
-      54516: (e) => {
+      20334: (e) => {
         "use strict";
         var t = Object.getOwnPropertySymbols,
           n = Object.prototype.hasOwnProperty,
@@ -81,11 +82,11 @@
               return i;
             };
       },
-      83975: (e, t, n) => {
+      70993: (e, t, n) => {
         "use strict";
-        var r = n(95391),
-          l = n(54516),
-          a = n(9146);
+        var r = n(13545),
+          l = n(20334),
+          a = n(49828);
         function o(e) {
           for (
             var t =
@@ -7735,7 +7736,7 @@
           }),
           (t.version = "17.0.2");
       },
-      12788: (e, t, n) => {
+      35623: (e, t, n) => {
         "use strict";
         !(function e() {
           if (
@@ -7748,11 +7749,11 @@
               console.error(e);
             }
         })(),
-          (e.exports = n(83975));
+          (e.exports = n(70993));
       },
-      18447: (e, t, n) => {
+      48249: (e, t, n) => {
         "use strict";
-        var r = n(54516),
+        var r = n(20334),
           l = 60103,
           a = 60106;
         (t.Fragment = 60107), (t.StrictMode = 60108), (t.Profiler = 60114);
@@ -8135,11 +8136,11 @@
           }),
           (t.version = "17.0.2");
       },
-      32735: (e, t, n) => {
+      86326: (e, t, n) => {
         "use strict";
-        e.exports = n(18447);
+        e.exports = n(48249);
       },
-      39666: (e, t) => {
+      50041: (e, t) => {
         "use strict";
         var n, r, l, a;
         if (
@@ -8453,21 +8454,21 @@
             };
           });
       },
-      9146: (e, t, n) => {
+      49828: (e, t, n) => {
         "use strict";
-        e.exports = n(39666);
+        e.exports = n(50041);
       },
     },
-    d = {};
-  function p(e) {
-    var t = d[e];
+    p = {};
+  function h(e) {
+    var t = p[e];
     if (void 0 !== t) return t.exports;
-    var n = (d[e] = { exports: {} });
-    return f[e](n, n.exports, p), n.exports;
+    var n = (p[e] = { exports: {} });
+    return d[e](n, n.exports, h), n.exports;
   }
-  (p.m = f),
-    (p.c = d),
-    (p.g = (function () {
+  (h.m = d),
+    (h.c = p),
+    (h.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -8475,18 +8476,18 @@
         if ("object" == typeof window) return window;
       }
     })()),
-    (p.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (h.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
-      p.S = {};
+      h.S = {};
       var e = {},
         t = {};
-      p.I = (n, r) => {
+      h.I = (n, r) => {
         r || (r = []);
         var l = t[n];
         if ((l || (l = t[n] = {}), !(r.indexOf(l) >= 0))) {
           if ((r.push(l), e[n])) return e[n];
-          p.o(p.S, n) || (p.S[n] = {});
-          var a = p.S[n],
+          h.o(h.S, n) || (h.S[n] = {});
+          var a = h.S[n],
             o = "diesel-site",
             u = (e, t, n, r) => {
               var l = (a[e] = a[e] || {}),
@@ -8497,8 +8498,8 @@
             i = [];
           switch (n) {
             case "default":
-              u("react-dom", "17.0.2", () => () => p(12788), 1),
-                u("react", "17.0.2", () => () => p(32735), 1);
+              u("react-dom", "17.0.2", () => () => h(35623), 1),
+                u("react", "17.0.2", () => () => h(86326), 1);
           }
           return i.length
             ? (e[n] = Promise.all(i).then(() => (e[n] = 1)))
@@ -8506,7 +8507,7 @@
         }
       };
     })(),
-    (p.p = ""),
+    (h.p = ""),
     (e = (e) => {
       var t = (e) => e.split(".").map((e) => (+e == e ? +e : e)),
         n = /^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(e),
@@ -8621,40 +8622,39 @@
         0,
       );
     }),
-    (a = (e, t, r) =>
+    (a = (e, t, r, l) =>
       "Unsatisfied version " +
-      t +
+      r +
+      " from " +
+      (r && e[t][r].from) +
       " of shared singleton module " +
-      e +
+      t +
       " (required " +
-      n(r) +
+      n(l) +
       ")"),
     (o = (e, t, n, o) => {
-      var i = l(e, n);
-      return (
-        r(o, i) ||
-          ("undefined" != typeof console &&
-            console.warn &&
-            console.warn(a(n, i, o))),
-        u(e[n][i])
-      );
+      var s = l(e, n);
+      return r(o, s) || u(a(e, n, s, o)), i(e[n][s]);
     }),
-    (u = (e) => ((e.loaded = 1), e.get())),
-    (i = ((e) =>
+    (u = (e) => {
+      "undefined" != typeof console && console.warn && console.warn(e);
+    }),
+    (i = (e) => ((e.loaded = 1), e.get())),
+    (s = ((e) =>
       function (t, n, r, l) {
-        var a = p.I(t);
+        var a = h.I(t);
         return a && a.then
-          ? a.then(e.bind(e, t, p.S[t], n, r, l))
-          : e(t, p.S[t], n, r, l);
-      })((e, t, n, r, l) => (t && p.o(t, n) ? o(t, 0, n, r) : l()))),
-    (s = {}),
-    (c = {
-      95391: () => i("default", "react", [4, 17, 0, 2], () => () => p(32735)),
+          ? a.then(e.bind(e, t, h.S[t], n, r, l))
+          : e(t, h.S[t], n, r, l);
+      })((e, t, n, r, l) => (t && h.o(t, n) ? o(t, 0, n, r) : l()))),
+    (c = {}),
+    (f = {
+      13545: () => s("default", "react", [4, 17, 0, 2], () => () => h(86326)),
     }),
-    [95391].forEach((e) => {
-      p.m[e] = (t) => {
-        (s[e] = 0), delete p.c[e];
-        var n = c[e]();
+    [13545].forEach((e) => {
+      h.m[e] = (t) => {
+        (c[e] = 0), delete h.c[e];
+        var n = f[e]();
         if ("function" != typeof n)
           throw new Error(
             "Shared module is not available for eager consumption: " + e,
@@ -8662,7 +8662,7 @@
         t.exports = n();
       };
     }),
-    p(1884);
-  p(57842);
+    h(16918);
+  h(60868);
 })();
-//# sourceMappingURL=launcherAppStyles.egstore-site.d7303df3f01fdf17b63a.js.map
+//# sourceMappingURL=launcherAppStyles.egstore-site.386b57b6232dec837c3e.js.map

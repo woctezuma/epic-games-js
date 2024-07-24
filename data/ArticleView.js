@@ -1,44 +1,44 @@
+"use strict";
 (self.__LOADABLE_LOADED_CHUNKS__ = self.__LOADABLE_LOADED_CHUNKS__ || []).push([
-  [484],
+  [588],
   {
-    67925: (e, t, i) => {
-      "use strict";
-      i.r(t), i.d(t, { default: () => he });
-      var o = i(45418),
-        a = i.n(o),
-        s = i(37922);
+    86448: (e, t, o) => {
+      o.r(t), o.d(t, { default: () => he });
+      var a = o(8788),
+        i = o.n(a),
+        s = o(3493);
       const n = (e) => ((e) => e.get("feed"))(e).blog;
-      var r = i(22538),
-        l = i(56470),
-        c = i(32396),
-        m = i(10035),
-        d = i(77915),
-        g = i(1255),
-        h = i(63236),
-        p = i(90783),
-        u = i(45035),
-        b = i(50560),
-        v = i(16618),
-        E = i(73172),
-        f = i(84244),
-        x = i(74758),
-        L = i(96737),
-        S = i.n(L),
-        P = i(73142);
-      const N = ({ meta: e, title: t }) => {
-        const { EPIC_SERVER_URL: i } = (0, s.useSelector)(P.f3),
-          o = S()(i || "https://epicgames.com"),
+      var r = o(13758),
+        l = o(11923),
+        c = o(36233),
+        m = o(96157),
+        d = o(22404),
+        g = o(54883),
+        h = o(66168),
+        p = o(60885),
+        u = o(71318),
+        b = o(10288),
+        E = o(6415),
+        v = o(96687),
+        f = o(42209),
+        x = o(380),
+        A = o(49942),
+        S = o.n(A),
+        L = o(54232);
+      const P = ({ meta: e, title: t }) => {
+        const { EPIC_SERVER_URL: o } = (0, s.useSelector)(L.sQ),
+          a = S()(o || "https://epicgames.com"),
           { pathname: n } = (0, r.useLocation)(),
           l = S()(n);
         return (
-          l.set("protocol", o.protocol),
-          l.set("host", o.host),
+          l.set("protocol", a.protocol),
+          l.set("host", a.host),
           l.set("hash", ""),
           l.set("query", ""),
-          a().createElement(
-            x.q,
+          i().createElement(
+            x.m,
             { meta: e, title: t },
-            a().createElement("link", {
+            i().createElement("link", {
               id: "page-link-canonical",
               "data-testid": "page-link-canonical",
               rel: "canonical",
@@ -47,58 +47,58 @@
           )
         );
       };
-      var y = i(93844),
-        C = i(72668),
-        O = i(46741),
-        A = i(81549),
-        I = i(29498),
-        w = i(23752),
-        R = i(15130),
-        _ = i(65817),
-        k = Object.defineProperty,
-        D = Object.defineProperties,
-        H = Object.getOwnPropertyDescriptors,
-        T = Object.getOwnPropertySymbols,
-        V = Object.prototype.hasOwnProperty,
+      var N = o(15503),
+        y = o(54699),
+        H = o(98186),
+        k = o(40440),
+        O = o(64032),
+        w = o(55115),
+        C = o(24207),
+        R = o(85392),
+        _ = Object.defineProperty,
+        I = Object.defineProperties,
+        V = Object.getOwnPropertyDescriptors,
+        D = Object.getOwnPropertySymbols,
+        T = Object.prototype.hasOwnProperty,
         B = Object.prototype.propertyIsEnumerable,
-        Y = (e, t, i) =>
+        j = (e, t, o) =>
           t in e
-            ? k(e, t, {
+            ? _(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
-                value: i,
+                value: o,
               })
-            : (e[t] = i),
-        Z = (e, t) => {
-          for (var i in t || (t = {})) V.call(t, i) && Y(e, i, t[i]);
-          if (T) for (var i of T(t)) B.call(t, i) && Y(e, i, t[i]);
+            : (e[t] = o),
+        X = (e, t) => {
+          for (var o in t || (t = {})) T.call(t, o) && j(e, o, t[o]);
+          if (D) for (var o of D(t)) B.call(t, o) && j(e, o, t[o]);
           return e;
         };
-      const X = (0, l.iv)({ overflow: "hidden" }),
-        $ = (0, l.iv)(R.Hi, R.CX, (0, w.fF)(w.oM.x16x9), {
+      const z = (0, l.AH)({ overflow: "hidden" }),
+        M = (0, l.AH)(C.aJ, C.KG, (0, w.ko)(w.gl.x16x9), {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          [I.Uc.lg]: { borderRadius: I.E0 },
+          [O.aq.lg]: { borderRadius: O.Vq },
         }),
-        j = (0, l.iv)({ width: "100%", opacity: 0, position: "absolute" }),
-        U = (0, l.iv)({ marginTop: 40, [I.Uc.xxl]: { padding: "0 72px" } }),
-        z = (0, l.iv)({ position: "relative" }),
-        M = (0, l.iv)({
+        q = (0, l.AH)({ width: "100%", opacity: 0, position: "absolute" }),
+        U = (0, l.AH)({ marginTop: 40, [O.aq.xxl]: { padding: "0 72px" } }),
+        W = (0, l.AH)({ position: "relative" }),
+        $ = (0, l.AH)({
           marginBottom: 40,
           h1:
-            ((W = Z({}, (0, I.fL)(40, -0.5, 1))),
-            (F = { fontWeight: I.Ue.bold, marginBottom: 20 }),
-            D(W, H(F))),
+            ((K = X({}, (0, O.Qq)(40, -0.5, 1))),
+            (Q = { fontWeight: O.Wy.bold, marginBottom: 20 }),
+            I(K, V(Q))),
         });
-      var W, F;
-      const q = (0, l.iv)({
+      var K, Q;
+      const Y = (0, l.AH)({
           paddingRight: 5,
           marginRight: 5,
           borderRight: "1px solid #000",
         }),
-        K = (0, l.iv)({ marginTop: 40, fontSize: 16 }),
-        G = (0, l.iv)({
+        F = (0, l.AH)({ marginTop: 40, fontSize: 16 }),
+        G = (0, l.AH)({
           img: {
             cursor: "pointer",
             border: "1px solid transparent",
@@ -107,14 +107,14 @@
             "&:hover": { border: "1px solid black" },
           },
         }),
-        J = (0, l.iv)({
+        J = (0, l.AH)({
           position: "fixed",
           width: "100%",
           height: "100%",
-          backgroundColor: I.CT,
+          backgroundColor: O.xS,
           top: 0,
           left: 0,
-          zIndex: _.W.modal,
+          zIndex: R.f.modal,
           padding: 50,
           textAlign: "center",
           img: {
@@ -126,13 +126,13 @@
             position: "relative",
           },
         });
-      var Q = ((e) => (
+      var Z = ((e) => (
         (e.CLOSE = "CLOSE"), (e.PREV = "PREV"), (e.NEXT = "NEXT"), e
-      ))(Q || {});
+      ))(Z || {});
       const ee = (e) =>
-          (0, l.iv)(
-            Z(
-              { color: I.$e, position: "absolute", padding: 15 },
+          (0, l.AH)(
+            X(
+              { color: O.Yk, position: "absolute", padding: 15 },
               "CLOSE" === e
                 ? { right: 5, top: 5 }
                 : "PREV" === e
@@ -142,7 +142,7 @@
                     : { top: "calc(50% - 10px)" },
             ),
           ),
-        te = (0, l.iv)({
+        te = (0, l.AH)({
           img: { maxWidth: "100%", height: "auto !important", margin: "2em 0" },
           ".embed-responsive-16by9": { paddingBottom: "56.25% !important" },
           ".embed-responsive": {
@@ -164,8 +164,8 @@
               border: 0,
             },
         }),
-        ie = (0, l.iv)({ img: { pointerEvents: "auto" } });
-      class oe extends a().PureComponent {
+        oe = (0, l.AH)({ img: { pointerEvents: "auto" } });
+      class ae extends i().PureComponent {
         constructor() {
           super(...arguments),
             (this.state = {
@@ -174,22 +174,22 @@
               topAlign: !1,
               bottomAlign: !1,
             }),
-            (this.blogHeader = a().createRef()),
-            (this.cmsContainer = a().createRef()),
+            (this.blogHeader = i().createRef()),
+            (this.cmsContainer = i().createRef()),
             (this.images = []),
             (this.handleScroll = (e) => {
               if (!e) return;
               const t = this.blogHeader.current,
-                i = this.cmsContainer.current,
-                o = (function () {
-                  const e = (0, E.Y)();
+                o = this.cmsContainer.current,
+                a = (function () {
+                  const e = (0, v.c)();
                   return void 0 === e.document
                     ? 0
                     : e.pageYOffset || e.document.documentElement.scrollTop;
                 })(),
-                a = t ? t.offsetHeight + 52.8 : 0,
-                s = o >= (i ? i.offsetHeight + 154 : 0),
-                n = o > a && !s;
+                i = t ? t.offsetHeight + 52.8 : 0,
+                s = a >= (o ? o.offsetHeight + 154 : 0),
+                n = a > i && !s;
               ((n && !this.state.fixSocialPos) ||
                 (!n && this.state.fixSocialPos)) &&
                 this.setState({
@@ -201,19 +201,19 @@
                   n ||
                   this.state.bottomAlign ||
                   this.setState({ bottomAlign: s }),
-                0 !== o || s || this.setState({ bottomAlign: s });
+                0 !== a || s || this.setState({ bottomAlign: s });
             }),
             (this.showLightbox = (e) => {
               var t;
-              (0, E.Y)().document.body.className += ` ${X}`;
-              const i = null == (t = e.target) ? void 0 : t.dataset,
-                o = parseInt(i.idx || "0", 10) || 0;
-              this.setState({ current: o });
+              (0, v.c)().document.body.className += ` ${z}`;
+              const o = null == (t = e.target) ? void 0 : t.dataset,
+                a = parseInt(o.idx || "0", 10) || 0;
+              this.setState({ current: a });
             }),
             (this.hideLightbox = (e) => {
               e.preventDefault(),
-                ((0, E.Y)().document.body.className = (0,
-                E.Y)().document.body.className.replace(` ${X}`, "")),
+                ((0, v.c)().document.body.className = (0,
+                v.c)().document.body.className.replace(` ${z}`, "")),
                 this.setState({ current: -1 });
             }),
             (this.prevImage = (e) => {
@@ -229,11 +229,11 @@
             });
         }
         componentDidMount() {
-          (0, E.Y)().addEventListener("scroll", this.handleScroll),
+          (0, v.c)().addEventListener("scroll", this.handleScroll),
             this.initLightbox(this.props.blog);
         }
         componentWillUnmount() {
-          (0, E.Y)().removeEventListener("scroll", this.handleScroll),
+          (0, v.c)().removeEventListener("scroll", this.handleScroll),
             this.images.length &&
               this.images.forEach((e) => {
                 e.removeEventListener("click", this.showLightbox);
@@ -241,16 +241,16 @@
         }
         componentDidUpdate(e) {
           const t = e.blog || {},
-            i = this.props.blog || {};
-          i.id && i.id !== t.id && this.initLightbox(i);
+            o = this.props.blog || {};
+          o.id && o.id !== t.id && this.initLightbox(o);
         }
         initLightbox(e) {
           var t;
           if (!e || !e.enableLightbox) return;
-          const i = (0, E.Y)().document.getElementById("cmsSection");
-          if (!i) return;
-          const o = i.getElementsByTagName("img");
-          (this.images = [].slice.call(o || [])),
+          const o = (0, v.c)().document.getElementById("cmsSection");
+          if (!o) return;
+          const a = o.getElementsByTagName("img");
+          (this.images = [].slice.call(a || [])),
             (null == (t = this.images) ? void 0 : t.length) &&
               this.images.forEach((e, t) => {
                 e.setAttribute("data-idx", t.toString()),
@@ -258,9 +258,9 @@
               });
         }
         render() {
-          const { locale: e, blog: t, getMessage: i } = this.props,
+          const { locale: e, blog: t, getMessage: o } = this.props,
             {
-              trendingImage: o,
+              trendingImage: a,
               enableLightbox: s = !1,
               trendingImageAlt: n = "",
               content: r,
@@ -276,66 +276,66 @@
                   })
                 : ""
             ).replace(/\//g, "."),
-            g = !0 === t.noTopImage || !o,
-            h = (0, y.LX)(e, t, void 0, c),
+            g = !0 === t.noTopImage || !a,
+            h = (0, N.X0)(e, t, void 0, c),
             p = g
               ? {}
-              : { backgroundImage: `url("${o}")`, backgroundPosition: "top" };
-          return a().createElement(
+              : { backgroundImage: `url("${a}")`, backgroundPosition: "top" };
+          return i().createElement(
             "div",
-            { className: ie },
-            a().createElement(N, {
+            { className: oe },
+            i().createElement(P, {
               meta: h,
-              title: i("egstore.store.meta.title.article", [c]),
+              title: o("egstore.store.meta.title.article", [c]),
             }),
             g
               ? null
-              : a().createElement(
+              : i().createElement(
                   "div",
                   {
                     ref: this.blogHeader,
-                    className: $,
+                    className: M,
                     style: p,
                     "data-testid": "header",
                   },
-                  a().createElement("img", { className: j, alt: n, src: o }),
+                  i().createElement("img", { className: q, alt: n, src: a }),
                 ),
-            a().createElement(
+            i().createElement(
               "section",
               { className: U },
-              a().createElement(
+              i().createElement(
                 "article",
                 { "data-testid": "article" },
-                a().createElement(
+                i().createElement(
                   "div",
-                  { ref: this.cmsContainer, className: z },
-                  a().createElement(
+                  { ref: this.cmsContainer, className: W },
+                  i().createElement(
                     "div",
-                    { className: M },
-                    a().createElement("h1", null, c),
-                    a().createElement(
+                    { className: $ },
+                    i().createElement("h1", null, c),
+                    i().createElement(
                       "div",
                       null,
                       t.subtitle
-                        ? a().createElement(
+                        ? i().createElement(
                             "span",
-                            { className: q },
+                            { className: Y },
                             t.subtitle,
                           )
                         : null,
-                      a().createElement("span", null, d),
+                      i().createElement("span", null, d),
                     ),
                     m &&
-                      a().createElement(
+                      i().createElement(
                         "div",
-                        { className: K },
-                        a().createElement(f.v0, {
+                        { className: F },
+                        i().createElement(f.QB, {
                           code: "egstore.blog.article.author",
                           args: [m],
                         }),
                       ),
                   ),
-                  a().createElement("section", {
+                  i().createElement("section", {
                     id: "cmsSection",
                     className: (0, l.cx)(te, { [G]: s }),
                     dangerouslySetInnerHTML: { __html: r },
@@ -344,7 +344,7 @@
               ),
             ),
             this.state.current >= 0 &&
-              a().createElement(
+              i().createElement(
                 "div",
                 {
                   className: J,
@@ -352,92 +352,92 @@
                   role: "presentation",
                   "data-testid": "lightbox",
                 },
-                a().createElement("img", {
+                i().createElement("img", {
                   src: this.images[this.state.current].src,
                   alt: "",
                 }),
-                a().createElement(
+                i().createElement(
                   "span",
                   {
                     role: "presentation",
-                    className: ee(Q.CLOSE),
+                    className: ee(Z.CLOSE),
                     onClick: this.hideLightbox,
                     "data-testid": "lightbox-close",
                   },
-                  a().createElement(C.Z, { icon: A.Z.CLOSE, size: O.$.XSMALL }),
+                  i().createElement(y.A, { icon: k.A.CLOSE, size: H.o.XSMALL }),
                 ),
-                a().createElement(
+                i().createElement(
                   "span",
                   {
                     role: "presentation",
-                    className: ee(Q.PREV),
+                    className: ee(Z.PREV),
                     onClick: this.prevImage,
                     "data-testid": "lightbox-prev",
                   },
-                  a().createElement(C.Z, {
-                    icon: A.Z.CHEVRON_FLIPPED,
-                    size: O.$.XSMALL,
+                  i().createElement(y.A, {
+                    icon: k.A.CHEVRON_FLIPPED,
+                    size: H.o.XSMALL,
                   }),
                 ),
-                a().createElement(
+                i().createElement(
                   "span",
                   {
                     role: "presentation",
-                    className: ee(Q.NEXT),
+                    className: ee(Z.NEXT),
                     onClick: this.nextImage,
                     "data-testid": "lightbox-next",
                   },
-                  a().createElement(C.Z, {
-                    icon: A.Z.CHEVRON,
-                    size: O.$.XSMALL,
+                  i().createElement(y.A, {
+                    icon: k.A.CHEVRON,
+                    size: H.o.XSMALL,
                   }),
                 ),
               ),
           );
         }
       }
-      const ae = (0, f.in)(oe),
-        se = (0, l.iv)({ minHeight: "100vh" }),
-        ne = ({ isLauncher: e, blog: t, getBlogPost: i }) => {
-          var o, n;
-          const l = (0, s.useSelector)(b.e),
-            E = (0, m.useLocalizationLocale)(),
+      const ie = (0, f.gj)(ae),
+        se = (0, l.AH)({ minHeight: "100vh" }),
+        ne = ({ isLauncher: e, blog: t, getBlogPost: o }) => {
+          var a, n;
+          const l = (0, s.useSelector)(b.k),
+            v = (0, m.useLocalizationLocale)(),
             f = (0, r.useParams)(),
             { newsSlug: x } = f || {};
           if (
-            (a().useEffect(() => {
-              const e = t.state === h.s.notAsked,
-                o = t.state === h.s.success;
-              (e || (o && t.latestValue.slug !== x)) && i(E, x);
+            (i().useEffect(() => {
+              const e = t.state === h.V.notAsked,
+                a = t.state === h.V.success;
+              (e || (a && t.latestValue.slug !== x)) && o(v, x);
             }, [x, t]),
-            t.state === h.s.error)
+            t.state === h.V.error)
           )
-            return a().createElement(v.Z, {
-              to: `${(0, c.getPlainPath)()}/${E}/not-found`,
+            return i().createElement(E.A, {
+              to: `${(0, c.getPlainPath)()}/${v}/not-found`,
             });
           if (
-            t.state === h.s.success &&
-            (null == (n = null == (o = t.latestValue) ? void 0 : o.redirect)
+            t.state === h.V.success &&
+            (null == (n = null == (a = t.latestValue) ? void 0 : a.redirect)
               ? void 0
               : n.url)
           ) {
-            const { url: e, code: i } = t.latestValue.redirect;
-            return a().createElement(g.Z, {
+            const { url: e, code: o } = t.latestValue.redirect;
+            return i().createElement(g.A, {
               to: (0, c.generateRoutePath)(e),
-              status: i ? Number(i) : 301,
+              status: o ? Number(o) : 301,
             });
           }
-          return a().createElement(
-            p.Z,
-            { pageTheme: l ? u.Fj : u.f8 },
-            a().createElement(
-              d.Yn,
+          return i().createElement(
+            p.A,
+            { pageTheme: l ? u.m_ : u.dA },
+            i().createElement(
+              d.fN,
               null,
-              a().createElement(
+              i().createElement(
                 "div",
                 { id: "storeNews", className: se },
                 t.latestValue &&
-                  a().createElement(ae, {
+                  i().createElement(ie, {
                     blog: t.latestValue,
                     isLauncher: e,
                     disableShareIcons: !0,
@@ -446,25 +446,25 @@
             ),
           );
         };
-      var re = i(68692),
-        le = i(8604);
+      var re = o(30912),
+        le = o(58361);
       const ce = (0, s.connect)(
-        (e) => ({ blog: n(e), isLauncher: (0, le.Ip)(e) }),
-        (e) => ({ getBlogPost: (t, i) => e(re.I.getBlogPost(t, i)) }),
+        (e) => ({ blog: n(e), isLauncher: (0, le.xw)(e) }),
+        (e) => ({ getBlogPost: (t, o) => e(re.k.getBlogPost(t, o)) }),
       )(ne);
-      var me = i(41846),
-        de = i(18567);
-      const ge = () => o.createElement(ce, null);
+      var me = o(83773),
+        de = o(29217);
+      const ge = () => a.createElement(ce, null);
       ge.getInitialProps = (e, t) => {
         return (
-          (i = void 0),
-          (o = [e, t]),
-          (a = function* (e, { store: t }) {
-            const i = e.params || {},
-              { newsSlug: o, locale: a } = i;
-            if ((t.dispatch(de.Z.setSSRPageTheme(u.f8)), o))
+          (o = void 0),
+          (a = [e, t]),
+          (i = function* (e, { store: t }) {
+            const o = e.params || {},
+              { newsSlug: a, locale: i } = o;
+            if ((t.dispatch(de.A.setSSRPageTheme(u.dA)), a))
               try {
-                yield (0, me.tn)(t.dispatch, a, o);
+                yield (0, me.fc)(t.dispatch, i, a);
               } catch (e) {
                 console.error(
                   "PromotionView SSR getInitialProps failed (%s)",
@@ -475,27 +475,27 @@
           new Promise((e, t) => {
             var s = (e) => {
                 try {
-                  r(a.next(e));
+                  r(i.next(e));
                 } catch (e) {
                   t(e);
                 }
               },
               n = (e) => {
                 try {
-                  r(a.throw(e));
+                  r(i.throw(e));
                 } catch (e) {
                   t(e);
                 }
               },
               r = (t) =>
                 t.done ? e(t.value) : Promise.resolve(t.value).then(s, n);
-            r((a = a.apply(i, o)).next());
+            r((i = i.apply(o, a)).next());
           })
         );
-        var i, o, a;
+        var o, a, i;
       };
       const he = ge;
     },
   },
 ]);
-//# sourceMappingURL=ArticleView.egstore-site.9119317f9551349e77ce.js.map
+//# sourceMappingURL=ArticleView.egstore-site.0150d3bd313ead801068.js.map
