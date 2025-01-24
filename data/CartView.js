@@ -6,34 +6,31 @@
       r.r(t), r.d(t, { CartView: () => $n, default: () => Xn });
       var n = r(8788),
         l = r.n(n),
-        a = r(3493),
-        o = r(380),
+        a = r(380),
+        o = r(41791),
         c = r(36233),
-        i = r(42209),
-        s = r(65784),
-        d = r(94473),
-        u = r(6415),
-        m = r(87536),
-        p = r(76754),
-        v = r(8232);
-      const E = ({ children: e }) => {
-        const [t, r] = (0, n.useReducer)(v.Cd, {
+        i = r(65784),
+        s = r(94473),
+        d = r(76754),
+        u = r(8232);
+      const m = ({ children: e }) => {
+        const [t, r] = (0, n.useReducer)(u.Cd, {
             voucherWarnings: [],
             checkoutError: void 0,
           }),
           a = (0, n.useMemo)(() => ({ cartState: t, dispatch: r }), [t, r]);
-        return l().createElement(p.M.Provider, { value: a }, e);
+        return l().createElement(d.M.Provider, { value: a }, e);
       };
-      var f = r(61801),
-        g = r(96114),
-        y = r(11923),
-        A = r(25355),
-        h = r(28637),
-        b = r(705),
-        C = r(40440),
-        I = r(48559),
-        O = r(54699);
-      const x = {
+      var p = r(61801),
+        v = r(96114),
+        E = r(34988),
+        f = r(25355),
+        g = r(28637),
+        y = r(705),
+        A = r(40440),
+        h = r(48559),
+        b = r(54699);
+      const C = {
         viewBox: "0 0 45 52",
         data: l().createElement(
           "g",
@@ -51,121 +48,121 @@
           }),
         ),
       };
-      var S = r(98186),
-        N = r(57805),
-        P = r(68813),
-        M = r(14160),
-        D = r(49498),
-        k = r(10288);
-      const w = {
-        container: (0, y.AH)({
+      var I = r(98186),
+        O = r(57805),
+        x = r(68813),
+        S = r(14160),
+        N = r(49498),
+        P = r(10288);
+      const M = {
+        container: (0, E.AH)({
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
         }),
-        icon: (0, y.AH)({ marginBottom: 30 }),
-        title: (0, y.AH)({ marginBottom: 12 }),
+        icon: (0, E.AH)({ marginBottom: 30 }),
+        title: (0, E.AH)({ marginBottom: 12 }),
       };
-      var R = r(64032);
-      const L = { icon: (0, y.AH)({ color: R.OF }) },
-        T = (
+      var D = r(64032);
+      const k = { icon: (0, E.AH)({ color: D.OF }) },
+        w = (
           ({ renderIcon: e }) =>
           ({ renderTitle: t, renderBody: r }) => {
-            const n = (0, a.useSelector)(k.k),
-              o = () =>
+            const n = (0, o.useSelector)(P.k),
+              a = () =>
                 n
                   ? l().createElement(
-                      N.E,
-                      { variant: D.ZJ.HMD, color: D.Uf.PRIMARY },
+                      O.E,
+                      { variant: N.ZJ.HMD, color: N.Uf.PRIMARY },
                       t,
                     )
-                  : l().createElement(M.A.Text, null, t);
+                  : l().createElement(S.A.Text, null, t);
             return l().createElement(
               "div",
-              { className: w.container },
+              { className: M.container },
               e &&
                 l().createElement(
                   "div",
-                  { className: w.icon, "data-testid": "icon" },
+                  { className: M.icon, "data-testid": "icon" },
                   e,
                 ),
               l().createElement(
                 "div",
-                { className: w.title, "data-testid": "title" },
-                l().createElement(o, null),
+                { className: M.title, "data-testid": "title" },
+                l().createElement(a, null),
               ),
               r &&
                 l().createElement(
                   "div",
                   { "data-testid": "body" },
-                  l().createElement(P.Ay, null, r),
+                  l().createElement(x.Ay, null, r),
                 ),
             );
           }
         )({
-          renderIcon: l().createElement(O.A, {
-            icon: x,
-            className: L.icon,
-            size: S.A.XLARGE,
+          renderIcon: l().createElement(b.A, {
+            icon: C,
+            className: k.icon,
+            size: I.A.XLARGE,
           }),
         });
-      var _ = r(34475);
-      const j = () => {
+      var R = r(34475);
+      const L = () => {
           const e = ((e) => ({
-            link: (0, y.AH)({
+            link: (0, E.AH)({
               borderBottom: `1px solid ${e.accentOverlay}`,
               color: e.textSecondary,
               "&:hover": { color: e.textPrimary, borderColor: e.textPrimary },
             }),
-          }))((0, _.E)());
+          }))((0, R.E)());
           return l().createElement(
-            b.A,
+            y.A,
             { to: "/", className: e.link },
-            l().createElement(A.A, {
+            l().createElement(f.A, {
               code: "egstore.wishlist.empty_results.shop_discover",
             }),
           );
         },
-        H = () =>
-          (0, a.useSelector)(k.k)
-            ? l().createElement(I.W, {
-                contentIcon: C.A.STRESSED_FACE_EDS,
-                title: l().createElement(A.A, {
+        T = () =>
+          (0, o.useSelector)(P.k)
+            ? l().createElement(h.W, {
+                contentIcon: A.A.STRESSED_FACE_EDS,
+                title: l().createElement(f.A, {
                   code: "egstore.cart.empty_cart_title",
                 }),
                 body: l().createElement(
-                  h.v,
-                  { variant: D.ml.PRIMARY, to: "/" },
-                  l().createElement(A.A, {
+                  g.v,
+                  { variant: N.ml.PRIMARY, to: "/" },
+                  l().createElement(f.A, {
                     code: "egstore.wishlist.empty_results.shop_discover",
                   }),
                 ),
               })
-            : l().createElement(T, {
-                renderTitle: l().createElement(A.A, {
+            : l().createElement(w, {
+                renderTitle: l().createElement(f.A, {
                   code: "egstore.cart.empty_cart_title",
                 }),
-                renderBody: l().createElement(j, null),
+                renderBody: l().createElement(L, null),
               });
-      var B = r(78273),
-        q = r(17927),
-        U = r(9738);
-      const z = {
-          cardMargin: (0, y.AH)({
+      var _ = r(78273),
+        j = r(17927),
+        H = r(9738);
+      const B = {
+          cardMargin: (0, E.AH)({
             marginBottom: 15,
             "&:last-of-type": { marginBottom: 0 },
           }),
         },
-        W = () =>
+        q = () =>
           l().createElement(
             l().Fragment,
             null,
-            l().createElement(q.A, null),
-            l().createElement(q.A, null),
-            l().createElement(q.A, null),
+            l().createElement(j.A, null),
+            l().createElement(j.A, null),
+            l().createElement(j.A, null),
           ),
-        Y = () => {
-          const { cartItems: e } = (0, U.M)();
+        U = () => {
+          const { cartItems: e } = (0, H.M)();
           return l().createElement(
             l().Fragment,
             null,
@@ -174,8 +171,8 @@
               : e.map((e) =>
                   l().createElement(
                     "div",
-                    { className: z.cardMargin, key: e.id },
-                    l().createElement(B.I, {
+                    { className: B.cardMargin, key: e.id },
+                    l().createElement(_.I, {
                       offerId: e.offerId,
                       sandboxId: e.namespace,
                       cartItemId: e.id,
@@ -186,34 +183,33 @@
                 ),
           );
         },
-        Z = () =>
+        z = () =>
           l().createElement(
-            f.tY,
-            { fallback: l().createElement(W, null) },
-            l().createElement(Y, null),
+            p.tY,
+            { fallback: l().createElement(q, null) },
+            l().createElement(U, null),
           );
-      var G = r(61167),
-        $ = r(64366),
-        X = r(6718),
-        Q = r(41503),
-        V = r(84904),
-        K = r(54402),
-        F = r(66448),
-        J = r(62195),
-        ee = r(67671),
-        te = r(22357);
-      const re = ({ children: e, renderLabel: t }) => {
+      var W = r(64366),
+        Y = r(6718),
+        Z = r(41503),
+        G = r(84904),
+        $ = r(54402),
+        X = r(67671),
+        Q = r(62195),
+        V = r(22357),
+        K = r(66448);
+      const F = ({ children: e, renderLabel: t }) => {
         const r = ((e) => ({
-          container: (0, y.AH)((0, te.Jh)("left"), {
+          container: (0, E.AH)((0, V.Jh)("left"), {
             width: "100%",
             borderColor: e.backgroundOverlay,
             borderWidth: 1,
             borderStyle: "solid",
             padding: 20,
-            borderRadius: J.YM,
+            borderRadius: Q.YM,
           }),
-          label: (0, y.AH)({ marginBottom: 10 }),
-          list: (0, y.AH)({
+          label: (0, E.AH)({ marginBottom: 10 }),
+          list: (0, E.AH)({
             padding: 0,
             margin: 0,
             listStyle: "none",
@@ -221,7 +217,7 @@
             flexDirection: "column",
             gap: 10,
           }),
-        }))((0, F.A)());
+        }))((0, K.A)());
         return l().createElement(
           "div",
           { className: r.container },
@@ -229,64 +225,64 @@
             l().createElement(
               "div",
               { className: r.label },
-              l().createElement(ee.A, { textLevel: V.qo.SECONDARY }, t),
+              l().createElement(X.A, { textLevel: G.qo.SECONDARY }, t),
             ),
           l().createElement("ul", { className: r.list }, e),
         );
       };
-      var ne = r(79524),
-        le = r(45580),
-        ae = r(40176);
-      const oe = {
-          modalContent: (0, y.AH)({
+      var J = r(79524),
+        ee = r(45580),
+        te = r(40176);
+      const re = {
+          modalContent: (0, E.AH)({
             height: "100%",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
             textAlign: "center",
-            [le.aq.sm]: (0, y.AH)({ maxWidth: 360 }),
+            [ee.aq.sm]: (0, E.AH)({ maxWidth: 360 }),
           }),
-          list: (0, y.AH)({ marginTop: 10, marginBottom: 10 }),
-          buttons: (0, y.AH)({
+          list: (0, E.AH)({ marginTop: 10, marginBottom: 10 }),
+          buttons: (0, E.AH)({
             width: "100%",
             display: "flex",
             marginTop: 60,
             flexDirection: "column",
             gap: 10,
-            [le.aq.sm]: (0, y.AH)({
+            [ee.aq.sm]: (0, E.AH)({
               marginTop: 40,
               flexDirection: "row",
               gap: 20,
             }),
           }),
         },
-        ce = {
-          content: (0, y.AH)({
+        ne = {
+          content: (0, E.AH)({
             display: "flex",
             flexDirection: "column",
             padding: 16,
             gap: 12,
-            background: ae.Lh.elevated.high.select,
+            background: te.Lh.elevated.high.select,
           }),
         },
-        ie =
+        le =
           ({ titles: e, isEnabledEDSPhase1: t }) =>
           ({ next: r, cancel: n }) =>
             t
               ? {
                   Step: l().createElement(
-                    K.A,
+                    $.A,
                     {
-                      title: l().createElement(A.A, {
+                      title: l().createElement(f.A, {
                         code: "egstore.cart.checkout.partial_entitlement.title",
                       }),
-                      subTitle: l().createElement(A.A, {
+                      subTitle: l().createElement(f.A, {
                         code: "egstore.cart.checkout.partial_entitlement.detail",
                       }),
-                      primaryBtnText: l().createElement(A.A, {
+                      primaryBtnText: l().createElement(f.A, {
                         code: "egstore.cart.checkout.cta.continue_checkout",
                       }),
-                      cancelBtnText: l().createElement(A.A, {
+                      cancelBtnText: l().createElement(f.A, {
                         code: "egstore.cart.checkout.cta.review_purchase",
                       }),
                       handleClose: n,
@@ -294,15 +290,15 @@
                     },
                     l().createElement(
                       "div",
-                      { className: ce.content },
+                      { className: ne.content },
                       null == e
                         ? void 0
                         : e.map((e) =>
                             l().createElement(
-                              N.E,
+                              O.E,
                               {
-                                variant: D.ZJ.PSM,
-                                color: D.Uf.PRIMARY,
+                                variant: N.ZJ.PSM,
+                                color: N.Uf.PRIMARY,
                                 key: e,
                               },
                               l().createElement("b", null, e),
@@ -310,29 +306,29 @@
                           ),
                     ),
                   ),
-                  modalVariant: ne.d.EDS,
+                  modalVariant: J.d.EDS,
                 }
               : {
                   Step: l().createElement(
                     "div",
-                    { className: oe.modalContent },
+                    { className: re.modalContent },
                     l().createElement(
-                      M.A.Heading,
+                      S.A.Heading,
                       { headingLevel: 2 },
-                      l().createElement(A.A, {
+                      l().createElement(f.A, {
                         code: "egstore.cart.checkout.partial_entitlement.title",
                       }),
                     ),
                     l().createElement(
                       "div",
-                      { className: oe.list },
+                      { className: re.list },
                       l().createElement(
-                        P.Ay,
-                        { textLevel: V.qo.SECONDARY },
+                        x.Ay,
+                        { textLevel: G.qo.SECONDARY },
                         l().createElement(
-                          re,
+                          F,
                           {
-                            renderLabel: l().createElement(A.A, {
+                            renderLabel: l().createElement(f.A, {
                               code: "egstore.common.product",
                             }),
                           },
@@ -345,43 +341,43 @@
                       ),
                     ),
                     l().createElement(
-                      P.Ay,
-                      { textLevel: V.qo.SECONDARY },
-                      l().createElement(A.A, {
+                      x.Ay,
+                      { textLevel: G.qo.SECONDARY },
+                      l().createElement(f.A, {
                         code: "egstore.cart.checkout.partial_entitlement.detail",
                       }),
                     ),
                     l().createElement(
                       "div",
-                      { className: oe.buttons },
+                      { className: re.buttons },
                       l().createElement(
-                        X.$,
-                        { onClick: r, buttonWidth: $.Rj.BLOCK },
-                        l().createElement(A.A, {
+                        Y.$,
+                        { onClick: r, buttonWidth: W.Rj.BLOCK },
+                        l().createElement(f.A, {
                           code: "egstore.cart.checkout.cta.continue_checkout",
                         }),
                       ),
                       l().createElement(
-                        Q.e6,
-                        { onClick: n, buttonWidth: $.Rj.BLOCK },
-                        l().createElement(A.A, {
+                        Z.e6,
+                        { onClick: n, buttonWidth: W.Rj.BLOCK },
+                        l().createElement(f.A, {
                           code: "egstore.cart.checkout.cta.review_purchase",
                         }),
                       ),
                     ),
                   ),
-                  modalVariant: ne.d.DIALOG,
+                  modalVariant: J.d.DIALOG,
                 };
-      var se = r(92726),
-        de = r(50827),
-        ue = r(73623),
-        me = r(41009),
-        pe = r(11939);
-      const ve = () => {
-        var e, t, r, o;
-        const c = (0, a.useSelector)(k.k),
-          { cartValidation: i } = (0, se.r)(),
-          { actions: s, state: d } = (0, me.U)(),
+      var ae = r(92726),
+        oe = r(50827),
+        ce = r(73623),
+        ie = r(41009),
+        se = r(11939);
+      const de = () => {
+        var e, t, r, a;
+        const c = (0, o.useSelector)(P.k),
+          { cartValidation: i } = (0, ae.r)(),
+          { actions: s, state: d } = (0, ie.U)(),
           u = "entitlement" === d,
           m = [
             ...(null !=
@@ -393,8 +389,8 @@
               ? t
               : []),
           ],
-          p = (0, ue.e)(m),
-          v = (0, de.j)({ offers: p }),
+          p = (0, ce.e)(m),
+          v = (0, oe.j)({ offers: p }),
           E = (0, n.useMemo)(
             () =>
               (null == v
@@ -412,60 +408,60 @@
             ((u && 0 === m.length) || (u && 0 === E.length)) &&
               (null == (e = null == s ? void 0 : s.entitlement) || e.next());
           }, [m, E, d]),
-          l().createElement(pe.A, {
+          l().createElement(se.A, {
             isOpen: u && E.length > 0,
             onClose:
               null == (r = null == s ? void 0 : s.entitlement)
                 ? void 0
                 : r.cancel,
             onComplete:
-              null == (o = null == s ? void 0 : s.entitlement)
+              null == (a = null == s ? void 0 : s.entitlement)
                 ? void 0
-                : o.next,
-            steps: [ie({ titles: E, isEnabledEDSPhase1: c })],
+                : a.next,
+            steps: [le({ titles: E, isEnabledEDSPhase1: c })],
           })
         );
       };
-      var Ee = r(13758),
-        fe = r(66623),
-        ge = r(41855),
-        ye = r(88733),
-        Ae = r(94090),
-        he = r(24757),
-        be = r(50358),
-        Ce = r(30854);
-      var Ie = r(21785),
-        Oe = r(12335),
-        xe = r(9146),
-        Se = Object.getOwnPropertySymbols,
-        Ne = Object.prototype.hasOwnProperty,
-        Pe = Object.prototype.propertyIsEnumerable;
-      const Me = (e) => {
-          const t = (0, Ee.useHistory)(),
-            { dispatch: r } = (0, ye.B)(),
-            l = (0, a.useDispatch)(),
+      var ue = r(13758),
+        me = r(66623),
+        pe = r(41855),
+        ve = r(88733),
+        Ee = r(94090),
+        fe = r(24757),
+        ge = r(50358),
+        ye = r(30854);
+      var Ae = r(21785),
+        he = r(12335),
+        be = r(9146),
+        Ce = Object.getOwnPropertySymbols,
+        Ie = Object.prototype.hasOwnProperty,
+        Oe = Object.prototype.propertyIsEnumerable;
+      const xe = (e) => {
+          const t = (0, ue.useHistory)(),
+            { dispatch: r } = (0, ve.B)(),
+            l = (0, o.useDispatch)(),
             {
-              query: { invalidate: o },
-            } = (0, xe.N)({ config: { enabled: !1 } }),
-            i = (0, a.useSelector)(ge.AL),
+              query: { invalidate: a },
+            } = (0, be.N)({ config: { enabled: !1 } }),
+            i = (0, o.useSelector)(pe.AL),
             {
               query: { invalidate: s },
-            } = (0, be._)({ enabled: !1 }),
-            d = (0, he.d)(),
+            } = (0, ge._)({ enabled: !1 }),
+            d = (0, fe.d)(),
             { invalidateAllUserProductPurchasability: u } = (() => {
-              const e = (0, fe.jE)();
+              const e = (0, me.jE)();
               return {
                 invalidateAllUserProductPurchasability: () =>
-                  e.invalidateQueries({ queryKey: [Ce.S] }),
+                  e.invalidateQueries({ queryKey: [ye.S] }),
               };
             })(),
-            m = (0, n.useCallback)(() => (0, Oe.CY)(e), [e]),
-            p = (0, fe.n_)(m, {
+            m = (0, n.useCallback)(() => (0, he.CY)(e), [e]),
+            p = (0, me.n_)(m, {
               onError: (e) => {
-                r({ type: Ae.E.SET_CHECKOUT_ERROR, payload: { error: e } });
+                r({ type: Ee.E.SET_CHECKOUT_ERROR, payload: { error: e } });
               },
               onSuccess: (e) => {
-                o(), "platform" === d && u();
+                a(), "platform" === d && u();
                 const r = ((e) =>
                     null == e
                       ? void 0
@@ -485,7 +481,7 @@
                     (null == e ? void 0 : e.formattedearnedepicrewards);
                 null == r ||
                   r.forEach((t) => {
-                    l(Ie.Ay.purchaseSuccess(t.sandboxId, t.offerId, e, i));
+                    l(Ae.Ay.purchaseSuccess(t.sandboxId, t.offerId, e, i));
                   }),
                   t.push({
                     pathname: (0, c.generateRoutePath)("/cart/success"),
@@ -506,17 +502,17 @@
             E = ((e, t) => {
               var r = {};
               for (var n in e)
-                Ne.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
-              if (null != e && Se)
-                for (var n of Se(e))
-                  t.indexOf(n) < 0 && Pe.call(e, n) && (r[n] = e[n]);
+                Ie.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+              if (null != e && Ce)
+                for (var n of Ce(e))
+                  t.indexOf(n) < 0 && Oe.call(e, n) && (r[n] = e[n]);
               return r;
             })(p, ["mutate"]);
           return (0, n.useMemo)(() => ({ startCheckout: v, query: E }), [v, E]);
         },
-        De = () => {
-          const { actions: e, state: t } = (0, me.U)(),
-            { cartItems: r } = (0, U.M)(),
+        Se = () => {
+          const { actions: e, state: t } = (0, ie.U)(),
+            { cartItems: r } = (0, H.M)(),
             l =
               ((e) => {
                 if (e)
@@ -530,7 +526,7 @@
                         }))
                     : [];
               })(r) || [],
-            { startCheckout: a } = Me(l);
+            { startCheckout: a } = xe(l);
           return (
             (0, n.useEffect)(() => {
               var r;
@@ -540,90 +536,91 @@
             }, [t, e]),
             null
           );
-        },
-        ke = () =>
-          l().createElement(
-            f.tY,
-            { fallback: null },
-            l().createElement(G.A, null),
-            l().createElement(ve, null),
-            l().createElement(De, null),
-          );
-      var we = Object.defineProperty,
-        Re = Object.defineProperties,
-        Le = Object.getOwnPropertyDescriptors,
-        Te = Object.getOwnPropertySymbols,
-        _e = Object.prototype.hasOwnProperty,
-        je = Object.prototype.propertyIsEnumerable,
-        He = (e, t, r) =>
+        };
+      var Ne = r(61167);
+      const Pe = () =>
+        l().createElement(
+          p.tY,
+          { fallback: null },
+          l().createElement(Ne.A, null),
+          l().createElement(de, null),
+          l().createElement(Se, null),
+        );
+      var Me = Object.defineProperty,
+        De = Object.defineProperties,
+        ke = Object.getOwnPropertyDescriptors,
+        we = Object.getOwnPropertySymbols,
+        Re = Object.prototype.hasOwnProperty,
+        Le = Object.prototype.propertyIsEnumerable,
+        Te = (e, t, r) =>
           t in e
-            ? we(e, t, {
+            ? Me(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        Be = (e, t) => {
-          for (var r in t || (t = {})) _e.call(t, r) && He(e, r, t[r]);
-          if (Te) for (var r of Te(t)) je.call(t, r) && He(e, r, t[r]);
+        _e = (e, t) => {
+          for (var r in t || (t = {})) Re.call(t, r) && Te(e, r, t[r]);
+          if (we) for (var r of we(t)) Le.call(t, r) && Te(e, r, t[r]);
           return e;
         },
-        qe = (e, t) => Re(e, Le(t));
-      const Ue = {
-          container: (0, y.AH)({
+        je = (e, t) => De(e, ke(t));
+      const He = {
+          container: (0, E.AH)({
             display: "flex",
             flexDirection: "row",
             flexWrap: "wrap",
-            [le.aq.md]: { flexWrap: "nowrap" },
+            [ee.aq.md]: { flexWrap: "nowrap" },
           }),
-          mainContent: (0, y.AH)({
+          mainContent: (0, E.AH)({
             flexGrow: 1,
             marginBottom: 30,
-            [le.aq.md]: { marginBottom: 0 },
+            [ee.aq.md]: { marginBottom: 0 },
           }),
-          sidebar: (0, y.AH)({
+          sidebar: (0, E.AH)({
             width: "100%",
             flexShrink: 0,
-            [le.aq.md]: qe(Be({}, (0, te.S$)(32)), { width: 256 }),
-            [le.aq.lg]: qe(Be({}, (0, te.S$)(36)), { width: 296 }),
+            [ee.aq.md]: je(_e({}, (0, V.S$)(32)), { width: 256 }),
+            [ee.aq.lg]: je(_e({}, (0, V.S$)(36)), { width: 296 }),
           }),
         },
-        ze = ({ renderMain: e, renderSidebar: t }) =>
+        Be = ({ renderMain: e, renderSidebar: t }) =>
           l().createElement(
             "div",
-            { className: Ue.container },
+            { className: He.container },
             l().createElement(
               "div",
-              { className: Ue.mainContent, "data-testid": "cart-layout-main" },
+              { className: He.mainContent, "data-testid": "cart-layout-main" },
               e,
             ),
             t &&
               l().createElement(
                 "div",
-                { className: Ue.sidebar, "data-testid": "cart-layout-sidebar" },
+                { className: He.sidebar, "data-testid": "cart-layout-sidebar" },
                 t,
               ),
           );
-      var We = r(60263),
-        Ye = r(14531),
-        Ze = r(97116);
-      const Ge = {
-          container: (0, y.AH)({ marginTop: 15, [le.aq.md]: { marginTop: 0 } }),
-          warnings: (0, y.AH)({
+      var qe = r(60263),
+        Ue = r(14531),
+        ze = r(97116);
+      const We = {
+          container: (0, E.AH)({ marginTop: 15, [ee.aq.md]: { marginTop: 0 } }),
+          warnings: (0, E.AH)({
             width: "100%",
             marginBottom: 50,
             ":empty": { display: "none" },
           }),
-          title: (0, y.AH)({
+          title: (0, E.AH)({
             marginBottom: 50,
             display: "flex",
             flexDirection: "column-reverse",
             justifyContent: "space-between",
-            [le.aq.md]: { alignItems: "center", flexDirection: "row" },
+            [ee.aq.md]: { alignItems: "center", flexDirection: "row" },
           }),
         },
-        $e =
+        Ye =
           ({
             renderMain: e,
             renderSidebar: t,
@@ -631,67 +628,67 @@
             renderWallet: n,
           }) =>
           () => {
-            const o = (0, a.useSelector)(k.k),
+            const a = (0, o.useSelector)(P.k),
               c = () =>
-                o
+                a
                   ? l().createElement(
-                      N.E,
-                      { variant: D.ZJ.H2XL, color: D.Uf.PRIMARY, as: "h1" },
-                      l().createElement(A.A, { code: "egstore.cart.my_cart" }),
+                      O.E,
+                      { variant: N.ZJ.H2XL, color: N.Uf.PRIMARY, as: "h1" },
+                      l().createElement(f.A, { code: "egstore.cart.my_cart" }),
                     )
                   : l().createElement(
-                      Ye.A.Heading,
+                      Ue.A.Heading,
                       { headingLevel: 1 },
-                      l().createElement(A.A, { code: "egstore.cart.my_cart" }),
+                      l().createElement(f.A, { code: "egstore.cart.my_cart" }),
                     );
             return l().createElement(
-              We.A,
+              qe.A,
               null,
               l().createElement(
-                Ze.A,
-                { className: Ge.container },
+                ze.A,
+                { className: We.container },
                 r &&
                   l().createElement(
                     "div",
-                    { className: Ge.warnings, "data-testid": "cart-warnings" },
+                    { className: We.warnings, "data-testid": "cart-warnings" },
                     r,
                   ),
                 l().createElement(
                   "div",
-                  { className: Ge.title },
+                  { className: We.title },
                   l().createElement(c, null),
                   n && n,
                 ),
-                l().createElement(ze, { renderMain: e, renderSidebar: t }),
+                l().createElement(Be, { renderMain: e, renderSidebar: t }),
               ),
             );
           };
-      var Xe = r(63008),
-        Qe = r(14492),
-        Ve = r(75745);
-      var Ke = r(44357);
-      const Fe = () => {
-          const e = (0, a.useSelector)(s.AP),
-            { cartItems: t } = (0, U.M)(),
+      var Ze = r(63008),
+        Ge = r(64886),
+        $e = r(75745);
+      var Xe = r(44357);
+      const Qe = () => {
+          const e = (0, o.useSelector)(i.AP),
+            { cartItems: t } = (0, H.M)(),
             r = (({ offers: e }) => {
-              const { data: t } = (0, Ve.X_)({
+              const { data: t } = (0, $e.X_)({
                 fields: [
-                  Ve.rO.countriesBlacklist,
-                  Ve.rO.countriesWhitelist,
-                  Ve.rO.id,
-                  Ve.rO.namespace,
+                  $e.rO.countriesBlacklist,
+                  $e.rO.countriesWhitelist,
+                  $e.rO.id,
+                  $e.rO.namespace,
                 ],
                 offers: e,
               });
               return t;
-            })({ offers: t ? (0, ue.e)(t) : [] });
+            })({ offers: t ? (0, ce.e)(t) : [] });
           return (0, n.useMemo)(
             () =>
               null == r
                 ? void 0
                 : r.reduce(
                     (t, r) =>
-                      (0, Ke.A)({
+                      (0, Xe.A)({
                         countriesBlacklist:
                           null == r ? void 0 : r.countriesBlacklist,
                         countriesWhitelist:
@@ -711,31 +708,31 @@
             [r],
           );
         },
-        Je = () => {
-          const e = (0, a.useSelector)(k.k),
-            t = (0, Ee.useHistory)(),
-            { dispatch: r } = (0, ye.B)(),
-            { cartValidation: o } = (0, se.r)(),
-            c = Fe() || [],
-            { actions: i, state: s } = (0, me.U)(),
+        Ve = () => {
+          const e = (0, o.useSelector)(P.k),
+            t = (0, ue.useHistory)(),
+            { dispatch: r } = (0, ve.B)(),
+            { cartValidation: a } = (0, ae.r)(),
+            c = Qe() || [],
+            { actions: i, state: s } = (0, ie.U)(),
             d = (0, n.useCallback)(() => {
               var e;
               t.push({ search: "" }),
                 "inactive" === s &&
                   (null == (e = null == i ? void 0 : i.inactive) || e.start(),
-                  r({ type: Ae.E.CLEAR_CHECKOUT_ERROR }));
+                  r({ type: Ee.E.CLEAR_CHECKOUT_ERROR }));
             }, [r, s, i]),
             {
               conflictingOffers: u = [],
               fullyOwnedOffers: m = [],
               missingPrerequisites: p = [],
-            } = o || {},
+            } = a || {},
             v = u.length + m.length + p.length + c.length;
           return e
             ? l().createElement(
-                Qe.$,
-                { disabled: v > 0, onClick: d, size: D.sp.XL, fullWidth: !0 },
-                l().createElement(A.A, {
+                Ge.$,
+                { disabled: v > 0, onClick: d, size: N.sp.XL, fullWidth: !0 },
+                l().createElement(f.A, {
                   code: "egstore.common.cta.check_out",
                 }),
               )
@@ -743,57 +740,57 @@
                 l().Fragment,
                 null,
                 l().createElement(
-                  Q.e6,
-                  { buttonWidth: $.Rj.BLOCK, disabled: v > 0, onClick: d },
-                  l().createElement(A.A, {
+                  Z.e6,
+                  { buttonWidth: W.Rj.BLOCK, disabled: v > 0, onClick: d },
+                  l().createElement(f.A, {
                     code: "egstore.common.cta.check_out",
                   }),
                 ),
               );
         },
-        et = ({
+        Ke = ({
           renderCouponDiscount: e,
           renderCTA: t,
           renderPrice: r,
           renderSaleDiscount: n,
-          renderMembershipDiscounts: o,
+          renderMembershipDiscounts: a,
           renderSubtotal: c,
           renderTaxes: i,
         }) => {
-          const s = (0, a.useSelector)(k.k),
+          const s = (0, o.useSelector)(P.k),
             d = ((e, t) => ({
-              wrapper: (0, y.AH)({ display: "flex", flexDirection: "column" }),
-              title: (0, y.AH)({
+              wrapper: (0, E.AH)({ display: "flex", flexDirection: "column" }),
+              title: (0, E.AH)({
                 marginBottom: 20,
-                [le.aq.mdOnly]: { marginBottom: 16 },
+                [ee.aq.mdOnly]: { marginBottom: 16 },
               }),
-              lineItem: (0, y.AH)({
+              lineItem: (0, E.AH)({
                 marginTop: 15,
                 ":empty": { display: "none" },
               }),
-              subtotal: (0, y.AH)({
+              subtotal: (0, E.AH)({
                 marginTop: 20,
                 borderTop: `1px solid ${t ? e.borderSubtle : e.accentOverlay}`,
                 paddingTop: 20,
               }),
-              cta: (0, y.AH)({
+              cta: (0, E.AH)({
                 marginTop: 20,
-                [le.aq.mdOnly]: { marginTop: 40 },
+                [ee.aq.mdOnly]: { marginTop: 40 },
               }),
-            }))((0, F.A)(), s),
+            }))((0, K.A)(), s),
             u = () =>
               s
                 ? l().createElement(
-                    N.E,
-                    { variant: D.ZJ.HLG, color: D.Uf.PRIMARY, as: "h2" },
-                    l().createElement(A.A, {
+                    O.E,
+                    { variant: N.ZJ.HLG, color: N.Uf.PRIMARY, as: "h2" },
+                    l().createElement(f.A, {
                       code: "egstore.cart.summary.title_games",
                     }),
                   )
                 : l().createElement(
-                    M.A.Text,
+                    S.A.Text,
                     null,
-                    l().createElement(A.A, {
+                    l().createElement(f.A, {
                       code: "egstore.cart.summary.title_games",
                     }),
                   );
@@ -817,8 +814,8 @@
                 { className: d.lineItem, "data-testid": "cart-summary-sale" },
                 n,
               ),
-            o &&
-              o.map((e) =>
+            a &&
+              a.map((e) =>
                 l().createElement(
                   "div",
                   { className: d.lineItem, key: e.props.membershipSandboxId },
@@ -850,45 +847,45 @@
               ),
           );
         };
-      var tt = r(96157);
-      const rt = ({ children: e }) =>
+      var Fe = r(96157);
+      const Je = ({ children: e }) =>
         l().createElement(
-          N.E,
-          { variant: D.ZJ.UISM, color: D.Uf.SECONDARY },
+          O.E,
+          { variant: N.ZJ.UISM, color: N.Uf.SECONDARY },
           e,
         );
-      var nt = r(29695),
-        lt = r(80230);
-      const at = (e, t, r) => {
-        if (!(0, Xe.A)(e) && !(0, Xe.A)(t) && r)
-          return (0, nt.vv)((0, lt.Cy)({ price: e, decimals: t }), r, {
+      var et = r(80230),
+        tt = r(29695);
+      const rt = (e, t, r) => {
+        if (!(0, Ze.A)(e) && !(0, Ze.A)(t) && r)
+          return (0, tt.vv)((0, et.Cy)({ price: e, decimals: t }), r, {
             maximumFractionDigits: t,
             minimumFractionDigits: t,
           });
       };
-      var ot = r(25837),
-        ct = r(56989),
-        it = Object.defineProperty,
-        st = Object.defineProperties,
-        dt = Object.getOwnPropertyDescriptors,
-        ut = Object.getOwnPropertySymbols,
-        mt = Object.prototype.hasOwnProperty,
-        pt = Object.prototype.propertyIsEnumerable,
-        vt = (e, t, r) =>
+      var nt = r(25837),
+        lt = r(56989),
+        at = Object.defineProperty,
+        ot = Object.defineProperties,
+        ct = Object.getOwnPropertyDescriptors,
+        it = Object.getOwnPropertySymbols,
+        st = Object.prototype.hasOwnProperty,
+        dt = Object.prototype.propertyIsEnumerable,
+        ut = (e, t, r) =>
           t in e
-            ? it(e, t, {
+            ? at(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        Et = (e, t) => {
-          for (var r in t || (t = {})) mt.call(t, r) && vt(e, r, t[r]);
-          if (ut) for (var r of ut(t)) pt.call(t, r) && vt(e, r, t[r]);
+        mt = (e, t) => {
+          for (var r in t || (t = {})) st.call(t, r) && ut(e, r, t[r]);
+          if (it) for (var r of it(t)) dt.call(t, r) && ut(e, r, t[r]);
           return e;
         };
-      const ft = (e) => {
+      const pt = (e) => {
           var t;
           return (
             (null == (t = null == e ? void 0 : e.PriceEngine)
@@ -896,16 +893,16 @@
               : t.salesEvent) || void 0
           );
         },
-        gt = ({ salesEventId: e, config: t }) => {
+        vt = ({ salesEventId: e, config: t }) => {
           var r;
-          const n = (0, tt.useLocalizationLocale)(),
+          const n = (0, Fe.useLocalizationLocale)(),
             l =
               Boolean(e) && (null == (r = null == t ? void 0 : t.enabled) || r),
-            a = (0, ot.RU)({
-              query: ct.g,
+            a = (0, nt.RU)({
+              query: lt.g,
               variables: { salesEventId: e, locale: n },
-              config: ((c = Et({}, t)), (i = { enabled: l }), st(c, dt(i))),
-              reducer: ft,
+              config: ((c = mt({}, t)), (i = { enabled: l }), ot(c, ct(i))),
+              reducer: pt,
             }),
             { data: o } = a;
           var c, i;
@@ -914,40 +911,40 @@
             query: ((e, t) => {
               var r = {};
               for (var n in e)
-                mt.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
-              if (null != e && ut)
-                for (var n of ut(e))
-                  t.indexOf(n) < 0 && pt.call(e, n) && (r[n] = e[n]);
+                st.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+              if (null != e && it)
+                for (var n of it(e))
+                  t.indexOf(n) < 0 && dt.call(e, n) && (r[n] = e[n]);
               return r;
             })(a, ["data"]),
           };
         };
-      var yt = r(66811),
-        At = r(40494),
-        ht = r(76957);
-      const bt = ({ to: e, children: t }) => {
+      var Et = r(66811),
+        ft = r(40494),
+        gt = r(76957);
+      const yt = ({ to: e, children: t }) => {
           const r = ((e) => ({
-            link: (0, y.AH)({
+            link: (0, E.AH)({
               color: e.textSecondary,
               textDecoration: "underline",
               "&:active": { color: e.textPrimary, textDecoration: "underline" },
               "&:hover": { color: e.textPrimary, textDecoration: "none" },
             }),
-          }))((0, _.E)());
+          }))((0, R.E)());
           return l().createElement(
-            b.A,
+            y.A,
             { to: e, className: r.link },
-            l().createElement(ht.A, { textLevel: V.qo.SECONDARY }, t),
+            l().createElement(gt.A, { textLevel: G.qo.SECONDARY }, t),
           );
         },
-        Ct = ({
+        At = ({
           discountString: e,
           isCouponActive: t,
           thresholdString: r,
           url: n,
         }) => {
-          const o = (0, a.useSelector)(k.k),
-            c = (0, tt.useLocalization)(),
+          const a = (0, o.useSelector)(P.k),
+            c = (0, Fe.useLocalization)(),
             i = c("egstore.coupons.use.discount_eligible_description", [e, r]),
             s = c("egstore.coupons.use.discount_ineligible_description", [
               e,
@@ -955,37 +952,37 @@
             ]),
             d = c("egstore.coupons.use.view_details"),
             u = () =>
-              o
+              a
                 ? l().createElement(
-                    rt,
+                    Je,
                     null,
                     t ? i : s,
                     " ",
-                    n && l().createElement(bt, { to: n }, d),
+                    n && l().createElement(yt, { to: n }, d),
                   )
                 : l().createElement(
-                    ht.A,
-                    { textLevel: V.qo.SECONDARY },
+                    gt.A,
+                    { textLevel: G.qo.SECONDARY },
                     t ? i : s,
                     " ",
-                    n && l().createElement(bt, { to: n }, d),
+                    n && l().createElement(yt, { to: n }, d),
                   );
           return l().createElement(u, null);
         },
-        It = ({
+        ht = ({
           currencyCode: e,
           decimals: t,
           isCouponActive: r,
           salesEventId: n,
         }) => {
           var a, o, c, i, s;
-          const d = (0, tt.useLocalizationLocale)(),
-            { salesEvent: u } = gt({
+          const d = (0, Fe.useLocalizationLocale)(),
+            { salesEvent: u } = vt({
               salesEventId: n,
               config: { enabled: Boolean(n) },
             });
           if (!u) return null;
-          const m = (0, At.gG)(u),
+          const m = (0, ft.gG)(u),
             p =
               null !=
               (o =
@@ -1002,13 +999,13 @@
                 ? o
                 : void 0,
             v = null != (c = null == p ? void 0 : p.minSalePrice) ? c : void 0,
-            E = at(v, t, e);
+            E = rt(v, t, e);
           if (!v || !E) return null;
-          if (u.voucherDiscountType === yt.G.DISCOUNT_AMOUNT) {
+          if (u.voucherDiscountType === Et.G.DISCOUNT_AMOUNT) {
             const n = null != (i = null == p ? void 0 : p.reward) ? i : void 0,
-              a = at(n, t, e);
+              a = rt(n, t, e);
             return n && a
-              ? l().createElement(Ct, {
+              ? l().createElement(At, {
                   discountString: a,
                   isCouponActive: r,
                   thresholdString: E,
@@ -1016,14 +1013,14 @@
                 })
               : null;
           }
-          if (u.voucherDiscountType === yt.G.DISCOUNT_PERCENTAGE) {
+          if (u.voucherDiscountType === Et.G.DISCOUNT_PERCENTAGE) {
             const e =
                 null != (s = null == p ? void 0 : p.discountPercentage)
                   ? s
                   : void 0,
-              t = e ? (0, nt.Ee)(100 - e, {}, d) : void 0;
+              t = e ? (0, tt.Ee)(100 - e, {}, d) : void 0;
             return t
-              ? l().createElement(Ct, {
+              ? l().createElement(At, {
                   discountString: t,
                   isCouponActive: r,
                   thresholdString: E,
@@ -1033,40 +1030,162 @@
           }
           return null;
         };
-      var Ot = r(14226);
-      const xt = {
-          container: (0, y.AH)({
+      var bt = r(14226);
+      const Ct = {
+          container: (0, E.AH)({
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
           }),
-          checkmark: (0, y.AH)({
-            color: Ot.mZ,
+          checkmark: (0, E.AH)({
+            color: bt.mZ,
             marginLeft: 8,
             marginRight: 8,
             width: 9,
             height: 9,
             flexShrink: 0,
             flexGrow: 0,
-            [le.aq.md]: { marginLeft: 7, marginRight: 7, width: 7, height: 7 },
-            [le.aq.xxl]: { width: 11, height: 11 },
+            [ee.aq.md]: { marginLeft: 7, marginRight: 7, width: 7, height: 7 },
+            [ee.aq.xxl]: { width: 11, height: 11 },
           }),
         },
-        St = () =>
-          l().createElement(O.A, {
-            icon: C.A.CHECK_MARK_THICK,
-            className: xt.checkmark,
-            size: S.A.CUSTOM,
+        It = () =>
+          l().createElement(b.A, {
+            icon: A.A.CHECK_MARK_THICK,
+            className: Ct.checkmark,
+            size: I.A.CUSTOM,
           }),
-        Nt = ({ couponName: e, isCouponActive: t }) =>
+        Ot = ({ couponName: e, isCouponActive: t }) =>
           l().createElement(
             "div",
-            { className: xt.container },
-            t && l().createElement(St, null),
-            l().createElement(ee.A, null, e),
-          );
-      var Pt = r(21884);
-      const Mt = r.n(Pt)()`
+            { className: Ct.container },
+            t && l().createElement(It, null),
+            l().createElement(X.A, null, e),
+          ),
+        xt = ({ children: e }) =>
+          l().createElement(
+            O.E,
+            { variant: N.ZJ.PSM, color: N.Uf.CONTRAST },
+            e,
+          ),
+        St = ({ children: e }) =>
+          l().createElement(
+            O.E,
+            { variant: N.ZJ.PSM, color: N.Uf.CONTRAST },
+            l().createElement("b", null, e),
+          ),
+        Nt =
+          ({ component: e = x.Ay }) =>
+          ({ currencyCode: t, decimals: r, price: a }) => {
+            const o = (0, n.useMemo)(() => rt(a, r, t), [a, t, r]);
+            return l().createElement(e, null, o);
+          },
+        Pt = Nt({ component: x.Ay }),
+        Mt = Nt({
+          component: ({ children: e }) =>
+            l().createElement(x.Ay, { weight: x.EU.BOLD }, e),
+        }),
+        Dt = Nt({
+          component: ({ children: e }) =>
+            l().createElement(gt.A, { textLevel: G.qo.PRIMARY }, e),
+        }),
+        kt = Nt({
+          component: ({ children: e }) => l().createElement(Je, null, e),
+        }),
+        wt = Nt({
+          component: ({ children: e }) => l().createElement(xt, null, e),
+        }),
+        Rt = Nt({
+          component: ({ children: e }) => l().createElement(St, null, e),
+        });
+      var Lt = r(58059),
+        Tt = r(55326);
+      const _t = {
+          listItem: (0, E.AH)({
+            marginBottom: 5,
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "nowrap",
+            justifyContent: "space-between",
+          }),
+          listPrice: (0, E.AH)((0, V.S$)(5), { flexShrink: 0 }),
+        },
+        jt = ({ currencyCode: e, decimals: t, price: r, title: n }) =>
+          l().createElement(
+            "li",
+            null,
+            l().createElement(
+              gt.A,
+              { textLevel: G.qo.PRIMARY },
+              l().createElement(
+                "div",
+                { className: _t.listItem },
+                l().createElement(Tt.A, { text: n, lines: 1 }),
+                l().createElement(
+                  "div",
+                  { className: _t.listPrice },
+                  l().createElement(Dt, {
+                    currencyCode: e,
+                    decimals: t,
+                    price: -r,
+                  }),
+                ),
+              ),
+            ),
+          ),
+        Ht = {
+          listItem: (0, E.AH)({
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "nowrap",
+            justifyContent: "space-between",
+          }),
+          listPrice: (0, E.AH)((0, V.S$)(5), { flexShrink: 0 }),
+        },
+        Bt = ({ currencyCode: e, decimals: t, price: r, title: n }) =>
+          l().createElement(
+            "li",
+            null,
+            l().createElement(
+              Je,
+              null,
+              l().createElement(
+                "div",
+                { className: Ht.listItem },
+                l().createElement(Tt.A, { text: n, lines: 1 }),
+                l().createElement(
+                  "div",
+                  { className: Ht.listPrice },
+                  l().createElement(kt, {
+                    currencyCode: e,
+                    decimals: t,
+                    price: -r,
+                  }),
+                ),
+              ),
+            ),
+          ),
+        qt = ({
+          currencyCode: e,
+          decimals: t,
+          offerId: r,
+          price: n,
+          sandboxId: a,
+        }) => {
+          const c = (0, o.useSelector)(P.k),
+            { title: i } = (0, Lt.A)({ offerId: r, sandboxId: a }),
+            s = c ? Bt : jt;
+          return i && e && n && !(0, Ze.A)(t)
+            ? l().createElement(s, {
+                title: i,
+                decimals: t,
+                currencyCode: e,
+                price: n,
+              })
+            : null;
+        };
+      var Ut = r(21884);
+      const zt = r.n(Ut)()`
     query getBulkOffersSubtotal($lineOffers: [NsOffersLineOfferReq]!, $country: String!, $merchantGroup: String = "EGS_MKT", $voucherCode: String = null) {
   PriceEngine {
     bulkNsOffersPrice(
@@ -1112,27 +1231,27 @@
   }
 }
     `;
-      var Dt = Object.defineProperty,
-        kt = Object.defineProperties,
-        wt = Object.getOwnPropertyDescriptors,
-        Rt = Object.getOwnPropertySymbols,
-        Lt = Object.prototype.hasOwnProperty,
-        Tt = Object.prototype.propertyIsEnumerable,
-        _t = (e, t, r) =>
+      var Wt = Object.defineProperty,
+        Yt = Object.defineProperties,
+        Zt = Object.getOwnPropertyDescriptors,
+        Gt = Object.getOwnPropertySymbols,
+        $t = Object.prototype.hasOwnProperty,
+        Xt = Object.prototype.propertyIsEnumerable,
+        Qt = (e, t, r) =>
           t in e
-            ? Dt(e, t, {
+            ? Wt(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        jt = (e, t) => {
-          for (var r in t || (t = {})) Lt.call(t, r) && _t(e, r, t[r]);
-          if (Rt) for (var r of Rt(t)) Tt.call(t, r) && _t(e, r, t[r]);
+        Vt = (e, t) => {
+          for (var r in t || (t = {})) $t.call(t, r) && Qt(e, r, t[r]);
+          if (Gt) for (var r of Gt(t)) Xt.call(t, r) && Qt(e, r, t[r]);
           return e;
         };
-      const Ht = (e) => {
+      const Kt = (e) => {
           var t;
           return (
             (null == (t = null == e ? void 0 : e.PriceEngine)
@@ -1140,7 +1259,7 @@
               : t.bulkNsOffersPrice) || void 0
           );
         },
-        Bt = ({ queryName: e, queryId: t }, r) => {
+        Ft = ({ queryName: e, queryId: t }, r) => {
           const n = (null == r ? void 0 : r.lineOffers) || [];
           return [
             e,
@@ -1150,41 +1269,41 @@
             t,
           ];
         },
-        qt = ({ lineOffers: e, voucherCode: t }, r) => {
+        Jt = ({ lineOffers: e, voucherCode: t }, r) => {
           var n;
-          const l = (0, a.useSelector)(s.n9),
-            o = (0, a.useSelector)(s.AP),
+          const l = (0, o.useSelector)(i.n9),
+            a = (0, o.useSelector)(i.AP),
             c =
               Boolean(null == e ? void 0 : e.length) &&
               Boolean(l) &&
               (null == (n = null == r ? void 0 : r.enabled) || n),
-            i = (0, ot.RU)({
-              query: Mt,
-              variables: { country: o, lineOffers: e, voucherCode: t },
-              reducer: Ht,
-              config: ((u = jt({}, r)), (m = { enabled: c }), kt(u, wt(m))),
-              queryKeyFn: Bt,
+            s = (0, nt.RU)({
+              query: zt,
+              variables: { country: a, lineOffers: e, voucherCode: t },
+              reducer: Kt,
+              config: ((u = Vt({}, r)), (m = { enabled: c }), Yt(u, Zt(m))),
+              queryKeyFn: Ft,
             }),
-            { data: d } = i;
+            { data: d } = s;
           var u, m;
           return {
             bulkOffersPrice: d,
             query: ((e, t) => {
               var r = {};
               for (var n in e)
-                Lt.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
-              if (null != e && Rt)
-                for (var n of Rt(e))
-                  t.indexOf(n) < 0 && Tt.call(e, n) && (r[n] = e[n]);
+                $t.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+              if (null != e && Gt)
+                for (var n of Gt(e))
+                  t.indexOf(n) < 0 && Xt.call(e, n) && (r[n] = e[n]);
               return r;
-            })(i, ["data"]),
+            })(s, ["data"]),
           };
         };
-      var Ut = Object.getOwnPropertySymbols,
-        zt = Object.prototype.hasOwnProperty,
-        Wt = Object.prototype.propertyIsEnumerable;
-      const Yt = ({ voucherCode: e } = {}) => {
-          const { cartItems: t } = (0, U.M)(),
+      var er = Object.getOwnPropertySymbols,
+        tr = Object.prototype.hasOwnProperty,
+        rr = Object.prototype.propertyIsEnumerable;
+      const nr = ({ voucherCode: e } = {}) => {
+          const { cartItems: t } = (0, H.M)(),
             r = (0, n.useMemo)(
               () =>
                 ((e) => {
@@ -1201,163 +1320,41 @@
                 })(t),
               [t],
             ),
-            l = qt({ lineOffers: r || [], voucherCode: e }),
+            l = Jt({ lineOffers: r || [], voucherCode: e }),
             { bulkOffersPrice: a } = l;
           return {
             cartSubtotal: a,
             query: ((e, t) => {
               var r = {};
               for (var n in e)
-                zt.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
-              if (null != e && Ut)
-                for (var n of Ut(e))
-                  t.indexOf(n) < 0 && Wt.call(e, n) && (r[n] = e[n]);
+                tr.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+              if (null != e && er)
+                for (var n of er(e))
+                  t.indexOf(n) < 0 && rr.call(e, n) && (r[n] = e[n]);
               return r;
             })(l, ["bulkOffersPrice"]),
           };
         },
-        Zt = ({ children: e }) =>
-          l().createElement(
-            N.E,
-            { variant: D.ZJ.PSM, color: D.Uf.CONTRAST },
-            e,
-          ),
-        Gt = ({ children: e }) =>
-          l().createElement(
-            N.E,
-            { variant: D.ZJ.PSM, color: D.Uf.CONTRAST },
-            l().createElement("b", null, e),
-          ),
-        $t =
-          ({ component: e = P.Ay }) =>
-          ({ currencyCode: t, decimals: r, price: a }) => {
-            const o = (0, n.useMemo)(() => at(a, r, t), [a, t, r]);
-            return l().createElement(e, null, o);
-          },
-        Xt = $t({ component: P.Ay }),
-        Qt = $t({
-          component: ({ children: e }) =>
-            l().createElement(P.Ay, { weight: P.EU.BOLD }, e),
-        }),
-        Vt = $t({
-          component: ({ children: e }) =>
-            l().createElement(ht.A, { textLevel: V.qo.PRIMARY }, e),
-        }),
-        Kt = $t({
-          component: ({ children: e }) => l().createElement(rt, null, e),
-        }),
-        Ft = $t({
-          component: ({ children: e }) => l().createElement(Zt, null, e),
-        }),
-        Jt = $t({
-          component: ({ children: e }) => l().createElement(Gt, null, e),
-        });
-      var er = r(58059),
-        tr = r(55326);
-      const rr = {
-          listItem: (0, y.AH)({
-            marginBottom: 5,
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "nowrap",
-            justifyContent: "space-between",
-          }),
-          listPrice: (0, y.AH)((0, te.S$)(5), { flexShrink: 0 }),
-        },
-        nr = ({ currencyCode: e, decimals: t, price: r, title: n }) =>
-          l().createElement(
-            "li",
-            null,
-            l().createElement(
-              ht.A,
-              { textLevel: V.qo.PRIMARY },
-              l().createElement(
-                "div",
-                { className: rr.listItem },
-                l().createElement(tr.A, { text: n, lines: 1 }),
-                l().createElement(
-                  "div",
-                  { className: rr.listPrice },
-                  l().createElement(Vt, {
-                    currencyCode: e,
-                    decimals: t,
-                    price: -r,
-                  }),
-                ),
-              ),
-            ),
-          ),
         lr = {
-          listItem: (0, y.AH)({
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "nowrap",
-            justifyContent: "space-between",
-          }),
-          listPrice: (0, y.AH)((0, te.S$)(5), { flexShrink: 0 }),
-        },
-        ar = ({ currencyCode: e, decimals: t, price: r, title: n }) =>
-          l().createElement(
-            "li",
-            null,
-            l().createElement(
-              rt,
-              null,
-              l().createElement(
-                "div",
-                { className: lr.listItem },
-                l().createElement(tr.A, { text: n, lines: 1 }),
-                l().createElement(
-                  "div",
-                  { className: lr.listPrice },
-                  l().createElement(Kt, {
-                    currencyCode: e,
-                    decimals: t,
-                    price: -r,
-                  }),
-                ),
-              ),
-            ),
-          ),
-        or = ({
-          currencyCode: e,
-          decimals: t,
-          offerId: r,
-          price: n,
-          sandboxId: o,
-        }) => {
-          const c = (0, a.useSelector)(k.k),
-            { title: i } = (0, er.A)({ offerId: r, sandboxId: o }),
-            s = c ? ar : nr;
-          return i && e && n && !(0, Xe.A)(t)
-            ? l().createElement(s, {
-                title: i,
-                decimals: t,
-                currencyCode: e,
-                price: n,
-              })
-            : null;
-        },
-        cr = {
-          detailsList: (0, y.AH)({
+          detailsList: (0, E.AH)({
             listStyleType: "none",
             padding: 0,
             margin: 0,
           }),
         },
-        ir = ({ children: e }) => {
-          const t = (0, tt.useLocalization)()(
+        ar = ({ children: e }) => {
+          const t = (0, Fe.useLocalization)()(
             "egstore.coupons.use.aria.discount_list_description",
           );
           return l().createElement(
             "ul",
-            { className: cr.detailsList, "aria-label": t },
+            { className: lr.detailsList, "aria-label": t },
             e,
           );
         },
-        sr = ({ couponCode: e }) => {
+        or = ({ couponCode: e }) => {
           var t, r, n, a, o;
-          const { cartSubtotal: c } = Yt({ voucherCode: e }),
+          const { cartSubtotal: c } = nr({ voucherCode: e }),
             i =
               null !=
               (r =
@@ -1393,12 +1390,12 @@
                       : e;
                   }, []);
             })(c);
-          return d.length && i && !(0, Xe.A)(s)
+          return d.length && i && !(0, Ze.A)(s)
             ? l().createElement(
-                ir,
+                ar,
                 null,
                 d.map((e) =>
-                  l().createElement(or, {
+                  l().createElement(qt, {
                     key: e.offerId,
                     currencyCode: i,
                     decimals: s,
@@ -1410,62 +1407,62 @@
               )
             : null;
         };
-      var dr,
-        ur = r(85727),
-        mr = r(61260),
-        pr = r.n(mr);
-      const vr = null != (dr = (0, ur.OX)(pr())) ? dr : "",
-        Er = {
-          container: (0, y.AH)({
+      var cr,
+        ir = r(85727),
+        sr = r(61260),
+        dr = r.n(sr);
+      const ur = null != (cr = (0, ir.OX)(dr())) ? cr : "",
+        mr = {
+          container: (0, E.AH)({
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
           }),
-          checkmark: (0, y.AH)({ height: 20, width: 20 }),
+          checkmark: (0, E.AH)({ height: 20, width: 20 }),
         },
-        fr = () =>
-          l().createElement(O.A, {
-            icon: vr,
-            className: Er.checkmark,
-            size: S.A.CUSTOM,
+        pr = () =>
+          l().createElement(b.A, {
+            icon: ur,
+            className: mr.checkmark,
+            size: I.A.CUSTOM,
           }),
-        gr = ({ couponName: e, isCouponActive: t }) =>
+        vr = ({ couponName: e, isCouponActive: t }) =>
           l().createElement(
             "div",
-            { className: Er.container },
+            { className: mr.container },
             l().createElement(
-              N.E,
-              { variant: D.ZJ.PSM, color: D.Uf.PRIMARY },
+              O.E,
+              { variant: N.ZJ.PSM, color: N.Uf.PRIMARY },
               l().createElement("b", null, e),
             ),
-            t && l().createElement(fr, null),
+            t && l().createElement(pr, null),
           );
-      var yr = r(68052),
-        Ar = r(66713);
-      const hr = ({ renderHeader: e, renderDescription: t, renderList: r }) => {
-          const n = (0, a.useSelector)(k.k),
-            o = ((e, t) => ({
-              container: (0, y.AH)({
-                backgroundColor: t ? ae.Lh.elevated.high.default : e.level1,
+      var Er = r(68052),
+        fr = r(66713);
+      const gr = ({ renderHeader: e, renderDescription: t, renderList: r }) => {
+          const n = (0, o.useSelector)(P.k),
+            a = ((e, t) => ({
+              container: (0, E.AH)({
+                backgroundColor: t ? te.Lh.elevated.high.default : e.level1,
                 padding: 10,
-                borderRadius: J.Vq,
+                borderRadius: Q.Vq,
               }),
-              list: (0, y.AH)({ marginTop: 15, ":empty": { display: "none" } }),
-              description: (0, y.AH)({ marginTop: 2 }),
-            }))((0, _.E)(), n);
+              list: (0, E.AH)({ marginTop: 15, ":empty": { display: "none" } }),
+              description: (0, E.AH)({ marginTop: 2 }),
+            }))((0, R.E)(), n);
           return l().createElement(
             "div",
-            { className: o.container },
+            { className: a.container },
             e,
-            l().createElement("div", { className: o.description }, t),
-            l().createElement("div", { className: o.list }, r),
+            l().createElement("div", { className: a.description }, t),
+            l().createElement("div", { className: a.list }, r),
           );
         },
-        br = ({ couponCode: e }) => {
-          var t, r, n, o, c, i, s, d, u, m;
-          const p = (0, a.useSelector)(k.k),
-            { cartSubtotal: v } = Yt({ voucherCode: e }),
-            { coupons: E } = (0, yr.N)(),
+        yr = ({ couponCode: e }) => {
+          var t, r, n, a, c, i, s, d, u, m;
+          const p = (0, o.useSelector)(P.k),
+            { cartSubtotal: v } = nr({ voucherCode: e }),
+            { coupons: E } = (0, Er.N)(),
             f =
               null !=
               (t =
@@ -1484,9 +1481,9 @@
             A =
               null !=
               (c =
-                null == (o = null == f ? void 0 : f.salesEvent)
+                null == (a = null == f ? void 0 : f.salesEvent)
                   ? void 0
-                  : o.voucherName)
+                  : a.voucherName)
                 ? c
                 : "",
             h =
@@ -1509,77 +1506,78 @@
                   : u.decimals)
                 ? m
                 : void 0,
-            C = p ? gr : Nt,
-            I = (0, Ar.P)(C, { couponName: A, isCouponActive: y }),
-            O = (0, Ar.P)(sr, { couponCode: e }),
-            x = (0, Ar.ZX)(
-              It,
+            C = p ? vr : Ot,
+            I = (0, fr.P)(C, { couponName: A, isCouponActive: y }),
+            O = (0, fr.P)(or, { couponCode: e }),
+            x = (0, fr.ZX)(
+              ht,
               {
                 currencyCode: h,
                 decimals: b,
                 isCouponActive: y,
                 salesEventId: g,
               },
-              Boolean(g) && Boolean(h) && !(0, Xe.A)(b),
+              Boolean(g) && Boolean(h) && !(0, Ze.A)(b),
             );
-          return l().createElement(hr, {
+          return l().createElement(gr, {
             renderHeader: null == I ? void 0 : I(),
             renderDescription: null == x ? void 0 : x(),
             renderList: null == O ? void 0 : O(),
           });
         },
-        Cr = {
-          wrapper: (0, y.AH)({
+        Ar = {
+          wrapper: (0, E.AH)({
             display: "flex",
             justifyContent: "space-between",
           }),
-          title: (0, y.AH)((0, te.hz)(20)),
+          title: (0, E.AH)((0, V.hz)(20)),
         },
-        Ir = ({ renderTitle: e, renderValue: t }) =>
+        hr = ({ renderTitle: e, renderValue: t }) =>
           l().createElement(
             "div",
-            { className: Cr.wrapper },
-            l().createElement("div", { className: Cr.title }, e),
+            { className: Ar.wrapper },
+            l().createElement("div", { className: Ar.title }, e),
             t,
-          ),
-        Or = ({
+          );
+      var br = r(27954);
+      const Cr = ({
           code: e,
           codeArgs: t,
           textLevel: r,
-          textWeight: n = P.EU.NORMAL,
+          textWeight: n = x.EU.NORMAL,
         }) => {
-          const o = (0, a.useSelector)(k.k),
+          const a = (0, o.useSelector)(P.k),
             c = () =>
-              o
+              a
                 ? l().createElement(
-                    Zt,
+                    xt,
                     null,
-                    l().createElement(i.QB, { code: e, args: t }),
+                    l().createElement(br.QB, { code: e, args: t }),
                   )
                 : l().createElement(
-                    P.Ay,
+                    x.Ay,
                     { weight: n, textLevel: r },
-                    l().createElement(i.QB, { code: e, args: t }),
+                    l().createElement(br.QB, { code: e, args: t }),
                   );
           return l().createElement(c, null);
         },
-        xr = ({ code: e, textLevel: t }) => {
-          const r = (0, a.useSelector)(k.k),
+        Ir = ({ code: e, textLevel: t }) => {
+          const r = (0, o.useSelector)(P.k),
             n = () =>
               r
                 ? l().createElement(
-                    Gt,
+                    St,
                     null,
-                    l().createElement(i.QB, { code: e }),
+                    l().createElement(br.QB, { code: e }),
                   )
-                : l().createElement(Or, {
+                : l().createElement(Cr, {
                     code: e,
                     textLevel: t,
-                    textWeight: P.EU.BOLD,
+                    textWeight: x.EU.BOLD,
                   });
           return l().createElement(n, null);
         },
-        Sr =
+        Or =
           ({ labelComponent: e, priceComponent: t }) =>
           ({
             currencyCode: r,
@@ -1588,7 +1586,7 @@
             messageArgs: o,
             price: c,
           }) =>
-            l().createElement(Ir, {
+            l().createElement(hr, {
               renderTitle: l().createElement(e, { code: a, codeArgs: o }),
               renderValue: l().createElement(t, {
                 currencyCode: r,
@@ -1596,12 +1594,12 @@
                 price: c,
               }),
             }),
-        Nr = Sr({ labelComponent: Or, priceComponent: Xt }),
-        Pr = Sr({ labelComponent: xr, priceComponent: Qt }),
-        Mr = Sr({ labelComponent: Or, priceComponent: Ft }),
-        Dr = Sr({ labelComponent: xr, priceComponent: Jt }),
-        kr = { couponDetails: (0, y.AH)({ marginTop: 10 }) },
-        wr = ({ renderLineItem: e, renderDetails: t }) =>
+        xr = Or({ labelComponent: Cr, priceComponent: Pt }),
+        Sr = Or({ labelComponent: Ir, priceComponent: Mt }),
+        Nr = Or({ labelComponent: Cr, priceComponent: wt }),
+        Pr = Or({ labelComponent: Ir, priceComponent: Rt }),
+        Mr = { couponDetails: (0, E.AH)({ marginTop: 10 }) },
+        Dr = ({ renderLineItem: e, renderDetails: t }) =>
           l().createElement(
             "div",
             null,
@@ -1610,17 +1608,17 @@
               l().createElement(
                 "div",
                 {
-                  className: kr.couponDetails,
+                  className: Mr.couponDetails,
                   "data-testid": "coupon-details",
                 },
                 t,
               ),
           ),
-        Rr = ({ couponCode: e, currencyCode: t, decimals: r, price: n }) => {
-          const o = (0, a.useSelector)(k.k),
-            c = (0, a.useSelector)(d.iR),
-            i = o ? Mr : Nr,
-            s = (0, Ar.ZX)(
+        kr = ({ couponCode: e, currencyCode: t, decimals: r, price: n }) => {
+          const a = (0, o.useSelector)(P.k),
+            c = (0, o.useSelector)(s.iR),
+            i = a ? Nr : xr,
+            d = (0, fr.ZX)(
               i,
               {
                 currencyCode: t,
@@ -1630,40 +1628,40 @@
               },
               n > 0 || c,
             ),
-            u = (0, Ar.ZX)(br, { couponCode: e }, c);
-          return s
-            ? l().createElement(wr, {
-                renderLineItem: s(),
+            u = (0, fr.ZX)(yr, { couponCode: e }, c);
+          return d
+            ? l().createElement(Dr, {
+                renderLineItem: d(),
                 renderDetails: null == u ? void 0 : u(),
               })
             : null;
         },
-        Lr = () =>
-          l().createElement(Ir, {
-            renderTitle: l().createElement(Or, {
+        wr = () =>
+          l().createElement(hr, {
+            renderTitle: l().createElement(Cr, {
               code: "egstore.cart.summary.subtotal",
-              textWeight: P.EU.BOLD,
+              textWeight: x.EU.BOLD,
             }),
-            renderValue: l().createElement(Or, {
-              textLevel: V.qo.SECONDARY,
+            renderValue: l().createElement(Cr, {
+              textLevel: G.qo.SECONDARY,
               code: "egstore.cart.summary.taxes_calculation",
             }),
           });
-      var Tr = r(42081),
-        _r = r(83904);
-      const jr = ({
+      var Rr = r(42081),
+        Lr = r(83904);
+      const Tr = ({
           currencyCode: e,
           decimals: t,
           price: r,
           membershipSandboxId: n,
         }) => {
-          const o = (0, a.useSelector)(k.k),
-            { parentOffer: c } = (0, _r.t)(
-              { parentSandboxId: n, store: Tr.A.EGS },
+          const a = (0, o.useSelector)(P.k),
+            { parentOffer: c } = (0, Lr.t)(
+              { parentSandboxId: n, store: Rr.A.EGS },
               { enabled: Boolean(n) },
             ),
             i = null == c ? void 0 : c.title,
-            s = o ? Mr : Nr;
+            s = a ? Nr : xr;
           return r > 0
             ? l().createElement(s, {
                 currencyCode: e,
@@ -1674,45 +1672,45 @@
               })
             : null;
         },
-        Hr = { taxesMsg: (0, y.AH)((0, te.Jh)("right")) },
-        Br = () =>
+        _r = { taxesMsg: (0, E.AH)((0, V.Jh)("right")) },
+        jr = () =>
           l().createElement(
             "div",
-            { className: Hr.taxesMsg },
-            l().createElement(Or, {
-              textLevel: V.qo.SECONDARY,
+            { className: _r.taxesMsg },
+            l().createElement(Cr, {
+              textLevel: G.qo.SECONDARY,
               code: "egstore.cart.summary.taxes_calculation",
             }),
           ),
-        qr = () =>
-          l().createElement(Ir, {
-            renderTitle: l().createElement(Or, {
+        Hr = () =>
+          l().createElement(hr, {
+            renderTitle: l().createElement(Cr, {
               code: "egstore.cart.summary.taxes",
             }),
-            renderValue: l().createElement(Br, null),
+            renderValue: l().createElement(jr, null),
           });
-      var Ur = r(38365);
-      const zr = ({
+      var Br = r(38365);
+      const qr = ({
           couponCode: e,
           couponDiscount: t,
           currencyCode: r,
           decimals: n,
-          membershipPromotions: o,
+          membershipPromotions: a,
           originalPrice: c,
           saleDiscount: i,
-          subtotalPrice: s,
+          subtotalPrice: d,
         }) => {
-          const u = (0, a.useSelector)(k.k),
-            m = (0, a.useSelector)(d.Us),
-            p = u ? Mr : Nr,
-            v = (0, Ar.P)(p, {
+          const u = (0, o.useSelector)(P.k),
+            m = (0, o.useSelector)(s.Us),
+            p = u ? Nr : xr,
+            v = (0, fr.P)(p, {
               currencyCode: r,
               decimals: n,
               messageCode: "egstore.cart.summary.price",
               price: c,
             }),
-            E = u ? Mr : Nr,
-            f = (0, Ar.ZX)(
+            E = u ? Nr : xr,
+            f = (0, fr.ZX)(
               E,
               {
                 currencyCode: r,
@@ -1723,14 +1721,14 @@
               i > 0,
             ),
             g =
-              null == o
+              null == a
                 ? void 0
-                : o.map((e) => {
+                : a.map((e) => {
                     var t;
                     const [a] = (null == (t = e.membershipId)
                       ? void 0
                       : t.split(":")) || [void 0];
-                    return l().createElement(jr, {
+                    return l().createElement(Tr, {
                       currencyCode: r,
                       decimals: n,
                       key: e.membershipId,
@@ -1738,54 +1736,54 @@
                       price: e.amount,
                     });
                   }),
-            y = (0, Ar.ZX)(
-              Rr,
+            y = (0, fr.ZX)(
+              kr,
               { currencyCode: r, decimals: n, price: t, couponCode: e },
               m && Boolean(e),
             ),
-            A = u ? Dr : Pr,
-            h = (0, Ar.P)(A, {
+            A = u ? Pr : Sr,
+            h = (0, fr.P)(A, {
               currencyCode: r,
               decimals: n,
               messageCode: "egstore.cart.summary.subtotal",
-              price: s,
+              price: d,
             });
-          return l().createElement(et, {
+          return l().createElement(Ke, {
             renderCouponDiscount: y && y(),
-            renderCTA: l().createElement(Je, null),
+            renderCTA: l().createElement(Ve, null),
             renderMembershipDiscounts: g || void 0,
             renderPrice: v && v(),
             renderSaleDiscount: f && f(),
             renderSubtotal: h && h(),
-            renderTaxes: l().createElement(qr, null),
+            renderTaxes: l().createElement(Hr, null),
           });
         },
-        Wr = () => l().createElement(Ur.EA, { height: 20 }),
-        Yr = () =>
-          l().createElement(et, {
-            renderCTA: l().createElement(Ur.EA, { height: 50 }),
-            renderPrice: l().createElement(Wr, null),
-            renderSubtotal: l().createElement(Wr, null),
-            renderTaxes: l().createElement(Wr, null),
+        Ur = () => l().createElement(Br.EA, { height: 20 }),
+        zr = () =>
+          l().createElement(Ke, {
+            renderCTA: l().createElement(Br.EA, { height: 50 }),
+            renderPrice: l().createElement(Ur, null),
+            renderSubtotal: l().createElement(Ur, null),
+            renderTaxes: l().createElement(Ur, null),
           }),
-        Zr = () =>
-          l().createElement(et, {
-            renderSubtotal: l().createElement(Lr, null),
-            renderCTA: l().createElement(Je, null),
+        Wr = () =>
+          l().createElement(Ke, {
+            renderSubtotal: l().createElement(wr, null),
+            renderCTA: l().createElement(Ve, null),
           });
-      var Gr = r(76070);
-      const $r = () => {
-          var e, t, r, o, c, i, s, u, m, p;
-          const { dispatch: v } = (0, ye.B)(),
-            E = (0, a.useSelector)(d.Us),
-            { coupons: f } = (0, yr.N)({
+      var Yr = r(76070);
+      const Zr = () => {
+          var e, t, r, a, c, i, d, u, m, p;
+          const { dispatch: v } = (0, ve.B)(),
+            E = (0, o.useSelector)(s.Us),
+            { coupons: f } = (0, Er.N)({
               enabled: E,
               refetchOnMount: "always",
             }),
             g =
               (null == (e = null == f ? void 0 : f[0]) ? void 0 : e.code) ||
               void 0,
-            { cartSubtotal: y } = Yt({ voucherCode: g }),
+            { cartSubtotal: y } = nr({ voucherCode: g }),
             A =
               null ==
               (r =
@@ -1795,11 +1793,11 @@
                 ? void 0
                 : r.filter(
                     (e) =>
-                      (null == e ? void 0 : e.type) === Gr.Q.MEMBERSHIP_RULE,
+                      (null == e ? void 0 : e.type) === Yr.Q.MEMBERSHIP_RULE,
                   ),
             h =
-              null != (o = null == y ? void 0 : y.totalPrice.currencyCode)
-                ? o
+              null != (a = null == y ? void 0 : y.totalPrice.currencyCode)
+                ? a
                 : void 0,
             b =
               null !=
@@ -1810,8 +1808,8 @@
                 ? i
                 : void 0,
             C =
-              null != (s = null == y ? void 0 : y.totalPrice.originalPrice)
-                ? s
+              null != (d = null == y ? void 0 : y.totalPrice.originalPrice)
+                ? d
                 : void 0,
             I =
               null != (u = null == y ? void 0 : y.totalPrice.discount) ? u : 0,
@@ -1829,13 +1827,13 @@
               E &&
                 S &&
                 v({
-                  type: Ae.E.SET_VOUCHER_WARNINGS,
+                  type: Ee.E.SET_VOUCHER_WARNINGS,
                   payload: { lineOffers: S },
                 });
             }, [S, E]),
-            (0, Xe.A)(C) || (0, Xe.A)(x) || !h || (0, Xe.A)(b)
-              ? l().createElement(Zr, null)
-              : l().createElement(zr, {
+            (0, Ze.A)(C) || (0, Ze.A)(x) || !h || (0, Ze.A)(b)
+              ? l().createElement(Wr, null)
+              : l().createElement(qr, {
                   couponCode: g,
                   couponDiscount: O,
                   currencyCode: h,
@@ -1847,87 +1845,87 @@
                 })
           );
         },
-        Xr = () =>
+        Gr = () =>
           l().createElement(
-            f.tY,
-            { fallback: l().createElement(Yr, null) },
-            l().createElement($r, null),
+            p.tY,
+            { fallback: l().createElement(zr, null) },
+            l().createElement(Zr, null),
           );
-      var Qr = r(35294),
-        Vr = r(49317),
-        Kr = r(14863),
-        Fr = r(35658),
-        Jr = r(69243),
-        en = r(22792),
-        tn = r(52531),
-        rn = r(68641),
-        nn = r(54303),
-        ln = r(4446),
-        an = r(74819),
-        on = Object.defineProperty,
-        cn = Object.defineProperties,
-        sn = Object.getOwnPropertyDescriptors,
-        dn = Object.getOwnPropertySymbols,
-        un = Object.prototype.hasOwnProperty,
-        mn = Object.prototype.propertyIsEnumerable,
-        pn = (e, t, r) =>
+      var $r = r(35294),
+        Xr = r(49317),
+        Qr = r(14863),
+        Vr = r(35658),
+        Kr = r(69243),
+        Fr = r(22792),
+        Jr = r(52531),
+        en = r(68641),
+        tn = r(54303),
+        rn = r(4446),
+        nn = r(74819),
+        ln = Object.defineProperty,
+        an = Object.defineProperties,
+        on = Object.getOwnPropertyDescriptors,
+        cn = Object.getOwnPropertySymbols,
+        sn = Object.prototype.hasOwnProperty,
+        dn = Object.prototype.propertyIsEnumerable,
+        un = (e, t, r) =>
           t in e
-            ? on(e, t, {
+            ? ln(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        vn = (e, t) => {
-          for (var r in t || (t = {})) un.call(t, r) && pn(e, r, t[r]);
-          if (dn) for (var r of dn(t)) mn.call(t, r) && pn(e, r, t[r]);
+        mn = (e, t) => {
+          for (var r in t || (t = {})) sn.call(t, r) && un(e, r, t[r]);
+          if (cn) for (var r of cn(t)) dn.call(t, r) && un(e, r, t[r]);
           return e;
         };
-      const En = ({ onClick: e, className: t }) =>
+      const pn = ({ onClick: e, className: t }) =>
           l().createElement(
             "div",
             { className: t },
             l().createElement(
-              ln.K,
+              rn.K,
               { onClick: e },
-              l().createElement(O.A, {
-                icon: C.A.CLOSE_THIN,
-                size: S.o.XXXSMALL,
+              l().createElement(b.A, {
+                icon: A.A.CLOSE_THIN,
+                size: I.o.XXXSMALL,
               }),
             ),
           ),
-        fn = (
+        vn = (
           ({ renderIcon: e }) =>
-          ({ children: t, onClose: r, renderCTA: n, type: o = rn.v.INFO }) => {
-            const c = (0, a.useSelector)(k.k),
+          ({ children: t, onClose: r, renderCTA: n, type: a = en.v.INFO }) => {
+            const c = (0, o.useSelector)(P.k),
               i = Boolean(e),
               s = ((e, t, r, n) => {
                 const l =
-                    t === rn.v.ERROR
-                      ? { color: Ot.E4, borderRadius: "100%" }
-                      : t === rn.v.WARNING
-                        ? { color: Ot.zK }
+                    t === en.v.ERROR
+                      ? { color: bt.E4, borderRadius: "100%" }
+                      : t === en.v.WARNING
+                        ? { color: bt.zK }
                         : {},
-                  a = r ? (0, te.S$)(50) : {};
+                  a = r ? (0, V.S$)(50) : {};
                 return {
-                  container: (0, y.AH)({
-                    borderRadius: n ? ae.pu.six : J.Vq,
+                  container: (0, E.AH)({
+                    borderRadius: n ? te.pu.six : Q.Vq,
                     display: "flex",
                     flexDirection: "column",
                     padding: "20px 15px",
                     background: e.level2,
-                    [le.aq.sm]: { flexDirection: "row" },
+                    [ee.aq.sm]: { flexDirection: "row" },
                   }),
-                  main: (0, y.AH)({
+                  main: (0, E.AH)({
                     display: "flex",
                     flexDirection: "row",
                     alignItems: "baseline",
                     width: "100%",
                   }),
-                  icon: (0, y.AH)(
-                    (0, te.hz)(10),
-                    vn(
+                  icon: (0, E.AH)(
+                    (0, V.hz)(10),
+                    mn(
                       {
                         display: "flex",
                         width: 40,
@@ -1940,38 +1938,38 @@
                       l,
                     ),
                   ),
-                  message: (0, y.AH)({ flexGrow: 1, alignSelf: "center" }),
-                  close: (0, y.AH)((0, te.S$)(10), {
+                  message: (0, E.AH)({ flexGrow: 1, alignSelf: "center" }),
+                  close: (0, E.AH)((0, V.S$)(10), {
                     width: 44,
                     height: 44,
                     color: e.textPrimary,
                     "&:hover": { color: e.textSecondary },
                     "&:focus": {
                       border: `1px solid ${e.accent}`,
-                      borderRadius: J.Vq,
+                      borderRadius: Q.Vq,
                     },
                   }),
-                  desktopCta: (0, y.AH)((0, te.S$)(15), {
+                  desktopCta: (0, E.AH)((0, V.S$)(15), {
                     display: "none",
-                    [le.aq.sm]: { display: "block" },
+                    [ee.aq.sm]: { display: "block" },
                   }),
-                  mobileCta: (0, y.AH)(
-                    ((o = vn(
+                  mobileCta: (0, E.AH)(
+                    ((o = mn(
                       { display: "block", width: "100%", marginTop: 15 },
                       a,
                     )),
-                    (c = { [le.aq.sm]: { display: "none" } }),
-                    cn(o, sn(c))),
+                    (c = { [ee.aq.sm]: { display: "none" } }),
+                    an(o, on(c))),
                   ),
                 };
                 var o, c;
-              })((0, _.E)(), o, i, c);
+              })((0, R.E)(), a, i, c);
             return c
-              ? l().createElement(nn.T, {
-                  type: o,
+              ? l().createElement(tn.T, {
+                  type: a,
                   content: l().createElement(
-                    N.E,
-                    { variant: D.ZJ.UIMD, color: D.Uf.PRIMARY },
+                    O.E,
+                    { variant: N.ZJ.UIMD, color: N.Uf.PRIMARY },
                     t,
                   ),
                   cta: n || void 0,
@@ -1991,7 +1989,7 @@
                     l().createElement(
                       "div",
                       { className: s.message },
-                      l().createElement(P.Ay, null, t),
+                      l().createElement(x.Ay, null, t),
                     ),
                     n &&
                       l().createElement(
@@ -2003,7 +2001,7 @@
                         n,
                       ),
                     r &&
-                      l().createElement(En, {
+                      l().createElement(pn, {
                         className: s.close,
                         onClick: r,
                         "data-testid": "alert-close",
@@ -2018,145 +2016,145 @@
                 );
           }
         )({
-          renderIcon: l().createElement(O.A, { icon: an.T, size: S.o.XXSMALL }),
+          renderIcon: l().createElement(b.A, { icon: nn.T, size: I.o.XXSMALL }),
         });
-      var gn = r(10335);
-      const yn = ({ to: e }) =>
+      var En = r(10335);
+      const fn = ({ to: e }) =>
           l().createElement(
-            en.Pf,
-            { to: e, buttonHeight: $.eL.DENSED },
-            l().createElement(A.A, { code: "egstore.common.cta.view_product" }),
+            Fr.Pf,
+            { to: e, buttonHeight: W.eL.DENSED },
+            l().createElement(f.A, { code: "egstore.common.cta.view_product" }),
           ),
-        An = ({ to: e }) =>
+        gn = ({ to: e }) =>
           l().createElement(
-            h.v,
-            { to: e, variant: D.ml.OUTLINE, fullWidth: !0 },
-            l().createElement(A.A, { code: "egstore.common.cta.view_product" }),
+            g.v,
+            { to: e, variant: N.ml.OUTLINE, fullWidth: !0 },
+            l().createElement(f.A, { code: "egstore.common.cta.view_product" }),
           ),
-        hn = ({ sandboxId: e, offerId: t, missingPrerequisiteItems: r }) => {
-          const o = (0, a.useSelector)(k.k),
-            c = (0, tt.useLocalization)(),
-            { productHomeLinkTo: i } = (0, Jr.z)({ sandboxId: e }),
-            { title: s } = (0, er.A)({ sandboxId: e, offerId: t }),
-            d = (0, Kr.Q)({ items: (0, gn.Z4)(r) }),
-            u = o ? An : yn,
+        yn = ({ sandboxId: e, offerId: t, missingPrerequisiteItems: r }) => {
+          const a = (0, o.useSelector)(P.k),
+            c = (0, Fe.useLocalization)(),
+            { productHomeLinkTo: i } = (0, Kr.z)({ sandboxId: e }),
+            { title: s } = (0, Lt.A)({ sandboxId: e, offerId: t }),
+            d = (0, Qr.Q)({ items: (0, En.Z4)(r) }),
+            u = a ? gn : fn,
             m = i ? l().createElement(u, { to: i }) : void 0,
             p = c("egstore.common.inline_list.separator"),
             v =
               c("egstore.cart.validation.page_level.error.missing_prereq", [
                 s || "",
-                (0, n.useMemo)(() => (0, Fr.L)(d, p), [d, p]),
+                (0, n.useMemo)(() => (0, Vr.L)(d, p), [d, p]),
               ]) || "";
           return l().createElement(
-            fn,
-            { type: rn.v.ERROR, renderCTA: m },
-            l().createElement(tn.q, { source: v }),
+            vn,
+            { type: en.v.ERROR, renderCTA: m },
+            l().createElement(Jr.q, { source: v }),
           );
         };
-      var bn = Object.getOwnPropertySymbols,
-        Cn = Object.prototype.hasOwnProperty,
-        In = Object.prototype.propertyIsEnumerable;
-      const On = (e) => {
+      var An = Object.getOwnPropertySymbols,
+        hn = Object.prototype.hasOwnProperty,
+        bn = Object.prototype.propertyIsEnumerable;
+      const Cn = (e) => {
         var t = e,
           { code: r, type: n } = t,
           a = ((e, t) => {
             var r = {};
-            for (var n in e) Cn.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
-            if (null != e && bn)
-              for (var n of bn(e))
-                t.indexOf(n) < 0 && In.call(e, n) && (r[n] = e[n]);
+            for (var n in e) hn.call(e, n) && t.indexOf(n) < 0 && (r[n] = e[n]);
+            if (null != e && An)
+              for (var n of An(e))
+                t.indexOf(n) < 0 && bn.call(e, n) && (r[n] = e[n]);
             return r;
           })(t, ["code", "type"]);
-        const { title: o } = (0, er.A)(a);
+        const { title: o } = (0, Lt.A)(a);
         return l().createElement(
-          fn,
+          vn,
           { type: n },
-          l().createElement(A.A, { code: r, args: [o || ""] }),
+          l().createElement(f.A, { code: r, args: [o || ""] }),
         );
       };
-      var xn = Object.defineProperty,
-        Sn = Object.getOwnPropertySymbols,
-        Nn = Object.prototype.hasOwnProperty,
-        Pn = Object.prototype.propertyIsEnumerable,
-        Mn = (e, t, r) =>
+      var In = Object.defineProperty,
+        On = Object.getOwnPropertySymbols,
+        xn = Object.prototype.hasOwnProperty,
+        Sn = Object.prototype.propertyIsEnumerable,
+        Nn = (e, t, r) =>
           t in e
-            ? xn(e, t, {
+            ? In(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: r,
               })
             : (e[t] = r),
-        Dn = (e, t) => {
-          for (var r in t || (t = {})) Nn.call(t, r) && Mn(e, r, t[r]);
-          if (Sn) for (var r of Sn(t)) Pn.call(t, r) && Mn(e, r, t[r]);
+        Pn = (e, t) => {
+          for (var r in t || (t = {})) xn.call(t, r) && Nn(e, r, t[r]);
+          if (On) for (var r of On(t)) Sn.call(t, r) && Nn(e, r, t[r]);
           return e;
         };
-      const kn = () =>
+      const Mn = () =>
           l().createElement(
-            fn,
-            { type: rn.v.ERROR },
-            l().createElement(A.A, {
+            vn,
+            { type: en.v.ERROR },
+            l().createElement(f.A, {
               code: "egstore.cart.validation.page_level.error.general",
             }),
           ),
-        wn = () =>
+        Dn = () =>
           l().createElement(
-            fn,
-            { type: rn.v.WARNING },
-            l().createElement(A.A, {
+            vn,
+            { type: en.v.WARNING },
+            l().createElement(f.A, {
               code: "egstore.cart.validation.page_level.warning.general",
             }),
           ),
-        Rn = () =>
+        kn = () =>
           l().createElement(
-            fn,
-            { type: rn.v.ERROR },
-            l().createElement(A.A, {
+            vn,
+            { type: en.v.ERROR },
+            l().createElement(f.A, {
               code: "egstore.cart.validation.page_level.error.checkout",
             }),
           ),
-        Ln = (e) =>
+        wn = (e) =>
           l().createElement(
-            On,
-            Dn(
+            Cn,
+            Pn(
               {
                 code: "egstore.cart.validation.page_level.error.in_library",
-                type: rn.v.ERROR,
+                type: en.v.ERROR,
               },
               e,
             ),
           ),
-        Tn = (e) =>
+        Rn = (e) =>
           l().createElement(
-            On,
-            Dn(
+            Cn,
+            Pn(
               {
                 code: "egstore.cart.validation.page_level.info.partial_upgrade",
-                type: rn.v.WARNING,
+                type: en.v.WARNING,
               },
               e,
             ),
           ),
-        _n = (e) =>
+        Ln = (e) =>
           l().createElement(
-            On,
-            Dn(
+            Cn,
+            Pn(
               {
                 code: "egstore.cart.validation.page_level.warning.no_partial_upgrade",
-                type: rn.v.WARNING,
+                type: en.v.WARNING,
               },
               e,
             ),
           ),
-        jn = () => {
+        Tn = () => {
           const {
               cartState: { voucherWarnings: e, checkoutError: t },
-            } = (0, ye.B)(),
-            { cartValidation: r } = (0, se.r)(),
-            n = Fe() || [];
+            } = (0, ve.B)(),
+            { cartValidation: r } = (0, ae.r)(),
+            n = Qe() || [];
           if (!r) return null;
-          if (t) return l().createElement(Rn, null);
+          if (t) return l().createElement(kn, null);
           const {
               conflictingOffers: a = [],
               fullyOwnedOffers: o = [],
@@ -2169,15 +2167,15 @@
           if (0 === u) return null;
           if (u > 1)
             return d > 0
-              ? l().createElement(kn, null)
-              : l().createElement(wn, null);
+              ? l().createElement(Mn, null)
+              : l().createElement(Dn, null);
           if (c.length) {
             const [e] = c,
               t = (null == e ? void 0 : e.missingPrerequisiteItems)
-                ? e.missingPrerequisiteItems.reduce(Vr._, [])
+                ? e.missingPrerequisiteItems.reduce(Xr._, [])
                 : [];
             return e
-              ? l().createElement(hn, {
+              ? l().createElement(yn, {
                   offerId: e.offerId,
                   sandboxId: e.namespace,
                   missingPrerequisiteItems: t,
@@ -2186,107 +2184,109 @@
           }
           if (o.length) {
             const [e] = o;
-            return l().createElement(Ln, {
+            return l().createElement(wn, {
               offerId: null == e ? void 0 : e.offerId,
               sandboxId: null == e ? void 0 : e.namespace,
             });
           }
-          if (n.length) return l().createElement(kn, null);
+          if (n.length) return l().createElement(Mn, null);
           if (i.length) {
             const [e] = i;
-            return l().createElement(Tn, {
+            return l().createElement(Rn, {
               offerId: null == e ? void 0 : e.offerId,
               sandboxId: null == e ? void 0 : e.namespace,
             });
           }
           if (s.length) {
             const [e] = s;
-            return l().createElement(_n, {
+            return l().createElement(Ln, {
               offerId: null == e ? void 0 : e.offerId,
               sandboxId: null == e ? void 0 : e.namespace,
             });
           }
-          return e.length ? l().createElement(wn, null) : null;
+          return e.length ? l().createElement(Dn, null) : null;
         },
-        Hn = () =>
+        _n = () =>
           l().createElement(
-            f.tY,
+            p.tY,
             { fallback: null },
-            l().createElement(jn, null),
+            l().createElement(Tn, null),
           );
-      var Bn = r(36985);
-      const qn = $e({
-          renderMain: l().createElement(Z, null),
-          renderSidebar: l().createElement(Xr, null),
-          renderWarnings: l().createElement(Hn, null),
-          renderWallet: l().createElement(Qr.dd, null),
+      var jn = r(36985);
+      const Hn = Ye({
+          renderMain: l().createElement(z, null),
+          renderSidebar: l().createElement(Gr, null),
+          renderWarnings: l().createElement(_n, null),
+          renderWallet: l().createElement($r.dd, null),
         }),
-        Un = $e({
-          renderMain: l().createElement(H, null),
+        Bn = Ye({
+          renderMain: l().createElement(T, null),
           renderSidebar: null,
           renderWarnings: null,
-          renderWallet: l().createElement(Qr.dd, null),
+          renderWallet: l().createElement($r.dd, null),
         }),
-        zn = $e({
-          renderMain: l().createElement(W, null),
-          renderSidebar: l().createElement(Yr, null),
+        qn = Ye({
+          renderMain: l().createElement(q, null),
+          renderSidebar: l().createElement(zr, null),
           renderWarnings: null,
-          renderWallet: l().createElement(Qr.PP, null),
+          renderWallet: l().createElement($r.PP, null),
         }),
-        Wn = () => {
-          const e = (0, g.H)(),
-            { cartItems: t } = (0, U.M)({
+        Un = () => {
+          const e = (0, v.H)(),
+            { cartItems: t } = (0, H.M)({
               refetchOnMount: "always",
               refetchOnWindowFocus: !0,
               staleTime: 3e4,
             });
           return e
-            ? l().createElement(Bn.i, null)
+            ? l().createElement(jn.i, null)
             : l().createElement(
                 l().Fragment,
                 null,
-                l().createElement(ke, null),
+                l().createElement(Pe, null),
                 (null == t ? void 0 : t.length)
-                  ? l().createElement(qn, null)
-                  : l().createElement(Un, null),
+                  ? l().createElement(Hn, null)
+                  : l().createElement(Bn, null),
               );
         },
-        Yn = () =>
+        zn = () =>
           l().createElement(
-            f.tY,
-            { fallback: l().createElement(zn, null) },
-            l().createElement(Wn, null),
+            p.tY,
+            { fallback: l().createElement(qn, null) },
+            l().createElement(Un, null),
           ),
-        Zn = ["inactive", "eula", "entitlement", "checkout"],
-        Gn = () => {
-          const { setPurchaseStates: e } = (0, me.U)();
+        Wn = ["inactive", "eula", "entitlement", "checkout"],
+        Yn = () => {
+          const { setPurchaseStates: e } = (0, ie.U)();
           return (
             (0, n.useEffect)(() => {
-              e(Zn);
+              e(Wn);
             }, []),
             null
           );
-        },
-        $n = () => {
-          const e = (0, a.useSelector)(d.gL),
-            t = (0, a.useSelector)(s.n9),
+        };
+      var Zn = r(6415),
+        Gn = r(87536);
+      const $n = () => {
+          const e = (0, o.useSelector)(s.gL),
+            t = (0, o.useSelector)(i.n9),
             r = Boolean(t),
-            n = (0, i.B2)();
+            n = (0, br.B2)();
           return e
             ? r
               ? l().createElement(
-                  m.A,
+                  Gn.A,
                   null,
-                  l().createElement(o.m, { title: n("egstore.cart.cart") }),
-                  l().createElement(Gn, null),
+                  l().createElement(a.m, { title: n("egstore.cart.cart") }),
+                  l().createElement(Yn, null),
                   l().createElement(
                     "div",
                     { "data-testid": "cart-view" },
-                    l().createElement(E, null, l().createElement(Yn, null)),
+                    l().createElement(m, null, l().createElement(zn, null)),
                   ),
                 )
-              : l().createElement(u.A, { to: (0, c.getPath)() })
-            : l().createElement(u.A, {
+              : l().createElement(Zn.A, { to: (0, c.getPath)() })
+            : l().createElement(Zn.A, {
                 to: (0, c.generateRoutePath)("/not-found"),
               });
         },
@@ -2298,4 +2298,4 @@
     },
   },
 ]);
-//# sourceMappingURL=CartView.egstore-site.49220182b3c578ca06a5.js.map
+//# sourceMappingURL=CartView.egstore-site.f026c70ce5682d45dbd9.js.map

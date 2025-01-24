@@ -6,67 +6,67 @@
       a.r(t), a.d(t, { default: () => Pa });
       var r = a(8788),
         l = a.n(r),
-        n = a(87536),
+        n = a(36233),
         o = a(26816),
-        i = a(6415),
-        s = a(36233),
-        c = a(3493),
-        m = a(11923),
-        d = a(96157),
-        p = a(61801),
-        u = a(54232),
+        i = a(41791),
+        s = a(34988),
+        c = a(96157),
+        m = a(61801),
+        d = a(54232),
+        p = a(27954),
+        u = a(20406),
         g = a(64032),
-        v = a(90568),
-        b = a(34475),
-        f = a(20406),
-        E = a(42209),
-        y = Object.defineProperty,
-        h = Object.defineProperties,
-        w = Object.getOwnPropertyDescriptors,
-        A = Object.getOwnPropertySymbols,
-        O = Object.prototype.hasOwnProperty,
-        x = Object.prototype.propertyIsEnumerable,
-        I = (e, t, a) =>
+        v = a(34475),
+        b = a(90568),
+        f = Object.defineProperty,
+        E = Object.defineProperties,
+        y = Object.getOwnPropertyDescriptors,
+        h = Object.getOwnPropertySymbols,
+        w = Object.prototype.hasOwnProperty,
+        A = Object.prototype.propertyIsEnumerable,
+        O = (e, t, a) =>
           t in e
-            ? y(e, t, {
+            ? f(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const N = (e) => {
-          return (0, m.AH)(
+      const x = (e) => {
+          return (0, s.AH)(
             ((t = ((e, t) => {
-              for (var a in t || (t = {})) O.call(t, a) && I(e, a, t[a]);
-              if (A) for (var a of A(t)) x.call(t, a) && I(e, a, t[a]);
+              for (var a in t || (t = {})) w.call(t, a) && O(e, a, t[a]);
+              if (h) for (var a of h(t)) A.call(t, a) && O(e, a, t[a]);
               return e;
             })({}, g.Il.text12)),
             (a = {
-              color: (0, v.g)(e) ? g.ON : g.Ql,
+              color: (0, b.g)(e) ? g.ON : g.Ql,
               marginBottom: 10,
               [g.aq.maxWidth]: { marginLeft: 10, marginRight: 10 },
             }),
-            h(t, w(a))),
+            E(t, y(a))),
           );
           var t, a;
         },
-        L = () => {
-          const e = (0, b.E)();
+        I = () => {
+          const e = (0, v.E)();
           return l().createElement(
-            f.A,
-            { className: N(e), level: 1 },
-            l().createElement(E.QB, { code: "diesel.main.home.sections.news" }),
+            u.A,
+            { className: x(e), level: 1 },
+            l().createElement(p.QB, { code: "diesel.main.home.sections.news" }),
           );
         };
-      var P = a(22357);
+      var N = a(6576),
+        L = a(66448),
+        P = a(22357);
       const H = (e) =>
-          (0, m.AH)({
+          (0, s.AH)({
             background: e.level1,
             position: "relative",
             width: "100%",
           }),
-        j = (0, m.AH)({
+        j = (0, s.AH)({
           width: "100%",
           padding: "45px 35px",
           display: "flex",
@@ -76,98 +76,93 @@
           pointerEvents: "none",
           overflow: "hidden",
         }),
-        S = (0, m.AH)(g.Il.text2, {
+        S = (0, s.AH)(g.Il.text2, {
           marginBottom: "10px",
           height: "0.8em",
           width: "40%",
         }),
-        k = (0, m.AH)(g.Il.text6, {
+        k = (0, s.AH)(g.Il.text6, {
           display: "flex",
           width: "100%",
           alignItems: "center",
         }),
-        C = (0, m.AH)((0, P.hz)(10), {
+        C = (0, s.AH)((0, P.hz)(10), {
           borderRadius: "50%",
           width: "20px",
           height: "20px",
         }),
-        z = (0, m.AH)({ width: "22%", height: "0.8em" }),
+        z = (0, s.AH)({ width: "22%", height: "0.8em" }),
         R = (e) =>
-          (0, m.AH)({
+          (0, s.AH)({
             backgroundColor: e.level2,
             width: "100%",
             height: "260px",
-          });
-      var D = a(6576),
-        _ = a(66448);
-      const W = () => {
-          const e = (0, _.A)();
+          }),
+        D = () => {
+          const e = (0, L.A)();
           return r.createElement(
             "div",
             { className: H(e) },
             r.createElement(
               "div",
               { className: j },
-              r.createElement(D.A, { className: S }),
+              r.createElement(N.A, { className: S }),
               r.createElement(
                 "div",
                 { className: k },
-                r.createElement(D.A, { className: C }),
-                r.createElement(D.A, { className: z }),
+                r.createElement(N.A, { className: C }),
+                r.createElement(N.A, { className: z }),
               ),
             ),
             r.createElement("div", { className: R(e) }),
           );
         },
-        B = () =>
+        _ = () =>
           r.createElement(
             r.Fragment,
             null,
-            r.createElement(W, null),
-            r.createElement(W, null),
+            r.createElement(D, null),
+            r.createElement(D, null),
           );
-      var M = a(22784),
-        q = a(76004),
-        T = a(14198);
-      var $ = a(13758),
-        F = a(63246),
-        X = a(8003),
-        V = a(91105),
-        U = a(76387),
-        K = ((e) => (
+      var W = a(13758),
+        B = a(63246),
+        M = a(8003),
+        q = a(91105),
+        T = a(76387),
+        $ = ((e) => (
           (e.HORIZONTAL = "horizontal"), (e.VERTICAL = "vertical"), e
-        ))(K || {});
-      const Q = K;
-      var Y = a(85727),
-        Z = a(21483),
-        G = a(47035);
-      const J = (0, a(15498).K)(
+        ))($ || {});
+      const F = $;
+      var X = a(85727),
+        V = a(21483),
+        U = a(47035);
+      const K = (0, a(15498).K)(
         r.createElement("path", {
           d: "M11.526 1.405a.5.5 0 0 1 .948 0l2.244 6.658a.5.5 0 0 0 .474.34h7.222a.5.5 0 0 1 .287.91l-5.81 4.07a.5.5 0 0 0-.188.568l2.227 6.607a.5.5 0 0 1-.76.569l-5.883-4.12a.5.5 0 0 0-.574 0l-5.883 4.12a.5.5 0 0 1-.76-.57l2.227-6.606a.5.5 0 0 0-.187-.569l-5.811-4.07a.5.5 0 0 1 .287-.909h7.222a.5.5 0 0 0 .474-.34l2.244-6.658Z",
         }),
         "Star",
       );
-      var ee = a(67671),
-        te = a(84904),
-        ae = a(17673);
-      const re = (0, ae.W)((e) => ({
-          newsMeta: (0, m.AH)({
+      var Q = a(67671),
+        Y = a(84904),
+        Z = a(17673);
+      const G = (0, Z.W)((e) => ({
+          newsMeta: (0, s.AH)({
             display: "flex",
             alignItems: "center",
             justifyContent: "flex-start",
           }),
-          newsMetaItem: (0, m.AH)({
+          newsMetaItem: (0, s.AH)({
             margin: "0 5px",
             "&:first-child": (0, P.S$)(0),
             "&:last-child": (0, P.hz)(0),
             "> span": { lineHeight: "inherit" },
           }),
-          sep: (0, m.AH)({ width: 1, height: 12, background: e.textSecondary }),
-          star: (0, m.AH)((0, P.hz)(5), { color: e.textSecondary }),
+          sep: (0, s.AH)({ width: 1, height: 12, background: e.textSecondary }),
+          star: (0, s.AH)((0, P.hz)(5), { color: e.textSecondary }),
         })),
-        le = ({ date: e, hasStar: t, tags: a }) => {
-          const r = re(),
-            n = (0, d.useLocalizationMessages)(),
+        J = ({ date: e, hasStar: t, tags: a }) => {
+          const r = G(),
+            n = (0, c.useLocalizationMessages)(),
             o = (a && a.split(",")) || null;
           return l().createElement(
             "div",
@@ -178,8 +173,8 @@
               t &&
                 l().createElement(
                   "div",
-                  { className: (0, m.cx)(r.newsMetaItem, r.star) },
-                  l().createElement(J, null),
+                  { className: (0, s.cx)(r.newsMetaItem, r.star) },
+                  l().createElement(K, null),
                 ),
               o &&
                 o.map((e) =>
@@ -189,14 +184,10 @@
                     l().createElement(
                       "div",
                       { key: e, className: r.newsMetaItem },
-                      l().createElement(
-                        ee.A,
-                        { textLevel: te.qo.SECONDARY },
-                        e,
-                      ),
+                      l().createElement(Q.A, { textLevel: Y.qo.SECONDARY }, e),
                     ),
                     l().createElement("div", {
-                      className: (0, m.cx)(r.newsMetaItem, r.sep),
+                      className: (0, s.cx)(r.newsMetaItem, r.sep),
                     }),
                   ),
                 ),
@@ -204,65 +195,65 @@
                 "div",
                 { className: r.newsMetaItem },
                 l().createElement(
-                  ee.A,
-                  { textLevel: te.qo.SECONDARY },
-                  (0, Y.fw)(e, n),
+                  Q.A,
+                  { textLevel: Y.qo.SECONDARY },
+                  (0, X.fw)(e, n),
                 ),
               ),
             ),
           );
         };
-      var ne = a(46571),
-        oe = a(14226),
-        ie = Object.defineProperty,
-        se = Object.getOwnPropertySymbols,
-        ce = Object.prototype.hasOwnProperty,
-        me = Object.prototype.propertyIsEnumerable,
-        de = (e, t, a) =>
+      var ee = a(46571),
+        te = a(14226),
+        ae = Object.defineProperty,
+        re = Object.getOwnPropertySymbols,
+        le = Object.prototype.hasOwnProperty,
+        ne = Object.prototype.propertyIsEnumerable,
+        oe = (e, t, a) =>
           t in e
-            ? ie(e, t, {
+            ? ae(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        pe = (e, t) => {
-          for (var a in t || (t = {})) ce.call(t, a) && de(e, a, t[a]);
-          if (se) for (var a of se(t)) me.call(t, a) && de(e, a, t[a]);
+        ie = (e, t) => {
+          for (var a in t || (t = {})) le.call(t, a) && oe(e, a, t[a]);
+          if (re) for (var a of re(t)) ne.call(t, a) && oe(e, a, t[a]);
           return e;
         };
-      const ue = (0, m.AH)({
+      const se = (0, s.AH)({
           flex: 1,
           display: "flex",
           flexDirection: "column",
         }),
-        ge = (0, m.AH)({ display: "flex" }),
-        ve = (0, m.AH)({ marginBottom: 5 }),
-        be = (0, m.AH)({ margin: "14px 0" }),
-        fe = (0, m.AH)({ display: "inline-flex", alignItems: "flex-end" }),
-        Ee = (e) =>
-          (0, m.AH)(
-            pe(
+        ce = (0, s.AH)({ display: "flex" }),
+        me = (0, s.AH)({ marginBottom: 5 }),
+        de = (0, s.AH)({ margin: "14px 0" }),
+        pe = (0, s.AH)({ display: "inline-flex", alignItems: "flex-end" }),
+        ue = (e) =>
+          (0, s.AH)(
+            ie(
               {
-                color: (0, v.g)(e) ? oe.ON : oe.Ql,
-                [`& .${fe}`]: {
-                  borderBottom: `1px solid ${(0, v.g)(e) ? oe.I3 : oe.ef}`,
+                color: (0, b.g)(e) ? te.ON : te.Ql,
+                [`& .${pe}`]: {
+                  borderBottom: `1px solid ${(0, b.g)(e) ? te.I3 : te.ef}`,
                   transition: "all ease 0.5s",
-                  "&:hover": { borderColor: (0, v.g)(e) ? oe.ON : oe.Ql },
+                  "&:hover": { borderColor: (0, b.g)(e) ? te.ON : te.Ql },
                 },
-                [ne.aq.xs]: { marginTop: 15 },
+                [ee.aq.xs]: { marginTop: 15 },
                 marginTop: "auto",
               },
               (0, P.hz)("auto"),
             ),
           ),
-        ye = (0, m.AH)(pe({ marginBottom: -3 }, (0, P.S$)(3)));
-      var he = a(68813),
-        we = a(55326),
-        Ae = a(705),
-        Oe = a(49498);
-      const xe = ({
+        ge = (0, s.AH)(ie({ marginBottom: -3 }, (0, P.S$)(3)));
+      var ve = a(68813),
+        be = a(55326),
+        fe = a(705),
+        Ee = a(49498);
+      const ye = ({
         title: e,
         short: t,
         slug: a,
@@ -274,110 +265,110 @@
         tags: c,
         isPromoCard: m = !1,
       }) => {
-        const d = (0, _.A)(),
+        const d = (0, L.A)(),
           p = !m && l;
         return r.createElement(
           "div",
-          { className: ue },
+          { className: se },
           r.createElement(
             "div",
-            { className: ve, "data-testid": "news-item-meta" },
-            r.createElement(le, { date: s, hasStar: p, tags: c }),
+            { className: me, "data-testid": "news-item-meta" },
+            r.createElement(J, { date: s, hasStar: p, tags: c }),
           ),
           e &&
             r.createElement(
               "h2",
               { id: m ? a : "" },
               r.createElement(
-                Ae.A,
-                { to: n, ariaLabelledby: a, className: ge },
+                fe.A,
+                { to: n, ariaLabelledby: a, className: ce },
                 r.createElement(
-                  he.Ay,
-                  { textLevel: te.qo.PRIMARY, weight: he.EU.BOLD },
-                  m ? e : r.createElement(we.A, { lines: 3, text: e }),
+                  ve.Ay,
+                  { textLevel: Y.qo.PRIMARY, weight: ve.EU.BOLD },
+                  m ? e : r.createElement(be.A, { lines: 3, text: e }),
                 ),
               ),
             ),
           t &&
             r.createElement(
               "div",
-              { className: be },
+              { className: de },
               r.createElement(
-                he.Ay,
-                { textLevel: te.qo.SECONDARY },
-                m ? t : r.createElement(we.A, { lines: 5, text: t }),
+                ve.Ay,
+                { textLevel: Y.qo.SECONDARY },
+                m ? t : r.createElement(be.A, { lines: 5, text: t }),
               ),
             ),
           o &&
             r.createElement(
-              Ae.A,
-              { className: Ee(d), to: n, ariaLabel: o, rel: "nofollow" },
+              fe.A,
+              { className: ue(d), to: n, ariaLabel: o, rel: "nofollow" },
               r.createElement(
                 "span",
-                { className: fe },
+                { className: pe },
                 o,
                 i &&
                   r.createElement(
                     "div",
-                    { className: ye },
-                    r.createElement(G.t, { size: Oe.sp.SM }),
+                    { className: ge },
+                    r.createElement(U.t, { size: Ee.sp.SM }),
                   ),
               ),
             ),
         );
       };
-      var Ie = a(55115),
-        Ne = a(62195),
-        Le = a(35688),
-        Pe = a(49912),
-        He = Object.defineProperty,
-        je = Object.defineProperties,
-        Se = Object.getOwnPropertyDescriptors,
-        ke = Object.getOwnPropertySymbols,
-        Ce = Object.prototype.hasOwnProperty,
-        ze = Object.prototype.propertyIsEnumerable,
-        Re = (e, t, a) =>
+      var he = a(55115),
+        we = a(62195),
+        Ae = a(35688),
+        Oe = a(49912),
+        xe = Object.defineProperty,
+        Ie = Object.defineProperties,
+        Ne = Object.getOwnPropertyDescriptors,
+        Le = Object.getOwnPropertySymbols,
+        Pe = Object.prototype.hasOwnProperty,
+        He = Object.prototype.propertyIsEnumerable,
+        je = (e, t, a) =>
           t in e
-            ? He(e, t, {
+            ? xe(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        De = (e, t) => {
-          for (var a in t || (t = {})) Ce.call(t, a) && Re(e, a, t[a]);
-          if (ke) for (var a of ke(t)) ze.call(t, a) && Re(e, a, t[a]);
+        Se = (e, t) => {
+          for (var a in t || (t = {})) Pe.call(t, a) && je(e, a, t[a]);
+          if (Le) for (var a of Le(t)) He.call(t, a) && je(e, a, t[a]);
           return e;
         },
-        _e = (e, t) => je(e, Se(t));
-      const We = (0, m.AH)(
-          _e(De({ width: "100%" }, (0, P.hz)(20)), {
+        ke = (e, t) => Ie(e, Ne(t));
+      const Ce = (0, s.AH)(
+          ke(Se({ width: "100%" }, (0, P.hz)(20)), {
             padding: 0,
             position: "relative",
             "&:last-child": (0, P.hz)(0),
-            [ne.aq.xs]: De({ marginBottom: 20 }, (0, P.hz)(0)),
+            [ee.aq.xs]: Se({ marginBottom: 20 }, (0, P.hz)(0)),
             "& > div": { height: "100%" },
           }),
         ),
-        Be = {
+        ze = {
           rowWrapper: (e) =>
-            (0, m.AH)({
+            (0, s.AH)({
               display: "flex",
-              color: (0, v.g)(e) ? oe.ON : oe.Ql,
+              color: (0, b.g)(e) ? te.ON : te.Ql,
               flexDirection: "column",
               height: "100%",
               flex: 1,
             }),
-          imageWrapper: (0, m.AH)(
-            _e(
-              De(
+          imageWrapper: (0, s.AH)(
+            ke(
+              Se(
                 {
                   position: "relative",
-                  borderRadius: Ne.Vq,
+                  borderRadius: we.Vq,
                   overflow: "hidden",
                 },
-                (0, Ie.ko)(Ie.gl.x16x9),
+                (0, he.ko)(he.gl.x16x9),
               ),
               {
                 "&::after": {
@@ -388,7 +379,7 @@
                   left: 0,
                   right: 0,
                   display: "block",
-                  background: `linear-gradient(0deg, ${oe.I3}, ${oe.I3})`,
+                  background: `linear-gradient(0deg, ${te.I3}, ${te.I3})`,
                   transition: "all ease 0.5s",
                   opacity: 0,
                   zIndex: 3,
@@ -397,16 +388,16 @@
               },
             ),
           ),
-          content: (0, m.AH)({
+          content: (0, s.AH)({
             position: "absolute",
             top: 0,
             left: 0,
             width: "100%",
             height: "100%",
           }),
-          headerWrapper: (0, m.AH)({ display: "flex", flex: 1, marginTop: 15 }),
+          headerWrapper: (0, s.AH)({ display: "flex", flex: 1, marginTop: 15 }),
         },
-        Me = ({
+        Re = ({
           date: e,
           title: t,
           short: a,
@@ -417,17 +408,17 @@
           renderMain: s,
           externalLink: c,
         }) => {
-          const m = (0, b.E)();
+          const m = (0, v.E)();
           return l().createElement(
             "div",
-            { className: We },
+            { className: Ce },
             l().createElement(
-              Pe.Iu,
+              Oe.Iu,
               {
                 event: {
-                  eventAction: Pe.yn.NEWS_CLICK,
+                  eventAction: Oe.yn.NEWS_CLICK,
                   eventLabel: n,
-                  eventValue: (0, Le.A)({
+                  eventValue: (0, Ae.A)({
                     module: "news",
                     moduleId: "promo_feed",
                   }),
@@ -435,20 +426,20 @@
               },
               l().createElement(
                 "div",
-                { className: Be.rowWrapper(m) },
+                { className: ze.rowWrapper(m) },
                 l().createElement(
-                  Ae.A,
+                  fe.A,
                   { to: n, ariaLabelledby: r, rel: "nofollow" },
                   l().createElement(
                     "div",
-                    { className: Be.imageWrapper },
-                    l().createElement("div", { className: Be.content }, s()),
+                    { className: ze.imageWrapper },
+                    l().createElement("div", { className: ze.content }, s()),
                   ),
                 ),
                 l().createElement(
                   "div",
-                  { className: Be.headerWrapper },
-                  l().createElement(xe, {
+                  { className: ze.headerWrapper },
+                  l().createElement(ye, {
                     title: t,
                     short: a,
                     slug: r,
@@ -464,8 +455,8 @@
             ),
           );
         },
-        qe = {
-          image: (0, m.AH)({
+        De = {
+          image: (0, s.AH)({
             width: "100%",
             height: "100%",
             overflow: "hidden",
@@ -474,7 +465,7 @@
             left: 0,
             zIndex: 2,
           }),
-          videoContainer: (0, m.AH)({
+          videoContainer: (0, s.AH)({
             width: "100%",
             height: "100%",
             overflow: "hidden",
@@ -484,26 +475,26 @@
             zIndex: 2,
           }),
         },
-        Te = ({ date: e, title: t, button: a, srcSet: n, video: o }) => {
+        _e = ({ date: e, title: t, button: a, srcSet: n, video: o }) => {
           const { text: i, url: s } = a,
-            c = (0, F.al)(),
-            m = (0, d.useLocalization)()("diesel.main.home.sections.featured");
-          return l().createElement(Me, {
+            m = (0, B.al)(),
+            d = (0, c.useLocalization)()("diesel.main.home.sections.featured");
+          return l().createElement(Re, {
             url: s,
             date: e,
             title: t,
             cta: i,
             renderMain: () => {
               const e =
-                n && ((0, Y.OX)(n[Q.HORIZONTAL]) || (0, Y.OX)(n[Q.VERTICAL]));
+                n && ((0, X.OX)(n[F.HORIZONTAL]) || (0, X.OX)(n[F.VERTICAL]));
               return l().createElement(
                 r.Fragment,
                 null,
-                o && !c
+                o && !m
                   ? l().createElement(
                       "div",
-                      { className: qe.videoContainer },
-                      l().createElement(Z.A, {
+                      { className: De.videoContainer },
+                      l().createElement(V.A, {
                         contentId: o.contentId,
                         sources: o.sources,
                         autoplay: !0,
@@ -515,27 +506,27 @@
                       }),
                     )
                   : n
-                    ? l().createElement(V.A, {
-                        className: qe.image,
+                    ? l().createElement(q.A, {
+                        className: De.image,
                         srcSet: {
-                          [U.F.XSMALL]: (0, Y.OX)(n[Q.VERTICAL]),
-                          [U.F.LARGE]: (0, Y.OX)(n[Q.HORIZONTAL]),
+                          [T.F.XSMALL]: (0, X.OX)(n[F.VERTICAL]),
+                          [T.F.LARGE]: (0, X.OX)(n[F.HORIZONTAL]),
                         },
                       })
                     : null,
               );
             },
-            tags: m,
+            tags: d,
           });
         };
-      var $e = a(23269),
-        Fe = a.n($e);
-      const Xe = ({ url: e, externalLink: t }) => {
+      var We = a(23269),
+        Be = a.n(We);
+      const Me = ({ url: e, externalLink: t }) => {
           if (t) return t;
-          const a = `${Fe().appContext}${e}`;
-          return (0, s.generateRoutePath)(a);
+          const a = `${Be().appContext}${e}`;
+          return (0, n.generateRoutePath)(a);
         },
-        Ve = (0, m.AH)({
+        qe = (0, s.AH)({
           width: "100%",
           height: "100%",
           overflow: "hidden",
@@ -544,7 +535,7 @@
           left: 0,
           zIndex: 2,
         }),
-        Ue = ({
+        Te = ({
           shareImage: e,
           trendingImage: t,
           trendingImageAlt: a,
@@ -553,153 +544,153 @@
           short: o,
           slug: i,
           url: s,
-          tags: c,
-          externalLink: m,
+          tags: m,
+          externalLink: d,
         }) => {
-          const p = (0, d.useLocalization)(),
-            u = Y.SB.RATIO_16X9_480,
+          const p = (0, c.useLocalization)(),
+            u = X.SB.RATIO_16X9_480,
             g = e || t,
-            v = g ? { [U.A.name.XSMALL]: (0, Y.Vw)(g, u) } : null,
+            v = g ? { [T.A.name.XSMALL]: (0, X.Vw)(g, u) } : null,
             b = p(
               s.includes("/p/") || s.includes("/product/")
                 ? "diesel.common.post.view_game"
                 : "diesel.common.post.read_more",
             );
-          return r.createElement(Me, {
-            url: Xe({ url: s, externalLink: m }),
+          return r.createElement(Re, {
+            url: Me({ url: s, externalLink: d }),
             date: l,
             slug: i,
             title: n,
             short: o,
             cta: b,
-            externalLink: m,
+            externalLink: d,
             renderMain: () =>
               v
-                ? r.createElement(V.A, { title: a, className: Ve, srcSet: v })
+                ? r.createElement(q.A, { title: a, className: qe, srcSet: v })
                 : null,
-            tags: c,
+            tags: m,
           });
         };
-      var Ke = Object.defineProperty,
-        Qe = Object.getOwnPropertySymbols,
-        Ye = Object.prototype.hasOwnProperty,
-        Ze = Object.prototype.propertyIsEnumerable,
-        Ge = (e, t, a) =>
+      var $e = Object.defineProperty,
+        Fe = Object.getOwnPropertySymbols,
+        Xe = Object.prototype.hasOwnProperty,
+        Ve = Object.prototype.propertyIsEnumerable,
+        Ue = (e, t, a) =>
           t in e
-            ? Ke(e, t, {
+            ? $e(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Je = (e, t) => {
-          for (var a in t || (t = {})) Ye.call(t, a) && Ge(e, a, t[a]);
-          if (Qe) for (var a of Qe(t)) Ze.call(t, a) && Ge(e, a, t[a]);
+        Ke = (e, t) => {
+          for (var a in t || (t = {})) Xe.call(t, a) && Ue(e, a, t[a]);
+          if (Fe) for (var a of Fe(t)) Ve.call(t, a) && Ue(e, a, t[a]);
           return e;
         };
-      const et = {
-          wrapper: (0, m.AH)({
+      const Qe = {
+          wrapper: (0, s.AH)({
             display: "flex",
             justifyContent: "space-between",
             [g.aq.xs]: { flexDirection: "column" },
           }),
         },
-        tt = ({ items: e }) =>
+        Ye = ({ items: e }) =>
           r.createElement(
             "div",
-            { className: et.wrapper },
+            { className: Qe.wrapper },
             e.map((e) => {
               const { type: t } = e;
-              return t === X.ProductSectionType.HERO
-                ? r.createElement(Te, Je({ key: t }, e))
-                : r.createElement(Ue, Je({ key: e.id }, e));
+              return t === M.ProductSectionType.HERO
+                ? r.createElement(_e, Ke({ key: t }, e))
+                : r.createElement(Te, Ke({ key: e.id }, e));
             }),
           );
-      var at = a(64704),
-        rt = a(61182),
-        lt = Object.defineProperty,
-        nt = Object.getOwnPropertySymbols,
-        ot = Object.prototype.hasOwnProperty,
-        it = Object.prototype.propertyIsEnumerable,
-        st = (e, t, a) =>
+      var Ze = a(64704),
+        Ge = a(61182),
+        Je = Object.defineProperty,
+        et = Object.getOwnPropertySymbols,
+        tt = Object.prototype.hasOwnProperty,
+        at = Object.prototype.propertyIsEnumerable,
+        rt = (e, t, a) =>
           t in e
-            ? lt(e, t, {
+            ? Je(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        ct = (e, t) => {
-          for (var a in t || (t = {})) ot.call(t, a) && st(e, a, t[a]);
-          if (nt) for (var a of nt(t)) it.call(t, a) && st(e, a, t[a]);
+        lt = (e, t) => {
+          for (var a in t || (t = {})) tt.call(t, a) && rt(e, a, t[a]);
+          if (et) for (var a of et(t)) at.call(t, a) && rt(e, a, t[a]);
           return e;
         };
-      const mt = {
-          slider: (0, m.AH)({ overflow: "visible !important" }),
-          slideItem: (0, m.AH)((0, P.S$)(10), { width: "calc(100% - 10px)" }),
-          firstSlideItem: (0, m.AH)((0, P.S$)(0)),
+      const nt = {
+          slider: (0, s.AH)({ overflow: "visible !important" }),
+          slideItem: (0, s.AH)((0, P.S$)(10), { width: "calc(100% - 10px)" }),
+          firstSlideItem: (0, s.AH)((0, P.S$)(0)),
         },
-        dt = ({ items: e }) => {
-          const t = (0, F.Qo)(),
+        ot = ({ items: e }) => {
+          const t = (0, B.Qo)(),
             a = e.map((e, t) => {
-              const a = (0, m.cx)(mt.slideItem, {
-                  [mt.firstSlideItem]: 0 === t,
+              const a = (0, s.cx)(nt.slideItem, {
+                  [nt.firstSlideItem]: 0 === t,
                 }),
                 { type: l } = e;
-              return l === X.ProductSectionType.HERO
+              return l === M.ProductSectionType.HERO
                 ? r.createElement(
                     "div",
                     { className: a, key: l },
-                    r.createElement(Te, ct({ key: l }, e)),
+                    r.createElement(_e, lt({ key: l }, e)),
                   )
                 : r.createElement(
                     "div",
                     { className: a, key: e.id },
-                    r.createElement(Ue, ct({}, e)),
+                    r.createElement(Te, lt({}, e)),
                   );
             }),
-            { activeIndex: l, changeIndex: n } = (0, rt.A)({
+            { activeIndex: l, changeIndex: n } = (0, Ge.A)({
               initialIndex: 0,
               slidesLength: a.length,
               beforeChange: () => {},
             });
           return r.createElement(
-            at.A,
-            { className: mt.slider, changeIndex: n, index: l, isRTL: t },
+            Ze.A,
+            { className: nt.slider, changeIndex: n, index: l, isRTL: t },
             a,
           );
         },
-        pt = {
-          promoSection: (0, m.AH)({
+        it = {
+          promoSection: (0, s.AH)({
             marginBottom: 60,
             [g.aq.maxWidth]: { marginLeft: 10, marginRight: 10 },
           }),
         },
-        ut = ({ items: e }) => {
-          const t = (0, F.al)();
+        st = ({ items: e }) => {
+          const t = (0, B.al)();
           return r.createElement(
             "div",
-            { className: pt.promoSection, "data-testid": "feed-promo" },
+            { className: it.promoSection, "data-testid": "feed-promo" },
             t
-              ? r.createElement(dt, { items: e })
-              : r.createElement(tt, { items: e }),
+              ? r.createElement(ot, { items: e })
+              : r.createElement(Ye, { items: e }),
           );
         };
-      var gt = a(66623),
-        vt = a(26899),
-        bt = a.n(vt),
-        ft = a(38092);
-      const Et = (e = "en-US") => {
+      var ct = a(66623),
+        mt = a(26899),
+        dt = a.n(mt),
+        pt = a(38092);
+      const ut = (e = "en-US") => {
         return (
           (t = void 0),
           (a = null),
           (r = function* () {
             var t;
             try {
-              const t = yield bt().get(
-                ft.p.contentServiceUrl(`${e}/content/blog/root`),
+              const t = yield dt().get(
+                pt.p.contentServiceUrl(`${e}/content/blog/root`),
               );
               return (t && t.data) || { code: 204 };
             } catch (e) {
@@ -734,36 +725,36 @@
         );
         var t, a, r;
       };
-      var yt = Object.defineProperty,
-        ht = Object.defineProperties,
-        wt = Object.getOwnPropertyDescriptors,
-        At = Object.getOwnPropertySymbols,
-        Ot = Object.prototype.hasOwnProperty,
-        xt = Object.prototype.propertyIsEnumerable,
-        It = (e, t, a) =>
+      var gt = Object.defineProperty,
+        vt = Object.defineProperties,
+        bt = Object.getOwnPropertyDescriptors,
+        ft = Object.getOwnPropertySymbols,
+        Et = Object.prototype.hasOwnProperty,
+        yt = Object.prototype.propertyIsEnumerable,
+        ht = (e, t, a) =>
           t in e
-            ? yt(e, t, {
+            ? gt(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Nt = (e) => {
+      const wt = (e) => {
         var t;
-        const a = (0, d.useLocalizationLocale)(),
-          r = (0, gt.IT)(
+        const a = (0, c.useLocalizationLocale)(),
+          r = (0, ct.IT)(
             `news-page::${a}`,
-            () => Et(a),
+            () => ut(a),
             ((n = ((e, t) => {
-              for (var a in t || (t = {})) Ot.call(t, a) && It(e, a, t[a]);
-              if (At) for (var a of At(t)) xt.call(t, a) && It(e, a, t[a]);
+              for (var a in t || (t = {})) Et.call(t, a) && ht(e, a, t[a]);
+              if (ft) for (var a of ft(t)) yt.call(t, a) && ht(e, a, t[a]);
               return e;
             })({}, e)),
             (o = {
               enabled: null != (t = null == e ? void 0 : e.enabled) ? t : !!a,
             }),
-            ht(n, wt(o))),
+            vt(n, bt(o))),
           ),
           { data: l } = r;
         var n, o;
@@ -771,86 +762,86 @@
           newsPage: l,
           query: ((e, t) => {
             var a = {};
-            for (var r in e) Ot.call(e, r) && t.indexOf(r) < 0 && (a[r] = e[r]);
-            if (null != e && At)
-              for (var r of At(e))
-                t.indexOf(r) < 0 && xt.call(e, r) && (a[r] = e[r]);
+            for (var r in e) Et.call(e, r) && t.indexOf(r) < 0 && (a[r] = e[r]);
+            if (null != e && ft)
+              for (var r of ft(e))
+                t.indexOf(r) < 0 && yt.call(e, r) && (a[r] = e[r]);
             return a;
           })(r, ["data"]),
         };
       };
-      var Lt = a(20665),
-        Pt = a(29200),
-        Ht = Object.defineProperty,
-        jt = Object.getOwnPropertySymbols,
-        St = Object.prototype.hasOwnProperty,
-        kt = Object.prototype.propertyIsEnumerable,
-        Ct = (e, t, a) =>
+      var At = a(20665),
+        Ot = a(29200),
+        xt = Object.defineProperty,
+        It = Object.getOwnPropertySymbols,
+        Nt = Object.prototype.hasOwnProperty,
+        Lt = Object.prototype.propertyIsEnumerable,
+        Pt = (e, t, a) =>
           t in e
-            ? Ht(e, t, {
+            ? xt(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const zt = () => {
-        const e = (0, d.useLocalization)(),
-          { newsPage: t } = Nt();
+      const Ht = () => {
+        const e = (0, c.useLocalization)(),
+          { newsPage: t } = wt();
         return (null == t ? void 0 : t.meta)
           ? l().createElement(
-              Lt.A,
+              At.A,
               ((e, t) => {
-                for (var a in t || (t = {})) St.call(t, a) && Ct(e, a, t[a]);
-                if (jt) for (var a of jt(t)) kt.call(t, a) && Ct(e, a, t[a]);
+                for (var a in t || (t = {})) Nt.call(t, a) && Pt(e, a, t[a]);
+                if (It) for (var a of It(t)) Lt.call(t, a) && Pt(e, a, t[a]);
                 return e;
-              })({}, (0, Pt.K)(e, t.meta)),
+              })({}, (0, Ot.K)(e, t.meta)),
             )
           : null;
       };
-      var Rt = a(1319),
-        Dt = a(92637),
-        _t = a(83700),
-        Wt = Object.defineProperty,
-        Bt = Object.defineProperties,
-        Mt = Object.getOwnPropertyDescriptors,
-        qt = Object.getOwnPropertySymbols,
-        Tt = Object.prototype.hasOwnProperty,
-        $t = Object.prototype.propertyIsEnumerable,
-        Ft = (e, t, a) =>
+      var jt = a(1319),
+        St = a(92637),
+        kt = a(83700),
+        Ct = Object.defineProperty,
+        zt = Object.defineProperties,
+        Rt = Object.getOwnPropertyDescriptors,
+        Dt = Object.getOwnPropertySymbols,
+        _t = Object.prototype.hasOwnProperty,
+        Wt = Object.prototype.propertyIsEnumerable,
+        Bt = (e, t, a) =>
           t in e
-            ? Wt(e, t, {
+            ? Ct(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a),
-        Xt = (e, t) => {
-          for (var a in t || (t = {})) Tt.call(t, a) && Ft(e, a, t[a]);
-          if (qt) for (var a of qt(t)) $t.call(t, a) && Ft(e, a, t[a]);
+        Mt = (e, t) => {
+          for (var a in t || (t = {})) _t.call(t, a) && Bt(e, a, t[a]);
+          if (Dt) for (var a of Dt(t)) Wt.call(t, a) && Bt(e, a, t[a]);
           return e;
         },
-        Vt = (e, t) => Bt(e, Mt(t));
-      const Ut = (0, ae.W)((e) => ({
-          item: (0, m.AH)({
+        qt = (e, t) => zt(e, Rt(t));
+      const Tt = (0, Z.W)((e) => ({
+          item: (0, s.AH)({
             width: "100%",
             marginTop: 0,
             position: "relative",
           }),
-          link: (0, m.AH)(
-            Vt(Xt({}, (0, _t.HE)(e)), {
+          link: (0, s.AH)(
+            qt(Mt({}, (0, kt.HE)(e)), {
               display: "flex",
               [g.aq.xs]: { flexDirection: "column" },
               border: "1px solid transparent",
             }),
           ),
-          rowWrapper: (0, m.AH)({
+          rowWrapper: (0, s.AH)({
             display: "flex",
             [g.aq.xs]: { flexDirection: "column" },
           }),
-          linkWrapper: (0, m.AH)((0, P.hz)(20)),
-          imageWrapper: (0, m.AH)({
+          linkWrapper: (0, s.AH)((0, P.hz)(20)),
+          imageWrapper: (0, s.AH)({
             position: "relative",
             borderRadius: g.Vq,
             overflow: "hidden",
@@ -867,9 +858,9 @@
               opacity: 0,
             },
             "&:hover::after": { opacity: 1 },
-            [g.aq.xs]: Vt(Xt({}, (0, P.hz)(0)), { marginBottom: 10 }),
+            [g.aq.xs]: qt(Mt({}, (0, P.hz)(0)), { marginBottom: 10 }),
           }),
-          image: (0, m.AH)({
+          image: (0, s.AH)({
             position: "relative",
             width: 200,
             display: "block",
@@ -877,7 +868,7 @@
             background: e.level1,
           }),
         })),
-        Kt = ({
+        $t = ({
           shareImage: e,
           trendingImage: t,
           trendingImageAlt: a,
@@ -886,30 +877,30 @@
           slug: o,
           url: i,
           tags: s,
-          sticky: c,
-          externalLink: m,
+          sticky: m,
+          externalLink: d,
           index: p = 0,
           short: u,
         }) => {
-          const v = (0, d.useLocalization)(),
-            b = Ut(),
-            f = (0, Y.Vw)(e || t, Y.SB.RATIO_16X9_320),
+          const v = (0, c.useLocalization)(),
+            b = Tt(),
+            f = (0, X.Vw)(e || t, X.SB.RATIO_16X9_320),
             E = v(
               i.includes("/p/") || i.includes("/product/")
                 ? "diesel.common.post.view_game"
                 : "diesel.common.post.read_more",
             ),
-            y = Xe({ url: i, externalLink: m });
+            y = Me({ url: i, externalLink: d });
           return r.createElement(
             "article",
             { className: b.item },
             r.createElement(
-              Pe.Iu,
+              Oe.Iu,
               {
                 event: {
-                  eventAction: Pe.yn.NEWS_CLICK,
+                  eventAction: Oe.yn.NEWS_CLICK,
                   eventLabel: y,
-                  eventValue: (0, Le.A)({
+                  eventValue: (0, Ae.A)({
                     module: "news",
                     moduleId: "feed",
                     position: p,
@@ -923,7 +914,7 @@
                   "div",
                   { className: b.linkWrapper },
                   r.createElement(
-                    Ae.A,
+                    fe.A,
                     { to: y, ariaLabelledby: o, rel: "nofollow" },
                     r.createElement(
                       "div",
@@ -932,9 +923,9 @@
                         "div",
                         { className: b.image },
                         r.createElement(
-                          Rt.A,
+                          jt.A,
                           { aspectRatio: g.gl.x16x9 },
-                          r.createElement(Dt.o, {
+                          r.createElement(St.o, {
                             src: f,
                             alt: a || n,
                             showBrokenOnError: !0,
@@ -944,13 +935,13 @@
                     ),
                   ),
                 ),
-                r.createElement(xe, {
+                r.createElement(ye, {
                   title: n,
                   short: u,
                   slug: o,
-                  sticky: c,
+                  sticky: m,
                   date: l,
-                  externalLink: m,
+                  externalLink: d,
                   ctaLabel: E,
                   linkUrl: y,
                   tags: s,
@@ -959,117 +950,120 @@
             ),
           );
         };
-      var Qt = Object.defineProperty,
-        Yt = Object.defineProperties,
-        Zt = Object.getOwnPropertyDescriptors,
-        Gt = Object.getOwnPropertySymbols,
-        Jt = Object.prototype.hasOwnProperty,
-        ea = Object.prototype.propertyIsEnumerable,
-        ta = (e, t, a) =>
+      var Ft = Object.defineProperty,
+        Xt = Object.defineProperties,
+        Vt = Object.getOwnPropertyDescriptors,
+        Ut = Object.getOwnPropertySymbols,
+        Kt = Object.prototype.hasOwnProperty,
+        Qt = Object.prototype.propertyIsEnumerable,
+        Yt = (e, t, a) =>
           t in e
-            ? Qt(e, t, {
+            ? Ft(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const aa = ({ feedItem: e, index: t }) => {
+      const Zt = ({ feedItem: e, index: t }) => {
         return r.createElement(
-          Kt,
+          $t,
           ((a = ((e, t) => {
-            for (var a in t || (t = {})) Jt.call(t, a) && ta(e, a, t[a]);
-            if (Gt) for (var a of Gt(t)) ea.call(t, a) && ta(e, a, t[a]);
+            for (var a in t || (t = {})) Kt.call(t, a) && Yt(e, a, t[a]);
+            if (Ut) for (var a of Ut(t)) Qt.call(t, a) && Yt(e, a, t[a]);
             return e;
           })({}, e)),
-          Yt(a, Zt({ index: t }))),
+          Xt(a, Vt({ index: t }))),
         );
         var a;
       };
-      var ra = a(92619),
-        la = a(45580);
-      const na = (0, ae.W)(() => ({
-          wrapper: (0, m.AH)({ paddingBottom: 16 }),
-          listItems: (0, m.AH)({
+      var Gt = a(92619),
+        Jt = a(45580);
+      const ea = (0, Z.W)(() => ({
+          wrapper: (0, s.AH)({ paddingBottom: 16 }),
+          listItems: (0, s.AH)({
             borderTop: `1px solid ${g.I3}`,
             paddingTop: 20,
             "&:not(:last-child)": {
               marginBottom: 30,
-              [la.aq[la.EA.xxl]]: { marginBottom: 20 },
+              [Jt.aq[Jt.EA.xxl]]: { marginBottom: 20 },
             },
           }),
         })),
-        oa = l().memo(({ data: e, feedPromoItems: t }) => {
-          const a = na(),
+        ta = l().memo(({ data: e, feedPromoItems: t }) => {
+          const a = ea(),
             r = e.length || (null == t ? void 0 : t.length),
             n = l().createElement(
               "div",
               { className: a.wrapper },
-              l().createElement(L, null),
-              t && t.length > 0 && l().createElement(ut, { items: t }),
+              l().createElement(I, null),
+              t && t.length > 0 && l().createElement(st, { items: t }),
               e.length &&
                 l().createElement(
                   l().Fragment,
                   null,
-                  l().createElement(zt, null),
+                  l().createElement(Ht, null),
                   l().createElement(
                     "div",
                     { "data-testid": "feed-items-list" },
                     l().createElement(
-                      ra.B,
+                      Gt.B,
                       { data: e, itemClassName: a.listItems },
                       (e, t) =>
-                        l().createElement(aa, { feedItem: e, index: t }),
+                        l().createElement(Zt, { feedItem: e, index: t }),
                     ),
                   ),
                 ),
             );
-          return r ? n : l().createElement(L, null);
+          return r ? n : l().createElement(I, null);
         });
-      var ia = a(96416),
-        sa = a(15503),
-        ca = a(90743);
-      const { selector: ma } = (0, ca.C)({
-          name: "news-pagination",
-          defaultConfig: { pageSize: 10 },
-        }),
-        da = (e, t, a) => {
+      var aa = a(22784),
+        ra = a(76004),
+        la = a(14198);
+      var na = a(90743);
+      const { selector: oa } = (0, na.C)({
+        name: "news-pagination",
+        defaultConfig: { pageSize: 10 },
+      });
+      var ia = a(15503),
+        sa = a(96416);
+      const ca = (e, t, a) => {
           t.set("page", String(a)),
             e.push({ search: String(t), pathname: "news" });
         },
-        pa = () => {
-          const e = (0, $.useHistory)(),
-            { pageSize: t } = (0, c.useSelector)(ma),
-            { search: a } = (0, $.useLocation)(),
+        ma = () => {
+          const e = (0, W.useHistory)(),
+            { pageSize: t } = (0, i.useSelector)(oa),
+            { search: a } = (0, W.useLocation)(),
             n = new URLSearchParams(a),
             o = n.get("page"),
-            i = Boolean(o),
-            s = i ? Number(o) : 1,
-            m = da.bind(null, e, n),
+            s = Boolean(o),
+            m = s ? Number(o) : 1,
+            d = ca.bind(null, e, n),
             p = (0, r.useCallback)(
               (e) => {
-                m(e);
+                d(e);
               },
-              [m],
+              [d],
             ),
-            u = 1 === s,
+            u = 1 === m,
             {
               blogList: g,
               stickyPosts: v,
               paging: b,
             } = ((e, t) => {
               var a, r;
-              const l = (0, d.useLocalizationLocale)(),
-                n = (0, M.stringify)((0, q.A)((e) => !!e, { locale: l })),
-                o = (0, M.stringify)(
-                  (0, q.A)((e) => !!e, { count: t, locale: l, start: e * t }),
+              const l = (0, c.useLocalizationLocale)(),
+                n = (0, aa.stringify)((0, ra.A)((e) => !!e, { locale: l })),
+                o = (0, aa.stringify)(
+                  (0, ra.A)((e) => !!e, { count: t, locale: l, start: e * t }),
                 ),
                 i =
-                  null == (a = (0, T.X)({ path: `content/blog/sticky?${n}` }))
+                  null == (a = (0, la.X)({ path: `content/blog/sticky?${n}` }))
                     ? void 0
                     : a.data,
                 s =
-                  null == (r = (0, T.X)({ path: `content/blog-posts?${o}` }))
+                  null == (r = (0, la.X)({ path: `content/blog-posts?${o}` }))
                     ? void 0
                     : r.data;
               return {
@@ -1077,24 +1071,24 @@
                 stickyPosts: i || [],
                 paging: null == s ? void 0 : s.paging,
               };
-            })(s - 1, t),
+            })(m - 1, t),
             { data: f, feedPromoItems: E } = (0, r.useMemo)(
-              () => (0, sa.g5)(g, v, u),
+              () => (0, ia.g5)(g, v, u),
               [g, v, u],
             ),
             y = (null == b ? void 0 : b.total) ? Math.ceil(b.total / t) : 0,
             h = y && y > 1;
           return (
-            y < s && m(y),
-            ((s < 1 && i) || isNaN(s)) && m(1),
+            y < m && d(y),
+            ((m < 1 && s) || isNaN(m)) && d(1),
             l().createElement(
               l().Fragment,
               null,
-              l().createElement(oa, { data: f, feedPromoItems: E }),
+              l().createElement(ta, { data: f, feedPromoItems: E }),
               h
-                ? l().createElement(ia.A, {
+                ? l().createElement(sa.A, {
                     totalPages: y,
-                    page: s,
+                    page: m,
                     itemsPerPage: t,
                     onChange: (e, t) => {
                       p(t);
@@ -1104,102 +1098,104 @@
             )
           );
         },
-        ua = {
-          content: (0, m.AH)({
+        da = {
+          content: (0, s.AH)({
             [g.aq.md]: { flexDirection: "row" },
             display: "flex",
             flexDirection: "column-reverse",
             position: "relative",
             [g.aq.underMd]: { overflowX: "hidden" },
           }),
-          innerWrapper: (0, m.AH)({ flexGrow: 1 }),
+          innerWrapper: (0, s.AH)({ flexGrow: 1 }),
         },
-        ga = ({ children: e }) =>
+        pa = ({ children: e }) =>
           l().createElement(
             "div",
-            { className: ua.content },
-            l().createElement("div", { className: ua.innerWrapper }, e),
+            { className: da.content },
+            l().createElement("div", { className: da.innerWrapper }, e),
           );
-      var va = a(66879),
-        ba = a(97116),
-        fa = a(68085),
-        Ea = a(60885),
-        ya = a(22404),
-        ha = Object.defineProperty,
-        wa = Object.getOwnPropertySymbols,
-        Aa = Object.prototype.hasOwnProperty,
-        Oa = Object.prototype.propertyIsEnumerable,
-        xa = (e, t, a) =>
+      var ua = a(66879),
+        ga = a(97116),
+        va = a(68085),
+        ba = a(60885),
+        fa = a(22404),
+        Ea = Object.defineProperty,
+        ya = Object.getOwnPropertySymbols,
+        ha = Object.prototype.hasOwnProperty,
+        wa = Object.prototype.propertyIsEnumerable,
+        Aa = (e, t, a) =>
           t in e
-            ? ha(e, t, {
+            ? Ea(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: a,
               })
             : (e[t] = a);
-      const Ia = {
-          news: (0, m.AH)({ "&.title": { fontSize: 24, margin: "10px 0" } }),
+      const Oa = {
+          news: (0, s.AH)({ "&.title": { fontSize: 24, margin: "10px 0" } }),
         },
-        Na = () => {
-          const e = (0, c.useSelector)(u.VI),
-            t = (0, d.useLocalization)(),
-            { newsPage: a } = Nt({ enabled: e });
+        xa = () => {
+          const e = (0, i.useSelector)(d.VI),
+            t = (0, c.useLocalization)(),
+            { newsPage: a } = wt({ enabled: e });
           return e
             ? r.createElement(
                 r.Fragment,
                 null,
                 r.createElement(
-                  Lt.A,
+                  At.A,
                   ((e, t) => {
                     for (var a in t || (t = {}))
-                      Aa.call(t, a) && xa(e, a, t[a]);
-                    if (wa)
-                      for (var a of wa(t)) Oa.call(t, a) && xa(e, a, t[a]);
+                      ha.call(t, a) && Aa(e, a, t[a]);
+                    if (ya)
+                      for (var a of ya(t)) wa.call(t, a) && Aa(e, a, t[a]);
                     return e;
-                  })({}, (0, Pt.K)(t, a.meta)),
+                  })({}, (0, Ot.K)(t, a.meta)),
                 ),
-                r.createElement(pa, null),
+                r.createElement(ma, null),
               )
-            : r.createElement(va.A, { type: fa.A.OFFLINE });
+            : r.createElement(ua.A, { type: va.A.OFFLINE });
         },
-        La = () =>
+        Ia = () =>
           r.createElement(
-            Ea.A,
+            ba.A,
             null,
             r.createElement(
-              ya.fN,
+              fa.fN,
               null,
               r.createElement(
-                ga,
+                pa,
                 null,
                 r.createElement(
-                  ba.A,
-                  { className: Ia.news },
+                  ga.A,
+                  { className: Oa.news },
                   r.createElement(
-                    p.tY,
+                    m.tY,
                     {
                       fallback: r.createElement(
                         r.Fragment,
                         null,
-                        r.createElement(L, null),
-                        r.createElement(B, null),
+                        r.createElement(I, null),
+                        r.createElement(_, null),
                       ),
                     },
-                    r.createElement(Na, null),
+                    r.createElement(xa, null),
                   ),
                 ),
               ),
             ),
-          ),
-        Pa = () =>
-          (0, o.A)(["/home"])
-            ? l().createElement(i.T, {
-                to: (0, s.generateRoutePath)("/news"),
-                "data-testid": "redirect-to-news",
-              })
-            : l().createElement(n.A, null, l().createElement(La, null));
+          );
+      var Na = a(6415),
+        La = a(87536);
+      const Pa = () =>
+        (0, o.A)(["/home"])
+          ? l().createElement(Na.T, {
+              to: (0, n.generateRoutePath)("/news"),
+              "data-testid": "redirect-to-news",
+            })
+          : l().createElement(La.A, null, l().createElement(Ia, null));
     },
   },
 ]);
-//# sourceMappingURL=NewsView.egstore-site.e88bcf4909278452f1e8.js.map
+//# sourceMappingURL=NewsView.egstore-site.2dee0f74b9f05443ee61.js.map

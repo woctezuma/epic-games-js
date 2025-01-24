@@ -1,4 +1,4 @@
-/*! For license information please see fonts.egstore-site.55b9ccdca512b3ace0aa.js.LICENSE.txt */
+/*! For license information please see fonts.egstore-site.9c8bca6c883de0fef69b.js.LICENSE.txt */
 (() => {
   var e,
     t,
@@ -21,7 +21,7 @@
             : "undefined" != typeof self
               ? self
               : {}
-        ).SENTRY_RELEASE = { id: "d9d28e82e038bf3c5a65c015235246486fd5aa6b" };
+        ).SENTRY_RELEASE = { id: "367cae35d937c75584d6f05c6619d4ce4009971e" };
       },
       10320: (e, t, n) => {
         "use strict";
@@ -8669,4 +8669,4 @@
     h(16918);
   h(10320);
 })();
-//# sourceMappingURL=fonts.egstore-site.55b9ccdca512b3ace0aa.js.map
+//# sourceMappingURL=fonts.egstore-site.9c8bca6c883de0fef69b.js.map
