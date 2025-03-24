@@ -3,9 +3,9 @@
   [761],
   {
     16195: (e, t, n) => {
-      n.r(t), n.d(t, { CartSuccessView: () => H, default: () => N });
-      var a = n(8788),
-        l = n.n(a),
+      n.r(t), n.d(t, { CartSuccessView: () => S, default: () => j });
+      var l = n(8788),
+        a = n.n(l),
         r = n(380),
         o = n(36233),
         i = n(86394),
@@ -16,7 +16,7 @@
         const {
             query: { invalidate: t },
           } = (0, c.M)({ enabled: !1 }),
-          n = (0, a.useMemo)(
+          n = (0, l.useMemo)(
             () =>
               ((e) => {
                 const t =
@@ -33,98 +33,84 @@
               })(e) || [],
             [e],
           ),
-          { invalidateSandboxEntitlements: l } = (0, d.E)(n),
+          { invalidateSandboxEntitlements: a } = (0, d.E)(n),
           {
             query: { invalidate: r },
           } = (0, s.N)({ config: { enabled: !1 } });
         return (
-          (0, a.useEffect)(() => {
-            t(), r(), l();
+          (0, l.useEffect)(() => {
+            t(), r(), a();
           }, [n]),
           null
         );
       };
-      var v = n(41791),
-        m = n(34988),
+      var v = n(34988),
         f = n(25548),
-        E = n(35482),
-        p = n(45580),
-        x = n(34475),
-        b = n(10288),
-        A = Object.defineProperty,
-        g = Object.getOwnPropertySymbols,
-        O = Object.prototype.hasOwnProperty,
-        _ = Object.prototype.propertyIsEnumerable,
-        y = (e, t, n) =>
+        m = n(35482),
+        E = n(45580),
+        b = n(34475),
+        p = Object.defineProperty,
+        A = Object.getOwnPropertySymbols,
+        x = Object.prototype.hasOwnProperty,
+        O = Object.prototype.propertyIsEnumerable,
+        _ = (e, t, n) =>
           t in e
-            ? A(e, t, {
+            ? p(e, t, {
                 enumerable: !0,
                 configurable: !0,
                 writable: !0,
                 value: n,
               })
             : (e[t] = n);
-      const h = (e) =>
-          (0, m.AH)({
-            [p.aq.sm]: {
-              maxWidth: 520,
-              margin: "0 auto",
-              padding: "30px 40px",
-              borderRadius: 8,
-              background: e.level2,
-            },
-            [p.aq.xxl]: { maxWidth: 620 },
-          }),
-        I = (e) =>
-          (0, m.AH)({
+      const y = (e) =>
+          (0, v.AH)({
             display: "flex",
             flexDirection: "column",
             gap: 32,
-            [p.aq.sm]: {
+            [E.aq.sm]: {
               maxWidth: 520,
               margin: "0 auto",
               padding: "30px 40px",
               borderRadius: 8,
               background: e.level2,
             },
-            [p.aq.xxl]: { maxWidth: 620 },
+            [E.aq.xxl]: { maxWidth: 620 },
           }),
-        D = (e) => {
+        g = (e) => {
           var t = e,
-            { transactionId: n, count: a } = t,
+            { transactionId: n, count: l } = t,
             r = ((e, t) => {
               var n = {};
-              for (var a in e)
-                O.call(e, a) && t.indexOf(a) < 0 && (n[a] = e[a]);
-              if (null != e && g)
-                for (var a of g(e))
-                  t.indexOf(a) < 0 && _.call(e, a) && (n[a] = e[a]);
+              for (var l in e)
+                x.call(e, l) && t.indexOf(l) < 0 && (n[l] = e[l]);
+              if (null != e && A)
+                for (var l of A(e))
+                  t.indexOf(l) < 0 && O.call(e, l) && (n[l] = e[l]);
               return n;
             })(t, ["transactionId", "count"]);
-          const o = (0, x.E)(),
-            i = (0, v.useSelector)(b.k) ? I(o) : h(o);
-          return l().createElement(
+          const o = (0, b.E)();
+          return a().createElement(
             "div",
-            { className: i },
-            l().createElement(f.C, { transactionId: n, count: a }),
-            l().createElement(
-              E.A,
+            { className: y(o) },
+            a().createElement(f.C, { transactionId: n, count: l }),
+            a().createElement(
+              m.A,
               ((e, t) => {
-                for (var n in t || (t = {})) O.call(t, n) && y(e, n, t[n]);
-                if (g) for (var n of g(t)) _.call(t, n) && y(e, n, t[n]);
+                for (var n in t || (t = {})) x.call(t, n) && _(e, n, t[n]);
+                if (A) for (var n of A(t)) O.call(t, n) && _(e, n, t[n]);
                 return e;
               })({}, r),
             ),
           );
         };
-      var q = n(27954),
-        w = n(60263),
-        L = n(82033),
-        S = n(6415),
-        C = n(87536),
-        j = n(97116);
-      const H = ({ history: e }) => {
-          var t, n, a, i, c, d;
+      var I = n(27954),
+        h = n(60263),
+        D = n(82033),
+        w = n(6415),
+        L = n(87536),
+        C = n(97116);
+      const S = ({ history: e }) => {
+          var t, n, l, i, c, d;
           const s =
               null ==
               (n =
@@ -136,12 +122,12 @@
             v =
               null ==
               (i =
-                null == (a = null == e ? void 0 : e.location)
+                null == (l = null == e ? void 0 : e.location)
                   ? void 0
-                  : a.state)
+                  : l.state)
                 ? void 0
                 : i.offers,
-            m =
+            f =
               null ==
               (d =
                 null == (c = null == e ? void 0 : e.location)
@@ -149,36 +135,36 @@
                   : c.state)
                 ? void 0
                 : d.earnedEpicRewards,
-            f = (0, q.B2)(),
-            E = (0, L.A)(v);
+            m = (0, I.B2)(),
+            E = (0, D.A)(v);
           return s
-            ? l().createElement(
-                C.A,
+            ? a().createElement(
+                L.A,
                 null,
-                l().createElement(r.m, {
-                  title: f("egstore.cart.success.title"),
+                a().createElement(r.m, {
+                  title: m("egstore.cart.success.title"),
                   meta: [{ name: "robots", content: "noindex" }],
                 }),
-                l().createElement(
-                  w.A,
+                a().createElement(
+                  h.A,
                   null,
-                  l().createElement(
-                    j.A,
+                  a().createElement(
+                    C.A,
                     null,
-                    l().createElement(u, { offers: v }),
-                    l().createElement(D, {
+                    a().createElement(u, { offers: v }),
+                    a().createElement(g, {
                       transactionId: s,
                       count: null == v ? void 0 : v.length,
-                      earnedEpicRewards: m,
+                      earnedEpicRewards: f,
                       customCTA: E,
                     }),
                   ),
                 ),
               )
-            : l().createElement(S.A, { to: (0, o.getPath)() });
+            : a().createElement(w.A, { to: (0, o.getPath)() });
         },
-        N = H;
+        j = S;
     },
   },
 ]);
-//# sourceMappingURL=CartSuccessView.egstore-site.9d561da848095934a01f.js.map
+//# sourceMappingURL=CartSuccessView.egstore-site.b0bd5622b12fd6f37267.js.map
