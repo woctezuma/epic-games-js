@@ -3,7 +3,7 @@
   {
     94445: (e, t, r) => {
       "use strict";
-      r.r(t), r.d(t, { default: () => zr });
+      (r.r(t), r.d(t, { default: () => zr }));
       var n = r(45418),
         l = r.n(n),
         i = r(52389),
@@ -130,7 +130,7 @@
             y.W,
             {
               onClear: () => {
-                P(), t && t();
+                (P(), t && t());
               },
               onDone: r,
               onOverlayClick: n,
@@ -347,10 +347,10 @@
         ie = r(302),
         oe = r(78660),
         ae = r(90585);
-      r(72124),
+      (r(72124),
         Object.getOwnPropertySymbols,
         Object.prototype.hasOwnProperty,
-        Object.prototype.propertyIsEnumerable;
+        Object.prototype.propertyIsEnumerable);
       const se = (e) => {
           if (!e) return !1;
           const { effectiveDate: t } = e;
@@ -566,14 +566,14 @@
             c = (0, We.y)(),
             d = (0, g.useLocalization)(),
             m = l().useCallback(() => {
-              e({ namespace: t, offerId: i }),
+              (e({ namespace: t, offerId: i }),
                 o({
                   eventAction: te.hO.ADD_FROM_WISHLIST_VIEW,
                   eventCategory: ne.u9,
                   eventLabel: ne.rq,
                   eventValue: (0, Y.Z)({ offer: { namespace: t, offerId: i } }),
                   interactionType: ee.md.Interaction,
-                });
+                }));
             }, [t, i]),
             p = () => {
               s(!0);
@@ -956,7 +956,7 @@
                 Qt.Z,
                 {
                   onClick: (t) => {
-                    t.preventDefault(), e && e();
+                    (t.preventDefault(), e && e());
                   },
                   className: i.link,
                 },
@@ -1224,7 +1224,7 @@
             j = Object.keys(k).length,
             D = () => y(!f),
             A = (0, n.useCallback)((e = []) => Ir[i](e), [i]);
-          (0, n.useEffect)(() => {
+          ((0, n.useEffect)(() => {
             L({ type: v.S.SET_WISHLIST, payload: { wishlist: b } });
           }, [b]),
             (0, n.useEffect)(() => {
@@ -1241,7 +1241,7 @@
             }, [Z, x]),
             (0, n.useEffect)(() => {
               L({ type: v.S.RESET_WISHLIST, payload: { wishlist: b } });
-            }, [i]);
+            }, [i]));
           const N = (0, d.SO)(O, { filters: k }),
             R = (0, d.SO)(O, {
               filters: k,

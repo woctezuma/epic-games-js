@@ -3,7 +3,7 @@
   {
     13674: (e, t, a) => {
       "use strict";
-      a.r(t), a.d(t, { default: () => CO });
+      (a.r(t), a.d(t, { default: () => CO }));
       var n = a(45418),
         r = a.n(n),
         l = a(88506),
@@ -420,7 +420,7 @@
                       shouldAutoFocus: !0,
                       onChange: (e) => {
                         const t = e.currentTarget.value;
-                        m(25 - t.length), l(t), o(t.length > 25);
+                        (m(25 - t.length), l(t), o(t.length > 25));
                       },
                       maxLength: 25,
                       helperText: t
@@ -1203,7 +1203,10 @@
         catalogItemId: [],
       };
       var fa = ((e) => (
-          (e.WINDOWS = "Windows"), (e.WIN32 = "Win32"), (e.MAC = "Mac"), e
+          (e.WINDOWS = "Windows"),
+          (e.WIN32 = "Win32"),
+          (e.MAC = "Mac"),
+          e
         ))(fa || {}),
         ha = ((e) => (
           (e.GAMES = "games"),
@@ -1326,7 +1329,7 @@
           if (Sa) for (var a of Sa(t)) Na.call(t, a) && La(e, a, t[a]);
           return e;
         })({}, n);
-        if (e === Ea.CATALOG_ITEM_ID) return (r[e] = []), r;
+        if (e === Ea.CATALOG_ITEM_ID) return ((r[e] = []), r);
         const l = e === Ea.GENRE || e === Ea.FEATURE ? a : t;
         return (
           n[e] &&
@@ -1585,7 +1588,7 @@
                 t
               );
             })(l);
-            return (sn(l) || Boolean(l[Ea.CATALOG_ITEM_ID].length)) && e++, e;
+            return ((sn(l) || Boolean(l[Ea.CATALOG_ITEM_ID].length)) && e++, e);
           }, [l]);
         return {
           applySelectedFilters: s,
@@ -1917,14 +1920,14 @@
                 { selectedCollectionId: t, setSelectedCollectionId: a } = kn();
               return (0, n.useCallback)(
                 (n) => {
-                  e((0, Me.C5)(n)), t === n.collectionId && a(Et.U.ALL);
+                  (e((0, Me.C5)(n)), t === n.collectionId && a(Et.U.ALL));
                 },
                 [e, t, a],
               );
             })(),
             o = Ge(a()),
             i = r().useCallback(() => {
-              o && l(o), e();
+              (o && l(o), e());
             }, [o]);
           return r().createElement(
             r().Fragment,
@@ -1965,7 +1968,7 @@
             n = (0, yt.o)(),
             { openModal: l } = dr(),
             o = r().useCallback(() => {
-              e && e !== Et.U.ALL && e !== n && l(e), t(void 0);
+              (e && e !== Et.U.ALL && e !== n && l(e), t(void 0));
             }, [e, t, l]);
           return r().createElement(gr, { onClick: o, disabled: !a });
         },
@@ -1984,7 +1987,7 @@
             n = (0, yt.o)(),
             { openModal: l } = Je(),
             o = r().useCallback(() => {
-              e && e !== Et.U.ALL && e !== n && l(e), t(void 0);
+              (e && e !== Et.U.ALL && e !== n && l(e), t(void 0));
             }, [e, t, l]);
           return r().createElement(Er, { onClick: o, disabled: !a });
         };
@@ -2024,10 +2027,10 @@
                 ),
                 c = (0, n.useCallback)(
                   (e) => {
-                    r &&
+                    (r &&
                       r.contains(null == e ? void 0 : e.target) &&
                       e.preventDefault(),
-                      l && e.target !== l && !l.contains(e.target) && t();
+                      l && e.target !== l && !l.contains(e.target) && t());
                   },
                   [l, r, t],
                 ),
@@ -2045,7 +2048,7 @@
                     const n = r.querySelector("ul"),
                       l = (0, fr.B9)(n),
                       o = (0, fr.u$)(n);
-                    a.key === hr.et.ArrowUp &&
+                    (a.key === hr.et.ArrowUp &&
                       (o > 0
                         ? (0, fr.jc)(o - 1, n)
                         : l.length && (0, fr.jc)(l.length - 1, n)),
@@ -2053,7 +2056,7 @@
                         (l.length && o < l.length - 1
                           ? (0, fr.jc)(o + 1, n)
                           : (0, fr.jc)(0, n)),
-                      a.key === hr.et.Escape && t();
+                      a.key === hr.et.Escape && t());
                   },
                   [e, t, r],
                 ),
@@ -2079,12 +2082,12 @@
                       t.addEventListener("blur", s),
                       t.addEventListener("keydown", d)),
                     () => {
-                      t.removeEventListener("resize", o),
+                      (t.removeEventListener("resize", o),
                         t.removeEventListener("scroll", o),
                         t.removeEventListener("contextmenu", c),
                         t.removeEventListener("click", i),
                         t.removeEventListener("blur", s),
-                        t.removeEventListener("keydown", d);
+                        t.removeEventListener("keydown", d));
                     }
                   );
                 }, [e, o, c, i, s, d]),
@@ -2167,14 +2170,14 @@
             [l, o] = r().useState(void 0),
             i = r().useCallback(
               (t) => {
-                t.preventDefault(),
+                (t.preventDefault(),
                   o(l ? void 0 : { left: t.clientX, top: t.clientY }),
-                  a(e);
+                  a(e));
               },
               [o, a, l],
             ),
             c = r().useCallback(() => {
-              o(void 0), t === e && a(void 0);
+              (o(void 0), t === e && a(void 0));
             }, [o, a]),
             s = r().useCallback(
               (t) => {
@@ -2234,7 +2237,7 @@
           }, [n]);
           const b = r().useCallback(
             (e) => {
-              l(e), (a.current = e);
+              (l(e), (a.current = e));
             },
             [l],
           );
@@ -2437,7 +2440,7 @@
                 (t.classList.remove(...t.classList), t.classList.add(e.title));
             }, []),
             T = r().useCallback(() => {
-              y(null), P(null), w(0), h(0), k(!1), u(null);
+              (y(null), P(null), w(0), h(0), k(!1), u(null));
             }, []),
             _ = (e) => {
               if (
@@ -2474,7 +2477,7 @@
                   null == (a = s.current)
                     ? void 0
                     : a.querySelectorAll("[data-dropzoneitem=true]");
-                n &&
+                (n &&
                   n.forEach((e) => {
                     A(e);
                   }),
@@ -2498,7 +2501,7 @@
                       const d = (0, Zn.Rp)(t, e, s);
                       if (!(0, Gr.Z)(d, t)) {
                         const e = d.map((e) => e.collectionId);
-                        e.unshift(o), l(e);
+                        (e.unshift(o), l(e));
                       }
                     }
                   })({
@@ -2510,7 +2513,7 @@
                     reorderCollections: i,
                     favCollectionId: c,
                   }),
-                  T();
+                  T());
               },
               [j, I, S, d],
             ),
@@ -2553,11 +2556,11 @@
                 if (t.active.id === (null == (a = t.over) ? void 0 : a.id))
                   return;
                 let i;
-                k(!1),
+                (k(!1),
                   C(
                     null != (r = null == (n = t.over) ? void 0 : n.id) ? r : "",
                   ),
-                  (i = 1 === I ? e.draggingRight : e.draggingLeft);
+                  (i = 1 === I ? e.draggingRight : e.draggingLeft));
                 const c =
                   null == (o = s.current)
                     ? void 0
@@ -2586,11 +2589,11 @@
             }, [t]),
             r().useEffect(() => {
               const e = {};
-              g.forEach((t) => {
+              (g.forEach((t) => {
                 const a = t.id.substring(t.id.indexOf("-") + 1);
                 e[a] = t.scrollWidth > t.clientWidth;
               }),
-                p(e);
+                p(e));
             }, [g, l, t]),
             r().createElement(
               r().Fragment,
@@ -3423,13 +3426,13 @@
             u && f && f();
           }, [u]);
           const h = () => {
-              clearTimeout(d.current), m(!0);
+              (clearTimeout(d.current), m(!0));
             },
             O = () => {
-              clearTimeout(d.current),
+              (clearTimeout(d.current),
                 (d.current = setTimeout(() => {
                   m(!1);
-                }, 200));
+                }, 200)));
             };
           return r().createElement(
             "div",
@@ -3457,8 +3460,8 @@
                 onKeyDown: o
                   ? void 0
                   : (e) => {
-                      e.key === hr.et.Enter && m(!u),
-                        e.key === hr.et.Escape && m(!1);
+                      (e.key === hr.et.Enter && m(!u),
+                        e.key === hr.et.Escape && m(!1));
                     },
                 horizontal: !0,
                 disabled: o,
@@ -3860,8 +3863,8 @@
             renderTitle: () =>
               r().createElement(Go.Z, {
                 onClick: () => {
-                  e({ type: Ea.CATALOG_ITEM_ID, name: Ea.CATALOG_ITEM_ID }),
-                    a();
+                  (e({ type: Ea.CATALOG_ITEM_ID, name: Ea.CATALOG_ITEM_ID }),
+                    a());
                 },
                 text: r().createElement(ni.Z, {
                   lines: 2,
@@ -4515,12 +4518,12 @@
             ),
             [E, y] = (0, n.useState)(a),
             [f] = (0, zo.Z)(E, 100, { trailing: !0 });
-          r().useEffect(() => {
+          (r().useEffect(() => {
             l(null != f ? f : "");
           }, [f]),
             r().useEffect(() => {
               a !== f && y(a);
-            }, [a]);
+            }, [a]));
           return r().createElement(Yi, {
             sectionTitle: r().createElement(
               r().Fragment,
@@ -4534,7 +4537,7 @@
               o > 0 &&
                 r().createElement(tc.Z, {
                   onClick: () => {
-                    t(), u();
+                    (t(), u());
                   },
                   text: r().createElement(te.Z, {
                     code: "diesel.store.browse.reset",
@@ -4544,7 +4547,7 @@
             filterByKeyword: r().createElement(Hi, {
               onChange: (e) => y(e.target.value),
               onClear: () => {
-                y(""), l("");
+                (y(""), l(""));
               },
               value: E,
             }),
@@ -5789,7 +5792,7 @@
               suspense: !1,
             }),
             s = r().useCallback(() => {
-              o(kd(c)), i();
+              (o(kd(c)), i());
             }, [i, c, o]);
           return r().createElement(
             r().Fragment,
@@ -5917,7 +5920,7 @@
             s = (0, Cd.K)(t, a, n),
             d = zd(),
             u = r().useCallback(() => {
-              c && s && d(c, s), l(void 0);
+              (c && s && d(c, s), l(void 0));
             }, [d, c, s, l]);
           return r().createElement(Vd, { onClick: u, disabled: !o });
         },
@@ -6026,7 +6029,7 @@
             m = zd(),
             p = qd(e, a, { suspense: !1 }),
             b = r().useCallback(() => {
-              d && u && m(d, u), c(void 0);
+              (d && u && m(d, u), c(void 0));
             }, [m, d, u, c]);
           return r().createElement(lu, {
             collectionName: (null == d ? void 0 : d.name) || "",
@@ -6080,7 +6083,7 @@
             s = (0, Cd.K)(e, t, a),
             d = gt(),
             u = r().useCallback(() => {
-              s && c((0, Me.bo)(s)), o(), l(void 0);
+              (s && c((0, Me.bo)(s)), o(), l(void 0));
             }, [o, l, s]);
           return r().createElement(mu, { onClick: u, disabled: !n || !d });
         },
@@ -6164,7 +6167,7 @@
             c = n.useMemo(() => (0, Kd.Pb)(l), [l]),
             s = (0, Kd.QE)(l),
             d = n.useCallback(() => {
-              o({ namespace: e, catalogId: t, appName: a }), r(void 0);
+              (o({ namespace: e, catalogId: t, appName: a }), r(void 0));
             }, [o, e, t, a, r]);
           return c
             ? n.createElement(hu, {
@@ -6190,7 +6193,7 @@
             o = Iu(),
             i = n.useMemo(() => (0, Kd.aV)(l) && (0, Kd.yK)(l), [l]),
             c = n.useCallback(() => {
-              o({ namespace: e, catalogId: t, appName: a }), r(void 0);
+              (o({ namespace: e, catalogId: t, appName: a }), r(void 0));
             }, [o, e, t, a, r]);
           return i ? n.createElement(wu, { onClick: c }) : null;
         };
@@ -6210,7 +6213,7 @@
               suspense: !1,
             }),
             l = n.useCallback(() => {
-              t(void 0), a();
+              (t(void 0), a());
             }, [t, a]);
           return n.createElement(Su, { onClick: l, disabled: !r });
         };
@@ -6232,7 +6235,7 @@
               suspense: !1,
             }),
             l = n.useCallback(() => {
-              t(void 0), a();
+              (t(void 0), a());
             }, [t, a]);
           return n.createElement(Mu, { onClick: l, disabled: !r });
         };
@@ -6553,7 +6556,7 @@
                         null == (a = o.latestValue)
                           ? void 0
                           : a[t.relationshipId];
-                      return t.catalogItem && n && e.push(t), e;
+                      return (t.catalogItem && n && e.push(t), e);
                     }, [])),
                   [...t, ...(a.length ? im(a, i) : [])]
                 );
@@ -6568,7 +6571,7 @@
             ),
             d = n.useCallback(
               (e, t) => {
-                i({
+                (i({
                   namespace: e.namespace,
                   catalogId: e.catalogItemId,
                   appName: e.appName,
@@ -6576,7 +6579,7 @@
                 }).then((e) => {
                   e && c && s();
                 }),
-                  r(void 0);
+                  r(void 0));
               },
               [i, e, t, a, r, c, s],
             );
@@ -6603,7 +6606,7 @@
               suspense: !1,
             }),
             o = n.useCallback(() => {
-              t(void 0), a(kd(l)), r();
+              (t(void 0), a(kd(l)), r());
             }, [r, l, a, t]);
           return n.createElement(Dm, { onClick: o, disabled: !l });
         };
@@ -6628,7 +6631,7 @@
               suspense: !1,
             }),
             l = n.useCallback(() => {
-              t(void 0), a();
+              (t(void 0), a());
             }, [a, t]);
           return n.createElement(Um, { onClick: l, disabled: !r });
         },
@@ -6646,7 +6649,7 @@
             { installState: l } = (0, Wd.e)(e, t, a),
             o = Km(),
             i = n.useCallback(() => {
-              o({ namespace: e, catalogId: t, appName: a }), r(void 0);
+              (o({ namespace: e, catalogId: t, appName: a }), r(void 0));
             }, [o, e, t, a, r]);
           return n.useMemo(() => (0, Kd.t9)(l), [l])
             ? n.createElement(zm, { onClick: i })
@@ -6921,7 +6924,8 @@
                         o.refetch()
                       );
                     } catch (e) {
-                      Np.warn(Lp, "error", { error: e.message }), (0, kp.pN)(e);
+                      (Np.warn(Lp, "error", { error: e.message }),
+                        (0, kp.pN)(e));
                     }
                   }
                 }),
@@ -6994,7 +6998,7 @@
               [o, i] = n.useState(Boolean(r)),
               c = jp(e, t, a),
               s = n.useCallback(() => {
-                i(!r), c(!r);
+                (i(!r), c(!r));
               }, [c, i, r]);
             return (
               n.useEffect(() => {
@@ -7048,9 +7052,9 @@
                   });
                   try {
                     const l = yield (0, Dt.ZP)().setCloudSave(e, t, a, r, n);
-                    return o.refetch(), l;
+                    return (o.refetch(), l);
                   } catch (e) {
-                    Rp.warn(Bp, "error", { error: e.message }), (0, kp.pN)(e);
+                    (Rp.warn(Bp, "error", { error: e.message }), (0, kp.pN)(e));
                   }
                 }),
                 new Promise((e, t) => {
@@ -7188,13 +7192,13 @@
             { closeModal: m } = mg(),
             p = r().useMemo(() => (0, Kd.O7)(o, n), [o, n]),
             b = r().useCallback(() => {
-              u(!i), s(!i);
+              (u(!i), s(!i));
             }, [s, u, i]);
           r().useEffect(() => {
             i !== d && u(i);
           }, [i]);
           const g = r().useCallback(() => {
-            d && m(), l({ namespace: e, catalogId: t, appName: a });
+            (d && m(), l({ namespace: e, catalogId: t, appName: a }));
           }, [d, m, l, e, t, a]);
           return r().createElement(Jp, {
             onSyncClick: g,
@@ -7272,13 +7276,13 @@
             { closeModal: n } = mg(),
             l = Qp(),
             o = r().useCallback(() => {
-              n(),
+              (n(),
                 l({
                   namespace: e,
                   catalogId: t,
                   appName: a,
                   funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
-                });
+                }));
             }, [n, l, e, t, a]);
           return r().createElement(ib, { onClick: o });
         },
@@ -7424,14 +7428,14 @@
             l = db(),
             { closeModal: o, cancelModal: i } = Lb(),
             c = r().useCallback(() => {
-              o(),
+              (o(),
                 l({
                   namespace: e,
                   catalogId: t,
                   appName: a,
                   funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
                   options: { disableConfirmation: !0 },
-                });
+                }));
             }, [o, l, e, t, a]);
           return r().createElement(yb, {
             title: n,
@@ -7542,12 +7546,12 @@
               i({ namespace: e, catalogId: t, appName: a });
             }, [i, e, t, a]),
             m = n.useCallback(() => {
-              l(),
+              (l(),
                 s && !(0, Dt.ZP)().supportsLaunchableAddonsV2Flow()
                   ? d()
                   : (0, Dt.ZP)().supportsWebClientUninstallFlow()
                     ? o({ namespace: e, catalogItemId: t, appName: a })
-                    : c({ namespace: e, catalogId: t, appName: a });
+                    : c({ namespace: e, catalogId: t, appName: a }));
             }, [l, o, s, c, d, e, t, a]);
           return n.createElement(Wb, {
             size: r,
@@ -7582,13 +7586,13 @@
             { namespace: t, catalogItemId: a, appName: r } = (0, Od.wK)(),
             l = (0, zb.h)(),
             o = n.useCallback(() => {
-              l({
+              (l({
                 namespace: t,
                 catalogId: a,
                 appName: r,
                 funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
               }),
-                e();
+                e());
             }, [l, t, a, r, e]);
           return n.createElement(Hb, { onClick: o });
         };
@@ -7698,8 +7702,8 @@
             (s = function* () {
               if (c)
                 try {
-                  yield (0, Dt.ZP)().setAdditionalCommands(e, t, a, n),
-                    yield o.invalidateQueries(i);
+                  (yield (0, Dt.ZP)().setAdditionalCommands(e, t, a, n),
+                    yield o.invalidateQueries(i));
                 } catch (e) {
                   (0, kp.pN)(e);
                 }
@@ -7846,7 +7850,7 @@
             { openModal: l } = mg(),
             { installState: o } = (0, Wd.e)(e, t, a),
             i = n.useCallback(() => {
-              r(void 0), l({ namespace: e, catalogItemId: t, appName: a });
+              (r(void 0), l({ namespace: e, catalogItemId: t, appName: a }));
             }, [l, r]);
           return n.useMemo(() => (0, Kd.aV)(o), [o])
             ? n.createElement(gg, { onClick: i })
@@ -7881,7 +7885,7 @@
             s = n.useMemo(() => (0, Kd.aV)(o), [o]),
             d = n.useMemo(() => (0, Kd.Ct)(o), [o]),
             u = n.useCallback(() => {
-              r(void 0), c();
+              (r(void 0), c());
             }, [c, r]);
           return s && !d && l.length > 0 && !!i
             ? n.createElement(yg, { onClick: u })
@@ -7917,7 +7921,7 @@
             s = n.useMemo(() => (0, Kd.aV)(l), [l]),
             d = n.useMemo(() => (0, Kd.Ct)(l), [l]),
             u = n.useCallback(() => {
-              r(void 0), c();
+              (r(void 0), c());
             }, [c, r]);
           return s && !d && o.length > 0 && !!i
             ? n.createElement(Cg, { onClick: u })
@@ -8061,7 +8065,7 @@
             s = (0, Cd.K)(e, t, a),
             d = _g(),
             u = r().useCallback(() => {
-              c && s && d(c, s), n(void 0);
+              (c && s && d(c, s), n(void 0));
             }, [d, c, s, n]);
           return r().createElement(Ug, {
             onClick: u,
@@ -8107,7 +8111,7 @@
             c = (0, Cd.K)(e, t, a),
             s = _g(),
             d = r().useCallback(() => {
-              o && c && s(o, c), n(void 0);
+              (o && c && s(o, c), n(void 0));
             }, [s, o, c, n]);
           return r().createElement(Gg, { onClick: d, disabled: !l || !o });
         },
@@ -8129,12 +8133,12 @@
             { openModal: i } = Lb(),
             { isLaunchableAddon: c, uninstall: s } = Zb(e, t, a),
             d = n.useCallback(() => {
-              c && !(0, Dt.ZP)().supportsLaunchableAddonsV2Flow()
+              (c && !(0, Dt.ZP)().supportsLaunchableAddonsV2Flow()
                 ? s()
                 : (0, Dt.ZP)().supportsWebClientUninstallFlow()
                   ? i({ namespace: e, catalogItemId: t, appName: a })
                   : l({ namespace: e, catalogId: t, appName: a }),
-                r(void 0);
+                r(void 0));
             }, [l, e, t, a, r, c, s]);
           return n.createElement(Yg, { onClick: d, formattedSize: o });
         },
@@ -9006,7 +9010,7 @@
               renderFavorite: (e) => n.createElement(Yv, { className: e }),
               onContextMenu: O
                 ? (e) => {
-                    E(), y(e);
+                    (E(), y(e));
                   }
                 : void 0,
               onKeyDown: O ? f : void 0,
@@ -9449,7 +9453,7 @@
               s({ namespace: e, catalogId: t, appName: a });
             }, [s, e, t, a]),
             x = n.useCallback(() => {
-              d({
+              (d({
                 namespace: e,
                 catalogId: t,
                 appName: a,
@@ -9464,7 +9468,7 @@
                       options: { autoUpdate: m, createShortcut: b },
                     });
                   }),
-                r();
+                r());
             }, [r, d, e, t, a, m, b, i]);
           return n.createElement(jE, {
             isInstallDisabled: C,
@@ -10273,8 +10277,8 @@
           );
           const E = r().useCallback(
             (e) => {
-              a !== e && n(e),
-                (0, Da.Y)().window.scrollTo({ top: 0, behavior: "smooth" });
+              (a !== e && n(e),
+                (0, Da.Y)().window.scrollTo({ top: 0, behavior: "smooth" }));
             },
             [a, l, e],
           );
@@ -10342,7 +10346,7 @@
           ),
           g = (0, n.useCallback)(
             (e) => {
-              u(e), c(1);
+              (u(e), c(1));
             },
             [u, c],
           ),
@@ -10573,7 +10577,7 @@
               key: rn.Bi.EGS_LIBRARY_PAGE_SIZE,
             }),
             P = n.useMemo(() => x(y), [x, y]);
-          n.useEffect(() => {
+          (n.useEffect(() => {
             O(1);
           }, [m, l, a]),
             n.useEffect(() => {
@@ -10595,12 +10599,12 @@
               return () => {
                 e();
               };
-            }, [l]);
+            }, [l]));
           const S = () => {
-              r(Et.U.ALL), p(rn.ER.Recent_Played);
+              (r(Et.U.ALL), p(rn.ER.Recent_Played));
             },
             k = () => {
-              r(Et.U.ALL), p(rn.ER.Time_Played);
+              (r(Et.U.ALL), p(rn.ER.Time_Played));
             },
             N = n.useMemo(() => g || !c.length, [g, c]),
             L = dn(l),
@@ -10790,7 +10794,7 @@
             })(),
             [a, r] = (0, n.useState)(e),
             l = (0, n.useCallback)(() => {
-              r(!0), t();
+              (r(!0), t());
             }, [r, t]);
           return (
             (0, n.useEffect)(() => {
@@ -10910,14 +10914,14 @@
             { closeModal: l, cancelModal: o } = rO(),
             i = db(),
             c = r().useCallback(() => {
-              l(),
+              (l(),
                 i({
                   namespace: e,
                   catalogId: t,
                   appName: a,
                   funnelId: ic.Nd.MANAGE_PRODUCT_MODAL,
                   options: { disableConfirmation: !0 },
-                });
+                }));
             }, [l, i, e, t, a]);
           return r().createElement($h, {
             title: n,
@@ -11028,20 +11032,20 @@
           if (e.current) {
             const o = performance.now(),
               i = r(e.current);
-            pO.log("querying for predicate time: " + (performance.now() - o)),
+            (pO.log("querying for predicate time: " + (performance.now() - o)),
               i &&
                 (pO.log("non observer paint start"),
                 performance.mark(a.start, { detail: { componentName: t } }),
                 n("measuring"),
                 setTimeout(() => {
-                  pO.log("non observer paint end"),
+                  (pO.log("non observer paint end"),
                     n("complete"),
                     performance.mark(a.timeFromPageLoad, {
                       detail: { componentName: t },
                     }),
                     performance.mark(a.end, { detail: { componentName: t } }),
-                    l();
-                }));
+                    l());
+                })));
           } else l();
         });
       }
@@ -11065,7 +11069,7 @@
                 (mO = !0),
                 performance.mark(uO),
                 () => {
-                  t.disconnect(), (mO = !1);
+                  (t.disconnect(), (mO = !1));
                 }
               );
             }, []);
@@ -11080,17 +11084,17 @@
               function r(e) {
                 l.current = e;
               }
-              pO.log("starting useMeasureLibraryRenderTime"),
+              (pO.log("starting useMeasureLibraryRenderTime"),
                 hO({
                   dom: e,
                   componentName: t,
                   labels: { start: gO, end: vO, timeFromPageLoad: bO },
                   stateChangeCallback: r,
                   predicate: a,
-                });
+                }));
               const o = performance,
                 i = new MutationObserver((n, i) => {
-                  (performance = o),
+                  ((performance = o),
                     "complete" !== l.current
                       ? "measuring" !== l.current &&
                         hO({
@@ -11100,7 +11104,7 @@
                           stateChangeCallback: r,
                           predicate: a,
                         }).then(() => i.disconnect())
-                      : i.disconnect();
+                      : i.disconnect());
                 });
               return (
                 e.current &&

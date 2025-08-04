@@ -3,7 +3,7 @@
   {
     73849: (e, t, r) => {
       "use strict";
-      r.r(t), r.d(t, { default: () => Ir });
+      (r.r(t), r.d(t, { default: () => Ir }));
       var a = r(45418),
         n = r.n(a),
         l = r(41412),
@@ -593,9 +593,9 @@
               if (404 === (null == (t = e.response) ? void 0 : t.status))
                 return { code: 404 };
               throw (
-                (console.error("Failed to get diesel home page %s", e.message),
+                console.error("Failed to get diesel home page %s", e.message),
                 console.error(e),
-                e)
+                e
               );
             }
           }),
@@ -965,8 +965,8 @@
       });
       var Qt = r(37922);
       const er = (e, t, r) => {
-          t.set("page", String(r)),
-            e.push({ search: String(t), pathname: "news" });
+          (t.set("page", String(r)),
+            e.push({ search: String(t), pathname: "news" }));
         },
         tr = () => {
           const e = (0, b.useHistory)(),
