@@ -3,7 +3,7 @@
   {
     35594: (e, t, n) => {
       "use strict";
-      n.r(t), n.d(t, { CartSuccessView: () => ft, default: () => Et });
+      (n.r(t), n.d(t, { CartSuccessView: () => ft, default: () => Et }));
       var r = n(45418),
         a = n.n(r),
         l = n(22463),
@@ -42,7 +42,7 @@
           } = (0, f.e)({ config: { enabled: !1 } });
         return (
           (0, r.useEffect)(() => {
-            t(), l(), a();
+            (t(), l(), a());
           }, [n]),
           null
         );
@@ -69,9 +69,13 @@
         C = n(27542),
         B = n(52224),
         k = (n(75410), n(39053), n(51187));
-      (0, I.iv)({ textAlign: "center" }),
+      ((0, I.iv)({ textAlign: "center" }),
         (0, I.iv)({ marginTop: 20 }),
-        (0, I.iv)({ marginTop: 30, display: "flex", justifyContent: "center" });
+        (0, I.iv)({
+          marginTop: 30,
+          display: "flex",
+          justifyContent: "center",
+        }));
       const R = () => (0, B.Z)().navigateToLibrary();
       var P = n(38764);
       const G = {

@@ -3,7 +3,7 @@
   {
     19224: (e, t, l) => {
       "use strict";
-      l.r(t), l.d(t, { default: () => ln });
+      (l.r(t), l.d(t, { default: () => ln }));
       var a = l(45418),
         r = l.n(a),
         n = l(52389),
@@ -658,7 +658,7 @@
         ze =
           /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/,
         Xe = /^(20|21)\d{2}$/;
-      (0, $e.XB)("checked", (e, t) => !!t),
+      ((0, $e.XB)("checked", (e, t) => !!t),
         (0, $e.XB)("isMobileNumber", (e, t) => {
           if (t) {
             const e = t.replace(/-/g, "");
@@ -745,7 +745,7 @@
               10
           );
         }),
-        (0, $e.XB)("w9form", (e, t) => !!t);
+        (0, $e.XB)("w9form", (e, t) => !!t));
       const Qe = $e.ZP,
         Je = {
           FORM_SAVING: "FORM_SAVING",
@@ -790,7 +790,7 @@
         } = Je;
       class it extends r().Component {
         constructor() {
-          super(...arguments),
+          (super(...arguments),
             tt(this, "updateInputsWithError", (e) => {
               const { formInstance: t } = this.props,
                 l = t.reference;
@@ -803,7 +803,7 @@
             }),
             tt(this, "onKeyPress", (e) => {
               13 === e.which && e.preventDefault();
-            });
+            }));
         }
         componentDidUpdate() {
           const {
@@ -816,11 +816,11 @@
           if (lt(l, [at, nt])) {
             const e = this.setPristine.bind(this);
             setTimeout(() => {
-              e(!0), r && r();
+              (e(!0), r && r());
             }, a);
           }
-          lt(l, [rt, ot]) && this.setPristine(!1),
-            e && (this.updateInputsWithError(t), this.setPristine(!1));
+          (lt(l, [rt, ot]) && this.setPristine(!1),
+            e && (this.updateInputsWithError(t), this.setPristine(!1)));
         }
         render() {
           const { submitForm: e, invalidSubmit: t } = this.props;
@@ -835,7 +835,7 @@
           );
         }
       }
-      tt(it, "propTypes", {
+      (tt(it, "propTypes", {
         children: We().oneOfType([We().object, We().array]),
         formStatus: We().string,
         hasExternalValidationErrors: We().bool,
@@ -846,7 +846,7 @@
         successCallback: We().func,
         formInstance: We().object,
       }),
-        tt(it, "defaultProps", { errorMessages: {} });
+        tt(it, "defaultProps", { errorMessages: {} }));
       var st = l(30838),
         ct = l(408),
         ut = l.n(ct),
@@ -1017,10 +1017,10 @@
                 onMouseLeave: E,
                 onChange: (e) => {
                   let { value: t } = e.currentTarget;
-                  n && " " === t && (t = ""),
+                  (n && " " === t && (t = ""),
                     O && (t = O(t)),
                     f && f(t),
-                    h && ((e.currentTarget.value = t), h(e));
+                    h && ((e.currentTarget.value = t), h(e)));
                 },
                 autoComplete: g,
                 pattern: A,
@@ -1421,21 +1421,21 @@
             ),
             D = A ? y : T ? T.label : "",
             L = (0, a.useCallback)(() => {
-              I(!1), h(-1), S(""), C(g), x && x.current && x.current.blur();
+              (I(!1), h(-1), S(""), C(g), x && x.current && x.current.blur());
             }, [I, h, S, x]),
             w = (0, a.useCallback)(
               (t) => {
                 const l = t ? R.find((e) => e.value === t) : R[f];
-                O(l.value), s(e, l.value);
+                (O(l.value), s(e, l.value));
               },
               [s, R, f],
             ),
             U = (0, a.useCallback)(
               (e) => {
-                e.preventDefault(),
+                (e.preventDefault(),
                   x && x.current && x.current.blur(),
                   I(!1),
-                  w(e.currentTarget.value);
+                  w(e.currentTarget.value));
               },
               [w, I, x],
             ),
@@ -1444,7 +1444,7 @@
                 const { keyCode: t } = e,
                   l = e.target;
                 if (t === P.Do.UP || t === P.Do.DOWN) {
-                  e.preventDefault(), e.stopPropagation();
+                  (e.preventDefault(), e.stopPropagation());
                   const a = ((e, t) => {
                     const { keyCode: l, options: a } = t,
                       r = a.length - 1;
@@ -1456,10 +1456,10 @@
                       case P.Do.UP:
                         n = e - 1;
                     }
-                    return n < 0 ? (n = r) : n > r && (n = 0), n;
+                    return (n < 0 ? (n = r) : n > r && (n = 0), n);
                   })(f, { keyCode: t, options: R });
-                  l.setAttribute("aria-activedescendant", `${p}-option-${a}`),
-                    h(a);
+                  (l.setAttribute("aria-activedescendant", `${p}-option-${a}`),
+                    h(a));
                 } else l.removeAttribute("aria-activedescendant");
               },
               [f, R],
@@ -1492,7 +1492,7 @@
                           e.label.toLowerCase().indexOf(a.trim().toLowerCase()),
                     ));
                 var a;
-                C(l), S(t);
+                (C(l), S(t));
               },
               onMouseDown: () => {
                 I((e) => !e);
@@ -1782,9 +1782,9 @@
                 onMouseLeave: b,
                 onChange: (e) => {
                   let { value: t } = e.currentTarget;
-                  v && " " === t && (t = ""),
+                  (v && " " === t && (t = ""),
                     g && (t = g(t)),
-                    A && ((e.currentTarget.value = t), A(e));
+                    A && ((e.currentTarget.value = t), A(e)));
                 },
                 autoComplete: m,
                 required: v,
@@ -2060,8 +2060,8 @@
                 _l.f5,
                 {
                   onClick: () => {
-                    t(jl.ZP.fetchAboutPageReset()),
-                      e && e.push((0, Fl.generateRoutePath)("/publish"));
+                    (t(jl.ZP.fetchAboutPageReset()),
+                      e && e.push((0, Fl.generateRoutePath)("/publish")));
                   },
                 },
                 r().createElement(i.v0, {
@@ -2382,7 +2382,7 @@
                 id: e,
                 onClick: (e) => {
                   const { value: t } = e.currentTarget;
-                  o && o(t), l && l(e);
+                  (o && o(t), l && l(e));
                 },
                 required: n,
                 ariaLabel: i,
@@ -2466,12 +2466,12 @@
             A = (0, Ae.useSelector)(Kl.Kt),
             I = (0, Ae.useDispatch)(),
             [N, O] = r().useState(!1);
-          (0, a.useEffect)(() => {
+          ((0, a.useEffect)(() => {
             E(b.state);
           }, [b]),
             (0, a.useEffect)(() => {
               g || I(Wl.ZP.requestSignIn(A));
-            }, [g, A]);
+            }, [g, A]));
           const f = {
               eventAction: jl.mw.SUBMIT_DEV_FORM,
               eventCategory: jl.Oz,
@@ -2560,7 +2560,8 @@
                             name: "publish-form-privacy-checkbox",
                             checked: N,
                             onClick: () => {
-                              d(ma(ba({}, u), { privacyCheckbox: !N })), O(!N);
+                              (d(ma(ba({}, u), { privacyCheckbox: !N })),
+                                O(!N));
                             },
                             validations: T.validations,
                             required: !0,

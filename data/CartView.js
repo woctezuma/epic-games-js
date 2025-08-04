@@ -3,7 +3,7 @@
   {
     38725: (e, t, r) => {
       "use strict";
-      r.r(t), r.d(t, { CartView: () => pn, default: () => fn });
+      (r.r(t), r.d(t, { CartView: () => pn, default: () => fn }));
       var n = r(45418),
         l = r.n(n),
         a = r(37922),
@@ -1077,10 +1077,10 @@
             { actions: o, state: c } = (0, Mt.A)(),
             i = (0, n.useCallback)(() => {
               var r;
-              e.push({ search: "" }),
+              (e.push({ search: "" }),
                 "inactive" === c &&
                   (null == (r = null == o ? void 0 : o.inactive) || r.start(),
-                  t({ type: Tt.$.CLEAR_CHECKOUT_ERROR }));
+                  t({ type: Tt.$.CLEAR_CHECKOUT_ERROR })));
             }, [t, c, o]),
             {
               conflictingOffers: s = [],
@@ -1770,7 +1770,7 @@
                 l({ type: Tt.$.SET_CHECKOUT_ERROR, payload: { error: e } });
               },
               onSuccess: (e) => {
-                i(), "platform" === u && m();
+                (i(), "platform" === u && m());
                 const n = ((e) =>
                     null == e
                       ? void 0
@@ -1788,7 +1788,7 @@
                   l =
                     (null == e ? void 0 : e.formattedEarnedEpicRewards) ||
                     (null == e ? void 0 : e.formattedearnedepicrewards);
-                null == n ||
+                (null == n ||
                   n.forEach((t) => {
                     o(Fr.ZP.purchaseSuccess(t.sandboxId, t.offerId, e, s));
                   }),
@@ -1803,7 +1803,7 @@
                       offers: n,
                       earnedEpicRewards: l,
                     },
-                  });
+                  }));
               },
               onSettled: () => {
                 s && d();

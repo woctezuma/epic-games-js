@@ -3,7 +3,7 @@
   {
     53915: (e, t, i) => {
       "use strict";
-      i.r(t), i.d(t, { default: () => de });
+      (i.r(t), i.d(t, { default: () => de }));
       var o = i(45418),
         a = i.n(o),
         s = i(37922);
@@ -127,7 +127,10 @@
           },
         });
       var q = ((e) => (
-        (e.CLOSE = "CLOSE"), (e.PREV = "PREV"), (e.NEXT = "NEXT"), e
+        (e.CLOSE = "CLOSE"),
+        (e.PREV = "PREV"),
+        (e.NEXT = "NEXT"),
+        e
       ))(q || {});
       const F = (e) =>
           (0, r.iv)(
@@ -166,7 +169,7 @@
         });
       class G extends a().PureComponent {
         constructor() {
-          super(...arguments),
+          (super(...arguments),
             (this.state = {
               current: -1,
               fixSocialPos: !1,
@@ -189,7 +192,7 @@
                 a = t ? t.offsetHeight + 52.8 : 0,
                 s = o >= (i ? i.offsetHeight + 154 : 0),
                 n = o > a && !s;
-              ((n && !this.state.fixSocialPos) ||
+              (((n && !this.state.fixSocialPos) ||
                 (!n && this.state.fixSocialPos)) &&
                 this.setState({
                   fixSocialPos: n,
@@ -200,7 +203,7 @@
                   n ||
                   this.state.bottomAlign ||
                   this.setState({ bottomAlign: s }),
-                0 !== o || s || this.setState({ bottomAlign: s });
+                0 !== o || s || this.setState({ bottomAlign: s }));
             }),
             (this.showLightbox = (e) => {
               var t;
@@ -210,33 +213,34 @@
               this.setState({ current: o });
             }),
             (this.hideLightbox = (e) => {
-              e.preventDefault(),
+              (e.preventDefault(),
                 ((0, g.Y)().document.body.className = (0,
                 g.Y)().document.body.className.replace(` ${T}`, "")),
-                this.setState({ current: -1 });
+                this.setState({ current: -1 }));
             }),
             (this.prevImage = (e) => {
               e.stopPropagation();
               let t = this.state.current - 1;
-              t < 0 && (t = this.images.length - 1),
-                this.setState({ current: t });
+              (t < 0 && (t = this.images.length - 1),
+                this.setState({ current: t }));
             }),
             (this.nextImage = (e) => {
               e.stopPropagation();
               let t = this.state.current + 1;
-              t >= this.images.length && (t = 0), this.setState({ current: t });
-            });
+              (t >= this.images.length && (t = 0),
+                this.setState({ current: t }));
+            }));
         }
         componentDidMount() {
-          (0, g.Y)().addEventListener("scroll", this.handleScroll),
-            this.initLightbox(this.props.blog);
+          ((0, g.Y)().addEventListener("scroll", this.handleScroll),
+            this.initLightbox(this.props.blog));
         }
         componentWillUnmount() {
-          (0, g.Y)().removeEventListener("scroll", this.handleScroll),
+          ((0, g.Y)().removeEventListener("scroll", this.handleScroll),
             this.images.length &&
               this.images.forEach((e) => {
                 e.removeEventListener("click", this.showLightbox);
-              });
+              }));
         }
         componentDidUpdate(e) {
           const t = e.blog || {},
@@ -249,12 +253,12 @@
           const i = (0, g.Y)().document.getElementById("cmsSection");
           if (!i) return;
           const o = i.getElementsByTagName("img");
-          (this.images = [].slice.call(o || [])),
+          ((this.images = [].slice.call(o || [])),
             (null == (t = this.images) ? void 0 : t.length) &&
               this.images.forEach((e, t) => {
-                e.setAttribute("data-idx", t.toString()),
-                  e.addEventListener("click", this.showLightbox);
-              });
+                (e.setAttribute("data-idx", t.toString()),
+                  e.addEventListener("click", this.showLightbox));
+              }));
         }
         render() {
           const { locale: e, blog: t, getMessage: i } = this.props,

@@ -3,7 +3,7 @@
   {
     65047: (e, t, a) => {
       "use strict";
-      a.r(t), a.d(t, { default: () => N });
+      (a.r(t), a.d(t, { default: () => N }));
       var l = a(89963),
         n = a(54874),
         c = a(29571),
