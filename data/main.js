@@ -386,7 +386,6 @@
                   o = l.length - 1,
                   u = a.length - 1;
                 1 <= o && 0 <= u && l[o] !== a[u];
-
               )
                 u--;
               for (; 1 <= o && 0 <= u; o--, u--)
@@ -727,7 +726,6 @@
                     "<svg>" + t.valueOf().toString() + "</svg>",
                     t = me.firstChild;
                   e.firstChild;
-
                 )
                   e.removeChild(e.firstChild);
                 for (; t.firstChild; ) e.appendChild(t.firstChild);
@@ -3719,7 +3717,6 @@
           for (
             e = e.return;
             null !== e && 5 !== e.tag && 3 !== e.tag && 13 !== e.tag;
-
           )
             e = e.return;
           Ia = e;
@@ -4825,7 +4822,6 @@
                   t.child = n,
                   n.return = t;
                 null !== e.sibling;
-
               )
                 ((e = e.sibling),
                   ((n = n.sibling = $i(e, e.pendingProps)).return = t));
@@ -5138,7 +5134,6 @@
                             r = n,
                             n = t.child;
                           null !== n;
-
                         )
                           ((e = r),
                             ((u = n).flags &= 2),
@@ -5691,7 +5686,6 @@
             for (
               n.sibling.return = n.return, n = n.sibling;
               5 !== n.tag && 6 !== n.tag && 18 !== n.tag;
-
             ) {
               if (2 & n.flags) continue t;
               if (null === n.child || 4 === n.tag) continue t;
@@ -6019,7 +6013,6 @@
               a = e.expirationTimes,
               u = e.pendingLanes;
             0 < u;
-
           ) {
             var i = 31 - Wt(u),
               s = 1 << i,
@@ -6186,7 +6179,6 @@
               e.pingedLanes &= ~t,
               e = e.expirationTimes;
             0 < t;
-
           ) {
             var n = 31 - Wt(t),
               r = 1 << n;
@@ -6570,7 +6562,6 @@
                         v !== s || (0 !== c && 3 !== v.nodeType) || (p = f + c),
                         3 === v.nodeType && (f += v.nodeValue.length),
                         null !== (y = v.firstChild);
-
                     )
                       ((g = v), (v = y));
                     for (;;) {
@@ -7471,7 +7462,6 @@
                     for (
                       null !== (i = t.child) && (i.return = t);
                       null !== i;
-
                     ) {
                       var s = i.dependencies;
                       if (null !== s) {
@@ -8319,7 +8309,6 @@
               R(n), L = E(C);
               null !== L &&
               (!(L.expirationTime > n) || (e && !t.unstable_shouldYield()));
-
             ) {
               var o = L.callback;
               if ("function" == typeof o) {

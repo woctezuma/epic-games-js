@@ -786,7 +786,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -2193,7 +2192,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -3396,7 +3394,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -4204,7 +4201,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -4421,7 +4417,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -4638,7 +4633,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -4850,7 +4844,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -5039,7 +5032,6 @@
               l.add(e);
             });
             l.size > 0;
-
           ) {
             var s = l;
             ((l = new Set()),
@@ -8597,7 +8589,7 @@
         ((e) =>
           Boolean(
             "MINOR" === (null == e ? void 0 : e.minorStatus) &&
-              !0 === (null == e ? void 0 : e.minorVerified),
+            !0 === (null == e ? void 0 : e.minorVerified),
           ))((0, n.useSelector)(a.bk));
     },
     10746: (e, t, r) => {
@@ -25170,9 +25162,9 @@
                     ),
                     isInIframe: Boolean(
                       (null == (o = s()) ? void 0 : o.location) !==
-                        (null == (d = null == (l = s()) ? void 0 : l.parent)
-                          ? void 0
-                          : d.location),
+                      (null == (d = null == (l = s()) ? void 0 : l.parent)
+                        ? void 0
+                        : d.location),
                     ),
                     isUEAvailable: Boolean(null == (u = s()) ? void 0 : u.ue),
                     bridges: JSON.stringify(
@@ -25495,14 +25487,14 @@
           return r
             ? Boolean(
                 (0 === n && a) ||
-                  (((e) => {
-                    if (1 === (null == e ? void 0 : e.length))
-                      return (
-                        void 0 !== e.find((e) => e === S.WD.GAMES_EDITION_BASE)
-                      );
-                    return !1;
-                  })(e) &&
-                    a),
+                (((e) => {
+                  if (1 === (null == e ? void 0 : e.length))
+                    return (
+                      void 0 !== e.find((e) => e === S.WD.GAMES_EDITION_BASE)
+                    );
+                  return !1;
+                })(e) &&
+                  a),
               )
             : Boolean(0 === n && a);
         },
@@ -58546,7 +58538,7 @@
             ].filter((e) =>
               Boolean(
                 (null == e ? void 0 : e.offerId) &&
-                  (null == e ? void 0 : e.sandboxId),
+                (null == e ? void 0 : e.sandboxId),
               ),
             ),
           [a, i, l, s],
@@ -62559,7 +62551,7 @@
                       : i.filter((e) =>
                           Boolean(
                             (null == e ? void 0 : e.systemType) &&
-                              !(0, tt.Z)(null == e ? void 0 : e.details),
+                            !(0, tt.Z)(null == e ? void 0 : e.details),
                           ),
                         );
                   }
@@ -62975,7 +62967,7 @@
             const { supportedLanguages: t } = zw({ sandboxId: e });
             return Boolean(
               !(0, tt.Z)(null == t ? void 0 : t.supportedAudio) ||
-                !(0, tt.Z)(null == t ? void 0 : t.supportedText),
+              !(0, tt.Z)(null == t ? void 0 : t.supportedText),
             );
           },
           useShouldShowAccountRequirements: ({ sandboxId: e }) => {
@@ -62987,7 +62979,7 @@
             const { footer: t } = Sw({ sandboxId: e });
             return Boolean(
               !(0, tt.Z)(null == t ? void 0 : t.legalText) ||
-                !(0, tt.Z)(null == t ? void 0 : t.privacyLink),
+              !(0, tt.Z)(null == t ? void 0 : t.privacyLink),
             );
           },
           SystemRequirements: ({ sandboxId: e }) => {
@@ -68506,9 +68498,9 @@
           const e = (0, n.Y)();
           return Boolean(
             e.document.fullscreenElement ||
-              e.document.webkitFullscreenElement ||
-              e.document.mozFullScreenElement ||
-              e.document.msFullscreenElement,
+            e.document.webkitFullscreenElement ||
+            e.document.mozFullScreenElement ||
+            e.document.msFullscreenElement,
           );
         },
         c = (e) => {
@@ -89997,9 +89989,9 @@
             (m = {
               enabled: Boolean(
                 e &&
-                  (!r ||
-                    !(null == r ? void 0 : r.hasOwnProperty("enabled")) ||
-                    r.enabled),
+                (!r ||
+                  !(null == r ? void 0 : r.hasOwnProperty("enabled")) ||
+                  r.enabled),
               ),
             }),
             b(p, E(m))),
@@ -95788,15 +95780,15 @@
         var t, r;
         return Boolean(
           e &&
-            (0, n.o)(
-              null ==
-                (r =
-                  null == (t = e.customAttributes)
-                    ? void 0
-                    : t.find((e) => "isBeta" === (null == e ? void 0 : e.key)))
-                ? void 0
-                : r.value,
-            ),
+          (0, n.o)(
+            null ==
+              (r =
+                null == (t = e.customAttributes)
+                  ? void 0
+                  : t.find((e) => "isBeta" === (null == e ? void 0 : e.key)))
+              ? void 0
+              : r.value,
+          ),
         );
       };
     },
@@ -95950,10 +95942,10 @@
           h = (0, l.h)({ getDeveloperPreviewPath: E, getPublicPath: b }),
           I = Boolean(
             (null == (v = null == s ? void 0 : s.enabled) || v) &&
-              e &&
-              t &&
-              r &&
-              h,
+            e &&
+            t &&
+            r &&
+            h,
           ),
           O = (0, i.nZ)(
             { path: h, query: { country: y, locale: f, store: r } },
@@ -133708,7 +133700,7 @@ ${N}`;
         stillTimeLeftToShow() {
           return Boolean(
             this.stillTimeRemaining() > 0 &&
-              this.stillTimeShown() <= this.stillDuration,
+            this.stillTimeShown() <= this.stillDuration,
           );
         }
         withinStillTime() {
